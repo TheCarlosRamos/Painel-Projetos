@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "O Parque Nacional de Anavilhanas está localizado entre os municípios de Manaus (30%) e Novo Airão (70%), no Estado do Amazonas, com área de 350.018 ha. Foi criado com o objetivo de preservar o arquipélago fluvial de Anavilhanas, um dos maiores do mundo, bem como suas diversas formações florestais, além de estimular a produção de conhecimento por meio da pesquisa científica e valorizar a conservação do bioma Amazônia com base em ações de educação ambiental e turismo sustentável.\nA estruturação do projeto ficou a cargo do BNDES que contratou o Consórcio Uirapuru para a realização dos estudos de viabilidade técnica, econômica e jurídica."
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1290,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

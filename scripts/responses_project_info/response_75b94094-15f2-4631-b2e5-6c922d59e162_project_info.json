@@ -1,0 +1,132 @@
+{
+  "ProjectOrganizations": [
+    {
+      "Id": 206,
+      "Value": "SEPPI"
+    }
+  ],
+  "ProjectActivityStatus": {
+    "Value": true,
+    "SourceUniqueId": "DEF-1",
+    "Title": "Active",
+    "LocalResourceKey": "<%Labels,DEF-AS-1,Title%>"
+  },
+  "Guid": "75b94094-15f2-4631-b2e5-6c922d59e162",
+  "Name": "RDJ10 -Terminal de cargas gerais  no Porto do Rio de Janeiro/RJ",
+  "Description": "O Terminal RDJ10 &#233; uma instala&#231;&#227;o portu&#225;ria destinada &#224; movimenta&#231;&#227;o e armazenagem de cargas gerais n&#227;o-conteinerizadas, especialmente produtos sider&#250;rgicos, localizada no Porto Organizado do Rio de Janeiro (RJ).",
+  "Sector": {
+    "Id": 4,
+    "Value": "Transport"
+  },
+  "SubSector": {
+    "Id": 17,
+    "Value": "Seaport"
+  },
+  "Territories": [
+    {
+      "Id": 36,
+      "Value": "Brazil"
+    }
+  ],
+  "Locations": [
+    "Rio de Janeiro"
+  ],
+  "TypeOfProject": [
+    "New"
+  ],
+  "IsPPP": true,
+  "IsUnsolicited": false,
+  "LegalFramework": {
+    "SourceUniqueId": "BRA-1",
+    "Title": "Federal",
+    "LocalResourceKey": "<%Timeline,BRA-LF-1,Title%>"
+  },
+  "Packages": [
+    {
+      "LocalResourceKey": null,
+      "ID": 1,
+      "Title": null,
+      "ContractualArrangements": [
+        {
+          "SourceUniqueId": "BRA-1",
+          "Title": "Concession: Law 8.987/95",
+          "LocalResourceKey": "<%Timeline,BRA-CA-1,Title%>"
+        }
+      ],
+      "TenderProcess": {
+        "SourceUniqueId": "BRA-1",
+        "Title": "Competition",
+        "LocalResourceKey": "<%Timeline,BRA-TP-1,Title%>"
+      },
+      "OtherContractualArrangement": null,
+      "OtherTenderProcess": null
+    }
+  ],
+  "TechnicalSupport": {
+    "SourceUniqueId": "BRA-3",
+    "Title": "INFRA S.A.",
+    "LocalResourceKey": "<%Timeline,BRA-TS-3,Title%>"
+  },
+  "Threshold": {
+    "SourceUniqueId": "BRA-1",
+    "Title": "Qualification by Project",
+    "LocalResourceKey": "<%Timeline,BRA-TH-1,Title%>"
+  },
+  "OwnerOrganisation": {
+    "Id": 206,
+    "Value": "SEPPI"
+  },
+  "CurrentProjectStatus": {
+    "Id": 2,
+    "Value": "Project Definition"
+  },
+  "CurrentProjectStatusCustom": {
+    "Id": 1,
+    "Value": "Definition"
+  },
+  "Completion": 0.02,
+  "Created": "2025-03-19T07:22:04Z",
+  "Modified": "2025-12-18T17:16:03Z",
+  "ProjectEstimatedDueDate": "2025-03-19T07:22:04Z",
+  "EstimatedCapitalCost": 10870112.0,
+  "OriginalCurrency": {
+    "Id": 27,
+    "Value": "BRL"
+  },
+  "OriginalCurrencyEstimatedCapitalCost": 61762000.0,
+  "ProjectProperties": {
+    "Reference": null,
+    "IsTimelineDefined": true,
+    "LanguagesTimeline": [
+      {
+        "Code": "en",
+        "Title": "English"
+      },
+      {
+        "Code": "por",
+        "Title": "Português"
+      }
+    ],
+    "AdditionalFields": {}
+  },
+  "PMLeaderEmail": "adminppi.source@presidencia.gov.br",
+  "PMLeaderFirstName": "Adminppi",
+  "PMLeaderLastName": "Source",
+  "GPSCoordinates": [
+    {
+      "address": "Rio de Janeiro",
+      "location": {
+        "x": "-43.1789159",
+        "y": "-22.9014475"
+      },
+      "score": 100.0,
+      "attributes": {
+        "ResultID": 1,
+        "Place_addr": "Rio de Janeiro",
+        "City": "Rio de Janeiro",
+        "Subregion": "",
+        "Region": "Rio de Janeiro"
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "A área de arrendamento denominada <strong>IQI16</strong>, cuja superfície total é de aproximadamente 21.830 m², será utilizada para armazenagem e movimentação portuária de graneis sólidos minerais, especialmente fertilizantes, no Porto de Itaqui/MA.\n\nA área em questão é caracterizada como <em>brownfield</em>, ou seja, já conta com estrutura de operação, pois estava sendo utilizada para armazenamento de granéis agrícolas pela Companhia Nacional de Abastecimento – Conab, mediante contrato de arrendamento, o qual já foi encerrado por decurso de prazo. Atualmente, a área foi devolvida à administração portuária pública (EMAP) e está sendo utilizada em regime de uso público.\n\nExistem na área quatro silos verticais, um armazém de estrutura metálica e um armazém removível, além de outras obras civis como portaria, administração, caixa d’água e balança rodoferroviária, conforme detalhado no EVTEA doado. Essa estrutura operacional existente poderá ser aproveitada pelo futuro arrendatário. Entretanto, na proposta conceitual adotada no estudo, a qual não é impositiva, foi considerada a demolição das estruturas atuais, a construção de novas edificações e a aquisição de equipamentos necessários ao funcionamento do terminal, voltado à operação de fertilizantes.\n\nO empreendimento tem um prazo previsto de 25 (vinte e cinco) anos, com investimento total estimado em R$ 61,9 milhões. Por fim, informa-se que o processo de modelagem se encontra com o Laboratório de Transportes e Logísticas - LabTrans para revisão do EVTEA. Após a conclusão dessa etapa, será dado prosseguimento às demais fases do processo licitatório."
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1329,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

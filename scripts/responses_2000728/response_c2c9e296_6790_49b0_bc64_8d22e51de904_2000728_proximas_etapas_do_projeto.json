@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "Abrir Consulta Pública\nConversar com comunidades indígenas e povos tradicionais"
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1251,
+  "SourceId": "2000728",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Project next steps",
+    "Type": "TextMulti"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "A Floresta Nacional (Flona) do Iquiri é uma unidade de conservação federal gerida pelo ICMBio, com área aproximada de 1,47 milhão de hectares. Localiza-se no sul do estado do Amazonas, integralmente no Município de Lábrea, próximo ao limite com os estados de Rondônia e Acre. O acesso pode ser feito pelas BRs 317 e 364, localizadas ao norte e ao sul da Floresta, respectivamente.\nSerão objeto de concessão cinco Unidades de Manejo Florestal (UMFs) sustentáveis com área total de 568,76 mil hectares.  As estimativas indicam uma produção anual de 290 mil m3 de madeira em tora nas cinco UMFs, com investimento (Capex) de R$ 570,2 milhões e operação (Opex) de R$ 3.850,1 milhões durante o prazo da concessão, que pode chegar a 40 anos.\nConforme a legislação, as licitações para concessão florestal deverão ser realizadas na modalidade concorrência e outorgadas a título oneroso, com o edital definindo as datas da entrega e abertura dos envelopes com as propostas técnica, de preço e de documentação de habilitação.\nO Serviço Florestal Brasileiro publicou, em 14 de novembro de 2024, o Aviso da Audiência Pública para apresentação e coleta de contribuições à proposta de edital de licitação para concessão florestal da Flona do Iquiri disponível entre os dias 18 de novembro e 26 de dezembro de 2024, posteriormente prorrogada para 28 de fevereiro de 2025.\nAudiências realizadas:\n(a) No dia 03 de dezembro de 2024, das 14h00 às 17h30, no município de Boca do Acre/AM, na Câmara Municipal de Boca do Acre; e\n(b) No dia 11 de dezembro de 2024, das 9h00 às 12h30, no município de Lábrea/AM, no Miniauditório do Instituto Federal de Educação, Ciência e Tecnologia do Amazonas - IFAM Campus Lábrea."
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1290,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

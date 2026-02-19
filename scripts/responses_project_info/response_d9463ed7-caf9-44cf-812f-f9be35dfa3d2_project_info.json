@@ -1,0 +1,126 @@
+{
+  "ProjectOrganizations": [
+    {
+      "Id": 206,
+      "Value": "SEPPI"
+    }
+  ],
+  "Guid": "d9463ed7-caf9-44cf-812f-f9be35dfa3d2",
+  "Name": "3º Ciclo de Oferta Permanente no regime de partilha",
+  "Description": "A Definir",
+  "Sector": {
+    "Id": 2,
+    "Value": "Energy"
+  },
+  "SubSector": {
+    "Id": 42,
+    "Value": "Other Energy"
+  },
+  "OtherSubsector": {
+    "Id": "87ee0bdd-a9ef-448b-b177-fe1651b46a75",
+    "Value": "Oléo e Gás"
+  },
+  "Territories": [
+    {
+      "Id": 36,
+      "Value": "Brazil"
+    }
+  ],
+  "TypeOfProject": [
+    "New"
+  ],
+  "IsPPP": true,
+  "IsUnsolicited": false,
+  "LegalFramework": {
+    "SourceUniqueId": "BRA-1",
+    "Title": "Federal",
+    "LocalResourceKey": "<%Timeline,BRA-LF-1,Title%>"
+  },
+  "Packages": [
+    {
+      "LocalResourceKey": null,
+      "ID": 1,
+      "Title": null,
+      "ContractualArrangements": [
+        {
+          "SourceUniqueId": "BRA-1",
+          "Title": "Concession: Law 8.987/95",
+          "LocalResourceKey": "<%Timeline,BRA-CA-1,Title%>"
+        }
+      ],
+      "TenderProcess": {
+        "SourceUniqueId": "BRA-1",
+        "Title": "Competition",
+        "LocalResourceKey": "<%Timeline,BRA-TP-1,Title%>"
+      },
+      "OtherContractualArrangement": null,
+      "OtherTenderProcess": null
+    }
+  ],
+  "TechnicalSupport": {
+    "SourceUniqueId": "BRA-5",
+    "Title": "Others (e.g. Banco do Brasil, PMI)",
+    "LocalResourceKey": "<%Timeline,BRA-TS-5,Title%>"
+  },
+  "Threshold": {
+    "SourceUniqueId": "BRA-1",
+    "Title": "Qualification by Project",
+    "LocalResourceKey": "<%Timeline,BRA-TH-1,Title%>"
+  },
+  "OwnerOrganisation": {
+    "Id": 206,
+    "Value": "SEPPI"
+  },
+  "CurrentProjectStatus": {
+    "Id": 2,
+    "Value": "Project Definition"
+  },
+  "CurrentProjectStatusCustom": {
+    "Id": 1,
+    "Value": "Definition"
+  },
+  "Completion": 0.01,
+  "Created": "2025-03-18T13:22:32Z",
+  "Modified": "2025-11-12T17:22:17Z",
+  "ProjectEstimatedDueDate": "2025-03-18T13:22:32Z",
+  "EstimatedCapitalCost": 0.0,
+  "OriginalCurrency": {
+    "Id": 27,
+    "Value": "BRL"
+  },
+  "OriginalCurrencyEstimatedCapitalCost": 1.0,
+  "ProjectProperties": {
+    "Reference": null,
+    "IsTimelineDefined": true,
+    "LanguagesTimeline": [
+      {
+        "Code": "en",
+        "Title": "English"
+      },
+      {
+        "Code": "por",
+        "Title": "Português"
+      }
+    ]
+  },
+  "PMLeaderEmail": "adminppi.source@presidencia.gov.br",
+  "PMLeaderFirstName": "Adminppi",
+  "PMLeaderLastName": "Source",
+  "GPSCoordinates": [
+    {
+      "address": "Brazil",
+      "location": {
+        "x": "-53.073466889",
+        "y": "-10.769946429"
+      },
+      "score": 100.0,
+      "attributes": {
+        "ResultID": 1,
+        "Place_addr": "",
+        "City": null,
+        "Subregion": null,
+        "Region": null
+      }
+    }
+  ]
+}

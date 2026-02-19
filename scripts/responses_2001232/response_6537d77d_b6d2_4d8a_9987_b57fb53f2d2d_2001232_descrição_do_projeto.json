@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "O Plano Anual de Outorga Florestal (PAOF) de 2020 indicou uma área aproximada de 165 mil hectares (ha) de Floresta Pública Federal destacada da Gleba Castanho destinada à concessão florestal para manejo empresarial. Localizada ao sul do Estado do Amazonas, Município de Careiro, a Gleba compreende duas unidades que são separadas pela BR-174, que é a principal forma de acesso.\nO projeto apresentado em consulta pública prevê a concessão de três Unidades de Manejo Florestal (UMFs) com área total de 151.097,59 ha: UMF I - 68.269,15 ha; UMF II - 39.077,31 ha; e UMF III - 43.751,13 ha. As estimativas iniciais indicam produção anual de 60 mil m3 de madeira em tora.\nA qualificação da Floresta Pública Federal destacada da Gleba Castanho, feita por meio da Resolução CPPI n° 114, de 19 de fevereiro de 2020, tem por objetivo a concessão florestal para manejo da área, permitindo a utilização de produtos e serviços florestais de forma sustentável, respeitando o Plano de Manejo Florestal (PMF) aprovado pelo governo.\nConsulta Pública concluída em 29 de julho de 2022. Informações sobre o projeto na página do SFB.\nAto contínuo, o projeto foi submetido ao Tribunal de Contas da União (TCU) em atenção a Instrução Normativa nº 81/2018 do tribunal. Em reunião ocorrida em 26 de julho de 2023, o Plenário da corte de contas aprovou a continuidade do processo de concessão florestal.\nConforme a legislação que trata da gestão de florestas públicas, as licitações para concessão florestal deverão ser realizadas na modalidade concorrência e outorgadas a título oneroso, com o edital definindo as datas da entrega e abertura dos envelopes com as propostas técnica, de preço e de documentação de habilitação."
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1290,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

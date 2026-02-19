@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "<p style=\"font-weight: 400;\">Qualificado na 14ª Reunião CPPI, por meio da <a href=\"https://ppi.gov.br/legislacao-e-arquivos?di=&amp;df=12%2F03%2F2021&amp;tps=-1&amp;tp=-1&amp;re=10&amp;pn=Resolu%C3%A7%C3%A3o+n%C2%BA+145&amp;np=\">Resolução nº 145, de 2 de dezembro 2020</a>, convertida no <a href=\"https://ppi.gov.br/legislacao-e-arquivos?di=&amp;df=12%2F03%2F2021&amp;tps=-1&amp;tp=-1&amp;re=10&amp;pn=Decreto+n%C2%BA+10.635&amp;np=\">Decreto nº 10.635, de 22 de fevereiro de 2021</a>, trata-se do arrendamento de terminal portuário voltado para a movimentação de carga geral, especialmente toras e cavaco de madeira no Porto de Maceió/AL.</p>\n<p style=\"font-weight: 400;\">Estima-se que serão gerados em torno de 880 empregos ao longo do contrato de arrendamento. O empreendimento será executado sobre terreno sem as estruturas existentes necessárias para as atividades, mas dispondo de instalações antigas que poderão ser demolidas ou renovadas. A área de arrendamento possui bens não operacionais, tais como edificações, pavimentação, instalações elétricas e outros, que poderão ser utilizadas pelo futuro arrendatário da área. A área de arrendamento, será atendida pelo cais público no Berço 5 do Porto de Maceió/AL que, atualmente, tem sido utilizado para o desembarque de sal a granel como atividade prioritária. Estão previstos investimentos de R$ 52,1 milhões e o prazo de 15 anos para exploração do terminal.</p>\nA documentação do Edital pode ser encontrada em <a href=\"http://web.antaq.gov.br/sistemas/leilaointernetv2/default.aspx?audiencia=84\">http://web.antaq.gov.br/sistemas/leilaointernetv2/default.aspx?audiencia=84</a>"
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1329,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

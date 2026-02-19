@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "O Decreto nº 10.106, de 6 de novembro de 2019 qualificou a política de fomento aos sistemas prisionais estaduais para fins de estudos de alternativas de parcerias com a iniciativa privada para construção, modernização e operação de unidades para cumprimentos dos fins da política de fomento e parcerias em empreendimentos públicos de infraestrutura dos Estados, do Distrito Federal e dos Municípios.\n\nO Ministério da Justiça demandou a qualificação da política em função de diagnóstico de relevante déficit de vagas no sistema prisional e de indicativos de inadequação de instalações públicas para a ressocialização dos presos.\n\nOs estudos realizados buscaram identificar modelos que viabilizem a contratação e gestão de sistemas prisionais com potencial de melhoria dos serviços públicos em apoio aos estados, mediante a ressocialização de presos pela capacitação ao trabalho e pela educação.\n\nO fundamento do modelo de presídio-indústria, assegura meios para que os detentos contribuam com parte dos custos de sua permanência, enquanto é ofertado pelo estado educação e qualificação profissional, facilitando que os egressos do sistema prisional se insiram no mercado de trabalho, além da possibilidade de redução da pena, e da diminuição dos índices de reincidência.\n\nA estruturação dos estudos tem por premissa o cumprimento da Lei de Execução Penal – LEP em sua integralidade, oferecendo maior eficiência da operação de unidades prisionais com a modernização da operação penitenciária por meio de ampliação do uso de tecnologias e da arquitetura das penitenciárias.\n\nO projeto apresenta ferramentas para que o poder público, por meio dos policiais penais, atue nas funções estratégicas de inteli"
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1324,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

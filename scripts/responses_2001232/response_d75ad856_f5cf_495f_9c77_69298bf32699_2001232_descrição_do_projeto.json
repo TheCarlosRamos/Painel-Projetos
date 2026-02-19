@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "A Floresta Nacional do Bom Futuro, criada pelo Decreto nº 96.188, de 21 de junho de 1988, e alterada pela Lei nº 12.249, de 11 de junho de 2010, localiza-se no município de Porto Velho, no estado de Rondônia, em áreas de transição dos biomas Amazônia e Cerrado, no interflúvio dos rios Madeira e Machado.\nA floresta, com área aproximada de 100 mil hectares (ha), está localizada no município de Porto Velho/RO, e no entorno dos municípios de Candeias do Jamari, Alto Paraíso e Buritis. Vale destacar que, em razão da falta de regularização fundiária, atualmente não estão disponíveis para atuação da concessionária e foram excluídas,.\nO projeto constitui uma alternativa à exploração madeireira predatória e ilegal e contribuirá com a proteção da biodiversidade na área da concessão, região em que foram registradas, aproximadamente, 800 espécies de aves e grandes mamíferos, como a onça-pintada e a anta.\nO SFB enviou, em 17 de fevereiro de 2025, o projeto para análise Tribunal de Contas da União (TCU), que foi relatado e discutido na sessão ordinária de primeiro de outubro de 2025 do Plenário do TCU, que proferiu o Acórdão nº 2285/2025 - TCU - Plenário.\nEm 12 de novembro de 2025, o SFB publicou edital de concorrência que  prevê a concessão de duas Unidades de Manejo (UMs) com área total de 98.319,13 ha (Restauração de 14.277,78 ha): UMF I - 39.276,10 ha (Restauração de 6.393,44 ha); e UMF II - 59.043,03 ha (Restauração de 7.884,34 ha).\nOs envelopes, deverão ser entregues , na sede da B3, em São Paulo/SP, das 10 às 12 horas do dia 18 de março de 2026. Os envelopes com as propostas técnica e de preço serão abertos a partir das 14 horas do dia 25 de março de 2026, na sede da B3."
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1290,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

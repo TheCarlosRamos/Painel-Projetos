@@ -1,0 +1,20 @@
+
+como vai funcionar os scripts:
+
+https://api.sif-source.org/projects/{{guid}}/questions/search/{url}?SPHostUrl=https%3A%2F%2Fwww.sif-source.org&SPLanguage=pt-BR&SPClientTag=0&SPProductNumber=15.0.5023.1183
+
+
+url com descrição inicial do projeto (nome, subsecretaria, guid, localização ocm o x e y):
+https://api.sif-source.org/projects/{{guid}}?SPHostUrl=https%3A%2F%2Fwww.sif-source.org&SPLanguage=pt-BR&SPClientTag=0&SPProductNumber=15.0.5023.1005
+
+2000720 -> subsecretaria
+2000726 -> status atual do projeto
+2000727 -> questões chaves
+2000728 -> proximas etapas do projeto
+2001218 -> status dos estudos
+2001221 -> status consulta publica
+2001224 -> status do TCU
+2001226 -> status do edital
+2001229 -> status do leilão
+2001230 -> status do contrato
+2001232 -> descrição do projeto

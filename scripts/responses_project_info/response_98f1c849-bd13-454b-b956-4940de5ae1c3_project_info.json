@@ -1,0 +1,132 @@
+{
+  "ProjectOrganizations": [
+    {
+      "Id": 206,
+      "Value": "SEPPI"
+    }
+  ],
+  "ProjectActivityStatus": {
+    "Value": true,
+    "SourceUniqueId": "DEF-1",
+    "Title": "Active",
+    "LocalResourceKey": "<%Labels,DEF-AS-1,Title%>"
+  },
+  "Guid": "98f1c849-bd13-454b-b956-4940de5ae1c3",
+  "Name": "Saneamento B&#225;sico - Estado do Par&#225; - Bloco C",
+  "Description": "A Definir",
+  "Sector": {
+    "Id": 1,
+    "Value": "Water & Waste"
+  },
+  "SubSector": {
+    "Id": 30,
+    "Value": "Water Supply Infrastructure"
+  },
+  "Territories": [
+    {
+      "Id": 36,
+      "Value": "Brazil"
+    }
+  ],
+  "Locations": [
+    "Pará"
+  ],
+  "TypeOfProject": [
+    "Expansion"
+  ],
+  "IsPPP": true,
+  "IsUnsolicited": false,
+  "LegalFramework": {
+    "SourceUniqueId": "BRA-2",
+    "Title": "State",
+    "LocalResourceKey": "<%Timeline,BRA-LF-2,Title%>"
+  },
+  "Packages": [
+    {
+      "LocalResourceKey": null,
+      "ID": 1,
+      "Title": null,
+      "ContractualArrangements": [
+        {
+          "SourceUniqueId": "BRA-1",
+          "Title": "Concession: Law 8.987/95",
+          "LocalResourceKey": "<%Timeline,BRA-CA-1,Title%>"
+        }
+      ],
+      "TenderProcess": {
+        "SourceUniqueId": "BRA-1",
+        "Title": "Competition",
+        "LocalResourceKey": "<%Timeline,BRA-TP-1,Title%>"
+      },
+      "OtherContractualArrangement": null,
+      "OtherTenderProcess": null
+    }
+  ],
+  "TechnicalSupport": {
+    "SourceUniqueId": "BRA-2",
+    "Title": "BNDES",
+    "LocalResourceKey": "<%Timeline,BRA-TS-2,Title%>"
+  },
+  "Threshold": {
+    "SourceUniqueId": "BRA-2",
+    "Title": "Qualification by Policy",
+    "LocalResourceKey": "<%Timeline,BRA-TH-2,Title%>"
+  },
+  "OwnerOrganisation": {
+    "Id": 206,
+    "Value": "SEPPI"
+  },
+  "CurrentProjectStatus": {
+    "Id": 2,
+    "Value": "Project Definition"
+  },
+  "CurrentProjectStatusCustom": {
+    "Id": 1,
+    "Value": "Definition"
+  },
+  "Completion": 0.01,
+  "Created": "2025-03-18T23:44:54Z",
+  "Modified": "2025-09-30T13:00:23Z",
+  "ProjectEstimatedDueDate": "2025-03-18T23:44:54Z",
+  "EstimatedCapitalCost": 3308800000.0,
+  "OriginalCurrency": {
+    "Id": 27,
+    "Value": "BRL"
+  },
+  "OriginalCurrencyEstimatedCapitalCost": 18800000000.0,
+  "ProjectProperties": {
+    "Reference": null,
+    "IsTimelineDefined": true,
+    "LanguagesTimeline": [
+      {
+        "Code": "en",
+        "Title": "English"
+      },
+      {
+        "Code": "por",
+        "Title": "Português"
+      }
+    ],
+    "AdditionalFields": {}
+  },
+  "PMLeaderEmail": "adminppi.source@presidencia.gov.br",
+  "PMLeaderFirstName": "Adminppi",
+  "PMLeaderLastName": "Source",
+  "GPSCoordinates": [
+    {
+      "address": "PA",
+      "location": {
+        "x": "-53.070703578325",
+        "y": "-3.980342148617"
+      },
+      "score": 100.0,
+      "attributes": {
+        "ResultID": 1,
+        "Place_addr": "Pará",
+        "City": "",
+        "Subregion": "",
+        "Region": "Pará"
+      }
+    }
+  ]
+}

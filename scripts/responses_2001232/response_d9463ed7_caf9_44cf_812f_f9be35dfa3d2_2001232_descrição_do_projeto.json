@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "O Leilão de instalações de transmissão tem por objeto a concessão de serviço público de transmissão de energia elétrica para a construção, operação e manutenção de instalações de transmissão que farão parte da Rede Básica do Sistema Interligado Nacional.\n\nRecomendado à qualificação por meio da Resolução CPPI nº 274/2023, de 21/06/2023, e qualificado por meio do Decreto nº 11.581, de 27/06/2023, o Leilão de Transmissão nº 1/2025 tem previsão de ocorrer em outubro de 2025, conforme previsto na <a href=\"https://www.in.gov.br/en/web/dou/-/portaria-normativa-gm/mme-n-85-de-25-de-setembro-de-2024-586733480\">Portaria Normativa GM/MME nº 85, de 2025</a>."
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1285,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

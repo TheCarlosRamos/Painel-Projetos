@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "A Floresta Nacional (Flona) de Itaituba II, criada pelo Decreto o nº 2.482, de 2 de fevereiro de 1998, e alterada pela Lei nº 12.678, de 25 de junho de 2012, é uma Unidade de Conservação de Uso Sustentável situada nos municípios de Itaituba (43,03% da área da UC) e Trairão (56,97% da área da UC) no estado do Pará. Pertencente ao bioma Amazônia, a Flona de Itaituba II ocupa uma área total de 412.046,65 ha, a qual apresenta 100% de Floresta Ombrófila Densa. Dessa área, 15.330,85 ha são destinados à restauração florestal.\nTendo em vista que a prática da recuperação florestal foi, recentemente, incorporada aos objetivos e finalidades do instrumento da concessão florestal, o projeto em questão foi qualificado no PPI em virtude do potencial de implementação de atividades econômicas que promovem o uso sustentável das florestas públicas na Amazônia.\nNesse sentido, o projeto auxilia no cumprimento de um dos objetivos de criação das Florestas Nacionais e constitui uma alternativa à exploração madeireira predatória e ilegal.\nO projeto contribuirá ainda com a proteção da biodiversidade posto que a Flona possui espécies arbóreas que podem ser consideradas raras (31 espécies) pela sua ocorrência e distribuição espacial. O Plano de Manejo das Flonas Itaituba I e II indica o registro de 698 espécies de aves, pertencentes a 73 Famílias e 21 Ordens."
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1290,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

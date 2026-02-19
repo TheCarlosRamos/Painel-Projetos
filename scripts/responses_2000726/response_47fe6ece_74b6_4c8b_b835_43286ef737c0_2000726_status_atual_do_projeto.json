@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "A ANTT irá analisar o Plano de Negócio da FTL. Existe a possibilidade de que o contrato de concessão seja otimizado por meio de negociação via SecexConsenso, no TCU."
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1058,
+  "SourceId": "2000726",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Project current status",
+    "Type": "TextMulti"
+  }
+}

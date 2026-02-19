@@ -1,0 +1,125 @@
+{
+  "ProjectOrganizations": [
+    {
+      "Id": 206,
+      "Value": "SEPPI"
+    }
+  ],
+  "Guid": "be0f9e32-9781-4427-9cbf-4323e661ee13",
+  "Name": "Consórcio Intermunicipal de Des. Sust. da Serra Gaúcha - CISGA",
+  "Description": "A Definir",
+  "Sector": {
+    "Id": 1,
+    "Value": "Water & Waste"
+  },
+  "SubSector": {
+    "Id": 1,
+    "Value": "Solid Waste Facility"
+  },
+  "Territories": [
+    {
+      "Id": 36,
+      "Value": "Brazil"
+    }
+  ],
+  "Locations": [
+    "Rio Grande do Sul"
+  ],
+  "TypeOfProject": [
+    "Refurbishment/Replacement"
+  ],
+  "IsPPP": true,
+  "IsUnsolicited": false,
+  "LegalFramework": {
+    "SourceUniqueId": "BRA-4",
+    "Title": "Regional Consortium",
+    "LocalResourceKey": "<%Timeline,BRA-LF-4,Title%>"
+  },
+  "Packages": [
+    {
+      "LocalResourceKey": null,
+      "ID": 1,
+      "Title": null,
+      "ContractualArrangements": [
+        {
+          "SourceUniqueId": "BRA-1",
+          "Title": "Concession: Law 8.987/95",
+          "LocalResourceKey": "<%Timeline,BRA-CA-1,Title%>"
+        }
+      ],
+      "TenderProcess": {
+        "SourceUniqueId": "BRA-1",
+        "Title": "Competition",
+        "LocalResourceKey": "<%Timeline,BRA-TP-1,Title%>"
+      },
+      "OtherContractualArrangement": null,
+      "OtherTenderProcess": null
+    }
+  ],
+  "TechnicalSupport": {
+    "SourceUniqueId": "BRA-1",
+    "Title": "FEP",
+    "LocalResourceKey": "<%Timeline,BRA-TS-1,Title%>"
+  },
+  "Threshold": {
+    "SourceUniqueId": "BRA-2",
+    "Title": "Qualification by Policy",
+    "LocalResourceKey": "<%Timeline,BRA-TH-2,Title%>"
+  },
+  "OwnerOrganisation": {
+    "Id": 206,
+    "Value": "SEPPI"
+  },
+  "CurrentProjectStatus": {
+    "Id": 2,
+    "Value": "Project Definition"
+  },
+  "CurrentProjectStatusCustom": {
+    "Id": 1,
+    "Value": "Definition"
+  },
+  "Completion": 0.02,
+  "Created": "2025-03-18T22:16:46Z",
+  "Modified": "2025-09-30T17:38:46Z",
+  "ProjectEstimatedDueDate": "2025-03-18T22:16:46Z",
+  "EstimatedCapitalCost": 48854263.0,
+  "OriginalCurrency": {
+    "Id": 27,
+    "Value": "BRL"
+  },
+  "OriginalCurrencyEstimatedCapitalCost": 277581040.0,
+  "ProjectProperties": {
+    "Reference": null,
+    "IsTimelineDefined": true,
+    "LanguagesTimeline": [
+      {
+        "Code": "en",
+        "Title": "English"
+      },
+      {
+        "Code": "por",
+        "Title": "Português"
+      }
+    ]
+  },
+  "PMLeaderEmail": "adminppi.source@presidencia.gov.br",
+  "PMLeaderFirstName": "Adminppi",
+  "PMLeaderLastName": "Source",
+  "GPSCoordinates": [
+    {
+      "address": "RS",
+      "location": {
+        "x": "-53.316114421111",
+        "y": "-29.738963851058"
+      },
+      "score": 100.0,
+      "attributes": {
+        "ResultID": 1,
+        "Place_addr": "Rio Grande do Sul",
+        "City": "",
+        "Subregion": "",
+        "Region": "Rio Grande do Sul"
+      }
+    }
+  ]
+}

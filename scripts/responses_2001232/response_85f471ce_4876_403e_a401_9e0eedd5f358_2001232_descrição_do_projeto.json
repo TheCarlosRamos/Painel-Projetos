@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "Estruturação de projeto de PPP no Município de Campo Grande/MS para realização de empreendimentos habitacionais voltados à locação social, abrangendo a realização e a prestação pelo concessionário privado dos investimentos (greenfield) e dos serviços de gestão, manutenção, desenvolvimento comunitário e operação dos empreendimentos. \n\nNo âmbito da Política Nacional de Habitação, o Governo está buscando viabilizar mecanismos de fomento para que estados e municípios adotem o aluguel social como alternativa financeiramente sustentável e eficaz de provisão de moradia digna à população de baixa renda.\n\nO Decreto nº 10.678, de 16 de abril de 2021, qualificou a política de fomento a parcerias com a iniciativa privada para estudar alternativas habitacionais destinadas à locação social no âmbito do Programa de Parcerias de Investimentos – PPI. O parágrafo único de seu Art. 1º estabeleceu que os estudos de concessão no setor “terão por finalidade inicial a estruturação de projetos-piloto”. Já o art. 2º estabeleceu que os estudos poderão ser apoiados pelo FEP, ouvido o seu Conselho de Participação – CFEP.\n\nNesse sentido, a Secretaria Nacional de Habitação/MCID recebeu do Município de Campo Grande, em janeiro de 2022, proposta para a construção de unidades habitacionais a serem destinadas à locação social. A proposta foi apresentada à SEPPI e ao CFEP, que aprovou a inclusão do projeto no FEP em junho de 2022.\n\nOs estudos deverão seguir, adicionalmente ao regramento aplicável à habitação de interesse social,  as diretrizes de política pública para a estruturação de projetos de empreendimentos habitacionais destinados à locação social no âmbito do FEP, constantes da Nota Técnica nº 8/20"
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1322,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

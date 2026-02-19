@@ -1,0 +1,125 @@
+{
+  "ProjectOrganizations": [
+    {
+      "Id": 206,
+      "Value": "SEPPI"
+    }
+  ],
+  "Guid": "b4bc3470-79d3-410f-b838-aa5cf18f381a",
+  "Name": "Consórcio do Agreste PE e Fronteiras - CONIAPE/PE",
+  "Description": "A Definir",
+  "Sector": {
+    "Id": 1,
+    "Value": "Water & Waste"
+  },
+  "SubSector": {
+    "Id": 1,
+    "Value": "Solid Waste Facility"
+  },
+  "Territories": [
+    {
+      "Id": 36,
+      "Value": "Brazil"
+    }
+  ],
+  "Locations": [
+    "Pernambuco"
+  ],
+  "TypeOfProject": [
+    "New"
+  ],
+  "IsPPP": true,
+  "IsUnsolicited": false,
+  "LegalFramework": {
+    "SourceUniqueId": "BRA-4",
+    "Title": "Regional Consortium",
+    "LocalResourceKey": "<%Timeline,BRA-LF-4,Title%>"
+  },
+  "Packages": [
+    {
+      "LocalResourceKey": null,
+      "ID": 1,
+      "Title": null,
+      "ContractualArrangements": [
+        {
+          "SourceUniqueId": "BRA-1",
+          "Title": "Concession: Law 8.987/95",
+          "LocalResourceKey": "<%Timeline,BRA-CA-1,Title%>"
+        }
+      ],
+      "TenderProcess": {
+        "SourceUniqueId": "BRA-1",
+        "Title": "Competition",
+        "LocalResourceKey": "<%Timeline,BRA-TP-1,Title%>"
+      },
+      "OtherContractualArrangement": null,
+      "OtherTenderProcess": null
+    }
+  ],
+  "TechnicalSupport": {
+    "SourceUniqueId": "BRA-1",
+    "Title": "FEP",
+    "LocalResourceKey": "<%Timeline,BRA-TS-1,Title%>"
+  },
+  "Threshold": {
+    "SourceUniqueId": "BRA-2",
+    "Title": "Qualification by Policy",
+    "LocalResourceKey": "<%Timeline,BRA-TH-2,Title%>"
+  },
+  "OwnerOrganisation": {
+    "Id": 206,
+    "Value": "SEPPI"
+  },
+  "CurrentProjectStatus": {
+    "Id": 2,
+    "Value": "Project Definition"
+  },
+  "CurrentProjectStatusCustom": {
+    "Id": 1,
+    "Value": "Definition"
+  },
+  "Completion": 0.02,
+  "Created": "2025-03-18T22:14:39Z",
+  "Modified": "2025-09-30T17:48:34Z",
+  "ProjectEstimatedDueDate": "2025-03-18T22:14:39Z",
+  "EstimatedCapitalCost": 25337943.0,
+  "OriginalCurrency": {
+    "Id": 27,
+    "Value": "BRL"
+  },
+  "OriginalCurrencyEstimatedCapitalCost": 143965588.0,
+  "ProjectProperties": {
+    "Reference": null,
+    "IsTimelineDefined": true,
+    "LanguagesTimeline": [
+      {
+        "Code": "en",
+        "Title": "English"
+      },
+      {
+        "Code": "por",
+        "Title": "Português"
+      }
+    ]
+  },
+  "PMLeaderEmail": "adminppi.source@presidencia.gov.br",
+  "PMLeaderFirstName": "Adminppi",
+  "PMLeaderLastName": "Source",
+  "GPSCoordinates": [
+    {
+      "address": "PE",
+      "location": {
+        "x": "-37.997149757967",
+        "y": "-8.325109291093"
+      },
+      "score": 100.0,
+      "attributes": {
+        "ResultID": 1,
+        "Place_addr": "Pernambuco",
+        "City": "",
+        "Subregion": "",
+        "Region": "Pernambuco"
+      }
+    }
+  ]
+}

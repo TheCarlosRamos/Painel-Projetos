@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "Contratação do BNDES pelo EB ocorrida em 09/07/2024.\nConsultores contratados e estudos em andamento\nAnálise produtos em andamento"
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1048,
+  "SourceId": "2000726",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Project current status",
+    "Type": "TextMulti"
+  }
+}

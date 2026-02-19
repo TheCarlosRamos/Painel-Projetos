@@ -1,0 +1,137 @@
+{
+  "ProjectOrganizations": [
+    {
+      "Id": 206,
+      "Value": "SEPPI"
+    }
+  ],
+  "Guid": "153a704a-193b-4275-be55-14e7f5dfc7f3",
+  "Name": "Restaura&#231;&#227;o Florestal na Flona de Itaituba II/PA",
+  "Description": "Concess&#227;o para manejo florestal sustent&#225;vel de 412 mil hectares, dos quais 15.330,85 hectares degradados da floresta s&#227;o destinados para restaura&#231;&#227;o florestal, recupera&#231;&#227;o de seus servi&#231;os ecossist&#234;micos e gera&#231;&#227;o de emprego e renda para a comunidade local.",
+  "Sector": {
+    "Id": 7,
+    "Value": "Other"
+  },
+  "SubSector": {
+    "Id": 41,
+    "Value": "Other"
+  },
+  "OtherSubsector": {
+    "Id": "9e494ce6-51b1-40a7-b6ef-c81cb3dfc87d",
+    "Value": "Restauração Florestal"
+  },
+  "Territories": [
+    {
+      "Id": 36,
+      "Value": "Brazil"
+    }
+  ],
+  "Locations": [
+    "Itaituba",
+    "Trairão"
+  ],
+  "TypeOfProject": [
+    "Refurbishment/Replacement"
+  ],
+  "IsPPP": true,
+  "IsUnsolicited": false,
+  "LegalFramework": {
+    "SourceUniqueId": "BRA-1",
+    "Title": "Federal",
+    "LocalResourceKey": "<%Timeline,BRA-LF-1,Title%>"
+  },
+  "Packages": [
+    {
+      "LocalResourceKey": null,
+      "ID": 1,
+      "Title": "",
+      "ContractualArrangements": null,
+      "TenderProcess": null,
+      "OtherContractualArrangement": null,
+      "OtherTenderProcess": null
+    }
+  ],
+  "TechnicalSupport": {
+    "SourceUniqueId": "BRA-2",
+    "Title": "BNDES",
+    "LocalResourceKey": "<%Timeline,BRA-TS-2,Title%>"
+  },
+  "Threshold": {
+    "SourceUniqueId": "BRA-1",
+    "Title": "Qualification by Project",
+    "LocalResourceKey": "<%Timeline,BRA-TH-1,Title%>"
+  },
+  "OwnerOrganisation": {
+    "Id": 206,
+    "Value": "SEPPI"
+  },
+  "CurrentProjectStatus": {
+    "Id": 2,
+    "Value": "Project Definition"
+  },
+  "CurrentProjectStatusCustom": {
+    "Id": 1,
+    "Value": "Definition"
+  },
+  "Completion": 0.01,
+  "Created": "2025-06-18T19:27:56Z",
+  "Modified": "2025-10-07T16:42:32Z",
+  "ProjectEstimatedDueDate": "2025-06-18T19:27:54Z",
+  "EstimatedCapitalCost": 0.181831,
+  "OriginalCurrency": {
+    "Id": 27,
+    "Value": "BRL"
+  },
+  "OriginalCurrencyEstimatedCapitalCost": 1.0,
+  "ProjectProperties": {
+    "Reference": null,
+    "IsTimelineDefined": true,
+    "LanguagesTimeline": [
+      {
+        "Code": "en",
+        "Title": "English"
+      },
+      {
+        "Code": "por",
+        "Title": "Português"
+      }
+    ]
+  },
+  "PMLeaderEmail": "adminppi.source@presidencia.gov.br",
+  "PMLeaderFirstName": "Adminppi",
+  "PMLeaderLastName": "Source",
+  "PMLeaderOrganisation": "SEPPI",
+  "PMLeaderTelephone": "(empty)",
+  "GPSCoordinates": [
+    {
+      "address": "Itaituba, Pará",
+      "location": {
+        "x": "-55.9914411",
+        "y": "-4.2624139"
+      },
+      "score": 100.0,
+      "attributes": {
+        "ResultID": 1,
+        "Place_addr": "Itaituba, Pará",
+        "City": "Itaituba",
+        "Subregion": "",
+        "Region": "Pará"
+      }
+    },
+    {
+      "address": "Trairão, Pará",
+      "location": {
+        "x": "-55.9963745",
+        "y": "-4.7032318"
+      },
+      "score": 100.0,
+      "attributes": {
+        "ResultID": 2,
+        "Place_addr": "Trairão, Pará",
+        "City": "Trairão",
+        "Subregion": "",
+        "Region": "Pará"
+      }
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "ProjectOrganizations": [
+    {
+      "Id": 206,
+      "Value": "SEPPI"
+    }
+  ],
+  "Guid": "fbf64536-0ab5-49bd-8d69-d9d1dc145c7a",
+  "Name": "Api test 1",
+  "Description": "Api Test Description",
+  "Sector": {
+    "Id": 4,
+    "Value": "Transport"
+  },
+  "SubSector": {
+    "Id": 23,
+    "Value": "Airport"
+  },
+  "Territories": [
+    {
+      "Id": 36,
+      "Value": "Brazil"
+    }
+  ],
+  "TypeOfProject": [
+    "New"
+  ],
+  "IsPPP": true,
+  "IsUnsolicited": false,
+  "Packages": [
+    {
+      "LocalResourceKey": null,
+      "ID": 1,
+      "Title": "",
+      "ContractualArrangements": null,
+      "TenderProcess": null,
+      "OtherContractualArrangement": null,
+      "OtherTenderProcess": null
+    }
+  ],
+  "OwnerOrganisation": {
+    "Id": 206,
+    "Value": "SEPPI"
+  },
+  "CurrentProjectStatus": {
+    "Id": 2,
+    "Value": "Project Definition"
+  },
+  "CurrentProjectStatusCustom": {
+    "Id": 1,
+    "Value": "Definition"
+  },
+  "Completion": 0.0,
+  "Created": "2025-11-10T15:36:49Z",
+  "Modified": "2025-11-10T15:56:48Z",
+  "ProjectEstimatedDueDate": "2025-11-10T15:36:48Z",
+  "EstimatedCapitalCost": 500000.0,
+  "ProjectProperties": {
+    "Reference": null,
+    "IsTimelineDefined": false,
+    "LanguagesTimeline": [
+      {
+        "Code": "en",
+        "Title": "English"
+      },
+      {
+        "Code": "por",
+        "Title": "Português"
+      }
+    ]
+  },
+  "PMLeaderEmail": "adminppi.source@presidencia.gov.br",
+  "PMLeaderFirstName": "Adminppi",
+  "PMLeaderLastName": "Source",
+  "GPSCoordinates": [
+    {
+      "address": "Brazil",
+      "location": {
+        "x": "-53.073466889",
+        "y": "-10.769946429"
+      },
+      "score": 100.0,
+      "attributes": {
+        "ResultID": 1,
+        "Place_addr": "",
+        "City": null,
+        "Subregion": null,
+        "Region": null
+      }
+    }
+  ]
+}

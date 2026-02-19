@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "A Lei n.º 11.445, de 5 de janeiro de 2007, estabeleceu as diretrizes nacionais para o saneamento básico e instituiu a Política Federal de Saneamento, tratando de seus princípios, objetivos e instrumentos, além das diretrizes relativas ao planejamento, regulação e prestação dos serviços.\nOs titulares dos serviços públicos de saneamento básico são responsáveis pela organização e prestação direta ou indireta desses serviços, observados o respectivo plano municipal de saneamento básico, bem como as diretrizes da legislação vigente.\nDiante das dificuldades encontradas pelo setor quando da organização e gestão dos serviços relacionados ao saneamento básico, em especial ao abastecimento de água e esgotamento sanitário, a participação de agentes privados tem sido uma alternativa para assegurar capacidade de investimento, operação e manutenção dos serviços.\nA necessidade de estruturação dos serviços de esgotamento sanitário se mostra essencial. O índice de cobertura com rede de esgoto no país está em torno de 52%, e apenas 46% dos esgotos gerados são tratados, conforme o Diagnóstico dos Serviços de Água e Esgotos de 2017, elaborado pelo SNIS.\nA CAIXA, com recursos do FEP - Fundo de Apoio à Estruturação e ao Desenvolvimento de Projetos de Concessão e PPP, está apoiando a estruturação de soluções viáveis sob o ponto de vista ambiental, social e econômico-financeiro para a prestação dos serviços de esgotamento sanitário, adequados às orientações técnicas e institucionais dos órgãos do Governo Federal responsáveis pela implementação da Política Federal de Saneamento Básico (PFSB), Lei nº 11.445/2007.\nO Consórcio FUNDACE/INCIBRA/MANESCO foi contratado para desenvolver os serviços."
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1326,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

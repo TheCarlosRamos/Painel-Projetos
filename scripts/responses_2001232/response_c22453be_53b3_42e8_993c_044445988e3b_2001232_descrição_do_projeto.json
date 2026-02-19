@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "O Água dos Vales é uma parceria público-privada (PPP) voltada à universalização do acesso ao saneamento básico para a população nos Vales do Jequitinhonha e do Mucuri, e parte da Região Norte do Estado. Mobiliza investimentos para a expansão das redes de água e esgoto, saneamento rural, construção de estações de tratamento e soluções para áreas com escassez hídrica."
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1326,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

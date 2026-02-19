@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "O Estado solicitou a suspensão do contrato no mês de setembro de 2025 pelo prazo de 18 meses, para que o Estado consiga resolver questões internas necessárias para viabilizar o projeto."
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1039,
+  "SourceId": "2000726",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Project current status",
+    "Type": "TextMulti"
+  }
+}

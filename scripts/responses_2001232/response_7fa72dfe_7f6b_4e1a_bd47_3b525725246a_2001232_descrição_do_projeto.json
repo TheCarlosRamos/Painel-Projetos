@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "Concessão da Hidrovia do Rio Tocantins, considerando a navegação entre o município de Belém/PA e Peixe/TO em um trecho de, aproximadamente, 1.731 km, atualmente sob a gestão do DNIT, por meio de contratos de parcerias com o setor privado no âmbito do Programa de Parcerias de Investimentos - PPI.\n\nO projeto surge dentro do escopo do Plano de Geral de Outorgas – PGO Hidroviário, que é o instrumento de planejamento de Estado, aderente às diretrizes do planejamento nacional de transportes, às políticas formuladas pelo Conselho do Programa de Parcerias de Investimentos da Presidência da República – CPPI, no que se refere a integração de políticas de transportes e pelo Ministério dos Portos e Aeroportos (MPOR), com a finalidade de orientar investidores e consolidar projetos de outorga de exploração das vias navegáveis ou potencialmente navegáveis; e de prestação de serviços de transportes aquaviário.\n\nA partir deste cenário institucional, o projeto de Concessão da Hidrovia do Rio Tocantins foi elencado como prioritário em razão do relevante potencial para aumento da movimentação de cargas que deverá ocorrer com a melhoria das condições de navegabilidade. O projeto consta no pipeline de estruturação de concessões a serem elaborados pela ANTAQ com o apoio técnico da empresa<strong> Infra S/A</strong>.\n\nO complexo hidroviário Tocantins-Araguaia possui características geográficas únicas no país, entre as quais se destaca a ligação do Centro-Oeste do país ao oceano Atlântico. O rio Tocantins apresenta alguma navegação comercial entre Marabá/PA e Barcarena/PA. Entretanto, a navegação de grande porte no rio Tocantins, está atualmente concentrada do Porto de Vila do Conde até a foz.\n\nA hidrovia do Tocantins, mesmo com o fluxo limitado entre o Porto de Vila do Conde no rio Tocantins, o rio Pará (que interliga com a Região Hidrográfica Amazônica) à foz com o oceano Atlântico, possui expressivo fluxo de carga, totalizando 12,7 milhões de toneladas. Desse total, registre-se a participação decisiva do fluxo da navegação de longo curso, com quase 9,7 milhões de toneladas, correspondendo a 76% do total transportado, com destaques para os graneis sólidos (mineral e vegetal). A projeção ora considerada contempla o fluxo potencial para a hidrovia em cenário com a navegação desde Marabá/PA. Em projeções anteriores, foram considerados outros cenários, com a navegação adentrando o território do estado do Tocantins, chegando até o município de Peixe/TO, como foi o caso do PNIH, apresentando-se como alternativa ao escoamento de exportação da produção de grãos da região Centro-Oeste, mas também para internalização de cargas oriundas do longo curso e cabotagem (fertilizantes, por exemplo) e da Zona Franca de Manaus (veículos e outros).\n\nA gestão da navegação da Hidrovia do Rio Tocantins é realizada atualmente pelo DNIT. Neste caso, são necessários derrocamentos. Um deles, o do Pedral do Lourenço, está com contrato (RDCI) assinado e em processo de obtenção de LI para início das obras em 2024."
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1288,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "ProjectOrganizations": [
+    {
+      "Id": 206,
+      "Value": "SEPPI"
+    }
+  ],
+  "ProjectActivityStatus": {
+    "Value": true,
+    "SourceUniqueId": "DEF-1",
+    "Title": "Active",
+    "LocalResourceKey": "<%Labels,DEF-AS-1,Title%>"
+  },
+  "Guid": "3bfaea01-7c1e-400c-9fe2-df6f406edce8",
+  "Name": "Ferrovia Centro Atlântico S.A. - FCA",
+  "Description": "Trata-se de uma prorroga&#231;&#227;o antecipada do contrato.  Os benef&#237;cios esperados a partir da prorroga&#231;&#227;o do contrato atual, por mais 30 anos, ser&#227;o a obrigatoriedade de investimentos em seguran&#231;a e o aumento de capacidade, que ser&#227;o pactuados pela Ag&#234;ncia Nacional de Transportes Terrestres (ANTT).",
+  "Sector": {
+    "Id": 4,
+    "Value": "Transport"
+  },
+  "SubSector": {
+    "Id": 13,
+    "Value": "Intercity Rail"
+  },
+  "Territories": [
+    {
+      "Id": 36,
+      "Value": "Brazil"
+    }
+  ],
+  "Locations": [
+    "Alagoas,Bahia,Espírito Santo,Goiás,Minas Gerais,Rio de Janeiro,São Paulo"
+  ],
+  "TypeOfProject": [
+    "Refurbishment/Replacement"
+  ],
+  "IsPPP": true,
+  "IsUnsolicited": false,
+  "LegalFramework": {
+    "SourceUniqueId": "BRA-1",
+    "Title": "Federal",
+    "LocalResourceKey": "<%Timeline,BRA-LF-1,Title%>"
+  },
+  "Packages": [
+    {
+      "LocalResourceKey": null,
+      "ID": 1,
+      "Title": null,
+      "ContractualArrangements": [
+        {
+          "SourceUniqueId": "BRA-3",
+          "Title": "Extension: Law 13.448/17, Art. 4, I and II",
+          "LocalResourceKey": "<%Timeline,BRA-CA-3,Title%>"
+        }
+      ],
+      "TenderProcess": {
+        "SourceUniqueId": "BRA-1",
+        "Title": "Competition",
+        "LocalResourceKey": "<%Timeline,BRA-TP-1,Title%>"
+      },
+      "OtherContractualArrangement": null,
+      "OtherTenderProcess": null
+    }
+  ],
+  "TechnicalSupport": {
+    "SourceUniqueId": "BRA-5",
+    "Title": "Others (e.g. Banco do Brasil, PMI)",
+    "LocalResourceKey": "<%Timeline,BRA-TS-5,Title%>"
+  },
+  "Threshold": {
+    "SourceUniqueId": "BRA-1",
+    "Title": "Qualification by Project",
+    "LocalResourceKey": "<%Timeline,BRA-TH-1,Title%>"
+  },
+  "OwnerOrganisation": {
+    "Id": 206,
+    "Value": "SEPPI"
+  },
+  "CurrentProjectStatus": {
+    "Id": 2,
+    "Value": "Project Definition"
+  },
+  "CurrentProjectStatusCustom": {
+    "Id": 1,
+    "Value": "Definition"
+  },
+  "Completion": 0.02,
+  "Created": "2025-03-19T00:00:39Z",
+  "Modified": "2025-12-12T18:47:10Z",
+  "ProjectEstimatedDueDate": "2025-03-19T00:00:39Z",
+  "EstimatedCapitalCost": 4221536000.0,
+  "OriginalCurrency": {
+    "Id": 27,
+    "Value": "BRL"
+  },
+  "OriginalCurrencyEstimatedCapitalCost": 23986000000.0,
+  "ProjectProperties": {
+    "Reference": null,
+    "IsTimelineDefined": true,
+    "LanguagesTimeline": [
+      {
+        "Code": "en",
+        "Title": "English"
+      },
+      {
+        "Code": "por",
+        "Title": "Português"
+      }
+    ],
+    "AdditionalFields": {}
+  },
+  "PMLeaderEmail": "adminppi.source@presidencia.gov.br",
+  "PMLeaderFirstName": "Adminppi",
+  "PMLeaderLastName": "Source",
+  "GPSCoordinates": [
+    {
+      "address": "Rio de Janeiro, São Paulo",
+      "location": {
+        "x": "-46.6520761",
+        "y": "-23.6809228"
+      },
+      "score": 75.0,
+      "attributes": {
+        "ResultID": 1,
+        "Place_addr": "São Paulo",
+        "City": "São Paulo",
+        "Subregion": "",
+        "Region": "São Paulo"
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "Os estudos para a concessão de trechos rodoviários, que englobavam inicialmente 7.213 km, foram qualificados na 9ª Reunião do Conselho do PPI por meio da Resolução nº 52, de 08/05/2019, convertida no Decreto nº 9.972, de 14/08/2019.\n\nOs estudos conduzidos pelo BNDES indicaram a pré-viabilidade de concessão de 2.471 km de rodovias na região Nordeste, subdivididos em 5 lotes:\n\n• Lote 1 (339 km): BR-101/235/BA/SE entre Feira de Santana, Aracaju e Itabaiana;\n\n• Lote 2 (482 km): BR-101/SE/AL/PE entre Aracaju, Maceió e Recife;\n\n• Lote 3 (508 km): BR-232/PE entre Recife e Salgueiro;\n\n• Lote 4 (410 km): BR-101/230/PE/PB entre Recife, João Pessoa e Patos;\n\n• Lote 5 (732 km): BR-101/304/116/PB/RN/CE entre João Pessoa, Natal e Fortaleza"
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1320,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "Leilão realizado na B3 em 23/10/2025.\nVencedor Consórcio Infraestrutura PR, com desconto de 21,30% sobre a tarifa básica de pedágio."
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1033,
+  "SourceId": "2000726",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Project current status",
+    "Type": "TextMulti"
+  }
+}

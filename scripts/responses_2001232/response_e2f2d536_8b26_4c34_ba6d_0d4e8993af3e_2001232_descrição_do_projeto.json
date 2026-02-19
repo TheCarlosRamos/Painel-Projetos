@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "O imóvel da União denominado Aeroporto Carlos Prates, localizado na Rua Ocidente nº 100 - Padre Eustáquio – Belo Horizonte/MG, encerrou suas atividades em 31 de março de 2023, conforme estabelecido pela Portaria nº 1.632 do Ministério da Infraestrutura, datada de 15 de dezembro de 2022. Em 26 de setembro de 2023, o imóvel, que abrange mais de 580 mil m² de área urbana, foi devolvido à gestão da Superintendência do Patrimônio da União em Minas Gerais - SPU-MG. Com o intuito de prevenir ocupações irregulares, em 29 de setembro de 2023, foi concedido ao Município de Belo Horizonte o Termo de Guarda Provisória do imóvel.\n\nTendo em vista que a utilização dos imóveis da União deve buscar maximizar a produção de unidades habitacionais de baixa renda e a implementação de equipamentos públicos essenciais para a comunidade local ou futura, a Secretaria de Patrimônio da União e a Prefeitura de Belo Horizonte assinaram o Acordo de Cooperação Técnica nº 17/2024 com objetivo de definir requisitos, modelos e diretrizes para a elaboração de proposta de empreendimento de múltiplos usos para o referido imóvel."
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1290,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "Atualmente, o TPP de Natal não se encontra em operação, e parte de seu cais é utilizado, de forma precária, como local de reparo de embarcações. O terminal não possui entrada independente, utilizando as instalações da CBTU para acesso. No âmbito da estruturação da concessão do TPP Natal, foi concebida junto à CBTU solução adequada a ser implantada pelo futuro concessionário."
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1290,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

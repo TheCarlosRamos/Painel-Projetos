@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "A prorrogação do contrato da FTL implicará na devolução de 3.020 km de linhas, sendo que somente serão indenizados 1.836 km, visto que alguns trechos não terão indenização por motivos diversos, como substituição pelo traçado da TLSA, utilização pela CBTU ou destruição pelas enchentes."
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1059,
+  "SourceId": "2000727",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Project key issues",
+    "Type": "TextMulti"
+  }
+}

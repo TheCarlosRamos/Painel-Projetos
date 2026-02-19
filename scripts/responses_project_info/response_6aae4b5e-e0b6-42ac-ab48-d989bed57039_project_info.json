@@ -1,0 +1,125 @@
+{
+  "ProjectOrganizations": [
+    {
+      "Id": 206,
+      "Value": "SEPPI"
+    }
+  ],
+  "Guid": "6aae4b5e-e0b6-42ac-ab48-d989bed57039",
+  "Name": "Saneamento básico - São Gonçalo do Amarante/RN",
+  "Description": "A Definir",
+  "Sector": {
+    "Id": 1,
+    "Value": "Water & Waste"
+  },
+  "SubSector": {
+    "Id": 30,
+    "Value": "Water Supply Infrastructure"
+  },
+  "Territories": [
+    {
+      "Id": 36,
+      "Value": "Brazil"
+    }
+  ],
+  "Locations": [
+    "Rio Grande do Norte"
+  ],
+  "TypeOfProject": [
+    "New"
+  ],
+  "IsPPP": true,
+  "IsUnsolicited": false,
+  "LegalFramework": {
+    "SourceUniqueId": "BRA-3",
+    "Title": "Municipal",
+    "LocalResourceKey": "<%Timeline,BRA-LF-3,Title%>"
+  },
+  "Packages": [
+    {
+      "LocalResourceKey": null,
+      "ID": 1,
+      "Title": null,
+      "ContractualArrangements": [
+        {
+          "SourceUniqueId": "BRA-1",
+          "Title": "Concession: Law 8.987/95",
+          "LocalResourceKey": "<%Timeline,BRA-CA-1,Title%>"
+        }
+      ],
+      "TenderProcess": {
+        "SourceUniqueId": "BRA-1",
+        "Title": "Competition",
+        "LocalResourceKey": "<%Timeline,BRA-TP-1,Title%>"
+      },
+      "OtherContractualArrangement": null,
+      "OtherTenderProcess": null
+    }
+  ],
+  "TechnicalSupport": {
+    "SourceUniqueId": "BRA-1",
+    "Title": "FEP",
+    "LocalResourceKey": "<%Timeline,BRA-TS-1,Title%>"
+  },
+  "Threshold": {
+    "SourceUniqueId": "BRA-2",
+    "Title": "Qualification by Policy",
+    "LocalResourceKey": "<%Timeline,BRA-TH-2,Title%>"
+  },
+  "OwnerOrganisation": {
+    "Id": 206,
+    "Value": "SEPPI"
+  },
+  "CurrentProjectStatus": {
+    "Id": 2,
+    "Value": "Project Definition"
+  },
+  "CurrentProjectStatusCustom": {
+    "Id": 1,
+    "Value": "Definition"
+  },
+  "Completion": 0.02,
+  "Created": "2025-03-18T23:37:18Z",
+  "Modified": "2025-09-30T12:17:51Z",
+  "ProjectEstimatedDueDate": "2025-03-18T23:37:18Z",
+  "EstimatedCapitalCost": 21120000.0,
+  "OriginalCurrency": {
+    "Id": 27,
+    "Value": "BRL"
+  },
+  "OriginalCurrencyEstimatedCapitalCost": 120000000.0,
+  "ProjectProperties": {
+    "Reference": null,
+    "IsTimelineDefined": true,
+    "LanguagesTimeline": [
+      {
+        "Code": "en",
+        "Title": "English"
+      },
+      {
+        "Code": "por",
+        "Title": "Português"
+      }
+    ]
+  },
+  "PMLeaderEmail": "adminppi.source@presidencia.gov.br",
+  "PMLeaderFirstName": "Adminppi",
+  "PMLeaderLastName": "Source",
+  "GPSCoordinates": [
+    {
+      "address": "RN",
+      "location": {
+        "x": "-36.673464598369",
+        "y": "-5.839527989034"
+      },
+      "score": 100.0,
+      "attributes": {
+        "ResultID": 1,
+        "Place_addr": "Rio Grande do Norte",
+        "City": "",
+        "Subregion": "",
+        "Region": "Rio Grande do Norte"
+      }
+    }
+  ]
+}

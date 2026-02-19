@@ -1,0 +1,125 @@
+{
+  "ProjectOrganizations": [
+    {
+      "Id": 206,
+      "Value": "SEPPI"
+    }
+  ],
+  "Guid": "bb99829c-ee0f-4be9-850e-e6c8a8b9ac3c",
+  "Name": "Saneamento básico - Município de Porto Alegre/RS",
+  "Description": "A Definir",
+  "Sector": {
+    "Id": 1,
+    "Value": "Water & Waste"
+  },
+  "SubSector": {
+    "Id": 30,
+    "Value": "Water Supply Infrastructure"
+  },
+  "Territories": [
+    {
+      "Id": 36,
+      "Value": "Brazil"
+    }
+  ],
+  "Locations": [
+    "Rio Grande do Sul"
+  ],
+  "TypeOfProject": [
+    "Expansion"
+  ],
+  "IsPPP": true,
+  "IsUnsolicited": false,
+  "LegalFramework": {
+    "SourceUniqueId": "BRA-3",
+    "Title": "Municipal",
+    "LocalResourceKey": "<%Timeline,BRA-LF-3,Title%>"
+  },
+  "Packages": [
+    {
+      "LocalResourceKey": null,
+      "ID": 1,
+      "Title": null,
+      "ContractualArrangements": [
+        {
+          "SourceUniqueId": "BRA-1",
+          "Title": "Concession: Law 8.987/95",
+          "LocalResourceKey": "<%Timeline,BRA-CA-1,Title%>"
+        }
+      ],
+      "TenderProcess": {
+        "SourceUniqueId": "BRA-1",
+        "Title": "Competition",
+        "LocalResourceKey": "<%Timeline,BRA-TP-1,Title%>"
+      },
+      "OtherContractualArrangement": null,
+      "OtherTenderProcess": null
+    }
+  ],
+  "TechnicalSupport": {
+    "SourceUniqueId": "BRA-2",
+    "Title": "BNDES",
+    "LocalResourceKey": "<%Timeline,BRA-TS-2,Title%>"
+  },
+  "Threshold": {
+    "SourceUniqueId": "BRA-2",
+    "Title": "Qualification by Policy",
+    "LocalResourceKey": "<%Timeline,BRA-TH-2,Title%>"
+  },
+  "OwnerOrganisation": {
+    "Id": 206,
+    "Value": "SEPPI"
+  },
+  "CurrentProjectStatus": {
+    "Id": 2,
+    "Value": "Project Definition"
+  },
+  "CurrentProjectStatusCustom": {
+    "Id": 1,
+    "Value": "Definition"
+  },
+  "Completion": 0.02,
+  "Created": "2025-03-20T09:26:24Z",
+  "Modified": "2025-09-30T11:59:36Z",
+  "ProjectEstimatedDueDate": "2025-03-20T09:26:24Z",
+  "EstimatedCapitalCost": 930593312.0,
+  "OriginalCurrency": {
+    "Id": 27,
+    "Value": "BRL"
+  },
+  "OriginalCurrencyEstimatedCapitalCost": 5287462000.0,
+  "ProjectProperties": {
+    "Reference": null,
+    "IsTimelineDefined": true,
+    "LanguagesTimeline": [
+      {
+        "Code": "en",
+        "Title": "English"
+      },
+      {
+        "Code": "por",
+        "Title": "Português"
+      }
+    ]
+  },
+  "PMLeaderEmail": "adminppi.source@presidencia.gov.br",
+  "PMLeaderFirstName": "Adminppi",
+  "PMLeaderLastName": "Source",
+  "GPSCoordinates": [
+    {
+      "address": "RS",
+      "location": {
+        "x": "-53.316114421111",
+        "y": "-29.738963851058"
+      },
+      "score": 100.0,
+      "attributes": {
+        "ResultID": 1,
+        "Place_addr": "Rio Grande do Sul",
+        "City": "",
+        "Subregion": "",
+        "Region": "Rio Grande do Sul"
+      }
+    }
+  ]
+}

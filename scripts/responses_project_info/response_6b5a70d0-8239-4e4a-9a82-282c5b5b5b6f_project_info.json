@@ -1,0 +1,152 @@
+{
+  "ProjectOrganizations": [
+    {
+      "Id": 206,
+      "Value": "SEPPI"
+    }
+  ],
+  "ProjectActivityStatus": {
+    "Value": true,
+    "SourceUniqueId": "DEF-1",
+    "Title": "Active",
+    "LocalResourceKey": "<%Labels,DEF-AS-1,Title%>"
+  },
+  "Guid": "6b5a70d0-8239-4e4a-9a82-282c5b5b5b6f",
+  "Name": "Terminal Pesqueiro de Santos/SP",
+  "Description": "Santos e Guaruj&#225; s&#227;o os principais destinos da pesca extrativa da pesca de S&#227;o Paulo e no per&#237;odo de 2017 a 2019 o PMAP registrou o descarregamento de, aproximadamente, 10 mil toneladas anuais, das quais a pesca industrial foi respons&#225;vel por 85% da captura.",
+  "Sector": {
+    "Id": 7,
+    "Value": "Other"
+  },
+  "SubSector": {
+    "Id": 41,
+    "Value": "Other"
+  },
+  "OtherSubsector": {
+    "Id": "55e538af-93b0-44d0-aca8-dbd7b7732051",
+    "Value": "Terminal Pesqueiro"
+  },
+  "Territories": [
+    {
+      "Id": 36,
+      "Value": "Brazil"
+    }
+  ],
+  "Locations": [
+    "São Paulo",
+    "Santos"
+  ],
+  "TypeOfProject": [
+    "Refurbishment/Replacement"
+  ],
+  "IsPPP": true,
+  "IsUnsolicited": false,
+  "LegalFramework": {
+    "SourceUniqueId": "BRA-1",
+    "Title": "Federal",
+    "LocalResourceKey": "<%Timeline,BRA-LF-1,Title%>"
+  },
+  "Packages": [
+    {
+      "LocalResourceKey": null,
+      "ID": 1,
+      "Title": null,
+      "ContractualArrangements": [
+        {
+          "SourceUniqueId": "BRA-1",
+          "Title": "Concession: Law 8.987/95",
+          "LocalResourceKey": "<%Timeline,BRA-CA-1,Title%>"
+        }
+      ],
+      "TenderProcess": {
+        "SourceUniqueId": "BRA-1",
+        "Title": "Competition",
+        "LocalResourceKey": "<%Timeline,BRA-TP-1,Title%>"
+      },
+      "OtherContractualArrangement": null,
+      "OtherTenderProcess": null
+    }
+  ],
+  "TechnicalSupport": {
+    "SourceUniqueId": "BRA-5",
+    "Title": "Others (e.g. Banco do Brasil, PMI)",
+    "LocalResourceKey": "<%Timeline,BRA-TS-5,Title%>"
+  },
+  "Threshold": {
+    "SourceUniqueId": "BRA-1",
+    "Title": "Qualification by Project",
+    "LocalResourceKey": "<%Timeline,BRA-TH-1,Title%>"
+  },
+  "OwnerOrganisation": {
+    "Id": 206,
+    "Value": "SEPPI"
+  },
+  "CurrentProjectStatus": {
+    "Id": 2,
+    "Value": "Project Definition"
+  },
+  "CurrentProjectStatusCustom": {
+    "Id": 1,
+    "Value": "Definition"
+  },
+  "Completion": 0.02,
+  "Created": "2025-03-18T10:57:31Z",
+  "Modified": "2026-02-11T18:33:00Z",
+  "ProjectEstimatedDueDate": "2025-03-18T10:57:31Z",
+  "EstimatedCapitalCost": 1713581.637201,
+  "OriginalCurrency": {
+    "Id": 27,
+    "Value": "BRL"
+  },
+  "OriginalCurrencyEstimatedCapitalCost": 9740853.0,
+  "ProjectProperties": {
+    "Reference": null,
+    "IsTimelineDefined": true,
+    "LanguagesTimeline": [
+      {
+        "Code": "en",
+        "Title": "English"
+      },
+      {
+        "Code": "por",
+        "Title": "Português"
+      }
+    ],
+    "AdditionalFields": {}
+  },
+  "PMLeaderEmail": "adminppi.source@presidencia.gov.br",
+  "PMLeaderFirstName": "Adminppi",
+  "PMLeaderLastName": "Source",
+  "GPSCoordinates": [
+    {
+      "address": "Santos, Sao Paulo",
+      "location": {
+        "x": "-46.3264601",
+        "y": "-23.9562885"
+      },
+      "score": 100.0,
+      "attributes": {
+        "ResultID": 2,
+        "Place_addr": "Santos, Sao Paulo",
+        "City": "Santos",
+        "Subregion": "",
+        "Region": "Sao Paulo"
+      }
+    },
+    {
+      "address": "Sao Paulo",
+      "location": {
+        "x": "-46.6382522",
+        "y": "-23.5486657"
+      },
+      "score": 100.0,
+      "attributes": {
+        "ResultID": 1,
+        "Place_addr": "Sao Paulo",
+        "City": "Sao Paulo",
+        "Subregion": "",
+        "Region": "Sao Paulo"
+      }
+    }
+  ]
+}

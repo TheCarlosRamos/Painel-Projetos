@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "Arrendamento de terminal portuário com área de 22.564 m² dedicado à movimentação e armazenagem de granéis sólidos. Há a expectativa que o novo terminal alcance ao final do contrato a capacidade de armazenagem de 30.630t.\n\nNo cenário previsto para 2060, os granéis sólidos deverão seguir como a principal natureza de carga movimentada, com destaque para o minério de ferro, com participação relativa de 83,7%. Estima-se uma taxa média de crescimento de 0,9% ao ano entre 2018 e 2060, tendo a China como seu destino principal.\n\nA qualificação no PPI deu-se pela Resolução nº 172, de 27 de abril de 2021, que deu origem ao Decreto nº 10.743, de 08 de julho de 2021."
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1329,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

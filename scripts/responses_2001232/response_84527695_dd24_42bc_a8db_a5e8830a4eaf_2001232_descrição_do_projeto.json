@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "A Reserva Biológica (Rebio) Nascentes da Serra do Cachimbo, unidade de conservação de proteção integral, criada por Decreto s/nº de 20 de maio de 2005, com uma área de 342.195,77 ha, dos quais 36.647,91 ha são destinados à restauração florestal. A Rebio, localizada nos municípios de Altamira e Novo Progresso, no sul do estado do Pará, possui significativa importância ambiental, principalmente por proteger centenas de nascentes perenes, formadoras de importantes rios das bacias do Xingu e do Tapajós e, também, devido à sua heterogeneidade e peculiaridade ambiental.\nUma particularidade da Reserva é a proteção da biodiversidade, posto que a Reserva possui (i) cerca de 750 espécies vegetais catalogadas, (ii) populações de espécies endêmicas regionais ou macrorregionais, como a de um lambari, de cinco espécies de anuros, de duas de cecílias, de sete de lagartos, de 22 de aves e uma de mamífero, (iii) espécies de aves de ocorrência geográfica bastante restrita, como o papagaio-dos-garbes, papagaio-de-cabeça-laranja, rabo-branco-de-garganta-escura e a choca-bate-cabo, (iv) espécies ameaçadas de extinção, tais como a águia cinzenta, arara-azul-grande, araçari-de-pescoço-vermelho, tamanduá-bandeira, tatu-canastra, coatá-da-cara-branca, ariranha, jaguatirica, gato-do-mato-pequeno , gato-maracajá e onça-pintada, e (v) espécies da fauna sob forte pressão de caça ou pesca, que vivem nesses variados ambientes, de grandes blocos de vegetação nativa e da diversidade genética das formações florestais, que sofrem maior pressão de exploração econômica."
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1290,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

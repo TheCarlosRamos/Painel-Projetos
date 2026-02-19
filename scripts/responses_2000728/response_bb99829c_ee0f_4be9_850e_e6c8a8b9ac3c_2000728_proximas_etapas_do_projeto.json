@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "Aprovação dos termos do aditivo por parte do município para retomada do projeto. O BNDES está contratando nova equipe de consultoria,"
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1041,
+  "SourceId": "2000728",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Project next steps",
+    "Type": "TextMulti"
+  }
+}

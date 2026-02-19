@@ -1,0 +1,148 @@
+{
+  "ProjectOrganizations": [
+    {
+      "Id": 206,
+      "Value": "SEPPI"
+    }
+  ],
+  "ProjectActivityStatus": {
+    "Value": true,
+    "SourceUniqueId": "DEF-1",
+    "Title": "Active",
+    "LocalResourceKey": "<%Labels,DEF-AS-1,Title%>"
+  },
+  "Guid": "bd82ecda-dbb7-486d-8953-2d56651aa0ef",
+  "Name": "VDC04 - Terminal de granel sólido mineral no Porto de Vila do Conde/PA",
+  "Description": "A &#225;rea VDC04 encontra-se com ocupa&#231;&#227;o n&#227;o operacional, sem contrato vigente, por&#233;m, tem sido utilizada pela CDP como estacionamento, cobertura para armazenagem de materiais, atendimento de demandas da RFB, al&#233;m de &#225;rea de descarte de materiais. A proje&#231;&#227;o &#233; que a &#225;rea se torne operacional movimentando mangan&#234;s e fertilizantes, cargas operadas no Porto de Vila do Conde, que carecem de &#225;reas para armazenagem.",
+  "Sector": {
+    "Id": 4,
+    "Value": "Transport"
+  },
+  "SubSector": {
+    "Id": 17,
+    "Value": "Seaport"
+  },
+  "Territories": [
+    {
+      "Id": 36,
+      "Value": "Brazil"
+    }
+  ],
+  "Locations": [
+    "Pará",
+    "Vila do Conde"
+  ],
+  "TypeOfProject": [
+    "Refurbishment/Replacement"
+  ],
+  "IsPPP": true,
+  "IsUnsolicited": false,
+  "LegalFramework": {
+    "SourceUniqueId": "BRA-1",
+    "Title": "Federal",
+    "LocalResourceKey": "<%Timeline,BRA-LF-1,Title%>"
+  },
+  "Packages": [
+    {
+      "LocalResourceKey": null,
+      "ID": 1,
+      "Title": null,
+      "ContractualArrangements": [
+        {
+          "SourceUniqueId": "BRA-1",
+          "Title": "Concession: Law 8.987/95",
+          "LocalResourceKey": "<%Timeline,BRA-CA-1,Title%>"
+        }
+      ],
+      "TenderProcess": {
+        "SourceUniqueId": "BRA-1",
+        "Title": "Competition",
+        "LocalResourceKey": "<%Timeline,BRA-TP-1,Title%>"
+      },
+      "OtherContractualArrangement": null,
+      "OtherTenderProcess": null
+    }
+  ],
+  "TechnicalSupport": {
+    "SourceUniqueId": "BRA-3",
+    "Title": "INFRA S.A.",
+    "LocalResourceKey": "<%Timeline,BRA-TS-3,Title%>"
+  },
+  "Threshold": {
+    "SourceUniqueId": "BRA-1",
+    "Title": "Qualification by Project",
+    "LocalResourceKey": "<%Timeline,BRA-TH-1,Title%>"
+  },
+  "OwnerOrganisation": {
+    "Id": 206,
+    "Value": "SEPPI"
+  },
+  "CurrentProjectStatus": {
+    "Id": 2,
+    "Value": "Project Definition"
+  },
+  "CurrentProjectStatusCustom": {
+    "Id": 1,
+    "Value": "Definition"
+  },
+  "Completion": 0.02,
+  "Created": "2025-03-19T07:20:11Z",
+  "Modified": "2025-12-18T17:48:23Z",
+  "ProjectEstimatedDueDate": "2025-03-19T07:20:11Z",
+  "EstimatedCapitalCost": 1584000.0,
+  "OriginalCurrency": {
+    "Id": 27,
+    "Value": "BRL"
+  },
+  "OriginalCurrencyEstimatedCapitalCost": 9000000.0,
+  "ProjectProperties": {
+    "Reference": null,
+    "IsTimelineDefined": true,
+    "LanguagesTimeline": [
+      {
+        "Code": "en",
+        "Title": "English"
+      },
+      {
+        "Code": "por",
+        "Title": "Português"
+      }
+    ],
+    "AdditionalFields": {}
+  },
+  "PMLeaderEmail": "adminppi.source@presidencia.gov.br",
+  "PMLeaderFirstName": "Adminppi",
+  "PMLeaderLastName": "Source",
+  "GPSCoordinates": [
+    {
+      "address": "PA",
+      "location": {
+        "x": "-53.07030619154",
+        "y": "-3.980709797245"
+      },
+      "score": 100.0,
+      "attributes": {
+        "ResultID": 1,
+        "Place_addr": "Pará",
+        "City": "",
+        "Subregion": "",
+        "Region": "Pará"
+      }
+    },
+    {
+      "address": "Vila do Conde, Barueri, São Paulo",
+      "location": {
+        "x": "-46.8681",
+        "y": "-23.53155"
+      },
+      "score": 100.0,
+      "attributes": {
+        "ResultID": 2,
+        "Place_addr": "Vila do Conde, Barueri, São Paulo",
+        "City": "",
+        "Subregion": "Barueri",
+        "Region": "São Paulo"
+      }
+    }
+  ]
+}

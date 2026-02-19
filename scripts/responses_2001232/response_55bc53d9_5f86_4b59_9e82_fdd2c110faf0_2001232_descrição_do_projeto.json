@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "A área do Terminal de Contêineres de Fortaleza, denominada MUC04, fica localizada na poligonal do Porto de Fortaleza/CE, situado no bairro do Mucuripe, totalizando aproximadamente 134.795,17 m² e será utilizada para movimentação e armazenagem de contêineres.\n<p class=\"Item_Nivel2\">Classificado como <em>brownfield</em>, o terminal é composto por cinco áreas menores, conforme demonstrado na figura acima, que compreenderão um único arrendamento chamado de MUC04, sendo elas:</p>\n\n<ul>\n \t<li>FOR35, ocupando 72.063,67 m², de área descoberta em frente ao berço nº 105, possui pátio;</li>\n \t<li>FOR36, ocupando 6.835,84 m², possui armazém;</li>\n \t<li>FOR37, ocupando 3.301,47 m², possui armazém;</li>\n \t<li>FOR39, ocupando 39.145,25 m² de área descoberta em frente ao berço nº 106;</li>\n \t<li>Berço nº 106, possui 13.448,94 m², classificado no atual PDZ como instalação de acostagem multipropósito, está localizado em frente às áreas FOR39 e FOR40.</li>\n</ul>\n<p class=\"Item_Nivel2\">O Berço nº 105 possui 5.830,15 m², é classificado no atual PDZ como instalação de acostagem multipropósito, está localizado em frente à área FOR35 e permanecerá público, ou seja, compartilhado pelo Terminal de Contêineres e demais operações, tendo o seu regramento de utilidade e exploração estabelecidos no Regulamento de Exploração Portuária - REP.</p>\n<p class=\"Item_Nivel2\">Destaca-se que o Porto de Fortaleza foi responsável por aproximadamente 18% da totalidade da movimentação de cargas conteinerizadas existente no <em>cluster</em> do Ceará nos últimos 5 anos, desse modo, com base na taxa estimada de crescimento de 3,29% ao ano para cargas conteinerizadas, no cenário tendencial, projetam-se os cenários de demanda otimista e pessimista. Os cenários foram estimados com base nas projeções do Plano Mestre (2020). Para o cenário otimista, projeta-se que a demanda crescerá a taxa de 3,63% ao ano que corresponde um acréscimo de 8,92% sobre a taxa empregada no cenário tendencial. No cenário pessimista, a taxa estimada é de 2,92% ao ano que corresponde uma redução de 8,92% sobre a taxa tendencial.</p>\n<p class=\"Item_Nivel2\">O prazo contratual previsto para o terminal é de 25 anos, suficiente para amortizar os investimentos previstos, bem como proporcionar retorno adequado aos investidores. Estima-se o início desse prazo para o ano de 2025 e término da vigência contratual no ano de 2050. Nesse sentido, a projeção de demanda macro foi delimitada para o mesmo período.</p>\nPor fim, informa-se que os estudos foram doados por empresa privada e revisados pela INFRA S.A., sendo encaminhados à ANTAQ para abertura de Consulta Pública."
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1329,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

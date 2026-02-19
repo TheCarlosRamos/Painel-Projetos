@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "Os estudos para a concessão de trechos rodoviários, que englobavam inicialmente 7.213 km, foram qualificados na 9ª Reunião do Conselho do PPI por meio da <a href=\"https://portal.ppi.gov.br/legislacao-e-arquivos?di=&amp;df=23%2F02%2F2022&amp;tps=-1&amp;tp=-1&amp;re=10&amp;pn=Resolu%C3%A7%C3%A3o+n%C2%BA+52%2C+de+08+de+maio+de+2019&amp;np=\" target=\"_blank\" rel=\"noopener\">Resolução nº 52, de 08/05/2019</a>, convertida no <a href=\"http://www.planalto.gov.br/ccivil_03/_Ato2019-2022/2019/Decreto/D9972.htm\" target=\"_blank\" rel=\"noopener\">Decreto nº 9.972, de 14/08/2019</a>.\n\nOs estudos conduzidos pelo BNDES indicaram a pré-viabilidade de concessão de 674 km de trechos das BR-290/116/158/392, interligando as cidades de Porto Alegre, Camaquã, Santana da Boa Vista, Santa Maria, Cruz Alta e Panambi, no estado do Rio Grande do Sul.\n\nOs documentos da Audiência Pública nº 10/2022 estão disponíveis em <a href=\"https://participantt.antt.gov.br/Site/AudienciaPublica/VisualizarAvisoAudienciaPublica.aspx?CodigoAudiencia=514\">https://participantt.antt.gov.br/Site/AudienciaPublica/VisualizarAvisoAudienciaPublica.aspx?CodigoAudiencia=514</a>."
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1320,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

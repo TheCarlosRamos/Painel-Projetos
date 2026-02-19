@@ -1,0 +1,148 @@
+{
+  "ProjectOrganizations": [
+    {
+      "Id": 206,
+      "Value": "SEPPI"
+    }
+  ],
+  "ProjectActivityStatus": {
+    "Value": true,
+    "SourceUniqueId": "DEF-1",
+    "Title": "Active",
+    "LocalResourceKey": "<%Labels,DEF-AS-1,Title%>"
+  },
+  "Guid": "b4515555-143a-46d4-b04b-737132ae83fa",
+  "Name": "SSD04 - Terminal de contêiner e carga geral no Porto de Salvador/BA",
+  "Description": "O Terminal possui conex&#227;o rodovi&#225;ria com capacidade para incremento de fluxo. O empreendimento ser&#225; executado sobre terreno com estruturas existentes, podendo essas serem demolidas ou renovadas.",
+  "Sector": {
+    "Id": 4,
+    "Value": "Transport"
+  },
+  "SubSector": {
+    "Id": 17,
+    "Value": "Seaport"
+  },
+  "Territories": [
+    {
+      "Id": 36,
+      "Value": "Brazil"
+    }
+  ],
+  "Locations": [
+    "Bahia",
+    "Salvador"
+  ],
+  "TypeOfProject": [
+    "Refurbishment/Replacement"
+  ],
+  "IsPPP": true,
+  "IsUnsolicited": false,
+  "LegalFramework": {
+    "SourceUniqueId": "BRA-1",
+    "Title": "Federal",
+    "LocalResourceKey": "<%Timeline,BRA-LF-1,Title%>"
+  },
+  "Packages": [
+    {
+      "LocalResourceKey": null,
+      "ID": 1,
+      "Title": null,
+      "ContractualArrangements": [
+        {
+          "SourceUniqueId": "BRA-1",
+          "Title": "Concession: Law 8.987/95",
+          "LocalResourceKey": "<%Timeline,BRA-CA-1,Title%>"
+        }
+      ],
+      "TenderProcess": {
+        "SourceUniqueId": "BRA-1",
+        "Title": "Competition",
+        "LocalResourceKey": "<%Timeline,BRA-TP-1,Title%>"
+      },
+      "OtherContractualArrangement": null,
+      "OtherTenderProcess": null
+    }
+  ],
+  "TechnicalSupport": {
+    "SourceUniqueId": "BRA-3",
+    "Title": "INFRA S.A.",
+    "LocalResourceKey": "<%Timeline,BRA-TS-3,Title%>"
+  },
+  "Threshold": {
+    "SourceUniqueId": "BRA-1",
+    "Title": "Qualification by Project",
+    "LocalResourceKey": "<%Timeline,BRA-TH-1,Title%>"
+  },
+  "OwnerOrganisation": {
+    "Id": 206,
+    "Value": "SEPPI"
+  },
+  "CurrentProjectStatus": {
+    "Id": 2,
+    "Value": "Project Definition"
+  },
+  "CurrentProjectStatusCustom": {
+    "Id": 1,
+    "Value": "Definition"
+  },
+  "Completion": 0.02,
+  "Created": "2025-03-19T01:51:18Z",
+  "Modified": "2025-12-18T18:01:23Z",
+  "ProjectEstimatedDueDate": "2025-03-19T01:51:18Z",
+  "EstimatedCapitalCost": 12441332.0,
+  "OriginalCurrency": {
+    "Id": 27,
+    "Value": "BRL"
+  },
+  "OriginalCurrencyEstimatedCapitalCost": 70689388.0,
+  "ProjectProperties": {
+    "Reference": null,
+    "IsTimelineDefined": true,
+    "LanguagesTimeline": [
+      {
+        "Code": "en",
+        "Title": "English"
+      },
+      {
+        "Code": "por",
+        "Title": "Português"
+      }
+    ],
+    "AdditionalFields": {}
+  },
+  "PMLeaderEmail": "adminppi.source@presidencia.gov.br",
+  "PMLeaderFirstName": "Adminppi",
+  "PMLeaderLastName": "Source",
+  "GPSCoordinates": [
+    {
+      "address": "Salvador, Bahia",
+      "location": {
+        "x": "-38.5058208",
+        "y": "-12.9641527"
+      },
+      "score": 100.0,
+      "attributes": {
+        "ResultID": 2,
+        "Place_addr": "Salvador, Bahia",
+        "City": "Salvador",
+        "Subregion": "",
+        "Region": "Bahia"
+      }
+    },
+    {
+      "address": "BA",
+      "location": {
+        "x": "-41.721435781216",
+        "y": "-12.475311328523"
+      },
+      "score": 100.0,
+      "attributes": {
+        "ResultID": 1,
+        "Place_addr": "Bahia",
+        "City": "",
+        "Subregion": "",
+        "Region": "Bahia"
+      }
+    }
+  ]
+}

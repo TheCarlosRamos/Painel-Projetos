@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "A qualificação no PPI deu-se por meio da <a href=\"https://ppi.gov.br/legislacao-e-arquivos?di=&amp;df=12%2F03%2F2021&amp;tps=-1&amp;tp=-1&amp;re=10&amp;pn=resolu%C3%A7%C3%A3o+n%C2%BA+145&amp;np=\" target=\"_blank\" rel=\"noopener\">Resolução nº 145, de 2 de dezembro de 2020</a>, convertida no <a href=\"https://ppi.gov.br/legislacao-e-arquivos?di=&amp;df=12%2F03%2F2021&amp;tps=-1&amp;tp=-1&amp;re=10&amp;pn=Decreto+n%C2%BA+10.635&amp;np=\" target=\"_blank\" rel=\"noopener\">Decreto nº 10.635, de 22 de fevereiro de 2021</a>.\n\nTerminal localizado no Porto de Vila do Conde (PA), destinado à movimentação de granéis líquidos, especialmente químicos tipo soda cáustica.\n\nA área de arrendamento a que se refere este estudo de viabilidade, denominada VDC10A, está localizada dentro da poligonal do Porto Organizado de Vila do Conde, sob jurisdição da Companhia Docas do Pará. Atualmente a área é <i>brownfield</i> possuindo estruturas de armazenagem para granéis líquidos. Projeta-se a implantação das estruturas necessárias às operações, incluindo tanques novos.\n\nLink Estudos: <a href=\"http://portal.antaq.gov.br/index.php/audiencia-publica-no-14-2020-antaq/\">http://portal.antaq.gov.br/index.php/audiencia-publica-no-14-2020-antaq/</a>"
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1329,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

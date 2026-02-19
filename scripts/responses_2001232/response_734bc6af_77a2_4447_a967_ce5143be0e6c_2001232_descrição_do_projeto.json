@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "As rodovias federais e estaduais de SC fazem a interligação entre vários estados e países do Mercosul. Pelas Rodovias integrantes do estudo circulam produtos destinados aos principais portos da região, Paranaguá/PR, Itajaí/SC, Imbituba/SC, Navegantes/SC, São Francisco do Sul/SC e Santos/SP, além de abastecer com produtos cidades importantes dos estados de Santa Catarina, Paraná, Rio Grande do Sul e países membros do Mercosul. Também se destaca o fluxo destinado ao turismo, tanto interno quanto do exterior, com destino às praias catarinenses.\n\nO empreendimento foi qualificado no PPI por meio da Resolução nº 192, de 25 de agosto de 2021, do Conselho do Programa de Parcerias de Investimentos da Presidência da República, convertida no Decreto nº 10.872, de 29 de novembro de 2021.\n\nRodovias Federais BR-153/158/163/280/282/470/480/SC, em uma extensão de 1.647,30 km;\n\nRodovias Estaduais SC-108/110/114/120/135/155/157/163/280/283/350/355/370/386/410/412/416/417/418/421/445/452/453/480/486, em uma extensão de 1.506,07 km."
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1320,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

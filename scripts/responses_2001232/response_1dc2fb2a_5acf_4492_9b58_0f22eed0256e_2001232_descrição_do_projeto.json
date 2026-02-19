@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "O Decreto nº 10.055, de 14 de outubro de 2019, qualificou a política de fomento ao setor de atendimento socioeducativo para fins de elaboração de estudos das alternativas de parcerias com a iniciativa privada para a construção, modernização e operação de unidades socioeducativas.\n\nO MDHC demandou essa qualificação da política em função da necessidade de vagas no sistema socioeducativo, associado a indicativos de inadequação de instalações para o atendimento dos jovens.\n\nO projeto reúne os esforços de atores do Governo Federal, do Estado de Santa Catarina e das Nações Unidas para apresentar um modelo alternativo que pode mudar a história dos jovens no Brasil com a implementação efetiva das diretrizes do Sistema Nacional de Atendimento Socioeducativo (Sinase). O projeto também se alinha ao cumprimento dos Objetivos do Desenvolvimento Sustentável (ODS) no que se refere à busca da paz, da justiça e de instituições mais eficazes e à implementação de parcerias.\n\nOs desafios do projeto passam por desenvolver um modelo inovador para centros socioeducativos que seja mais efetivo na reinserção dos adolescentes na sociedade por meio da educação, capacitação para o trabalho, esporte, cultura e lazer. O novo modelo traz propostas de inovações na gestão, na infraestrutura e no atendimento, que visam ao uso mais eficiente dos recursos públicos e ao mesmo tempo em que proporcionam a prestação de atendimento qualificado e a garantia efetiva dos direitos dos jovens, previstos no Estatuto da Criança e do Adolescente (ECA).\n\nAs inovações também buscam melhorar as condições de trabalho para os servidores e funcionários dos centros socioeducativos. A abordagem desenvolvida será replicável e es"
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1309,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "Estruturação de projeto de iluminação pública (IP) do município de Colatina (ES). O objetivo da Parceria é modernizar cerca de 13 mil pontos do parque de IP da cidade adequando-os às normas técnicas vigentes, tendo como fonte de recursos a Contribuição para Iluminação Pública - COSIP.\n\nBenefícios previstos:\n\n1.       Melhoria da segurança pública e da qualidade de vida dos mais de 119 mil habitantes;\n\n2.       Promoção do uso noturno de espaços públicos hoje considerados inseguros pela má iluminação, expandindo a atuação de negócios e serviços a eles associados;\n\n3.       Modernização da iluminação de vias públicas e de destaque dos monumentos municipais;\n\n4.       Redução das emissões dos gases de efeito estufa; e\n\n5.       Aumento dos investimentos e geração de emprego\n\nA estruturação está sendo realizada pela Inducta Solução em Energia LTDA, contratada pela CAIXA. O processo está sendo financiada pelo Município (10%) e pelo Fundo de Apoio à Estruturação e ao Desenvolvimento de Projetos de Concessão e Parcerias Público-Privadas – FEP CAIXA (90%), nos termos da Lei Federal nº 13.529/2017.\n\nO serviço técnico especializado contratado é composto pelas seguintes atividades:\n\na.    Assessoramento técnico a ser prestado pela Caixa ao Ente;\n\nb.   Consultoria técnica especializada para realização dos estudos de viabilidade e desenvolvimento dos documentos necessários para a licitação do Contrato de Concessão. abrangem os aspectos técnicos de engenharia, econômico-financeiro, jurídico e socioambiental na elaboração de projetos, laudos, pareceres, relatórios e informações nas seguintes etapas:\n\nAvaliação do Projeto; EM ANDAMENTO\n\nEstruturação do contrato; EM ANDAMENTO\n\nValidação E"
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1341,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

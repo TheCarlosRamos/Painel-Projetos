@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "O Perímetro Público de Irrigação Platôs de Guadalupe, localizado no município de Guadalupe, na região centro-oeste do Estado do Piauí, às margens do reservatório da Barragem de Boa Esperança, a 360 km de Teresina, foi qualificado no âmbito do Programa de Parcerias de Investimentos PPI, juntamente com outros 6 projetos hidroagrícolas e de irrigação, por meio da Resolução n° 216, de 16 de dezembro de 2021, referendada pelo Decreto nº 11.041, de 12 de abril de 2022.\n\nO Projeto tem potencial para irrigar 13.434 hectares, por meio de captação de água diretamente do lago da Barragem de Boa Esperança, no rio Parnaíba. Desse total, 3.196 correspondem à 1ª Etapa do projeto, que já se encontra em operação. Para a 2ª Etapa, está prevista a exploração agrícola de 10.238 hectares. O acesso à área do projeto se dá, principalmente, pela rodovia BR-343, que interliga Teresina a Floriano.\n\nA 2ª Etapa compartilhará parte da infraestrutura coletiva de irrigação que se encontra implantada e em operação, atendendo à 1ª Etapa do projeto, incluindo o canal de aproximação, a EBP-Sul, a adutora principal, o canal principal 2 e reservatório pulmão.\n\nDeverão ser implantadas infraestruturas de captação, canais de condução, estação de bombeamento secundária, estação de pressurização, tomadas de água e sistemas de distribuição, sistema de drenagem e sistema viário."
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1325,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

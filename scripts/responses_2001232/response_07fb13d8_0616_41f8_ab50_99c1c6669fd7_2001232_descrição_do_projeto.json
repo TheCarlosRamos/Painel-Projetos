@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "A área de arrendamento denominada POA26, que também abrange a área equivalente à POA27, está localizada dentro da Poligonal do Porto Organizado de Porto Alegre/RS, sob jurisdição da Portos RS – Autoridade dos Portos do Rio Grande do Sul S.A., possui 22.052,40 m², e será destinada à movimentação e armazenagem de granel sólido.\n\nA área é caracterizada como <em>brownfield</em>, com estruturas de operação disponíveis, e é utilizada para atividade operacional portuária, destinando-se à movimentação e armazenagem de graneis sólidos. \n\nDe acordo com as características das operações previstas, espera-se que a capacidade de berço chegue a 917.280 t/ano, caso seja utilizado exclusivamente para operações de granel vegetal e mineral. A capacidade dinâmica de recepção/expedição rodoviária, considerando o giro de 12, é 1.991.808 t/ano. Neste caso, o fator limitante é a capacidade de armazenagem anual de 624.000 t/ano. A área será composta por 2 armazéns a serem implantados pelo futuro arrendatário, com área total de 14.000 m². Portanto, a capacidade total de movimentação do terminal será de 624.000 t/ano.\n\nDe acordo com a minuta de contrato, a arrendatária obriga-se a realizar investimentos necessários para recuperar e modernizar o terminal, assim como para adquirir os\nequipamentos necessários para operacionalizá-lo, não podendo se abster de realizar:\n(I) Pavimentação e drenagem;\n(II) Distribuição elétrica e iluminação;\n(III) Cercamento."
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1329,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

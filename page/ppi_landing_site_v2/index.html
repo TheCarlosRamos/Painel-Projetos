@@ -1,0 +1,115 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PPI • Carteira de Projetos</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="ppi.css" />
+  <!-- Leaflet core + clustering (via CDN). Para uso totalmente offline, basta copiar os arquivos para /assets e alterar as URLs. -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css" />
+  <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <header class="header">
+    <div class="header__inner">
+      <div class="brand"><img src="assets/logo_ppi.svg" alt="Logo PPI"/><strong>Programa de Parcerias de Investimentos • Portal de Projetos</strong></div>
+      <nav><a class="btn-ghost" href="projects.html">Ver projetos</a></nav>
+    </div>
+  </header>
+
+  <main class="main">
+    <section class="kpis">
+      <div class="kpi"><div class="k">Projetos</div><div class="v" id="kpi-total">–</div></div>
+      <div class="kpi"><div class="k">Com coordenadas</div><div class="v" id="kpi-coords">–</div></div>
+      <div class="kpi"><div class="k">Custos (todas as moedas)</div><div class="v" id="kpi-custo">—</div></div>
+      <div class="kpi"><div class="k">Fonte</div><div class="v">Planilha oficial</div></div>
+    </section>
+
+    <section class="section">
+      <h2>Resumo de custos por moeda</h2>
+      <div id="cost-chips" class="chips"></div>
+      <div id="cost-table"></div>
+    </section>
+
+    <section class="section grid-2">
+      <div class="bars">
+        <h2>Projetos por Setor</h2>
+        <div id="bars-setor"></div>
+      </div>
+      <div class="bars">
+        <h2>Distribuição por Setor</h2>
+        <div class="chart-container">
+          <canvas id="pie-setor"></canvas>
+        </div>
+      </div>
+    </section>
+
+    <section class="section grid-2">
+      <div class="bars">
+        <h2>Projetos por última etapa concluída</h2>
+        <div id="bars-etapa"></div>
+      </div>
+      <div class="bars">
+        <h2>Distribuição por Etapa</h2>
+        <div class="chart-container">
+          <canvas id="pie-etapa"></canvas>
+        </div>
+      </div>
+    </section>
+
+    <section class="section grid-2">
+      <div class="bars">
+        <h2>Custo por Setor (BRL)</h2>
+        <div id="bars-custo-setor-brl"></div>
+      </div>
+      <div class="bars">
+        <h2>Top 10 maiores custos (BRL)</h2>
+        <div id="top10"></div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Top UFs por ocorrência (endereços/localizações)</h2>
+      <div class="bars">
+        <div id="bars-uf"></div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Mapa de projetos (com clustering)</h2>
+      <div class="mapwrap"><div id="map" aria-label="Mapa com a distribuição dos projetos"></div></div>
+    </section>
+
+    <section class="section">
+      <h2>Busque e filtre projetos</h2>
+      <div class="filters">
+        <div>
+          <label for="q">Buscar</label>
+          <input id="q" type="search" placeholder="Título, descrição, palavra‑chave…" />
+        </div>
+        <div>
+          <label for="sector">Setor</label>
+          <select id="sector"><option value="">Todos</option></select>
+        </div>
+        <div>
+          <label for="etapa">Última etapa concluída</label>
+          <select id="etapa"><option value="">Todas</option></select>
+        </div>
+        <div style="align-self:end; display:flex; gap:8px;">
+          <button id="go" class="btn" type="button">Ver resultados</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

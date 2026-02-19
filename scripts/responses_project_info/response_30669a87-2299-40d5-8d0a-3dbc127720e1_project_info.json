@@ -1,0 +1,132 @@
+{
+  "ProjectOrganizations": [
+    {
+      "Id": 206,
+      "Value": "SEPPI"
+    }
+  ],
+  "ProjectActivityStatus": {
+    "Value": true,
+    "SourceUniqueId": "DEF-1",
+    "Title": "Active",
+    "LocalResourceKey": "<%Labels,DEF-AS-1,Title%>"
+  },
+  "Guid": "30669a87-2299-40d5-8d0a-3dbc127720e1",
+  "Name": "Rumo Malha Sul - Corredor Paran&#225;-Santa Catarina",
+  "Description": "Prorroga&#231;&#227;o antecipada do contrato de concess&#227;o",
+  "Sector": {
+    "Id": 4,
+    "Value": "Transport"
+  },
+  "SubSector": {
+    "Id": 13,
+    "Value": "Intercity Rail"
+  },
+  "Territories": [
+    {
+      "Id": 36,
+      "Value": "Brazil"
+    }
+  ],
+  "Locations": [
+    "Paraná,Rio Grande do Sul,Santa Catarina,São Paulo"
+  ],
+  "TypeOfProject": [
+    "Refurbishment/Replacement"
+  ],
+  "IsPPP": true,
+  "IsUnsolicited": false,
+  "LegalFramework": {
+    "SourceUniqueId": "BRA-1",
+    "Title": "Federal",
+    "LocalResourceKey": "<%Timeline,BRA-LF-1,Title%>"
+  },
+  "Packages": [
+    {
+      "LocalResourceKey": null,
+      "ID": 1,
+      "Title": null,
+      "ContractualArrangements": [
+        {
+          "SourceUniqueId": "BRA-3",
+          "Title": "Extension: Law 13.448/17, Art. 4, I and II",
+          "LocalResourceKey": "<%Timeline,BRA-CA-3,Title%>"
+        }
+      ],
+      "TenderProcess": {
+        "SourceUniqueId": "BRA-1",
+        "Title": "Competition",
+        "LocalResourceKey": "<%Timeline,BRA-TP-1,Title%>"
+      },
+      "OtherContractualArrangement": null,
+      "OtherTenderProcess": null
+    }
+  ],
+  "TechnicalSupport": {
+    "SourceUniqueId": "BRA-3",
+    "Title": "INFRA S.A.",
+    "LocalResourceKey": "<%Timeline,BRA-TS-3,Title%>"
+  },
+  "Threshold": {
+    "SourceUniqueId": "BRA-1",
+    "Title": "Qualification by Project",
+    "LocalResourceKey": "<%Timeline,BRA-TH-1,Title%>"
+  },
+  "OwnerOrganisation": {
+    "Id": 206,
+    "Value": "SEPPI"
+  },
+  "CurrentProjectStatus": {
+    "Id": 2,
+    "Value": "Project Definition"
+  },
+  "CurrentProjectStatusCustom": {
+    "Id": 1,
+    "Value": "Definition"
+  },
+  "Completion": 0.02,
+  "Created": "2025-03-19T00:07:19Z",
+  "Modified": "2026-01-29T17:01:31Z",
+  "ProjectEstimatedDueDate": "2025-03-19T00:07:19Z",
+  "EstimatedCapitalCost": 1812800000.0,
+  "OriginalCurrency": {
+    "Id": 27,
+    "Value": "BRL"
+  },
+  "OriginalCurrencyEstimatedCapitalCost": 10300000000.0,
+  "ProjectProperties": {
+    "Reference": null,
+    "IsTimelineDefined": true,
+    "LanguagesTimeline": [
+      {
+        "Code": "en",
+        "Title": "English"
+      },
+      {
+        "Code": "por",
+        "Title": "Português"
+      }
+    ],
+    "AdditionalFields": {}
+  },
+  "PMLeaderEmail": "adminppi.source@presidencia.gov.br",
+  "PMLeaderFirstName": "Adminppi",
+  "PMLeaderLastName": "Source",
+  "GPSCoordinates": [
+    {
+      "address": "Santa Catarina, Rio Grande do Sul",
+      "location": {
+        "x": "-54.8476493",
+        "y": "-28.0765442"
+      },
+      "score": 84.61,
+      "attributes": {
+        "ResultID": 1,
+        "Place_addr": "Santa Catarina, Rio Grande do Sul",
+        "City": "Santa Catarina",
+        "Subregion": "",
+        "Region": "Rio Grande do Sul"
+      }
+    }
+  ]
+}

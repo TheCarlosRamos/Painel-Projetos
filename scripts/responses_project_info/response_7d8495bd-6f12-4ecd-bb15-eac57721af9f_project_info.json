@@ -1,0 +1,106 @@
+{
+  "ProjectOrganizations": [
+    {
+      "Id": 206,
+      "Value": "SEPPI"
+    }
+  ],
+  "Guid": "7d8495bd-6f12-4ecd-bb15-eac57721af9f",
+  "Name": "Barragem de Zabumb&#227;o (Codevasf)",
+  "Description": "A definir",
+  "Sector": {
+    "Id": 1,
+    "Value": "Water & Waste"
+  },
+  "SubSector": {
+    "Id": 46,
+    "Value": "Other Water & Waste"
+  },
+  "OtherSubsector": {
+    "Id": "0e980230-755c-4847-b8a2-43d7b600fc1f",
+    "Value": "dam"
+  },
+  "Territories": [
+    {
+      "Id": 36,
+      "Value": "Brazil"
+    }
+  ],
+  "Locations": [
+    "Estado da Bahia"
+  ],
+  "TypeOfProject": [
+    "Refurbishment/Replacement"
+  ],
+  "IsPPP": true,
+  "IsUnsolicited": false,
+  "Packages": [
+    {
+      "LocalResourceKey": null,
+      "ID": 1,
+      "Title": "",
+      "ContractualArrangements": null,
+      "TenderProcess": null,
+      "OtherContractualArrangement": null,
+      "OtherTenderProcess": null
+    }
+  ],
+  "OwnerOrganisation": {
+    "Id": 206,
+    "Value": "SEPPI"
+  },
+  "CurrentProjectStatus": {
+    "Id": 2,
+    "Value": "Project Definition"
+  },
+  "CurrentProjectStatusCustom": {
+    "Id": 1,
+    "Value": "Definition"
+  },
+  "Completion": 0.0,
+  "Created": "2025-06-23T17:17:10Z",
+  "Modified": "2025-08-01T06:52:42Z",
+  "ProjectEstimatedDueDate": "2025-06-23T17:17:09Z",
+  "EstimatedCapitalCost": 0.181284,
+  "OriginalCurrency": {
+    "Id": 27,
+    "Value": "BRL"
+  },
+  "OriginalCurrencyEstimatedCapitalCost": 1.0,
+  "ProjectProperties": {
+    "Reference": null,
+    "IsTimelineDefined": false,
+    "LanguagesTimeline": [
+      {
+        "Code": "en",
+        "Title": "English"
+      },
+      {
+        "Code": "por",
+        "Title": "Português"
+      }
+    ]
+  },
+  "PMLeaderEmail": "adminppi.source@presidencia.gov.br",
+  "PMLeaderFirstName": "Adminppi",
+  "PMLeaderLastName": "Source",
+  "PMLeaderOrganisation": "SEPPI",
+  "PMLeaderTelephone": "(empty)",
+  "GPSCoordinates": [
+    {
+      "address": "Bahia",
+      "location": {
+        "x": "-42.0",
+        "y": "-12.0"
+      },
+      "score": 100.0,
+      "attributes": {
+        "ResultID": 1,
+        "Place_addr": "Bahia",
+        "City": "",
+        "Subregion": "",
+        "Region": "Bahia"
+      }
+    }
+  ]
+}

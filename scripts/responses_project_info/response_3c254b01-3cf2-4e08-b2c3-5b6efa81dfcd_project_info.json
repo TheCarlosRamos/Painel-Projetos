@@ -1,0 +1,148 @@
+{
+  "ProjectOrganizations": [
+    {
+      "Id": 206,
+      "Value": "SEPPI"
+    }
+  ],
+  "ProjectActivityStatus": {
+    "Value": true,
+    "SourceUniqueId": "DEF-1",
+    "Title": "Active",
+    "LocalResourceKey": "<%Labels,DEF-AS-1,Title%>"
+  },
+  "Guid": "3c254b01-3cf2-4e08-b2c3-5b6efa81dfcd",
+  "Name": "STS08 - Terminal de Granéis Líquidos e Gasosos no Porto de Santos",
+  "Description": "O empreendimento STS 08 &#8211; Terminal de Gran&#233;is L&#237;quidos no Porto de SANTOS/SP possui 139.319m&#178; e &#233; destinada &#224; armazenagem e distribui&#231;&#227;o de gran&#233;is l&#237;quidos, especialmente combust&#237;veis. O prazo contratual ser&#225; de 25 anos e os investimentos previstos totalizam R$ 265,5 milh&#245;es. A receita bruta total para o STS08 &#233; de R$ 2,842 bilh&#245;es. Os futuros arrendat&#225;rios do terminal pagar&#227;o &#224; autoridade portu&#225;ria pelo uso da &#225;rea o valor mensal de R$ 1.516.139,05 e mais R$ 9,35 por tonelada movimentada.",
+  "Sector": {
+    "Id": 4,
+    "Value": "Transport"
+  },
+  "SubSector": {
+    "Id": 17,
+    "Value": "Seaport"
+  },
+  "Territories": [
+    {
+      "Id": 36,
+      "Value": "Brazil"
+    }
+  ],
+  "Locations": [
+    "São Paulo",
+    "Santos"
+  ],
+  "TypeOfProject": [
+    "Refurbishment/Replacement"
+  ],
+  "IsPPP": true,
+  "IsUnsolicited": false,
+  "LegalFramework": {
+    "SourceUniqueId": "BRA-1",
+    "Title": "Federal",
+    "LocalResourceKey": "<%Timeline,BRA-LF-1,Title%>"
+  },
+  "Packages": [
+    {
+      "LocalResourceKey": null,
+      "ID": 1,
+      "Title": null,
+      "ContractualArrangements": [
+        {
+          "SourceUniqueId": "BRA-1",
+          "Title": "Concession: Law 8.987/95",
+          "LocalResourceKey": "<%Timeline,BRA-CA-1,Title%>"
+        }
+      ],
+      "TenderProcess": {
+        "SourceUniqueId": "BRA-1",
+        "Title": "Competition",
+        "LocalResourceKey": "<%Timeline,BRA-TP-1,Title%>"
+      },
+      "OtherContractualArrangement": null,
+      "OtherTenderProcess": null
+    }
+  ],
+  "TechnicalSupport": {
+    "SourceUniqueId": "BRA-3",
+    "Title": "INFRA S.A.",
+    "LocalResourceKey": "<%Timeline,BRA-TS-3,Title%>"
+  },
+  "Threshold": {
+    "SourceUniqueId": "BRA-1",
+    "Title": "Qualification by Project",
+    "LocalResourceKey": "<%Timeline,BRA-TH-1,Title%>"
+  },
+  "OwnerOrganisation": {
+    "Id": 206,
+    "Value": "SEPPI"
+  },
+  "CurrentProjectStatus": {
+    "Id": 2,
+    "Value": "Project Definition"
+  },
+  "CurrentProjectStatusCustom": {
+    "Id": 1,
+    "Value": "Definition"
+  },
+  "Completion": 0.02,
+  "Created": "2025-03-19T07:21:15Z",
+  "Modified": "2025-11-14T12:41:41Z",
+  "ProjectEstimatedDueDate": "2025-03-19T07:21:15Z",
+  "EstimatedCapitalCost": 86416000.0,
+  "OriginalCurrency": {
+    "Id": 27,
+    "Value": "BRL"
+  },
+  "OriginalCurrencyEstimatedCapitalCost": 491000000.0,
+  "ProjectProperties": {
+    "Reference": null,
+    "IsTimelineDefined": true,
+    "LanguagesTimeline": [
+      {
+        "Code": "en",
+        "Title": "English"
+      },
+      {
+        "Code": "por",
+        "Title": "Português"
+      }
+    ],
+    "AdditionalFields": {}
+  },
+  "PMLeaderEmail": "adminppi.source@presidencia.gov.br",
+  "PMLeaderFirstName": "Adminppi",
+  "PMLeaderLastName": "Source",
+  "GPSCoordinates": [
+    {
+      "address": "Santos, Sao Paulo",
+      "location": {
+        "x": "-46.3264601",
+        "y": "-23.9562885"
+      },
+      "score": 100.0,
+      "attributes": {
+        "ResultID": 2,
+        "Place_addr": "Santos, Sao Paulo",
+        "City": "Santos",
+        "Subregion": "",
+        "Region": "Sao Paulo"
+      }
+    },
+    {
+      "address": "Sao Paulo",
+      "location": {
+        "x": "-46.6382522",
+        "y": "-23.5486657"
+      },
+      "score": 100.0,
+      "attributes": {
+        "ResultID": 1,
+        "Place_addr": "Sao Paulo",
+        "City": "Sao Paulo",
+        "Subregion": "",
+        "Region": "Sao Paulo"
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "Aguardando assinatura de contrato em fevereiro de 2026.\nA Way Concessões S.A. foi oficializada como a vencedora do leilão da Rota Agro (BR-060/364), assumindo o projeto após a desclassificação do primeiro colocado pela ANTT e mantendo o desconto de 19,70% sobre a tarifa básica de pedágio."
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1033,
+  "SourceId": "2000726",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Project current status",
+    "Type": "TextMulti"
+  }
+}

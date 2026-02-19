@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "Os Leilões de Reserva de Capacidade têm o objetivo de garantir a continuidade do fornecimento de energia elétrica, com vistas ao atendimento à necessidade de potência e/ou energia requerida pelo SIN, permitindo que os consumidores sejam atendidos a qualquer momento, com confiabilidade e segurança, mesmo em períodos críticos.\n\nO Leilão de Reserva de Capacidade na forma de Potência, com sistemas de armazenamento prevê a contratação de sistemas de armazenamento por meio de baterias. A inclusão desses sistemas na matriz elétrica brasileira tem se destacado nas discussões de planejamento do setor elétrico nos últimos anos, devido à sua capacidade de resposta instantânea e à flexibilidade operativa e locacional que oferecem.\n\nPor meio da <a href=\"https://www.in.gov.br/en/web/dou/-/portaria-gm/mme-n-812-de-26-de-setembro-de-2024-586969487\">Portaria GM/MME nº 812</a>, o MME abriu consulta pública para discutir as diretrizes para a realização do leilão. A proposta é que a licitação ocorra em junho e ofereça contratos com prazo de 10 anos, com início de suprimento em julho de 2029. Os sistemas deverão entregar disponibilidade de potência máxima igual a 4 horas diárias, recebendo uma receita fixa por isso.\n\nA Consulta Pública nº 176/2024 permaneceu aberta de 27/09/2024 até 28/10/2024 e está em fase de análise pelo MME."
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1327,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

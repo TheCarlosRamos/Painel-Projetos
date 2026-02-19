@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "Conclusão da expedição (indígenas isolados) e emissão do relatório pela Funai\nEntrega das propostas na B3 no dia 25 de março de 2026."
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1005,
+  "SourceId": "2000728",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Project next steps",
+    "Type": "TextMulti"
+  }
+}

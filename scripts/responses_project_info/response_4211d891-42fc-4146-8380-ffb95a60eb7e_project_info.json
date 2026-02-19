@@ -1,0 +1,186 @@
+{
+  "ProjectOrganizations": [
+    {
+      "Id": 206,
+      "Value": "SEPPI"
+    }
+  ],
+  "Guid": "4211d891-42fc-4146-8380-ffb95a60eb7e",
+  "Name": "Restaura&#231;&#227;o Florestal no Parna dos Campos Amaz&#244;nicos/AM/MT/RO",
+  "Description": "Concess&#227;o para manejo florestal sustent&#225;vel de 961,3 mil hectares, dos quais 6.948,34 hectares degradados da floresta s&#227;o destinados para restaura&#231;&#227;o florestal, recupera&#231;&#227;o de seus servi&#231;os ecossist&#234;micos e gera&#231;&#227;o de emprego e renda para a comunidade local.",
+  "Sector": {
+    "Id": 7,
+    "Value": "Other"
+  },
+  "SubSector": {
+    "Id": 41,
+    "Value": "Other"
+  },
+  "OtherSubsector": {
+    "Id": "9e494ce6-51b1-40a7-b6ef-c81cb3dfc87d",
+    "Value": "Restauração Florestal"
+  },
+  "Territories": [
+    {
+      "Id": 36,
+      "Value": "Brazil"
+    }
+  ],
+  "Locations": [
+    "Machadinho d'Oeste",
+    "Humaitá",
+    "Manicoré",
+    "Novo Aripuanã",
+    "Colniza"
+  ],
+  "TypeOfProject": [
+    "Refurbishment/Replacement"
+  ],
+  "IsPPP": true,
+  "IsUnsolicited": false,
+  "LegalFramework": {
+    "SourceUniqueId": "BRA-1",
+    "Title": "Federal",
+    "LocalResourceKey": "<%Timeline,BRA-LF-1,Title%>"
+  },
+  "Packages": [
+    {
+      "LocalResourceKey": null,
+      "ID": 1,
+      "Title": "",
+      "ContractualArrangements": [
+        {
+          "SourceUniqueId": "BRA-1",
+          "Title": "Concession: Law 8.987/95",
+          "LocalResourceKey": "<%Timeline,BRA-CA-1,Title%>"
+        }
+      ],
+      "TenderProcess": null,
+      "OtherContractualArrangement": null,
+      "OtherTenderProcess": null
+    }
+  ],
+  "Threshold": {
+    "SourceUniqueId": "BRA-1",
+    "Title": "Qualification by Project",
+    "LocalResourceKey": "<%Timeline,BRA-TH-1,Title%>"
+  },
+  "OwnerOrganisation": {
+    "Id": 206,
+    "Value": "SEPPI"
+  },
+  "CurrentProjectStatus": {
+    "Id": 2,
+    "Value": "Project Definition"
+  },
+  "CurrentProjectStatusCustom": {
+    "Id": 1,
+    "Value": "Definition"
+  },
+  "Completion": 0.01,
+  "Created": "2025-06-18T18:05:54Z",
+  "Modified": "2025-10-08T16:05:11Z",
+  "ProjectEstimatedDueDate": "2025-06-18T18:05:53Z",
+  "EstimatedCapitalCost": 0.18199,
+  "OriginalCurrency": {
+    "Id": 27,
+    "Value": "BRL"
+  },
+  "OriginalCurrencyEstimatedCapitalCost": 1.0,
+  "ProjectProperties": {
+    "Reference": null,
+    "IsTimelineDefined": true,
+    "LanguagesTimeline": [
+      {
+        "Code": "en",
+        "Title": "English"
+      },
+      {
+        "Code": "por",
+        "Title": "Português"
+      }
+    ]
+  },
+  "PMLeaderEmail": "adminppi.source@presidencia.gov.br",
+  "PMLeaderFirstName": "Adminppi",
+  "PMLeaderLastName": "Source",
+  "PMLeaderOrganisation": "SEPPI",
+  "PMLeaderTelephone": "(empty)",
+  "GPSCoordinates": [
+    {
+      "address": "Humaitá, Amazonas",
+      "location": {
+        "x": "-63.0291141",
+        "y": "-7.5134958"
+      },
+      "score": 100.0,
+      "attributes": {
+        "ResultID": 2,
+        "Place_addr": "Humaitá, Amazonas",
+        "City": "Humaitá",
+        "Subregion": "",
+        "Region": "Amazonas"
+      }
+    },
+    {
+      "address": "Manicoré, Amazonas",
+      "location": {
+        "x": "-61.2997018",
+        "y": "-5.8130351"
+      },
+      "score": 100.0,
+      "attributes": {
+        "ResultID": 3,
+        "Place_addr": "Manicoré, Amazonas",
+        "City": "Manicoré",
+        "Subregion": "",
+        "Region": "Amazonas"
+      }
+    },
+    {
+      "address": "Colniza, Mato Grosso",
+      "location": {
+        "x": "-59.2274325",
+        "y": "-9.4504327"
+      },
+      "score": 100.0,
+      "attributes": {
+        "ResultID": 5,
+        "Place_addr": "Colniza, Mato Grosso",
+        "City": "Colniza",
+        "Subregion": "",
+        "Region": "Mato Grosso"
+      }
+    },
+    {
+      "address": "Novo Aripuanã, Amazonas",
+      "location": {
+        "x": "-60.3735444",
+        "y": "-5.1273245"
+      },
+      "score": 100.0,
+      "attributes": {
+        "ResultID": 4,
+        "Place_addr": "Novo Aripuanã, Amazonas",
+        "City": "Novo Aripuanã",
+        "Subregion": "",
+        "Region": "Amazonas"
+      }
+    },
+    {
+      "address": "Machadinho d'Oeste, Rondônia",
+      "location": {
+        "x": "-62.0071731",
+        "y": "-9.4269147"
+      },
+      "score": 100.0,
+      "attributes": {
+        "ResultID": 1,
+        "Place_addr": "Machadinho d'Oeste, Rondônia",
+        "City": "Machadinho d'Oeste",
+        "Subregion": "",
+        "Region": "Rondônia"
+      }
+    }
+  ]
+}

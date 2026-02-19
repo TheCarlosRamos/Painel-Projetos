@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "Estruturação de projeto de iluminação pública (IP) do município de Valparaíso de Goiás (GO). O objetivo da Parceria é modernizar cerca de 15 mil pontos do parque de IP da cidade adequando-os às normas técnicas vigentes, tendo como fonte de recursos a Contribuição para Iluminação Pública - COSIP.\n\nBenefícios previstos:\n\n1. Melhoria da segurança pública e da qualidade de vida dos mais de 198 mil habitantes;\n\n2. Modernização da iluminação de destaque dos monumentos municipais;\n\n3. Redução das emissões dos gases de efeito estufa; e\n\n4. Aumento dos investimentos e geração de emprego.\n\nA estruturação está sendo realizada pela consultoria Houer Concessões e pelo escritório Viana Adv., contratados pela CAIXA. O processo está sendo financiada pelo Município (10%) e pelo Fundo de Apoio à Estruturação e ao Desenvolvimento de Projetos de Concessão e Parcerias Público-Privadas – FEP CAIXA (90%), nos termos da Lei Federal nº 13.529/2017.\n\nO serviço técnico especializado contratado é composto pelas seguintes atividades:\n\na. Assessoramento técnico a ser prestado pela Caixa ao Ente;\n\nb. Consultoria técnica especializada para realização dos estudos de viabilidade e desenvolvimento dos documentos necessários para a licitação do Contrato de Concessão. abrangem os aspectos técnicos de engenharia, econômico-financeiro, jurídico e socioambiental na elaboração de projetos, laudos, pareceres, relatórios e informações nas seguintes etapas:\n\nAvaliação do Projeto - EM ANDAMENTO\n\nEstruturação do contrato; EM ANDAMENTO\n\nValidação Externa (Consulta Pública e Órgãos de Controle); e\n\nLicitação e Contratação.\n\nObservação: As datas de conclusão das etapas são previsões fornecidas pelas equipes técnicas e e"
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1341,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

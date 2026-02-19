@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "O serviço de voo panorâmico sobre as Cataratas do Iguaçu é realizado por meio de decolagens e pousos em heliporto privado, localizado em área externa ao Parque Nacional do Iguaçu.\nO serviço complementa a concessão da prestação dos serviços públicos de apoio à visitação, à conservação, à proteção e à gestão do Parque Nacional do Iguaçu em vigor. Para maiores informações acesso a página do projeto no PPI: https://ppi.gov.br/projetos/parque-nacional-do-iguacu-pr/\nO ICMBio abriu Consulta Publica por 30 dias para receber contribuições da sociedade, conforme Aviso publicado na Seção 3 do Diário Oficial da União de 16 de maio de 2024.\nO edital e demais documentos correlacionados poderão ser acessados no sítio eletrônico https://www.gov.br/icmbio/pt-br/acesso-a-informacao/editais-diversos/editais-diversos-2024-1.\nO prazo de recebimento das contribuições referentes à Consulta Pública foi prorrogado por 30 dias, a partir de 14 de junho de 2024, conforme Aviso publicado pelo ICMBio na Seção 3 do D.O.U. de 11 de junho de 2024."
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1290,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

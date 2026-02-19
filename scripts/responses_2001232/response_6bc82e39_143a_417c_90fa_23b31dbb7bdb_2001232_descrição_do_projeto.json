@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "A área de arrendamento STS53 será utilizada para armazenagem e movimentação portuária de cargas granéis, pelos tipos de navegação longo curso e cabotagem, no sentido de desembarque. O Terminal possuirá conexões rodoviária e ferroviária para a Região Metropolitana da Baixada Santista. O empreendimento será executado sobre terreno com estruturas existentes, podendo essas serem demolidas ou renovadas."
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1329,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "área VDC04 encontra-se com ocupação não operacional, sem contrato vigente, porém, tem sido utilizada pela CDP como estacionamento, cobertura para armazenagem de materiais, atendimento de demandas da RFB, além de área de descarte de materiais. A projeção é que a área se torne operacional movimentando manganês e fertilizantes, cargas operadas no Porto de Vila do Conde, que carecem de áreas para armazenagem.\n\nTrata-se de área com 32.357 m² e a expectativa é que em breve os fertilizantes desembarcados no complexo de Vila do Conde passem a atender também aos estados do Maranhão e Piauí."
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1329,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

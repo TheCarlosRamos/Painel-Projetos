@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "O edital completo, com todos os detalhes técnicos e financeiros do projeto, está disponível no site https://www.portaldecompras.sc.gov.br/#/pagina-listar-arquivos/56952\n\nData da entrega das propostas na [B3]: 15 de dezembro de 2025.\n\nExecução geral do projeto: 97,8% (julho/2025)."
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1037,
+  "SourceId": "2000726",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Project current status",
+    "Type": "TextMulti"
+  }
+}

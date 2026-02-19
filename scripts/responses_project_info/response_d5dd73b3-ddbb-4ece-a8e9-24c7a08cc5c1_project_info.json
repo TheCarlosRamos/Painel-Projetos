@@ -1,0 +1,148 @@
+{
+  "ProjectOrganizations": [
+    {
+      "Id": 206,
+      "Value": "SEPPI"
+    }
+  ],
+  "ProjectActivityStatus": {
+    "Value": true,
+    "SourceUniqueId": "DEF-1",
+    "Title": "Active",
+    "LocalResourceKey": "<%Labels,DEF-AS-1,Title%>"
+  },
+  "Guid": "d5dd73b3-ddbb-4ece-a8e9-24c7a08cc5c1",
+  "Name": "Iluminação Pública - São José dos Pinhais (PR)",
+  "Description": "A PPP de Ilumina&#231;&#227;o P&#250;blica representa um passo importante na busca cont&#237;nua das administra&#231;&#245;es municipais por melhorias significativas na qualidade de vida dos mais de 329 mil habitantes que ser&#227;o diretamente impactados pelo projeto.&#10;O projeto est&#225; sendo estruturado com recursos do Fundo de Estrutura&#231;&#227;o de Projetos (FEP/CAIXA). Al&#233;m disso, a estrutura&#231;&#227;o tamb&#233;m conta com o assessoramento da CAIXA e coordena&#231;&#227;o da Secretaria Especial do Programa de Parcerias e Investimentos (SEPPI).",
+  "Sector": {
+    "Id": 6,
+    "Value": "Urban Services"
+  },
+  "SubSector": {
+    "Id": 32,
+    "Value": "Street Lighting"
+  },
+  "Territories": [
+    {
+      "Id": 36,
+      "Value": "Brazil"
+    }
+  ],
+  "Locations": [
+    "Paraná",
+    "São José dos Pinhais"
+  ],
+  "TypeOfProject": [
+    "Refurbishment/Replacement"
+  ],
+  "IsPPP": true,
+  "IsUnsolicited": false,
+  "LegalFramework": {
+    "SourceUniqueId": "BRA-3",
+    "Title": "Municipal",
+    "LocalResourceKey": "<%Timeline,BRA-LF-3,Title%>"
+  },
+  "Packages": [
+    {
+      "LocalResourceKey": null,
+      "ID": 1,
+      "Title": null,
+      "ContractualArrangements": [
+        {
+          "SourceUniqueId": "BRA-2",
+          "Title": "PPP: Law 11.079/04",
+          "LocalResourceKey": "<%Timeline,BRA-CA-2,Title%>"
+        }
+      ],
+      "TenderProcess": {
+        "SourceUniqueId": "BRA-1",
+        "Title": "Competition",
+        "LocalResourceKey": "<%Timeline,BRA-TP-1,Title%>"
+      },
+      "OtherContractualArrangement": null,
+      "OtherTenderProcess": null
+    }
+  ],
+  "TechnicalSupport": {
+    "SourceUniqueId": "BRA-1",
+    "Title": "FEP",
+    "LocalResourceKey": "<%Timeline,BRA-TS-1,Title%>"
+  },
+  "Threshold": {
+    "SourceUniqueId": "BRA-2",
+    "Title": "Qualification by Policy",
+    "LocalResourceKey": "<%Timeline,BRA-TH-2,Title%>"
+  },
+  "OwnerOrganisation": {
+    "Id": 206,
+    "Value": "SEPPI"
+  },
+  "CurrentProjectStatus": {
+    "Id": 2,
+    "Value": "Project Definition"
+  },
+  "CurrentProjectStatusCustom": {
+    "Id": 1,
+    "Value": "Definition"
+  },
+  "Completion": 0.01,
+  "Created": "2025-03-18T15:27:00Z",
+  "Modified": "2026-02-03T18:01:49Z",
+  "ProjectEstimatedDueDate": "2025-03-18T15:27:00Z",
+  "EstimatedCapitalCost": 7612405.0,
+  "OriginalCurrency": {
+    "Id": 27,
+    "Value": "BRL"
+  },
+  "OriginalCurrencyEstimatedCapitalCost": 43252300.0,
+  "ProjectProperties": {
+    "Reference": null,
+    "IsTimelineDefined": true,
+    "LanguagesTimeline": [
+      {
+        "Code": "en",
+        "Title": "English"
+      },
+      {
+        "Code": "por",
+        "Title": "Português"
+      }
+    ],
+    "AdditionalFields": {}
+  },
+  "PMLeaderEmail": "adminppi.source@presidencia.gov.br",
+  "PMLeaderFirstName": "Adminppi",
+  "PMLeaderLastName": "Source",
+  "GPSCoordinates": [
+    {
+      "address": "PR",
+      "location": {
+        "x": "-51.616519840319",
+        "y": "-24.636114420615"
+      },
+      "score": 100.0,
+      "attributes": {
+        "ResultID": 1,
+        "Place_addr": "Paraná",
+        "City": "",
+        "Subregion": "",
+        "Region": "Paraná"
+      }
+    },
+    {
+      "address": "São José dos Pinhais, Paraná",
+      "location": {
+        "x": "-49.0889425",
+        "y": "-25.5326509"
+      },
+      "score": 100.0,
+      "attributes": {
+        "ResultID": 2,
+        "Place_addr": "São José dos Pinhais, Paraná",
+        "City": "São José dos Pinhais",
+        "Subregion": "",
+        "Region": "Paraná"
+      }
+    }
+  ]
+}

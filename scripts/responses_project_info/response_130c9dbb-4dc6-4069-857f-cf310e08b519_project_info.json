@@ -1,0 +1,164 @@
+{
+  "ProjectOrganizations": [
+    {
+      "Id": 206,
+      "Value": "SEPPI"
+    }
+  ],
+  "ProjectActivityStatus": {
+    "Value": true,
+    "SourceUniqueId": "DEF-1",
+    "Title": "Active",
+    "LocalResourceKey": "<%Labels,DEF-AS-1,Title%>"
+  },
+  "Guid": "130c9dbb-4dc6-4069-857f-cf310e08b519",
+  "Name": "Socioeducativo - Estado de Minas Gerais",
+  "Description": "Projeto de estrutura&#231;&#227;o de parceria p&#250;blico-privada para constru&#231;&#227;o, implanta&#231;&#227;o, opera&#231;&#227;o e manuten&#231;&#227;o de 2 (duas) unidades de atendimento socioeducativo no Estado de Minas Gerais, sendo uma unidade localizada no Munic&#237;pio de Betim e outra localizada no Munic&#237;pio de Santana do Para&#237;so.",
+  "Sector": {
+    "Id": 5,
+    "Value": "Social Infrastructure"
+  },
+  "SubSector": {
+    "Id": 16,
+    "Value": "School"
+  },
+  "Territories": [
+    {
+      "Id": 36,
+      "Value": "Brazil"
+    }
+  ],
+  "Locations": [
+    "Minas Gerais",
+    "Santana do Paraíso",
+    "Betim"
+  ],
+  "TypeOfProject": [
+    "New"
+  ],
+  "IsPPP": true,
+  "IsUnsolicited": false,
+  "LegalFramework": {
+    "SourceUniqueId": "BRA-2",
+    "Title": "State",
+    "LocalResourceKey": "<%Timeline,BRA-LF-2,Title%>"
+  },
+  "Packages": [
+    {
+      "LocalResourceKey": null,
+      "ID": 1,
+      "Title": null,
+      "ContractualArrangements": [
+        {
+          "SourceUniqueId": "BRA-2",
+          "Title": "PPP: Law 11.079/04",
+          "LocalResourceKey": "<%Timeline,BRA-CA-2,Title%>"
+        }
+      ],
+      "TenderProcess": {
+        "SourceUniqueId": "BRA-1",
+        "Title": "Competition",
+        "LocalResourceKey": "<%Timeline,BRA-TP-1,Title%>"
+      },
+      "OtherContractualArrangement": null,
+      "OtherTenderProcess": null
+    }
+  ],
+  "TechnicalSupport": {
+    "SourceUniqueId": "BRA-1",
+    "Title": "FEP",
+    "LocalResourceKey": "<%Timeline,BRA-TS-1,Title%>"
+  },
+  "Threshold": {
+    "SourceUniqueId": "BRA-2",
+    "Title": "Qualification by Policy",
+    "LocalResourceKey": "<%Timeline,BRA-TH-2,Title%>"
+  },
+  "OwnerOrganisation": {
+    "Id": 206,
+    "Value": "SEPPI"
+  },
+  "CurrentProjectStatus": {
+    "Id": 2,
+    "Value": "Project Definition"
+  },
+  "CurrentProjectStatusCustom": {
+    "Id": 1,
+    "Value": "Definition"
+  },
+  "Completion": 0.02,
+  "Created": "2025-03-18T13:44:51Z",
+  "Modified": "2025-11-07T13:21:15Z",
+  "ProjectEstimatedDueDate": "2025-03-18T13:44:51Z",
+  "EstimatedCapitalCost": 17453920.0,
+  "OriginalCurrency": {
+    "Id": 27,
+    "Value": "BRL"
+  },
+  "OriginalCurrencyEstimatedCapitalCost": 99170000.0,
+  "ProjectProperties": {
+    "Reference": null,
+    "IsTimelineDefined": true,
+    "LanguagesTimeline": [
+      {
+        "Code": "en",
+        "Title": "English"
+      },
+      {
+        "Code": "por",
+        "Title": "Português"
+      }
+    ],
+    "AdditionalFields": {}
+  },
+  "PMLeaderEmail": "adminppi.source@presidencia.gov.br",
+  "PMLeaderFirstName": "Adminppi",
+  "PMLeaderLastName": "Source",
+  "GPSCoordinates": [
+    {
+      "address": "Betim, Minas Gerais",
+      "location": {
+        "x": "-44.198692",
+        "y": "-19.967279"
+      },
+      "score": 100.0,
+      "attributes": {
+        "ResultID": 3,
+        "Place_addr": "Betim, Minas Gerais",
+        "City": "Betim",
+        "Subregion": "",
+        "Region": "Minas Gerais"
+      }
+    },
+    {
+      "address": "MG",
+      "location": {
+        "x": "-44.673411715857",
+        "y": "-18.456295229477"
+      },
+      "score": 100.0,
+      "attributes": {
+        "ResultID": 1,
+        "Place_addr": "Minas Gerais",
+        "City": "",
+        "Subregion": "",
+        "Region": "Minas Gerais"
+      }
+    },
+    {
+      "address": "Santana do Paraíso, Minas Gerais",
+      "location": {
+        "x": "-42.5476418",
+        "y": "-19.3656456"
+      },
+      "score": 100.0,
+      "attributes": {
+        "ResultID": 2,
+        "Place_addr": "Santana do Paraíso, Minas Gerais",
+        "City": "Santana do Paraíso",
+        "Subregion": "",
+        "Region": "Minas Gerais"
+      }
+    }
+  ]
+}

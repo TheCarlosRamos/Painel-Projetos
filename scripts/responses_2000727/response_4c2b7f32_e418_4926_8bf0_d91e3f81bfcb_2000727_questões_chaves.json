@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "Uma questão sensível para a viabilidade da operação da ferrovia é o Programa de Transição Energética Justa (TEJ), instituído pela Lei nº 14.299, de 5 de janeiro de 2022. O § 1º do art. 4º da referida lei informa que o TEJ tem o objetivo de preparar a região carbonífera do Estado de Santa Catarina para o provável encerramento, até 2040, da atividade de geração termelétrica a carvão mineral nacional sem abatimento da emissão de gás carbônico (CO2), com consequente finalização da exploração desse minério na região para esse fim, de forma tempestiva, responsável e sustentável."
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1059,
+  "SourceId": "2000727",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Project key issues",
+    "Type": "TextMulti"
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "ProjectOrganizations": [
+    {
+      "Id": 206,
+      "Value": "SEPPI"
+    }
+  ],
+  "ProjectActivityStatus": {
+    "Value": true,
+    "SourceUniqueId": "DEF-1",
+    "Title": "Active",
+    "LocalResourceKey": "<%Labels,DEF-AS-1,Title%>"
+  },
+  "Guid": "85f471ce-4876-403e-a401-9e0eedd5f358",
+  "Name": "Habitação para Locação Social - Campo Grande/MS",
+  "Description": "Projeto de estrutura&#231;&#227;o de PPP no setor de habita&#231;&#227;o para loca&#231;&#227;o social no Munic&#237;pio de Campo Grande/MS",
+  "Sector": {
+    "Id": 5,
+    "Value": "Social Infrastructure"
+  },
+  "SubSector": {
+    "Id": 11,
+    "Value": "Housing"
+  },
+  "Territories": [
+    {
+      "Id": 36,
+      "Value": "Brazil"
+    }
+  ],
+  "Locations": [
+    "Mato Grosso do Sul",
+    "Campo Grande"
+  ],
+  "TypeOfProject": [
+    "New"
+  ],
+  "IsPPP": true,
+  "IsUnsolicited": false,
+  "LegalFramework": {
+    "SourceUniqueId": "BRA-3",
+    "Title": "Municipal",
+    "LocalResourceKey": "<%Timeline,BRA-LF-3,Title%>"
+  },
+  "Packages": [
+    {
+      "LocalResourceKey": null,
+      "ID": 1,
+      "Title": null,
+      "ContractualArrangements": [
+        {
+          "SourceUniqueId": "BRA-2",
+          "Title": "PPP: Law 11.079/04",
+          "LocalResourceKey": "<%Timeline,BRA-CA-2,Title%>"
+        }
+      ],
+      "TenderProcess": {
+        "SourceUniqueId": "BRA-1",
+        "Title": "Competition",
+        "LocalResourceKey": "<%Timeline,BRA-TP-1,Title%>"
+      },
+      "OtherContractualArrangement": null,
+      "OtherTenderProcess": null
+    }
+  ],
+  "TechnicalSupport": {
+    "SourceUniqueId": "BRA-1",
+    "Title": "FEP",
+    "LocalResourceKey": "<%Timeline,BRA-TS-1,Title%>"
+  },
+  "Threshold": {
+    "SourceUniqueId": "BRA-2",
+    "Title": "Qualification by Policy",
+    "LocalResourceKey": "<%Timeline,BRA-TH-2,Title%>"
+  },
+  "OwnerOrganisation": {
+    "Id": 206,
+    "Value": "SEPPI"
+  },
+  "CurrentProjectStatus": {
+    "Id": 2,
+    "Value": "Project Definition"
+  },
+  "CurrentProjectStatusCustom": {
+    "Id": 1,
+    "Value": "Definition"
+  },
+  "Completion": 0.02,
+  "Created": "2025-03-18T13:51:48Z",
+  "Modified": "2025-11-07T20:32:31Z",
+  "ProjectEstimatedDueDate": "2025-03-18T13:51:48Z",
+  "EstimatedCapitalCost": 21648000.0,
+  "OriginalCurrency": {
+    "Id": 27,
+    "Value": "BRL"
+  },
+  "OriginalCurrencyEstimatedCapitalCost": 123000000.0,
+  "ProjectProperties": {
+    "Reference": null,
+    "IsTimelineDefined": true,
+    "LanguagesTimeline": [
+      {
+        "Code": "en",
+        "Title": "English"
+      },
+      {
+        "Code": "por",
+        "Title": "Português"
+      }
+    ],
+    "AdditionalFields": {}
+  },
+  "PMLeaderEmail": "adminppi.source@presidencia.gov.br",
+  "PMLeaderFirstName": "Adminppi",
+  "PMLeaderLastName": "Source",
+  "GPSCoordinates": [
+    {
+      "address": "Campo Grande, Mato Grosso do Sul",
+      "location": {
+        "x": "-54.6477573",
+        "y": "-20.4435311"
+      },
+      "score": 100.0,
+      "attributes": {
+        "ResultID": 2,
+        "Place_addr": "Campo Grande, Mato Grosso do Sul",
+        "City": "Campo Grande",
+        "Subregion": "",
+        "Region": "Mato Grosso do Sul"
+      }
+    },
+    {
+      "address": "MS",
+      "location": {
+        "x": "-54.845477241844",
+        "y": "-20.327418505414"
+      },
+      "score": 100.0,
+      "attributes": {
+        "ResultID": 1,
+        "Place_addr": "Mato Grosso do Sul",
+        "City": "",
+        "Subregion": "",
+        "Region": "Mato Grosso do Sul"
+      }
+    }
+  ]
+}

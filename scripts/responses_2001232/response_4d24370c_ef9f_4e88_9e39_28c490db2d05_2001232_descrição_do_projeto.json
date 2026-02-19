@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "O Projeto Caulim do Rio Capim localiza-se nos municípios de Ipixuna do Pará e São Domingos do Capim, estado do Pará, e corresponde aos processos minerários 812.869/1971 a 812.878/1971, totalizando 10.000 hectares divididos nos blocos Sul e Norte. Há infraestrutura básica disponível no local e o depósito encontra-se próximo a outro projeto de caulim.\nAs atividades de pesquisa foram desenvolvidas na década de 1970, quando foram perfurados poços de pesquisa e executados furos de sondagem pela CPRM; na reavaliação do depósito, em 2018, considerou-se 93 pontos de observação, abarcando poços de pesquisa, trincheiras e sondagens a trado e rotativa, totalizando 1.817,05 m.\nForam estimados valores de índice de alvura e rendimento para dois tipos de minério: caulim macio (baixo conteúdo de areia) e caulim arenoso. \nA estimativa de investimentos (CAPEX) para o projeto é de 2 bilhões de reais com a implantação de toda a estrutura para lavra, beneficiamento e transporte do minério da planta até o porto por meio de mineroduto, conforme relatório de avaliação econômica elaborado por consultoria contratada pela CPRM.\nO edital, seus anexos e mais informações estão disponíveis no sítio eletrônico da CPRM.\nO leilão deverá resultar nos seguintes valores de arrecadação: bônus de assinatura mínimo de R$ 500.000; prêmio de oportunidade 1, no valor de R$ 2,5 milhões; prêmio de oportunidade 2, no valor de R$ 7 milhões, a ser pago em até dez dias úteis contados da publicação da primeira concessão de lavra no Diário Oficial da União; e royalty de 1% sobre a receita bruta na fase de operação e produção.\nLicitação deserta nas sessões públicas de 4 de junho de 2024 e de 25 de março de 2025."
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1290,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

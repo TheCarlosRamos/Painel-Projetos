@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "O Projeto de Irrigação da Zona de Influência do Canal Adutor do Sertão Alagoano está localizado nos municípios de São José da Tapera e Senador Rui Palmeira, situados no semiárido de Alagoas. O projeto foi qualificado no âmbito do Programa de Parcerias de Investimentos PPI, juntamente com outros 3 projetos de irrigação, por meio da Resolução n° 306, de 25 de junho de 2024, referendada pelo Decreto nº 12.162, de 3 de setembro de 2024.\n\nEsse projeto abrange uma área de 9.500 hectares, tendo como objetivos principais: geração de emprego e renda nas áreas rurais, dinamização da economia local, ampliação da segurança alimentar e nutricional e melhoria dos índices de desenvolvimento socioeconômicos."
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1325,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

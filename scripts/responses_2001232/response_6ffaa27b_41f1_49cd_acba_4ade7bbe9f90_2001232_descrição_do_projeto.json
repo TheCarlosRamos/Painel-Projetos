@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "Estudos de alternativas de parcerias para o Hospital Universitário de Canoas/RS, Hospital Escola de Alta Complexidade, que atende aos munícipes de Canoas, bem como a mais de 150 cidades do Estado do RS.\n\nReferência no atendimento SUS para o Estado do RS, o HU de Canoas é reconhecido também por ser um hospital de ensino.\n\nO projeto incluirá ajustes e aprimoramentos da infraestrutura, assim como renovação do parque de equipamentos. Projeto inovador, pois além de ser bata branca pretende que os estudos apresentem solução para utilização dos leitos ociosos como receitas acessórias, incluirá as residências médica e demais, além dos projetos de pesquisa que estão em desenvolvimento na unidade.\n\nO Complexo Hospitalar do HU atende desde 2004 e possui um total de 546 leitos, sendo 80 leitos de UTI Adulto, UTI Pediátrica e Neonatal. É formado pelo prédio principal, que possui 11 (onze) pavimentos e por 3 (três) prédios anexos, totalizando 41.403m² (quarenta e um mil, quatrocentos e três metros quadrados) em área construída."
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1318,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

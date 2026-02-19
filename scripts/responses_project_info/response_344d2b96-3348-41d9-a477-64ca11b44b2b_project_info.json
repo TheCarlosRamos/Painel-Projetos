@@ -1,0 +1,150 @@
+{
+  "ProjectOrganizations": [
+    {
+      "Id": 206,
+      "Value": "SEPPI"
+    }
+  ],
+  "Guid": "344d2b96-3348-41d9-a477-64ca11b44b2b",
+  "Name": "Baixo Acara&#250;/CE",
+  "Description": "O per&#237;metro de irriga&#231;&#227;o Baixo Acara&#250; &#233; abastecido pelas &#225;guas do rio Acara&#250;, perenizado no trecho pelas &#225;guas dos a&#231;udes de Araras e Serrote.",
+  "Sector": {
+    "Id": 1,
+    "Value": "Water & Waste"
+  },
+  "SubSector": {
+    "Id": 29,
+    "Value": "Irrigation"
+  },
+  "Territories": [
+    {
+      "Id": 36,
+      "Value": "Brazil"
+    }
+  ],
+  "Locations": [
+    "Acaraú",
+    "Bela Cruz",
+    "Marco"
+  ],
+  "TypeOfProject": [
+    "New"
+  ],
+  "IsPPP": true,
+  "IsUnsolicited": false,
+  "LegalFramework": {
+    "SourceUniqueId": "BRA-1",
+    "Title": "Federal",
+    "LocalResourceKey": "<%Timeline,BRA-LF-1,Title%>"
+  },
+  "Packages": [
+    {
+      "LocalResourceKey": null,
+      "ID": 1,
+      "Title": "",
+      "ContractualArrangements": [
+        {
+          "SourceUniqueId": "BRA-1",
+          "Title": "Concession: Law 8.987/95",
+          "LocalResourceKey": "<%Timeline,BRA-CA-1,Title%>"
+        }
+      ],
+      "TenderProcess": null,
+      "OtherContractualArrangement": null,
+      "OtherTenderProcess": null
+    }
+  ],
+  "Threshold": {
+    "SourceUniqueId": "BRA-1",
+    "Title": "Qualification by Project",
+    "LocalResourceKey": "<%Timeline,BRA-TH-1,Title%>"
+  },
+  "OwnerOrganisation": {
+    "Id": 206,
+    "Value": "SEPPI"
+  },
+  "CurrentProjectStatus": {
+    "Id": 2,
+    "Value": "Project Definition"
+  },
+  "CurrentProjectStatusCustom": {
+    "Id": 1,
+    "Value": "Definition"
+  },
+  "Completion": 0.01,
+  "Created": "2025-06-23T19:16:30Z",
+  "Modified": "2026-01-14T13:45:32Z",
+  "ProjectEstimatedDueDate": "2025-06-23T19:16:28Z",
+  "EstimatedCapitalCost": 16901448.0,
+  "OriginalCurrency": {
+    "Id": 27,
+    "Value": "BRL"
+  },
+  "OriginalCurrencyEstimatedCapitalCost": 93000000.0,
+  "ProjectProperties": {
+    "Reference": null,
+    "IsTimelineDefined": true,
+    "LanguagesTimeline": [
+      {
+        "Code": "en",
+        "Title": "English"
+      },
+      {
+        "Code": "por",
+        "Title": "Português"
+      }
+    ]
+  },
+  "PMLeaderEmail": "adminppi.source@presidencia.gov.br",
+  "PMLeaderFirstName": "Adminppi",
+  "PMLeaderLastName": "Source",
+  "PMLeaderOrganisation": "SEPPI",
+  "PMLeaderTelephone": "(empty)",
+  "GPSCoordinates": [
+    {
+      "address": "Acaraú, Ceará",
+      "location": {
+        "x": "-40.1192981",
+        "y": "-2.8885375"
+      },
+      "score": 100.0,
+      "attributes": {
+        "ResultID": 1,
+        "Place_addr": "Acaraú, Ceará",
+        "City": "Acaraú",
+        "Subregion": "",
+        "Region": "Ceará"
+      }
+    },
+    {
+      "address": "Marco, Ceará",
+      "location": {
+        "x": "-40.1498831",
+        "y": "-3.12157"
+      },
+      "score": 100.0,
+      "attributes": {
+        "ResultID": 3,
+        "Place_addr": "Marco, Ceará",
+        "City": "Marco",
+        "Subregion": "",
+        "Region": "Ceará"
+      }
+    },
+    {
+      "address": "Bela Cruz, Ceará",
+      "location": {
+        "x": "-40.1694896",
+        "y": "-3.0565773"
+      },
+      "score": 100.0,
+      "attributes": {
+        "ResultID": 2,
+        "Place_addr": "Bela Cruz, Ceará",
+        "City": "Bela Cruz",
+        "Subregion": "",
+        "Region": "Ceará"
+      }
+    }
+  ]
+}

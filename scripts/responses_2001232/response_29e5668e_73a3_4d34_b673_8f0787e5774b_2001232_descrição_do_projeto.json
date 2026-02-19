@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "A Floresta Nacional (Flona) do Trairão foi criada pelo Decreto S/N, de 13 de fevereiro de 2006. Localiza-se no sudoeste do estado do Pará e ocupa uma área de 257.482 hectares, abrangendo parte dos municípios de Itaituba, Rurópolis e Trairão.  A zona de manejo florestal sustentável da Flona do Trairão possui área de 210.530 hectares.\nA concessão florestal é um instrumento de política pública regulamentado pela Lei nº 11.284/2006, voltado à gestão das florestas públicas por meio da prática do manejo florestal, realizada por instituições de natureza privada, com foco na implementação de ações sustentáveis, capazes de elevar o nível da atividade econômica nos municípios e estados onde estão presentes, com geração de emprego e renda para a população local.\nO manejo no âmbito da concessão florestal não atribui nenhum direito sobre a titularidade da floresta concedida. Os contratos de concessão permitem aos concessionários a exploração dos recursos dentro de limites estabelecidos e de acordo com o plano de manejo da unidade e a legislação vigente, mas os patrimônios continuam sendo da União, com a gestão e fiscalização da concessão de responsabilidade do poder público, por meio do Serviço Florestal Brasileiro (SFB).\nConforme a legislação que trata da gestão de florestas públicas, as licitações para concessão florestal deverão ser realizadas na modalidade concorrência e outorgadas a título oneroso, com o edital definindo as datas da entrega e abertura dos envelopes com as propostas técnica, de preço e de documentação de habilitação."
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1290,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

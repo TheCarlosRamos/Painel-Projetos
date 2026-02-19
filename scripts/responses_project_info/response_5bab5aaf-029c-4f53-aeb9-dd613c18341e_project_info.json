@@ -1,0 +1,152 @@
+{
+  "ProjectOrganizations": [
+    {
+      "Id": 206,
+      "Value": "SEPPI"
+    }
+  ],
+  "ProjectActivityStatus": {
+    "Value": true,
+    "SourceUniqueId": "DEF-1",
+    "Title": "Active",
+    "LocalResourceKey": "<%Labels,DEF-AS-1,Title%>"
+  },
+  "Guid": "5bab5aaf-029c-4f53-aeb9-dd613c18341e",
+  "Name": "Terminal Pesqueiro de Natal/RN",
+  "Description": "Atualmente, o TPP de Natal n&#227;o se encontra em opera&#231;&#227;o, e parte de seu cais &#233; utilizado, de forma prec&#225;ria, como local de reparo de embarca&#231;&#245;es. O terminal n&#227;o possui entrada independente, utilizando as instala&#231;&#245;es da CBTU para acesso. No &#226;mbito da estrutura&#231;&#227;o da concess&#227;o do TPP Natal, foi concebida junto &#224; CBTU solu&#231;&#227;o adequada a ser implantada pelo futuro concession&#225;rio.",
+  "Sector": {
+    "Id": 7,
+    "Value": "Other"
+  },
+  "SubSector": {
+    "Id": 41,
+    "Value": "Other"
+  },
+  "OtherSubsector": {
+    "Id": "55e538af-93b0-44d0-aca8-dbd7b7732051",
+    "Value": "Terminal Pesqueiro"
+  },
+  "Territories": [
+    {
+      "Id": 36,
+      "Value": "Brazil"
+    }
+  ],
+  "Locations": [
+    "Rio Grande do Norte",
+    "Natal"
+  ],
+  "TypeOfProject": [
+    "Refurbishment/Replacement"
+  ],
+  "IsPPP": true,
+  "IsUnsolicited": false,
+  "LegalFramework": {
+    "SourceUniqueId": "BRA-1",
+    "Title": "Federal",
+    "LocalResourceKey": "<%Timeline,BRA-LF-1,Title%>"
+  },
+  "Packages": [
+    {
+      "LocalResourceKey": null,
+      "ID": 1,
+      "Title": null,
+      "ContractualArrangements": [
+        {
+          "SourceUniqueId": "BRA-1",
+          "Title": "Concession: Law 8.987/95",
+          "LocalResourceKey": "<%Timeline,BRA-CA-1,Title%>"
+        }
+      ],
+      "TenderProcess": {
+        "SourceUniqueId": "BRA-1",
+        "Title": "Competition",
+        "LocalResourceKey": "<%Timeline,BRA-TP-1,Title%>"
+      },
+      "OtherContractualArrangement": null,
+      "OtherTenderProcess": null
+    }
+  ],
+  "TechnicalSupport": {
+    "SourceUniqueId": "BRA-5",
+    "Title": "Others (e.g. Banco do Brasil, PMI)",
+    "LocalResourceKey": "<%Timeline,BRA-TS-5,Title%>"
+  },
+  "Threshold": {
+    "SourceUniqueId": "BRA-1",
+    "Title": "Qualification by Project",
+    "LocalResourceKey": "<%Timeline,BRA-TH-1,Title%>"
+  },
+  "OwnerOrganisation": {
+    "Id": 206,
+    "Value": "SEPPI"
+  },
+  "CurrentProjectStatus": {
+    "Id": 6,
+    "Value": "Tender Process"
+  },
+  "CurrentProjectStatusCustom": {
+    "Id": 12,
+    "Value": "Tender"
+  },
+  "Completion": 0.23,
+  "Created": "2025-03-18T10:57:18Z",
+  "Modified": "2025-12-04T11:57:30Z",
+  "ProjectEstimatedDueDate": "2025-03-18T10:57:18Z",
+  "EstimatedCapitalCost": 2061356.0,
+  "OriginalCurrency": {
+    "Id": 27,
+    "Value": "BRL"
+  },
+  "OriginalCurrencyEstimatedCapitalCost": 11000000.0,
+  "ProjectProperties": {
+    "Reference": null,
+    "IsTimelineDefined": true,
+    "LanguagesTimeline": [
+      {
+        "Code": "en",
+        "Title": "English"
+      },
+      {
+        "Code": "por",
+        "Title": "Português"
+      }
+    ],
+    "AdditionalFields": {}
+  },
+  "PMLeaderEmail": "adminppi.source@presidencia.gov.br",
+  "PMLeaderFirstName": "Adminppi",
+  "PMLeaderLastName": "Source",
+  "GPSCoordinates": [
+    {
+      "address": "Natal, Rio Grande do Norte",
+      "location": {
+        "x": "-35.2103978",
+        "y": "-5.7945609"
+      },
+      "score": 100.0,
+      "attributes": {
+        "ResultID": 2,
+        "Place_addr": "Natal, Rio Grande do Norte",
+        "City": "Natal",
+        "Subregion": "",
+        "Region": "Rio Grande do Norte"
+      }
+    },
+    {
+      "address": "RN",
+      "location": {
+        "x": "-36.67338633262",
+        "y": "-5.839737962921"
+      },
+      "score": 100.0,
+      "attributes": {
+        "ResultID": 1,
+        "Place_addr": "Rio Grande do Norte",
+        "City": "",
+        "Subregion": "",
+        "Region": "Rio Grande do Norte"
+      }
+    }
+  ]
+}

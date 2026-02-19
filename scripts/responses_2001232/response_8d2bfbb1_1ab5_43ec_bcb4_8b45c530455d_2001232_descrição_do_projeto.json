@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "O Projeto de áreas do Centro de Instrução de Guerra na Selva (CIGS) tem como objetivo tornar o zoológico do CIGS um centro de referência em pesquisa, educação e conservação da fauna amazônica, além de oferecer uma experiência turística diferenciada aos visitantes.\nSua origem no ano de 1967 se deu em resposta à necessidade de proporcionar aos alunos do Curso de Operações na Selva uma vivência com elementos da fauna e flora amazônicas, fundamental para a formação dos guerreiros de selva. A partir de 1969, foi aberto ao público.\nO empreendimento turístico ZooCIGS, localizado na área urbana do município de Manaus, abrange uma área de 45.184.7 m² sob jurisdição do Exército Brasileiro, sendo 13.117 m² de área construída e o restante de mata nativa preservada.\nO zoológico, parceiro de órgãos de proteção ambiental, é a única área no estado do Amazonas habilitada a acolher os animais que não podem voltar à natureza, por motivos de saúde, segurança ou adaptação. O Exército Brasileiro se encarrega de acolher e cuidar dos animais até a sua morte natural, fornecendo alimentação, tratamento veterinário e bem-estar adequados.\nA proposta também possibilita desenvolver empreendimento de conservação da biodiversidade e geração de créditos de carbono em uma gleba pública de 1.152 km2  (115,2 mil hectares) administrada pelo Exército, localizada nas áreas rurais dos municípios de Manaus/AM e Rio Preto da Eva/AM, onde são realizadas atividades de instrução militar. O campo de instrução está localizado entre o Rio Puraquequara, o Rio Preto da Eva, a Rodovia AM-010 e Rio Amazonas."
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1335,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "Estruturação de projeto de iluminação pública (IP) do Consórcio Litoral Sul (BA). O objetivo da PPP é modernizar cerca de - pontos do parque de IP das cidades adequando-os às normas técnicas vigentes, tendo como fonte de recursos a Contribuição para o Custeio da Iluminação Pública - COSIP.\n\nBenefícios previstos:\n<ul>\n \t<li>Melhoria da segurança pública e viária;</li>\n \t<li>Redução do consumo de energia elétrica;</li>\n \t<li>Universalização do serviço de iluminação pública nos núcleos urbanos, vilas, distritos e povados;</li>\n \t<li>Modernização da iluminação de destaque dos monumentos municipais;</li>\n \t<li>Redução das emissões de gases de efeito estufa; e</li>\n \t<li>Aumento dos investimentos e geração de emprego.</li>\n</ul>\nA estruturação será realizada pelo Consultoria ACCENTURE/MOYSÉS &amp; PIRES, contratado pela CAIXA.\n\nO serviço técnico especializado contratado é composto pelas seguintes atividades:\n\nassessoramento técnico a ser prestado pela Caixa ao Ente.\n\nconsultoria técnica especializada para realização dos estudos de viabilidade e desenvolvimento dos documentos necessários para a licitação do Contrato de Concessão.\n\nOs serviços para Estruturação da Concessão abrangem os aspectos técnicos de engenharia, econômico-financeiro, jurídico e socioambiental na elaboração de projetos, laudos, pareceres, relatórios e informações nas seguintes etapas:\n\nEstudos Preliminares;\n\nEstudos de Viabilidade Técnica, Econômica e Ambiental (EVTEA);\n\nValidação Externa (Consulta Pública e Órgãos de Controle);\n\nLicitação e Contratação.\n\nObservações:\n\nAs datas de conclusão das etapas são previsões fornecidas pelas equipes técnicas e estão sujeitas à reavaliação conforme andamento do projeto."
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1341,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

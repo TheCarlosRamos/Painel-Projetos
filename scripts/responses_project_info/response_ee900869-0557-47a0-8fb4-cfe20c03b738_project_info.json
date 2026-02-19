@@ -1,0 +1,138 @@
+{
+  "ProjectOrganizations": [
+    {
+      "Id": 206,
+      "Value": "SEPPI"
+    }
+  ],
+  "Guid": "ee900869-0557-47a0-8fb4-cfe20c03b738",
+  "Name": "Manejo Sustent&#225;vel na Flona de Mulata/PA",
+  "Description": "Concess&#227;o florestal para a pr&#225;tica de manejo florestal sustent&#225;vel voltado &#224; explora&#231;&#227;o econ&#244;mica de produtos florestais madeireiros e n&#227;o madeireiros em Unidades de Manejo Florestal (UMF) na Floresta Nacional de Mulata/PA.",
+  "Sector": {
+    "Id": 7,
+    "Value": "Other"
+  },
+  "SubSector": {
+    "Id": 41,
+    "Value": "Other"
+  },
+  "OtherSubsector": {
+    "Id": "6bc49f22-a08a-43d0-802b-f50f73baa8fa",
+    "Value": "Manejo Florestal Sustentável"
+  },
+  "Territories": [
+    {
+      "Id": 36,
+      "Value": "Brazil"
+    }
+  ],
+  "Locations": [
+    "Alenquer",
+    "Monte Alegre"
+  ],
+  "TypeOfProject": [
+    "Refurbishment/Replacement"
+  ],
+  "IsPPP": true,
+  "IsUnsolicited": false,
+  "LegalFramework": {
+    "SourceUniqueId": "BRA-1",
+    "Title": "Federal",
+    "LocalResourceKey": "<%Timeline,BRA-LF-1,Title%>"
+  },
+  "Packages": [
+    {
+      "LocalResourceKey": null,
+      "ID": 1,
+      "Title": "",
+      "ContractualArrangements": [
+        {
+          "SourceUniqueId": "BRA-1",
+          "Title": "Concession: Law 8.987/95",
+          "LocalResourceKey": "<%Timeline,BRA-CA-1,Title%>"
+        }
+      ],
+      "TenderProcess": null,
+      "OtherContractualArrangement": null,
+      "OtherTenderProcess": null
+    }
+  ],
+  "Threshold": {
+    "SourceUniqueId": "BRA-1",
+    "Title": "Qualification by Project",
+    "LocalResourceKey": "<%Timeline,BRA-TH-1,Title%>"
+  },
+  "OwnerOrganisation": {
+    "Id": 206,
+    "Value": "SEPPI"
+  },
+  "CurrentProjectStatus": {
+    "Id": 2,
+    "Value": "Project Definition"
+  },
+  "CurrentProjectStatusCustom": {
+    "Id": 1,
+    "Value": "Definition"
+  },
+  "Completion": 0.01,
+  "Created": "2025-06-18T19:02:42Z",
+  "Modified": "2025-10-07T13:26:05Z",
+  "ProjectEstimatedDueDate": "2025-06-18T19:02:41Z",
+  "EstimatedCapitalCost": 0.18166,
+  "OriginalCurrency": {
+    "Id": 27,
+    "Value": "BRL"
+  },
+  "OriginalCurrencyEstimatedCapitalCost": 1.0,
+  "ProjectProperties": {
+    "Reference": null,
+    "IsTimelineDefined": true,
+    "LanguagesTimeline": [
+      {
+        "Code": "en",
+        "Title": "English"
+      },
+      {
+        "Code": "por",
+        "Title": "Português"
+      }
+    ]
+  },
+  "PMLeaderEmail": "adminppi.source@presidencia.gov.br",
+  "PMLeaderFirstName": "Adminppi",
+  "PMLeaderLastName": "Source",
+  "PMLeaderOrganisation": "SEPPI",
+  "PMLeaderTelephone": "(empty)",
+  "GPSCoordinates": [
+    {
+      "address": "Alenquer, Pará",
+      "location": {
+        "x": "-54.740772",
+        "y": "-1.9550054"
+      },
+      "score": 100.0,
+      "attributes": {
+        "ResultID": 1,
+        "Place_addr": "Alenquer, Pará",
+        "City": "Alenquer",
+        "Subregion": "",
+        "Region": "Pará"
+      }
+    },
+    {
+      "address": "Monte Alegre, Pará",
+      "location": {
+        "x": "-54.080777",
+        "y": "-1.9962049"
+      },
+      "score": 100.0,
+      "attributes": {
+        "ResultID": 2,
+        "Place_addr": "Monte Alegre, Pará",
+        "City": "Monte Alegre",
+        "Subregion": "",
+        "Region": "Pará"
+      }
+    }
+  ]
+}

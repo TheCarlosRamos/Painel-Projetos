@@ -1,0 +1,132 @@
+{
+  "ProjectOrganizations": [
+    {
+      "Id": 206,
+      "Value": "SEPPI"
+    }
+  ],
+  "Guid": "5a877046-b488-496a-870d-60bc12c7a02d",
+  "Name": "Restaura&#231;&#227;o Florestal no Parna da Serra do Pardo/PA",
+  "Description": "Concess&#227;o para manejo florestal sustent&#225;vel de 445,4 mil hectares, dos quais 26.706,93 hectares degradados da floresta s&#227;o destinados para restaura&#231;&#227;o florestal, recupera&#231;&#227;o de seus servi&#231;os ecossist&#234;micos e gera&#231;&#227;o de emprego e renda para a comunidade local.",
+  "Sector": {
+    "Id": 7,
+    "Value": "Other"
+  },
+  "SubSector": {
+    "Id": 41,
+    "Value": "Other"
+  },
+  "OtherSubsector": {
+    "Id": "9e494ce6-51b1-40a7-b6ef-c81cb3dfc87d",
+    "Value": "Restauração Florestal"
+  },
+  "Territories": [
+    {
+      "Id": 36,
+      "Value": "Brazil"
+    }
+  ],
+  "Locations": [
+    "Altamira",
+    "São Félix do Xingu"
+  ],
+  "TypeOfProject": [
+    "Refurbishment/Replacement"
+  ],
+  "IsPPP": true,
+  "IsUnsolicited": false,
+  "LegalFramework": {
+    "SourceUniqueId": "BRA-1",
+    "Title": "Federal",
+    "LocalResourceKey": "<%Timeline,BRA-LF-1,Title%>"
+  },
+  "Packages": [
+    {
+      "LocalResourceKey": null,
+      "ID": 1,
+      "Title": "",
+      "ContractualArrangements": null,
+      "TenderProcess": null,
+      "OtherContractualArrangement": null,
+      "OtherTenderProcess": null
+    }
+  ],
+  "Threshold": {
+    "SourceUniqueId": "BRA-1",
+    "Title": "Qualification by Project",
+    "LocalResourceKey": "<%Timeline,BRA-TH-1,Title%>"
+  },
+  "OwnerOrganisation": {
+    "Id": 206,
+    "Value": "SEPPI"
+  },
+  "CurrentProjectStatus": {
+    "Id": 2,
+    "Value": "Project Definition"
+  },
+  "CurrentProjectStatusCustom": {
+    "Id": 1,
+    "Value": "Definition"
+  },
+  "Completion": 0.01,
+  "Created": "2025-06-18T18:17:48Z",
+  "Modified": "2025-10-07T16:34:13Z",
+  "ProjectEstimatedDueDate": "2025-06-18T18:17:47Z",
+  "EstimatedCapitalCost": 0.181881,
+  "OriginalCurrency": {
+    "Id": 27,
+    "Value": "BRL"
+  },
+  "OriginalCurrencyEstimatedCapitalCost": 1.0,
+  "ProjectProperties": {
+    "Reference": null,
+    "IsTimelineDefined": true,
+    "LanguagesTimeline": [
+      {
+        "Code": "en",
+        "Title": "English"
+      },
+      {
+        "Code": "por",
+        "Title": "Português"
+      }
+    ]
+  },
+  "PMLeaderEmail": "adminppi.source@presidencia.gov.br",
+  "PMLeaderFirstName": "Adminppi",
+  "PMLeaderLastName": "Source",
+  "PMLeaderOrganisation": "SEPPI",
+  "PMLeaderTelephone": "(empty)",
+  "GPSCoordinates": [
+    {
+      "address": "Altamira, Pará",
+      "location": {
+        "x": "-52.2048342",
+        "y": "-3.1937118"
+      },
+      "score": 100.0,
+      "attributes": {
+        "ResultID": 1,
+        "Place_addr": "Altamira, Pará",
+        "City": "Altamira",
+        "Subregion": "",
+        "Region": "Pará"
+      }
+    },
+    {
+      "address": "São Félix do Xingu, Pará",
+      "location": {
+        "x": "-51.9729964",
+        "y": "-6.6485736"
+      },
+      "score": 100.0,
+      "attributes": {
+        "ResultID": 2,
+        "Place_addr": "São Félix do Xingu, Pará",
+        "City": "São Félix do Xingu",
+        "Subregion": "",
+        "Region": "Pará"
+      }
+    }
+  ]
+}

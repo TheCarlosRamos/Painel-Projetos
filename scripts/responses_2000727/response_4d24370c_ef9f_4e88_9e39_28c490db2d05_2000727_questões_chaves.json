@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "A SGB/CPRM quer qualificar novos ativos, mas não há alinhamento com MME.\nQuerem testar outros modelos de parceria; recomendação da SIPE é que façam sem qualificar no PPI (usem a parceria estratégica prevista na Lei das Estatais).\nProposta de revogar a qualificação dos projetos remanescentes (Caulim e Carvão) não avançou na SGB/CPRM."
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1004,
+  "SourceId": "2000727",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Project key issues",
+    "Type": "TextMulti"
+  }
+}

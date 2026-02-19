@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "Segundo dados da Agência Internacional de Energia, em 2013, o Brasil ocupava o 9º lugar no mundo em reservas de gás não-convencional, que é como são chamados os recursos de mais difícil acesso, que dependem de tecnologias mais modernas para sua obtenção (como, por exemplo, a técnica de fraturamento hidráulico – fracking).  Apesar do grande potencial para a exploração desses recursos no nosso país - com consequente geração de empregos e de renda -, ainda não foi possível quantificar e qualificar essas reservas.\n\nVisando superar essa lacuna, o Conselho Nacional de Política Energética (CNPE) estabeleceu a Política de Exploração e Produção de Petróleo e Gás Natural \"para maximizar a recuperação de recursos in situ dos reservatórios, a quantificação do potencial petrolífero nacional e a intensificação das atividades exploratórias no país, bem como a promoção da adequada monetização das reservas existentes, resguardados os interesses nacionais\" (Resolução nº 17/2017).\n\nComo parte dessa política, e partindo do entendimento de que é importante dar ampla publicidade sobre esses processos à sociedade brasileira, foi concebido o “<strong>Projeto Poço Transparente em reservatório de baixa permeabilidade de petróleo e gás natural</strong>”. O objetivo é conferir credibilidade e sustentabilidade ao processo, por meio da ampliação do conhecimento sobre as técnicas de fraturamento hidráulico e extensa divulgação de informações (geológicas, ambientais, técnicas) sobre o andamento dos projetos de exploração e produção de gás natural não convencional por meio dessa tecnologia.\n\nO Governo Federal entende que a exploração, desenvolvimento e produção dos recursos de gás não-convencionais são fundamentais para a diversificação no fornecimento e consequente redução do preço do gás natural, que representa um importante insumo para o setor industrial e que é essencial para o desenvolvimento econômico do país. Ao mesmo tempo, quer conduzir esse processo com a máxima transparência e diálogo com a população para prover a aquisição de informações (geológicas, ambientais, técnicas) e ampliar o conhecimento sobre o fraturamento hidráulico, tornando esses dados acessíveis para toda a sociedade."
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1285,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

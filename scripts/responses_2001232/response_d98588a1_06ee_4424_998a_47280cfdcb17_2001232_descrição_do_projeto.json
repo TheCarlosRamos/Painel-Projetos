@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "A área de arrendamento denominada <strong>RIG25 </strong>está localizada dentro da poligonal do Porto Organizado do Rio Grande/RS, possui aproximadamente 48.982 m², e será destinada à movimentação e armazenagem graneis líquidos, especialmente produtos petroquímicos.\n\nA área é classificada como <em>brownfield</em> uma vez que possui estruturas de operação. Dessa forma, o RIG25 possui em seu layout diversas construções e/ou equipamentos que necessitam de manutenção, reparos, trocas e reformas. Dentre os ativos operacionais, dispõe de 4 tanques localizados na área principal, cada um com capacidade nominal para 4.000 m³, e 1,6 tanques, cada um com capacidade nominal de 4.200 m³, localizados na área remota.\n\nO terminal portuário está estruturado para a realização de operações com navios, barcaças e caminhões tanque. Embora situado junto à linha férrea, não possui instalações para carregamento ou recebimento por este modal. O recebimento ou carregamento pelo acesso rodoviário ocorre apenas em situações de emergência, quando há impedimento do uso das estruturas fluviais, ou por motivo de manutenção das estruturas marítimas.\n\nO futuro arrendatário realizará investimentos mínimos para garantir a recuperação e modernização dos sistemas de armazenamento de produtos químicos, além da aquisição de equipamentos, bem como a modernização e recuperação de sistema de proteção contra incêndios e a impermeabilização dos diques dos tanques. Segue a relação de investimentos mínimos a serem realizados pelo futuro arrendatário: a) Adequação do Projeto Preventivo Contra Incêndio; b) Adequação dos tanques 94TQ01 E 94TQ02 para reduzir emissões de VOC; e c) Impermeabilização dos diques dos tanques.\n\nO empreendimento tem um prazo previsto de 25 (vinte e cinco) anos, com investimento total estimado em R$ 13,1 milhões. Por fim, informa-se que os estudos foram doados por empresa privada e estão sendo revisados pela Infra S.A.. Após a conclusão dessa etapa, será dado prosseguimento às demais fases do processo licitatório."
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1329,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "Novo Edital publicado em 17/06/2025.\n\nDocumentação do projeto: https://www.seguranca.mg.gov.br/index.php/component/sppagebuilder/page/360\n\nExecução geral do projeto: 99% (agosto/25).\n\nLeilão realizado em 03/09/2025.\n\nLicitante vencedor: Consórcio Soluções em Gestão Socioeducativa (SGS).\n\nhttps://www.agenciaminas.mg.gov.br/noticia/minas-e-o-primeiro-estado-do-brasil-a-firmar-parceria-publico-privada-para-modernizar-sistema-socioeducativo"
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1022,
+  "SourceId": "2000726",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Project current status",
+    "Type": "TextMulti"
+  }
+}

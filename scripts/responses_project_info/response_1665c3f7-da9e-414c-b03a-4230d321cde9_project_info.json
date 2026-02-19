@@ -1,0 +1,148 @@
+{
+  "ProjectOrganizations": [
+    {
+      "Id": 206,
+      "Value": "SEPPI"
+    }
+  ],
+  "ProjectActivityStatus": {
+    "Value": true,
+    "SourceUniqueId": "DEF-1",
+    "Title": "Active",
+    "LocalResourceKey": "<%Labels,DEF-AS-1,Title%>"
+  },
+  "Guid": "1665c3f7-da9e-414c-b03a-4230d321cde9",
+  "Name": "Iluminação Pública - Nova Friburgo (RJ)",
+  "Description": "A PPP de Ilumina&#231;&#227;o P&#250;blica representa um passo importante na busca cont&#237;nua das administra&#231;&#245;es municipais por melhorias significativas na qualidade de vida dos mais de 189 mil habitantes que ser&#227;o diretamente impactados pelo projeto.&#10;O projeto est&#225; sendo estruturado com recursos da CAIXA. Al&#233;m disso, a estrutura&#231;&#227;o tamb&#233;m conta com o assessoramento de consultoria externa e da CAIXA, em coordena&#231;&#227;o da Secretaria Especial do Programa de Parcerias e Investimentos (SEPPI).",
+  "Sector": {
+    "Id": 6,
+    "Value": "Urban Services"
+  },
+  "SubSector": {
+    "Id": 32,
+    "Value": "Street Lighting"
+  },
+  "Territories": [
+    {
+      "Id": 36,
+      "Value": "Brazil"
+    }
+  ],
+  "Locations": [
+    "Rio de Janeiro",
+    "Nova Friburgo"
+  ],
+  "TypeOfProject": [
+    "Refurbishment/Replacement"
+  ],
+  "IsPPP": true,
+  "IsUnsolicited": false,
+  "LegalFramework": {
+    "SourceUniqueId": "BRA-3",
+    "Title": "Municipal",
+    "LocalResourceKey": "<%Timeline,BRA-LF-3,Title%>"
+  },
+  "Packages": [
+    {
+      "LocalResourceKey": null,
+      "ID": 1,
+      "Title": null,
+      "ContractualArrangements": [
+        {
+          "SourceUniqueId": "BRA-2",
+          "Title": "PPP: Law 11.079/04",
+          "LocalResourceKey": "<%Timeline,BRA-CA-2,Title%>"
+        }
+      ],
+      "TenderProcess": {
+        "SourceUniqueId": "BRA-1",
+        "Title": "Competition",
+        "LocalResourceKey": "<%Timeline,BRA-TP-1,Title%>"
+      },
+      "OtherContractualArrangement": null,
+      "OtherTenderProcess": null
+    }
+  ],
+  "TechnicalSupport": {
+    "SourceUniqueId": "BRA-1",
+    "Title": "FEP",
+    "LocalResourceKey": "<%Timeline,BRA-TS-1,Title%>"
+  },
+  "Threshold": {
+    "SourceUniqueId": "BRA-2",
+    "Title": "Qualification by Policy",
+    "LocalResourceKey": "<%Timeline,BRA-TH-2,Title%>"
+  },
+  "OwnerOrganisation": {
+    "Id": 206,
+    "Value": "SEPPI"
+  },
+  "CurrentProjectStatus": {
+    "Id": 2,
+    "Value": "Project Definition"
+  },
+  "CurrentProjectStatusCustom": {
+    "Id": 1,
+    "Value": "Definition"
+  },
+  "Completion": 0.01,
+  "Created": "2025-03-18T14:16:49Z",
+  "Modified": "2025-11-07T20:50:40Z",
+  "ProjectEstimatedDueDate": "2025-03-18T14:16:49Z",
+  "EstimatedCapitalCost": 5757066.0,
+  "OriginalCurrency": {
+    "Id": 27,
+    "Value": "BRL"
+  },
+  "OriginalCurrencyEstimatedCapitalCost": 32710600.0,
+  "ProjectProperties": {
+    "Reference": null,
+    "IsTimelineDefined": true,
+    "LanguagesTimeline": [
+      {
+        "Code": "en",
+        "Title": "English"
+      },
+      {
+        "Code": "por",
+        "Title": "Português"
+      }
+    ],
+    "AdditionalFields": {}
+  },
+  "PMLeaderEmail": "adminppi.source@presidencia.gov.br",
+  "PMLeaderFirstName": "Adminppi",
+  "PMLeaderLastName": "Source",
+  "GPSCoordinates": [
+    {
+      "address": "Rio de Janeiro",
+      "location": {
+        "x": "-43.1789159",
+        "y": "-22.9014475"
+      },
+      "score": 100.0,
+      "attributes": {
+        "ResultID": 1,
+        "Place_addr": "Rio de Janeiro",
+        "City": "Rio de Janeiro",
+        "Subregion": "",
+        "Region": "Rio de Janeiro"
+      }
+    },
+    {
+      "address": "Nova Friburgo, Rio de Janeiro",
+      "location": {
+        "x": "-42.5345547",
+        "y": "-22.2891837"
+      },
+      "score": 100.0,
+      "attributes": {
+        "ResultID": 2,
+        "Place_addr": "Nova Friburgo, Rio de Janeiro",
+        "City": "Nova Friburgo",
+        "Subregion": "",
+        "Region": "Rio de Janeiro"
+      }
+    }
+  ]
+}

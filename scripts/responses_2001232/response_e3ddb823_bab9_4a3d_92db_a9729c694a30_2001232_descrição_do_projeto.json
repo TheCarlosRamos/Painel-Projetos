@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "A BR-060/153/262/DF/GO/MG, no trecho entre Brasília/DF, Fronteira/MG e Betim/MG, foi concedida à CONCEBRA em leilão ocorrido em dezembro/2013. Em abril de 2020, a CONCEBRA protocolou o Requerimento de Adesão ao Processo de Relicitação, que resultou na qualificação no PPI, para fins de relicitação, por meio da Resolução nº 191, de 25 de agosto de 2021, do Conselho do Programa de Parcerias de Investimentos da Presidência da República, convertida no Decreto nº 10.864, de 19 de novembro de 2021.\n\nPosteriormente, durante a realização dos estudos de viabilidade da rodovia, foi tomada a decisão de subdividir o projeto em 3 trechos a serem concedidos separadamente:\n\nBR-153/060 entre Goiânia/GO e o Distrito Federal, a ser concedido juntamente com o trecho da BR-040 de Cristalina/GO até o Distrito Federal, denominado Rota Pequi.\nBR-153/GO/MG, entre Goiânia/GO e Fronteira/MG e BR-262, do entroncamento com a BR-153 até Uberaba/MG, denominado Rota Sertaneja.\nBR-262/MG, entre Uberaba/MG e Betim/MG, denominado Rota Zebu.\n\n​A Rota Sertaneja é composta por trechos da BR-153 e BR-262. A BR-153, conhecida como Rodovia Transbrasiliana, corta o país de norte a sul, pelo seu interior. O trecho a ser concedido liga Goiânia/GO à divisa de Minas Gerais e São Paulo, cortando a região do Triângulo Mineiro. Já o trecho a ser concedido da BR-262 vai do entroncamento com a BR-153 até a cidade de Uberaba/MG, onde se encontra com a Rota Zebu, concessão que fará a ligação entre Uberaba/MG e Betim/MG, na região metropolitana de Belo Horizonte/MG.\n\nO leilão foi vencido pela Way Concessões, com desconto de 24,8% sobre a tarifa básica de pedágio."
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1320,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

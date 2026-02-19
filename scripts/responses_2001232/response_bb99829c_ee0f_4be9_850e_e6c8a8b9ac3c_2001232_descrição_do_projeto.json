@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "O Departamento Municipal de Água e Esgotos (DMAE) é o órgão responsável pela captação, tratamento e distribuição de água, bem como pela coleta e tratamento do esgoto sanitário (cloacal) de Porto Alegre. Trata-se de uma autarquia municipal vinculada à Secretaria de Infraestrutura e Mobilidade Urbana (SMIM) que foi criada em 1961 pela prefeitura da capital gaúcha. Em 2021, o DMAE contava com cerca de 1.499 funcionários e sua receita operacional total correspondeu a R$ 752 milhões, com índice de evasão da receita de 22,5%.\nPorto Alegre tem uma área de 496.682 km² e uma população de aproximadamente 1,3 milhão de habitantes, o que corresponde a 13% da população do estado do Rio Grande do Sul. Tem 710.601 economias ativas e 4.180 km de extensão de rede de abastecimento de água e 2.033 km de esgoto. O índice de abastecimento com água tratada no município é de 100% e o de coleta de esgoto é de 63,85% (separador absoluto), onde 52,7 do total de esgoto é tratado.\nO projeto de desestatização, liderado pelo BNDES, contempla a concessão parcial dos serviços de abastecimento de água e esgotamento sanitário de toda população do município. Onde o DMAE permanece responsável pela produção a tratamento de água.\nOs objetivos primários do projeto são melhorar a qualidade dos serviços prestados, incrementar a disponibilidade de infraestrutura adequada, racionalizar gastos públicos, aumentar a arrecadação, e promover mais eficiência na gestão de patrimônio imobiliário público, fazendo os investimentos necessários para alcançar a demanda de seus consumidores. Para isso, o projeto busca atrair um parceiro privado, por meio de processo competitivo, eficiente e transparente."
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1326,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

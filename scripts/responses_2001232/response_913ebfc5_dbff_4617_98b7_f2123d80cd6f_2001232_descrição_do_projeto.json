@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "Arrendamento de terminal portuário com área de 43.279 m² dedicado à movimentação e armazenagem de soja, farelo de soja, milho, açúcar, trigo, malte e cevada, principalmente.\n\nOs granéis sólidos vegetais, representados principalmente pela soja, farelo de soja, milho, açúcar, trigo, malte e cevada, são a principal carga movimentada no complexo portuário, sendo o Porto de Paranaguá um dos maiores portos graneleiros da América Latina. De acordo com informações do Plano Mestre, no ano de 2016 foram exportados 7,9 milhões de toneladas de soja em grãos, 4,5 milhões de toneladas de farelo de soja e 2,5 milhões de toneladas de milho, totalizando cerca de 15 milhões de toneladas, com destino principalmente para a Europa e a Ásia.\n\nHá a expectativa que o novo terminal alcance ao final do contrato a capacidade estática de 191 mil t.\n\nO projeto foi qualificado no PPI por meio da Resolução <a href=\"https://www.in.gov.br/en/web/dou/-/resolucao-n-172-de-27-de-abril-de-2021-320355571\" target=\"_blank\" rel=\"noopener\">CPPI nº 172, de 27 de abril de 2021</a>, que deu origem ao <a href=\"https://www.in.gov.br/en/web/dou/-/decreto-n-10.743-de-8-de-julho-de-2021-330969586\" target=\"_blank\" rel=\"noopener\">Decreto nº 10.743, de 08 de julho de 2021</a>."
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1329,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

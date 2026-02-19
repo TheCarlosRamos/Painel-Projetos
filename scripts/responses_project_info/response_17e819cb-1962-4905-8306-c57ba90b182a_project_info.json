@@ -1,0 +1,122 @@
+{
+  "ProjectOrganizations": [
+    {
+      "Id": 206,
+      "Value": "SEPPI"
+    }
+  ],
+  "Guid": "17e819cb-1962-4905-8306-c57ba90b182a",
+  "Name": "Barragem de Morrinhos (DNOCS)",
+  "Description": "A definir",
+  "Sector": {
+    "Id": 1,
+    "Value": "Water & Waste"
+  },
+  "SubSector": {
+    "Id": 46,
+    "Value": "Other Water & Waste"
+  },
+  "OtherSubsector": {
+    "Id": "0e980230-755c-4847-b8a2-43d7b600fc1f",
+    "Value": "dam"
+  },
+  "Territories": [
+    {
+      "Id": 36,
+      "Value": "Brazil"
+    }
+  ],
+  "Locations": [
+    "Vitória da Conquista",
+    "Jequié"
+  ],
+  "TypeOfProject": [
+    "Refurbishment/Replacement"
+  ],
+  "IsPPP": true,
+  "IsUnsolicited": false,
+  "Packages": [
+    {
+      "LocalResourceKey": null,
+      "ID": 1,
+      "Title": "",
+      "ContractualArrangements": null,
+      "TenderProcess": null,
+      "OtherContractualArrangement": null,
+      "OtherTenderProcess": null
+    }
+  ],
+  "OwnerOrganisation": {
+    "Id": 206,
+    "Value": "SEPPI"
+  },
+  "CurrentProjectStatus": {
+    "Id": 2,
+    "Value": "Project Definition"
+  },
+  "CurrentProjectStatusCustom": {
+    "Id": 1,
+    "Value": "Definition"
+  },
+  "Completion": 0.0,
+  "Created": "2025-06-18T20:18:16Z",
+  "Modified": "2025-08-01T06:52:07Z",
+  "ProjectEstimatedDueDate": "2025-06-18T20:18:14Z",
+  "EstimatedCapitalCost": 0.181808,
+  "OriginalCurrency": {
+    "Id": 27,
+    "Value": "BRL"
+  },
+  "OriginalCurrencyEstimatedCapitalCost": 1.0,
+  "ProjectProperties": {
+    "Reference": null,
+    "IsTimelineDefined": false,
+    "LanguagesTimeline": [
+      {
+        "Code": "en",
+        "Title": "English"
+      },
+      {
+        "Code": "por",
+        "Title": "Português"
+      }
+    ]
+  },
+  "PMLeaderEmail": "adminppi.source@presidencia.gov.br",
+  "PMLeaderFirstName": "Adminppi",
+  "PMLeaderLastName": "Source",
+  "PMLeaderOrganisation": "SEPPI",
+  "PMLeaderTelephone": "(empty)",
+  "GPSCoordinates": [
+    {
+      "address": "Jequié, Bahia",
+      "location": {
+        "x": "-40.0916162",
+        "y": "-13.8551593"
+      },
+      "score": 100.0,
+      "attributes": {
+        "ResultID": 2,
+        "Place_addr": "Jequié, Bahia",
+        "City": "Jequié",
+        "Subregion": "",
+        "Region": "Bahia"
+      }
+    },
+    {
+      "address": "Vitória da Conquista, Bahia",
+      "location": {
+        "x": "-40.8371991",
+        "y": "-14.8649658"
+      },
+      "score": 100.0,
+      "attributes": {
+        "ResultID": 1,
+        "Place_addr": "Vitória da Conquista, Bahia",
+        "City": "Vitória da Conquista",
+        "Subregion": "",
+        "Region": "Bahia"
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "Os TPPs - localizados em Aracaju (SE); Belém (PA); Cananéia (SP); Manaus (AM); Natal (RN); Santos (SP) e Vitória (ES) - foram qualificados no PPI por meio dos Decretos nº 10.383/2020 e 10.442/2020, além de Cabedelo (já concedido – leilão em 28/01/21 e Contrato assinado em 29/04/2021).\nhttps://www.gov.br/mpa/pt-br/assuntos/fomento/terminais-pesqueiros-publicos-tpps/editais-e-licitacoes/estudo"
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1290,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

@@ -1,0 +1,351 @@
+{
+  "ProjectOrganizations": [
+    {
+      "Id": 206,
+      "Value": "SEPPI"
+    }
+  ],
+  "Guid": "ad90c00e-f42d-4417-b3ee-eba9b77c326a",
+  "Name": "Cons&#243;rcio CONSUD",
+  "Description": "A concess&#227;o do servi&#231;o de manejo de RSU, no &#226;mbito do Cons&#243;rcio Intermunicipal de Sa&#250;de do Sudoeste - CONSUD/PR, representa um passo importante na busca dos 20 munic&#237;pios integrantes do projeto por melhorias significativas no manejo dos res&#237;duos s&#243;lidos urbanos produzidos pelos mais de 304 mil habitantes que ser&#227;o diretamente impactados pelo projeto.",
+  "Sector": {
+    "Id": 1,
+    "Value": "Water & Waste"
+  },
+  "SubSector": {
+    "Id": 1,
+    "Value": "Solid Waste Facility"
+  },
+  "Territories": [
+    {
+      "Id": 36,
+      "Value": "Brazil"
+    }
+  ],
+  "Locations": [
+    "Barracão",
+    "Ampére",
+    "Bela Vista da Caroba",
+    "Boa Esperança do Iguaçu",
+    "Bom Jesus do Sul",
+    "Capanema",
+    "Dois Vizinhos",
+    "Enéas Marques",
+    "Flor da Serra do Sul",
+    "Francisco Beltrão",
+    "Manfrinópolis",
+    "Marmeleiro",
+    "Nova Prata do Iguaçu",
+    "Pérola d'Oeste",
+    "Pinhal de São Bento"
+  ],
+  "TypeOfProject": [
+    "New"
+  ],
+  "IsPPP": true,
+  "IsUnsolicited": false,
+  "LegalFramework": {
+    "SourceUniqueId": "BRA-3",
+    "Title": "Municipal",
+    "LocalResourceKey": "<%Timeline,BRA-LF-3,Title%>"
+  },
+  "Packages": [
+    {
+      "LocalResourceKey": null,
+      "ID": 1,
+      "Title": "",
+      "ContractualArrangements": [
+        {
+          "SourceUniqueId": "BRA-2",
+          "Title": "PPP: Law 11.079/04",
+          "LocalResourceKey": "<%Timeline,BRA-CA-2,Title%>"
+        }
+      ],
+      "TenderProcess": {
+        "SourceUniqueId": "BRA-1",
+        "Title": "Competition",
+        "LocalResourceKey": "<%Timeline,BRA-TP-1,Title%>"
+      },
+      "OtherContractualArrangement": null,
+      "OtherTenderProcess": null
+    }
+  ],
+  "TechnicalSupport": {
+    "SourceUniqueId": "BRA-1",
+    "Title": "FEP",
+    "LocalResourceKey": "<%Timeline,BRA-TS-1,Title%>"
+  },
+  "Threshold": {
+    "SourceUniqueId": "BRA-2",
+    "Title": "Qualification by Policy",
+    "LocalResourceKey": "<%Timeline,BRA-TH-2,Title%>"
+  },
+  "OwnerOrganisation": {
+    "Id": 206,
+    "Value": "SEPPI"
+  },
+  "CurrentProjectStatus": {
+    "Id": 2,
+    "Value": "Project Definition"
+  },
+  "CurrentProjectStatusCustom": {
+    "Id": 1,
+    "Value": "Definition"
+  },
+  "Completion": 0.03,
+  "Created": "2025-06-17T12:32:46Z",
+  "Modified": "2025-09-30T13:30:22Z",
+  "ProjectEstimatedDueDate": "2025-06-17T12:32:44Z",
+  "EstimatedCapitalCost": 16520793.88519,
+  "OriginalCurrency": {
+    "Id": 27,
+    "Value": "BRL"
+  },
+  "OriginalCurrencyEstimatedCapitalCost": 90814010.0,
+  "ProjectProperties": {
+    "Reference": null,
+    "IsTimelineDefined": true,
+    "LanguagesTimeline": [
+      {
+        "Code": "en",
+        "Title": "English"
+      },
+      {
+        "Code": "por",
+        "Title": "Português"
+      }
+    ]
+  },
+  "PMLeaderEmail": "adminppi.source@presidencia.gov.br",
+  "PMLeaderFirstName": "Adminppi",
+  "PMLeaderLastName": "Source",
+  "PMLeaderOrganisation": "SEPPI",
+  "PMLeaderTelephone": "(empty)",
+  "GPSCoordinates": [
+    {
+      "address": "Ampére, Paraná",
+      "location": {
+        "x": "-53.4711191",
+        "y": "-25.9168878"
+      },
+      "score": 100.0,
+      "attributes": {
+        "ResultID": 2,
+        "Place_addr": "Ampére, Paraná",
+        "City": "Ampére",
+        "Subregion": "",
+        "Region": "Paraná"
+      }
+    },
+    {
+      "address": "Barracão, Paraná",
+      "location": {
+        "x": "-53.6360922",
+        "y": "-26.2533376"
+      },
+      "score": 100.0,
+      "attributes": {
+        "ResultID": 1,
+        "Place_addr": "Barracão, Paraná",
+        "City": "Barracão",
+        "Subregion": "",
+        "Region": "Paraná"
+      }
+    },
+    {
+      "address": "Capanema, Pará",
+      "location": {
+        "x": "-47.1809146",
+        "y": "-1.1991117"
+      },
+      "score": 100.0,
+      "attributes": {
+        "ResultID": 6,
+        "Place_addr": "Capanema, Pará",
+        "City": "Capanema",
+        "Subregion": "",
+        "Region": "Pará"
+      }
+    },
+    {
+      "address": "Dois Vizinhos, Paraná",
+      "location": {
+        "x": "-53.0585879",
+        "y": "-25.7342506"
+      },
+      "score": 100.0,
+      "attributes": {
+        "ResultID": 7,
+        "Place_addr": "Dois Vizinhos, Paraná",
+        "City": "Dois Vizinhos",
+        "Subregion": "",
+        "Region": "Paraná"
+      }
+    },
+    {
+      "address": "Enéas Marques, Paraná",
+      "location": {
+        "x": "-53.1631491",
+        "y": "-25.9429583"
+      },
+      "score": 100.0,
+      "attributes": {
+        "ResultID": 8,
+        "Place_addr": "Enéas Marques, Paraná",
+        "City": "Enéas Marques",
+        "Subregion": "",
+        "Region": "Paraná"
+      }
+    },
+    {
+      "address": "Bom Jesus do Sul, Paraná",
+      "location": {
+        "x": "-53.5998032",
+        "y": "-26.1925513"
+      },
+      "score": 100.0,
+      "attributes": {
+        "ResultID": 5,
+        "Place_addr": "Bom Jesus do Sul, Paraná",
+        "City": "Bom Jesus do Sul",
+        "Subregion": "",
+        "Region": "Paraná"
+      }
+    },
+    {
+      "address": "Bela Vista da Caroba, Paraná",
+      "location": {
+        "x": "-53.6671091",
+        "y": "-25.8774134"
+      },
+      "score": 100.0,
+      "attributes": {
+        "ResultID": 3,
+        "Place_addr": "Bela Vista da Caroba, Paraná",
+        "City": "Bela Vista da Caroba",
+        "Subregion": "",
+        "Region": "Paraná"
+      }
+    },
+    {
+      "address": "Boa Esperança do Iguaçu, Paraná",
+      "location": {
+        "x": "-53.2190753",
+        "y": "-25.6348184"
+      },
+      "score": 100.0,
+      "attributes": {
+        "ResultID": 4,
+        "Place_addr": "Boa Esperança do Iguaçu, Paraná",
+        "City": "Boa Esperança do Iguaçu",
+        "Subregion": "",
+        "Region": "Paraná"
+      }
+    },
+    {
+      "address": "Manfrinópolis, Paraná",
+      "location": {
+        "x": "-53.3114712",
+        "y": "-26.1443473"
+      },
+      "score": 100.0,
+      "attributes": {
+        "ResultID": 11,
+        "Place_addr": "Manfrinópolis, Paraná",
+        "City": "Manfrinópolis",
+        "Subregion": "",
+        "Region": "Paraná"
+      }
+    },
+    {
+      "address": "Marmeleiro, Paraná",
+      "location": {
+        "x": "-53.0281179",
+        "y": "-26.1500089"
+      },
+      "score": 100.0,
+      "attributes": {
+        "ResultID": 12,
+        "Place_addr": "Marmeleiro, Paraná",
+        "City": "Marmeleiro",
+        "Subregion": "",
+        "Region": "Paraná"
+      }
+    },
+    {
+      "address": "Francisco Beltrão, Paraná",
+      "location": {
+        "x": "-53.0529266",
+        "y": "-26.0781906"
+      },
+      "score": 100.0,
+      "attributes": {
+        "ResultID": 10,
+        "Place_addr": "Francisco Beltrão, Paraná",
+        "City": "Francisco Beltrão",
+        "Subregion": "",
+        "Region": "Paraná"
+      }
+    },
+    {
+      "address": "Flor da Serra do Sul, Paraná",
+      "location": {
+        "x": "-53.308746",
+        "y": "-26.2579293"
+      },
+      "score": 100.0,
+      "attributes": {
+        "ResultID": 9,
+        "Place_addr": "Flor da Serra do Sul, Paraná",
+        "City": "Flor da Serra do Sul",
+        "Subregion": "",
+        "Region": "Paraná"
+      }
+    },
+    {
+      "address": "Pérola d'Oeste, Paraná",
+      "location": {
+        "x": "-53.7414069",
+        "y": "-25.8256864"
+      },
+      "score": 100.0,
+      "attributes": {
+        "ResultID": 14,
+        "Place_addr": "Pérola d'Oeste, Paraná",
+        "City": "Pérola d'Oeste",
+        "Subregion": "",
+        "Region": "Paraná"
+      }
+    },
+    {
+      "address": "Nova Prata do Iguaçu, Paraná",
+      "location": {
+        "x": "-53.3459777",
+        "y": "-25.626311"
+      },
+      "score": 100.0,
+      "attributes": {
+        "ResultID": 13,
+        "Place_addr": "Nova Prata do Iguaçu, Paraná",
+        "City": "Nova Prata do Iguaçu",
+        "Subregion": "",
+        "Region": "Paraná"
+      }
+    },
+    {
+      "address": "Pinhal de São Bento, Paraná",
+      "location": {
+        "x": "-53.4842563",
+        "y": "-26.0348319"
+      },
+      "score": 100.0,
+      "attributes": {
+        "ResultID": 15,
+        "Place_addr": "Pinhal de São Bento, Paraná",
+        "City": "Pinhal de São Bento",
+        "Subregion": "",
+        "Region": "Paraná"
+      }
+    }
+  ]
+}

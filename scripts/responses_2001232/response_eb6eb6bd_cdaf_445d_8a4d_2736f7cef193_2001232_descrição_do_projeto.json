@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "O INCA é referência nacional em oncologia, coordenando políticas e ações para prevenção, diagnóstico e tratamento do câncer, além de realizar pesquisas, formar profissionais e prestar assistência médica. A criação do Campus Integrado INCA é parte essencial do plano estratégico para fortalecer suas áreas de atuação e ampliar o impacto no SUS.\n\nA nova identidade estratégica reforça a missão de oferecer excelência em assistência, ensino, pesquisa, prevenção e vigilância, alinhando-se ao objetivo de consolidar o INCA como referência em ações integradas para o controle do câncer no Brasil. Com valores como comprometimento, ética, inovação e sustentabilidade, o INCA busca impactar positivamente a saúde da população, contribuindo para o fortalecimento do SUS.\n\nOs estudos da PPP visam a modernização e adaptação para melhoria do atendimento ao público de uma unidade que integrará 18 serviços que eram dispersos pela cidade constituindo o Campus INCA trazendo o conceito de Cancer Center, envolvendo reforma, construção, instalação, manutenção e operação da prestação de serviços não assistenciais em localização contigua a HCI.  Esse modelo permitirá maior eficiência nos fluxos de trabalho, aumento na oferta de serviços, ampliação da produção científica e fortalecimento da formação profissional. A centralização beneficiará diretamente os usuários, especialmente pacientes que enfrentam dificuldades de deslocamento, promovendo uma atenção mais integrada e acessível. As instalações abrangerão a modernização do atual edifício-sede e a expansão de sua estrutura, totalizando 148.415m² de área construída."
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1318,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "O Parque Nacional (Parna) dos Campos Amazônicos, criado pelo Decreto s/nº, de 21 de junho de 2006, é uma Unidade de Conservação de Proteção Integral situada nos municípios de Machadinho D’Oeste/RO (12,94% da área da UC), Humaitá/AM (0,01% da área da UC), Manicoré/AM (18,63% da UC), Novo Aripuanã/AM (68,03% da UC) e Colniza/MT (0,38% da área da UC). Pertencente ao bioma Amazônia, o Parna dos Campos Amazônicos ocupa uma área total de 961.317,77 hectares, o qual apresenta 46,69% de Floresta Ombrófila Densa, 25,61% de Savana - Formações Pioneiras, 16,32% de Floresta Ombrófila Aberta e 11,38% de Savana - Floresta Ombrófila. Dessa área, 6.948,34 ha são destinados à restauração florestal.\nO Parque faz limite com as Terras Indígenas (TI) Tenharim Marmelos e Tenharim do Igarapé Preto e com o Mosaico de Unidades de Conservação Estaduais do Apuí. Localizado ao sul da Rodovia Transamazônica (BR-230), no Amazonas, faz fronteira ao sul com o Parque Estadual de Tucumã/MT, e com a Floresta Estadual de Manicoré e a Reserva Extrativista de Guariba.\nO Parque tem como objetivo básico preservar ecossistemas naturais de grande relevância ecológica e beleza cênica, possibilitar a realização de pesquisas científicas e o desenvolvimento de atividades de educação e interpretação ambiental, de recreação em contato com a natureza e o turismo ecológico, conforme o estabelecido na Lei do SNUC (MMA, 2000).\nO projeto contribuirá ainda com a proteção da biodiversidade posto que o Parque possui diversas espécies da Floresta Ombrófila e do Cerrado e apresenta um número considerável de espécies de aves (332), mamíferos terrestres de médio e grande porte (44), anfíbios (51), répteis (40), e peixes (188)."
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1290,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

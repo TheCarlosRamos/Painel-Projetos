@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "O Decreto nº 10.134, de 26 de novembro de 2019, qualificou a política de fomento aos estabelecimentos da rede pública de educação infantil para fins de estudos de viabilidade e de alternativas de parcerias com a iniciativa privada para construção, modernização e operação de estabelecimentos da rede pública de educação infantil dos Estados, do Distrito Federal e dos Municípios.\n\nA qualificação da política teve por origem demanda do Ministério da Educação, em função de diagnóstico de relevante déficit de vagas no sistema de educação infantil. O Plano Nacional de Educação (PNE) estabelece que a oferta de educação infantil em creches deve ser ampliada de forma a atender, no mínimo, 50% das crianças de até 3 anos.\n\nOs estudos visam identificar modelos que viabilizem a prestação do serviço público de educação infantil com maior qualidade e eficiência, através de parcerias com a iniciativa privada, auxiliando os entes públicos a alcançarem as metas do Plano Nacional de Educação (PNE).\n\nA estruturação do projeto preserva as premissas inerentes à escola pública, de forma que as unidades componham a rede oficial de ensino e que se garanta:\n\nIgualdade de condições para o acesso e permanência na escola\nEnsino público gratuito e de qualidade;\nValorização dos profissionais da educação.\n\nA PPP na educação infantil traz a possibilidade de redução do déficit de vagas, com mais qualidade na operação e nos serviços, celeridade na execução das obras e atendendo aos limites legais e de responsabilidade fiscal. No modelo da PPP, os serviços prestados pelas creches e escolas continuarão gratuitos e o poder público continuará responsável por definir planos pedagógicos e didáticos. O parceiro pri"
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1309,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

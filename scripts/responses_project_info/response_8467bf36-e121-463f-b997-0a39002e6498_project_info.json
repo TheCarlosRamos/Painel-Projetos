@@ -1,0 +1,228 @@
+{
+  "ProjectOrganizations": [
+    {
+      "Id": 206,
+      "Value": "SEPPI"
+    }
+  ],
+  "ProjectActivityStatus": {
+    "Value": true,
+    "SourceUniqueId": "DEF-1",
+    "Title": "Active",
+    "LocalResourceKey": "<%Labels,DEF-AS-1,Title%>"
+  },
+  "Guid": "8467bf36-e121-463f-b997-0a39002e6498",
+  "Name": "Rodovias Integradas do Paraná - lote 5",
+  "Description": "BR-158/163/369/467 e PR-317",
+  "Sector": {
+    "Id": 4,
+    "Value": "Transport"
+  },
+  "SubSector": {
+    "Id": 9,
+    "Value": "Highway"
+  },
+  "Territories": [
+    {
+      "Id": 36,
+      "Value": "Brazil"
+    }
+  ],
+  "Locations": [
+    "Paraná",
+    "Guaíra",
+    "Ubiratã",
+    "Corbélia",
+    "Cascavel",
+    "Toledo",
+    "Marechal Cândido Rondon"
+  ],
+  "TypeOfProject": [
+    "Refurbishment/Replacement"
+  ],
+  "IsPPP": true,
+  "IsUnsolicited": false,
+  "LegalFramework": {
+    "SourceUniqueId": "BRA-1",
+    "Title": "Federal",
+    "LocalResourceKey": "<%Timeline,BRA-LF-1,Title%>"
+  },
+  "Packages": [
+    {
+      "LocalResourceKey": null,
+      "ID": 1,
+      "Title": null,
+      "ContractualArrangements": [
+        {
+          "SourceUniqueId": "BRA-1",
+          "Title": "Concession: Law 8.987/95",
+          "LocalResourceKey": "<%Timeline,BRA-CA-1,Title%>"
+        }
+      ],
+      "TenderProcess": {
+        "SourceUniqueId": "BRA-1",
+        "Title": "Competition",
+        "LocalResourceKey": "<%Timeline,BRA-TP-1,Title%>"
+      },
+      "OtherContractualArrangement": null,
+      "OtherTenderProcess": null
+    }
+  ],
+  "TechnicalSupport": {
+    "SourceUniqueId": "BRA-3",
+    "Title": "INFRA S.A.",
+    "LocalResourceKey": "<%Timeline,BRA-TS-3,Title%>"
+  },
+  "Threshold": {
+    "SourceUniqueId": "BRA-1",
+    "Title": "Qualification by Project",
+    "LocalResourceKey": "<%Timeline,BRA-TH-1,Title%>"
+  },
+  "OwnerOrganisation": {
+    "Id": 206,
+    "Value": "SEPPI"
+  },
+  "CurrentProjectStatus": {
+    "Id": 2,
+    "Value": "Project Definition"
+  },
+  "CurrentProjectStatusCustom": {
+    "Id": 1,
+    "Value": "Definition"
+  },
+  "Completion": 0.02,
+  "Created": "2025-03-19T07:54:59Z",
+  "Modified": "2025-11-14T18:02:12Z",
+  "ProjectEstimatedDueDate": "2025-03-19T07:54:59Z",
+  "EstimatedCapitalCost": 808192000.0,
+  "OriginalCurrency": {
+    "Id": 27,
+    "Value": "BRL"
+  },
+  "OriginalCurrencyEstimatedCapitalCost": 4592000000.0,
+  "ProjectProperties": {
+    "Reference": null,
+    "IsTimelineDefined": true,
+    "LanguagesTimeline": [
+      {
+        "Code": "en",
+        "Title": "English"
+      },
+      {
+        "Code": "por",
+        "Title": "Português"
+      }
+    ],
+    "AdditionalFields": {}
+  },
+  "PMLeaderEmail": "adminppi.source@presidencia.gov.br",
+  "PMLeaderFirstName": "Adminppi",
+  "PMLeaderLastName": "Source",
+  "GPSCoordinates": [
+    {
+      "address": "Corbélia, Paraná",
+      "location": {
+        "x": "-53.2926607",
+        "y": "-24.7981211"
+      },
+      "score": 100.0,
+      "attributes": {
+        "ResultID": 4,
+        "Place_addr": "Corbélia, Paraná",
+        "City": "Corbélia",
+        "Subregion": "",
+        "Region": "Paraná"
+      }
+    },
+    {
+      "address": "Ubiratã, Paraná",
+      "location": {
+        "x": "-52.9894511",
+        "y": "-24.5460762"
+      },
+      "score": 100.0,
+      "attributes": {
+        "ResultID": 3,
+        "Place_addr": "Ubiratã, Paraná",
+        "City": "Ubiratã",
+        "Subregion": "",
+        "Region": "Paraná"
+      }
+    },
+    {
+      "address": "Guaíra, São Paulo",
+      "location": {
+        "x": "-48.3106605",
+        "y": "-20.3177599"
+      },
+      "score": 100.0,
+      "attributes": {
+        "ResultID": 2,
+        "Place_addr": "Guaíra, São Paulo",
+        "City": "Guaíra",
+        "Subregion": "",
+        "Region": "São Paulo"
+      }
+    },
+    {
+      "address": "Cascavel, Paraná",
+      "location": {
+        "x": "-53.4579483",
+        "y": "-24.9585109"
+      },
+      "score": 100.0,
+      "attributes": {
+        "ResultID": 5,
+        "Place_addr": "Cascavel, Paraná",
+        "City": "Cascavel",
+        "Subregion": "",
+        "Region": "Paraná"
+      }
+    },
+    {
+      "address": "Toledo, Paraná",
+      "location": {
+        "x": "-53.7420548",
+        "y": "-24.7351416"
+      },
+      "score": 100.0,
+      "attributes": {
+        "ResultID": 6,
+        "Place_addr": "Toledo, Paraná",
+        "City": "Toledo",
+        "Subregion": "",
+        "Region": "Paraná"
+      }
+    },
+    {
+      "address": "PR",
+      "location": {
+        "x": "-51.616519840319",
+        "y": "-24.636114420615"
+      },
+      "score": 100.0,
+      "attributes": {
+        "ResultID": 1,
+        "Place_addr": "Paraná",
+        "City": "",
+        "Subregion": "",
+        "Region": "Paraná"
+      }
+    },
+    {
+      "address": "Marechal Cândido Rondon, Paraná",
+      "location": {
+        "x": "-54.059045",
+        "y": "-24.5578496"
+      },
+      "score": 100.0,
+      "attributes": {
+        "ResultID": 7,
+        "Place_addr": "Marechal Cândido Rondon, Paraná",
+        "City": "Marechal Cândido Rondon",
+        "Subregion": "",
+        "Region": "Paraná"
+      }
+    }
+  ]
+}

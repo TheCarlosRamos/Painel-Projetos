@@ -1,0 +1,136 @@
+{
+  "ProjectOrganizations": [
+    {
+      "Id": 206,
+      "Value": "SEPPI"
+    }
+  ],
+  "ProjectActivityStatus": {
+    "Value": true,
+    "SourceUniqueId": "DEF-1",
+    "Title": "Active",
+    "LocalResourceKey": "<%Labels,DEF-AS-1,Title%>"
+  },
+  "Guid": "22044c07-aa2f-42ee-9331-2628dc64fc6a",
+  "Name": "NAT01 - terminal de graneis s&#243;lidos minerais no porto de Natal",
+  "Description": "A &#225;rea de arrendamento denominada NAT01 poosui a finalidade de movimentar e de armazenar gran&#233;is s&#243;lidos minerais de exporta&#231;&#227;o, notadamente min&#233;rio de ferro, a &#225;rea NAT01 tem dimens&#227;o de 20.251,32 m2.",
+  "Sector": {
+    "Id": 4,
+    "Value": "Transport"
+  },
+  "SubSector": {
+    "Id": 17,
+    "Value": "Seaport"
+  },
+  "Territories": [
+    {
+      "Id": 36,
+      "Value": "Brazil"
+    }
+  ],
+  "Locations": [
+    "Natal",
+    "Estado do Rio Grande do Norte"
+  ],
+  "TypeOfProject": [
+    "Refurbishment/Replacement"
+  ],
+  "IsPPP": true,
+  "IsUnsolicited": false,
+  "LegalFramework": {
+    "SourceUniqueId": "BRA-1",
+    "Title": "Federal",
+    "LocalResourceKey": "<%Timeline,BRA-LF-1,Title%>"
+  },
+  "Packages": [
+    {
+      "LocalResourceKey": null,
+      "ID": 1,
+      "Title": "",
+      "ContractualArrangements": [
+        {
+          "SourceUniqueId": "BRA-1",
+          "Title": "Concession: Law 8.987/95",
+          "LocalResourceKey": "<%Timeline,BRA-CA-1,Title%>"
+        }
+      ],
+      "TenderProcess": null,
+      "OtherContractualArrangement": null,
+      "OtherTenderProcess": null
+    }
+  ],
+  "OwnerOrganisation": {
+    "Id": 206,
+    "Value": "SEPPI"
+  },
+  "CurrentProjectStatus": {
+    "Id": 2,
+    "Value": "Project Definition"
+  },
+  "CurrentProjectStatusCustom": {
+    "Id": 1,
+    "Value": "Definition"
+  },
+  "Completion": 0.12,
+  "Created": "2025-06-23T18:45:11Z",
+  "Modified": "2025-12-18T14:54:39Z",
+  "ProjectEstimatedDueDate": "2025-06-23T18:45:10Z",
+  "EstimatedCapitalCost": 5596544.8,
+  "OriginalCurrency": {
+    "Id": 27,
+    "Value": "BRL"
+  },
+  "OriginalCurrencyEstimatedCapitalCost": 30800000.0,
+  "ProjectProperties": {
+    "Reference": null,
+    "IsTimelineDefined": true,
+    "LanguagesTimeline": [
+      {
+        "Code": "en",
+        "Title": "English"
+      },
+      {
+        "Code": "por",
+        "Title": "Português"
+      }
+    ],
+    "AdditionalFields": {}
+  },
+  "PMLeaderEmail": "mateus.souza@presidencia.gov.br",
+  "PMLeaderFirstName": "Mateus",
+  "PMLeaderLastName": "Souza",
+  "PMLeaderOrganisation": "SEPPI",
+  "PMLeaderTelephone": "(empty)",
+  "GPSCoordinates": [
+    {
+      "address": "Natal, Rio Grande do Norte",
+      "location": {
+        "x": "-35.2103978",
+        "y": "-5.7945609"
+      },
+      "score": 100.0,
+      "attributes": {
+        "ResultID": 1,
+        "Place_addr": "Natal, Rio Grande do Norte",
+        "City": "Natal",
+        "Subregion": "",
+        "Region": "Rio Grande do Norte"
+      }
+    },
+    {
+      "address": "Estado do Rio Grande do Norte",
+      "location": {
+        "x": "-36.5",
+        "y": "-5.75"
+      },
+      "score": 100.0,
+      "attributes": {
+        "ResultID": 2,
+        "Place_addr": "Rio Grande do Norte",
+        "City": "",
+        "Subregion": "",
+        "Region": "Rio Grande do Norte"
+      }
+    }
+  ]
+}

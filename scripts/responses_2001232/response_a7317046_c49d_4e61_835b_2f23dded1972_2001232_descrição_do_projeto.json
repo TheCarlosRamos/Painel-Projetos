@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "O projeto BR-101/RJ – Autopista Fluminense abrange um trecho de 322,10 km, entre o Km 0,0, na divisa do Rio de Janeiro com o Espírito Santo, e o Km 322,1, no acesso à Ponte Presidente Costa e Silva. A Autopista Fluminense S.A. (AFL) assumiu a concessão da rodovia em abril de 2008, após licitação promovida pela ANTT em 2007, sendo responsável pela gestão, manutenção e ampliação da via. Como um dos principais corredores logísticos do país, a rodovia é essencial para o escoamento econômico e a mobilidade diária de milhares de usuários.\n\nDiante da necessidade de ajustes contratuais e novos investimentos, o Governo Federal, por meio do Ministério dos Transportes, implementou a política de remodelagem das concessões rodoviárias, regulamentada pela Portaria nº 848/2023. O TCU aprovou a suspensão de relicitações, permitindo que concessionárias renegociassem seus contratos diretamente com o governo.\n\nA Autopista Fluminense solicitou a remodelagem, sendo aprovada pela Portaria nº 378/2023 e validada pela SUCON/ANT"
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1320,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

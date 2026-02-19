@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Landing • Template</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    /* Exibe a paleta no DevTools */
+    .palette { display:flex; gap:10px; flex-wrap:wrap; margin-top:16px; }
+    .swatch { width:42px; height:42px; border-radius:8px; box-shadow: var(--shadow-sm); border:1px solid #e5e7eb; }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <div class="brand">
+      <img src="assets/logo.png" alt="Logo" />
+      <div class="title">Projeto • Modelo</div>
+    </div>
+    <nav>
+      <a class="btn btn-ghost" href="#">Início</a>
+      <a class="btn btn-ghost" href="#">Sobre</a>
+      <a class="btn btn-ghost" href="#">Contato</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <div>
+        <h1>Mensagem principal com a identidade visual</h1>
+        <p>Subtítulo curto reforçando o propósito. Este bloco usa o gradiente primário-secundário extraído do modelo.</p>
+        <div style="display:flex; gap:12px; flex-wrap:wrap;">
+          <a class="btn btn-primary" href="#">Ação primária</a>
+          <a class="btn btn-secondary" href="#">Ação secundária</a>
+          <a class="btn btn-outline" href="#">Saiba mais</a>
+        </div>
+      </div>
+      <div>
+        <div class="card" style="background: rgba(255,255,255,.12); color:#fff;">
+          <h3 style="color:#fff;">Paleta extraída</h3>
+          <div class="palette">
+            <div class="swatch" title="primary" style="background: var(--color-primary)"></div>
+            <div class="swatch" title="secondary" style="background: var(--color-secondary)"></div>
+            <div class="swatch" title="success" style="background: var(--color-success)"></div>
+            <div class="swatch" title="warning" style="background: var(--color-warning)"></div>
+            <div class="swatch" title="danger" style="background: var(--color-danger)"></div>
+            <div class="swatch" title="info" style="background: var(--color-info)"></div>
+          </div>
+          <p style="margin-top:12px; opacity:.92;">Personalize as variáveis CSS em <code>style.css</code>.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <main class="container">
+    <div class="grid">
+      <div class="card">
+        <h3>Card 1</h3>
+        <p>Texto de apoio para destacar informações.</p>
+      </div>
+      <div class="card">
+        <h3>Card 2</h3>
+        <p>Outro destaque com a mesma padronização.</p>
+      </div>
+      <div class="card">
+        <h3>Card 3</h3>
+        <p>Consistência visual garantida pela paleta.</p>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <small>© TEMPLATE — Gerado automaticamente a partir do modelo PPTX.</small>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "O projeto do CORESAB decorre do Chamamento Público Conjunto nº 01/2022 realizado pela CAIXA e o BNDES, por determinação do Conselho do FEP, que resultou na seleção de 39 consórcios habilitados para serem atendidos com recursos do FEP. O CORESAB foi habilitado em sétimo lugar no processo seletivo."
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1328,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

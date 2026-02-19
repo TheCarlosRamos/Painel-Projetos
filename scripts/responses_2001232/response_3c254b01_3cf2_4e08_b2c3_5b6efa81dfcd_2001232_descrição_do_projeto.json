@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "O empreendimento STS 08 – Terminal de Granéis Líquidos no Porto de SANTOS/SP foi qualificado na 11ª Reunião do Conselho do PPI por meio da Resolução nº 87, de 19/11/2019.\n\nTrata-se de qualificação para estudos da área STS08, localizada na região da Alemoa no Porto Organizado de Santos/SP, que resultou na consulta pública para a realização de dois certames licitatórios, os arrendamentos STS08 e STS08A. As duas áreas somam investimentos por parte dos futuros arrendatários de aprox. R$ 1,4 bilhão. Serão as maiores licitações portuárias realizadas no país até hoje.\n\nA área denominada STS08 possui 139.319m² e é destinada à armazenagem e distribuição de granéis líquidos, especialmente combustíveis. O prazo contratual será de 25 anos e os investimentos previstos totalizam R$ 265,5 milhões. A receita bruta total para o STS08 é de R$ 2,842 bilhões. Os futuros arrendatários do terminal pagarão à autoridade portuária pelo uso da área o valor mensal de R$ 1.516.139,05 e mais R$ 9,35 por tonelada movimentada.\n\nSegundo dados apresentados no relatório “Projeção de Demanda e Carregamento da Malha” (Ano Base de 2016), publicado em 2017, a demanda total prevista para derivados de petróleo para o horizonte de 2016 a 2060 possui taxa média de crescimento da ordem de 2,03%. No caso específico do GLP, o país enfrenta um déficit na infraestrutura para recebimento das importações que representaram 30% do consumo nacional, sendo que 40% dessas importações são recebidas pelo complexo portuário de Santos. Nesse sentido, os terminais STS08 e STS08A atuam como reguladores do estoque da produção de derivados da Petrobras, realizando atividades como: transferência e recebimento de produtos de embarcaçõ"
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1329,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

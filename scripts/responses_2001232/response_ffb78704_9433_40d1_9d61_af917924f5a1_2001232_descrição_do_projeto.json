@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "O projeto considera a participação da inciativa privada na prestação dos serviços de esgotamento sanitário nos 217 municípios do Estado de Goiás, totalizando 3,4 milhões de habitantes.\nA Companhia Saneamento de Goiás S/A (SANEAGO), sociedade de economia mista estadual, é concessionária de serviços de saneamento básico no estado de Goiás desde 1967, prestando serviços relacionados ao abastecimento de água e/ou esgotamento sanitário em 224 dos 246 municípios do Estado, sendo 4 municípios com subdelegação.\nO projeto tem como meta a universalização dos serviços de esgotamento sanitário no menor prazo possível e a maximização do quantitativo de municípios e pessoas atendidas.\n\n&nbsp;"
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1326,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

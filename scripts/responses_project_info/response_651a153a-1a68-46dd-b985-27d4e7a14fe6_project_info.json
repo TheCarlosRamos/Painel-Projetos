@@ -1,0 +1,148 @@
+{
+  "ProjectOrganizations": [
+    {
+      "Id": 206,
+      "Value": "SEPPI"
+    }
+  ],
+  "ProjectActivityStatus": {
+    "Value": true,
+    "SourceUniqueId": "DEF-1",
+    "Title": "Active",
+    "LocalResourceKey": "<%Labels,DEF-AS-1,Title%>"
+  },
+  "Guid": "651a153a-1a68-46dd-b985-27d4e7a14fe6",
+  "Name": "Presídio - Estado de Santa Catarina",
+  "Description": "Projeto de estrutura&#231;&#227;o de PPP administrativa dos servi&#231;os de apoio &#224; opera&#231;&#227;o, incluindo a constru&#231;&#227;o, equipagem, manuten&#231;&#227;o e servi&#231;os de apoio &#224; opera&#231;&#227;o do complexo prisional de Blumenau/SC.&#10;&#10;Constru&#231;&#245;es: Retrofit da Unidade Existente, 02 novas unidades de regime fechado, 1 nova unidade de regime semi-aberto.",
+  "Sector": {
+    "Id": 5,
+    "Value": "Social Infrastructure"
+  },
+  "SubSector": {
+    "Id": 35,
+    "Value": "Prison"
+  },
+  "Territories": [
+    {
+      "Id": 36,
+      "Value": "Brazil"
+    }
+  ],
+  "Locations": [
+    "Santa Catarina",
+    "Blumenau"
+  ],
+  "TypeOfProject": [
+    "New"
+  ],
+  "IsPPP": true,
+  "IsUnsolicited": false,
+  "LegalFramework": {
+    "SourceUniqueId": "BRA-2",
+    "Title": "State",
+    "LocalResourceKey": "<%Timeline,BRA-LF-2,Title%>"
+  },
+  "Packages": [
+    {
+      "LocalResourceKey": null,
+      "ID": 1,
+      "Title": null,
+      "ContractualArrangements": [
+        {
+          "SourceUniqueId": "BRA-2",
+          "Title": "PPP: Law 11.079/04",
+          "LocalResourceKey": "<%Timeline,BRA-CA-2,Title%>"
+        }
+      ],
+      "TenderProcess": {
+        "SourceUniqueId": "BRA-1",
+        "Title": "Competition",
+        "LocalResourceKey": "<%Timeline,BRA-TP-1,Title%>"
+      },
+      "OtherContractualArrangement": null,
+      "OtherTenderProcess": null
+    }
+  ],
+  "TechnicalSupport": {
+    "SourceUniqueId": "BRA-2",
+    "Title": "BNDES",
+    "LocalResourceKey": "<%Timeline,BRA-TS-2,Title%>"
+  },
+  "Threshold": {
+    "SourceUniqueId": "BRA-1",
+    "Title": "Qualification by Project",
+    "LocalResourceKey": "<%Timeline,BRA-TH-1,Title%>"
+  },
+  "OwnerOrganisation": {
+    "Id": 206,
+    "Value": "SEPPI"
+  },
+  "CurrentProjectStatus": {
+    "Id": 2,
+    "Value": "Project Definition"
+  },
+  "CurrentProjectStatusCustom": {
+    "Id": 1,
+    "Value": "Definition"
+  },
+  "Completion": 0.02,
+  "Created": "2025-03-18T13:07:08Z",
+  "Modified": "2026-01-30T18:00:55Z",
+  "ProjectEstimatedDueDate": "2025-03-18T13:07:08Z",
+  "EstimatedCapitalCost": 46112000.0,
+  "OriginalCurrency": {
+    "Id": 27,
+    "Value": "BRL"
+  },
+  "OriginalCurrencyEstimatedCapitalCost": 262000000.0,
+  "ProjectProperties": {
+    "Reference": null,
+    "IsTimelineDefined": true,
+    "LanguagesTimeline": [
+      {
+        "Code": "en",
+        "Title": "English"
+      },
+      {
+        "Code": "por",
+        "Title": "Português"
+      }
+    ],
+    "AdditionalFields": {}
+  },
+  "PMLeaderEmail": "adminppi.source@presidencia.gov.br",
+  "PMLeaderFirstName": "Adminppi",
+  "PMLeaderLastName": "Source",
+  "GPSCoordinates": [
+    {
+      "address": "Blumenau, Santa Catarina",
+      "location": {
+        "x": "-49.0660575",
+        "y": "-26.9189417"
+      },
+      "score": 100.0,
+      "attributes": {
+        "ResultID": 2,
+        "Place_addr": "Blumenau, Santa Catarina",
+        "City": "Blumenau",
+        "Subregion": "",
+        "Region": "Santa Catarina"
+      }
+    },
+    {
+      "address": "SC",
+      "location": {
+        "x": "-50.482455751756",
+        "y": "-27.246192196751"
+      },
+      "score": 100.0,
+      "attributes": {
+        "ResultID": 1,
+        "Place_addr": "Santa Catarina",
+        "City": "",
+        "Subregion": "",
+        "Region": "Santa Catarina"
+      }
+    }
+  ]
+}

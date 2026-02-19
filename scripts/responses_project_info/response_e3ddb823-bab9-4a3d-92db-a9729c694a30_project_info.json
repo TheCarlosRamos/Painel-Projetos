@@ -1,0 +1,148 @@
+{
+  "ProjectOrganizations": [
+    {
+      "Id": 206,
+      "Value": "SEPPI"
+    }
+  ],
+  "ProjectActivityStatus": {
+    "Value": true,
+    "SourceUniqueId": "DEF-1",
+    "Title": "Active",
+    "LocalResourceKey": "<%Labels,DEF-AS-1,Title%>"
+  },
+  "Guid": "e3ddb823-bab9-4a3d-92db-a9729c694a30",
+  "Name": "BR-153/262/GO/MG - Rota Sertaneja",
+  "Description": "O lote rodovi&#225;rio denominado &#8220;Rota Sertaneja&#8221; est&#225; localizado nas rodovias BR-153/262/GO/MG, inserido em Goi&#225;s e Minas Gerais, parte do trecho da atual concess&#227;o da BR060/153/262/DF/GO/MG.&#10;&#10;No lote, h&#225; a predomin&#226;ncia de atividades de servi&#231;o e agricultura, bem como de outras atividades econ&#244;micas como ind&#250;stria extrativista e de transforma&#231;&#227;o, eletricidade e g&#225;s, al&#233;m de com&#233;rcio e repara&#231;&#227;o de ve&#237;culos automotores.",
+  "Sector": {
+    "Id": 4,
+    "Value": "Transport"
+  },
+  "SubSector": {
+    "Id": 9,
+    "Value": "Highway"
+  },
+  "Territories": [
+    {
+      "Id": 36,
+      "Value": "Brazil"
+    }
+  ],
+  "Locations": [
+    "Estado de Goiás",
+    "Estado de Minas Gerais"
+  ],
+  "TypeOfProject": [
+    "Refurbishment/Replacement"
+  ],
+  "IsPPP": true,
+  "IsUnsolicited": false,
+  "LegalFramework": {
+    "SourceUniqueId": "BRA-1",
+    "Title": "Federal",
+    "LocalResourceKey": "<%Timeline,BRA-LF-1,Title%>"
+  },
+  "Packages": [
+    {
+      "LocalResourceKey": null,
+      "ID": 1,
+      "Title": null,
+      "ContractualArrangements": [
+        {
+          "SourceUniqueId": "BRA-4",
+          "Title": "Rebidding: Law 13.448/17, Art. 4, III",
+          "LocalResourceKey": "<%Timeline,BRA-CA-4,Title%>"
+        }
+      ],
+      "TenderProcess": {
+        "SourceUniqueId": "BRA-1",
+        "Title": "Competition",
+        "LocalResourceKey": "<%Timeline,BRA-TP-1,Title%>"
+      },
+      "OtherContractualArrangement": null,
+      "OtherTenderProcess": null
+    }
+  ],
+  "TechnicalSupport": {
+    "SourceUniqueId": "BRA-3",
+    "Title": "INFRA S.A.",
+    "LocalResourceKey": "<%Timeline,BRA-TS-3,Title%>"
+  },
+  "Threshold": {
+    "SourceUniqueId": "BRA-1",
+    "Title": "Qualification by Project",
+    "LocalResourceKey": "<%Timeline,BRA-TH-1,Title%>"
+  },
+  "OwnerOrganisation": {
+    "Id": 206,
+    "Value": "SEPPI"
+  },
+  "CurrentProjectStatus": {
+    "Id": 6,
+    "Value": "Tender Process"
+  },
+  "CurrentProjectStatusCustom": {
+    "Id": 12,
+    "Value": "Tender"
+  },
+  "Completion": 0.02,
+  "Created": "2025-03-19T07:55:30Z",
+  "Modified": "2025-12-11T13:36:07Z",
+  "ProjectEstimatedDueDate": "2025-03-19T07:55:30Z",
+  "EstimatedCapitalCost": 1064800000.0,
+  "OriginalCurrency": {
+    "Id": 27,
+    "Value": "BRL"
+  },
+  "OriginalCurrencyEstimatedCapitalCost": 6050000000.0,
+  "ProjectProperties": {
+    "Reference": null,
+    "IsTimelineDefined": true,
+    "LanguagesTimeline": [
+      {
+        "Code": "en",
+        "Title": "English"
+      },
+      {
+        "Code": "por",
+        "Title": "Português"
+      }
+    ],
+    "AdditionalFields": {}
+  },
+  "PMLeaderEmail": "adminppi.source@presidencia.gov.br",
+  "PMLeaderFirstName": "Adminppi",
+  "PMLeaderLastName": "Source",
+  "GPSCoordinates": [
+    {
+      "address": "Estado de Goiás",
+      "location": {
+        "x": "-49.63623",
+        "y": "-15.58071"
+      },
+      "score": 100.0,
+      "attributes": {
+        "ResultID": 1,
+        "Place_addr": "Goiás",
+        "City": "",
+        "Subregion": "",
+        "Region": "Goiás"
+      }
+    },
+    {
+      "address": "Estado de Minas Gerais",
+      "location": {
+        "x": "-44.0",
+        "y": "-18.0"
+      },
+      "score": 100.0,
+      "attributes": {
+        "ResultID": 2,
+        "Place_addr": "Minas Gerais",
+        "City": "",
+        "Subregion": "",
+        "Region": "Minas Gerais"
+      }
+    }
+  ]
+}

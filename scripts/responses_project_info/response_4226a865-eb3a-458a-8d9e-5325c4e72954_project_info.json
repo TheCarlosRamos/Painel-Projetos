@@ -1,0 +1,138 @@
+{
+  "ProjectOrganizations": [
+    {
+      "Id": 206,
+      "Value": "SEPPI"
+    }
+  ],
+  "Guid": "4226a865-eb3a-458a-8d9e-5325c4e72954",
+  "Name": "Manejo Sustent&#225;vel na Flona do Tapirap&#233;-Aquiri/PA",
+  "Description": "Concess&#227;o florestal para a pr&#225;tica de manejo florestal sustent&#225;vel voltado &#224; explora&#231;&#227;o econ&#244;mica de produtos florestais madeireiros e n&#227;o madeireiros em Unidades de Manejo Florestal (UMF) na Floresta Nacional do Tapirap&#233;-Aquiri/PA.",
+  "Sector": {
+    "Id": 7,
+    "Value": "Other"
+  },
+  "SubSector": {
+    "Id": 41,
+    "Value": "Other"
+  },
+  "OtherSubsector": {
+    "Id": "6bc49f22-a08a-43d0-802b-f50f73baa8fa",
+    "Value": "Manejo Florestal Sustentável"
+  },
+  "Territories": [
+    {
+      "Id": 36,
+      "Value": "Brazil"
+    }
+  ],
+  "Locations": [
+    "Marabá",
+    "São Félix do Xingu"
+  ],
+  "TypeOfProject": [
+    "Refurbishment/Replacement"
+  ],
+  "IsPPP": true,
+  "IsUnsolicited": false,
+  "LegalFramework": {
+    "SourceUniqueId": "BRA-1",
+    "Title": "Federal",
+    "LocalResourceKey": "<%Timeline,BRA-LF-1,Title%>"
+  },
+  "Packages": [
+    {
+      "LocalResourceKey": null,
+      "ID": 1,
+      "Title": "",
+      "ContractualArrangements": [
+        {
+          "SourceUniqueId": "BRA-1",
+          "Title": "Concession: Law 8.987/95",
+          "LocalResourceKey": "<%Timeline,BRA-CA-1,Title%>"
+        }
+      ],
+      "TenderProcess": null,
+      "OtherContractualArrangement": null,
+      "OtherTenderProcess": null
+    }
+  ],
+  "Threshold": {
+    "SourceUniqueId": "BRA-1",
+    "Title": "Qualification by Project",
+    "LocalResourceKey": "<%Timeline,BRA-TH-1,Title%>"
+  },
+  "OwnerOrganisation": {
+    "Id": 206,
+    "Value": "SEPPI"
+  },
+  "CurrentProjectStatus": {
+    "Id": 2,
+    "Value": "Project Definition"
+  },
+  "CurrentProjectStatusCustom": {
+    "Id": 1,
+    "Value": "Definition"
+  },
+  "Completion": 0.01,
+  "Created": "2025-06-18T18:49:24Z",
+  "Modified": "2025-10-07T13:24:52Z",
+  "ProjectEstimatedDueDate": "2025-06-18T18:49:23Z",
+  "EstimatedCapitalCost": 0.181934,
+  "OriginalCurrency": {
+    "Id": 27,
+    "Value": "BRL"
+  },
+  "OriginalCurrencyEstimatedCapitalCost": 1.0,
+  "ProjectProperties": {
+    "Reference": null,
+    "IsTimelineDefined": true,
+    "LanguagesTimeline": [
+      {
+        "Code": "en",
+        "Title": "English"
+      },
+      {
+        "Code": "por",
+        "Title": "Português"
+      }
+    ]
+  },
+  "PMLeaderEmail": "adminppi.source@presidencia.gov.br",
+  "PMLeaderFirstName": "Adminppi",
+  "PMLeaderLastName": "Source",
+  "PMLeaderOrganisation": "SEPPI",
+  "PMLeaderTelephone": "(empty)",
+  "GPSCoordinates": [
+    {
+      "address": "Marabá, Pará",
+      "location": {
+        "x": "-49.1168974",
+        "y": "-5.3699697"
+      },
+      "score": 100.0,
+      "attributes": {
+        "ResultID": 1,
+        "Place_addr": "Marabá, Pará",
+        "City": "Marabá",
+        "Subregion": "",
+        "Region": "Pará"
+      }
+    },
+    {
+      "address": "São Félix do Xingu, Pará",
+      "location": {
+        "x": "-51.9729964",
+        "y": "-6.6485736"
+      },
+      "score": 100.0,
+      "attributes": {
+        "ResultID": 2,
+        "Place_addr": "São Félix do Xingu, Pará",
+        "City": "São Félix do Xingu",
+        "Subregion": "",
+        "Region": "Pará"
+      }
+    }
+  ]
+}

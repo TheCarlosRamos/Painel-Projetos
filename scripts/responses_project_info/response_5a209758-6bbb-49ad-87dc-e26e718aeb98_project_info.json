@@ -1,0 +1,152 @@
+{
+  "ProjectOrganizations": [
+    {
+      "Id": 206,
+      "Value": "SEPPI"
+    }
+  ],
+  "ProjectActivityStatus": {
+    "Value": true,
+    "SourceUniqueId": "DEF-1",
+    "Title": "Active",
+    "LocalResourceKey": "<%Labels,DEF-AS-1,Title%>"
+  },
+  "Guid": "5a209758-6bbb-49ad-87dc-e26e718aeb98",
+  "Name": "Terminal Pesqueiro de Cananéia/SP",
+  "Description": "De acordo com o PMAP, Cananeia &#233; uma cidade relevante para a pesca no Estado de S&#227;o Paulo, sendo a segunda localidade que mais recebe pescados da pesca extrativa (atr&#225;s apenas de Santos/Guaruj&#225;).&#160; Entre 2017 e 2019 foram descarregados, aproximadamente, 2 mil toneladas anuais de pescados em Cananeia. A atividade pesqueira na cidade contempla tanto o setor industrial quando o artesanal, e &#233; diversificada em termos de tipos de embarca&#231;&#227;o e de presen&#231;a em diversos ambientes (fluvial, estuarino, marinho costeiro e marinho de alto-mar).&#10;&#10;Na cidade, n&#227;o h&#225; entreposto que forne&#231;a combust&#237;vel (existe apenas um posto na regi&#227;o). O fornecimento de combust&#237;vel pelo TPP foi mapeado como um atendimento relevante para a pesca na regi&#227;o, reunindo em um &#250;nico entreposto um rol de atendimentos e insumos m&#237;nimos necess&#225;rios &#224; atividade.",
+  "Sector": {
+    "Id": 7,
+    "Value": "Other"
+  },
+  "SubSector": {
+    "Id": 41,
+    "Value": "Other"
+  },
+  "OtherSubsector": {
+    "Id": "55e538af-93b0-44d0-aca8-dbd7b7732051",
+    "Value": "Terminal Pesqueiro"
+  },
+  "Territories": [
+    {
+      "Id": 36,
+      "Value": "Brazil"
+    }
+  ],
+  "Locations": [
+    "São Paulo",
+    "Cananéia"
+  ],
+  "TypeOfProject": [
+    "Refurbishment/Replacement"
+  ],
+  "IsPPP": true,
+  "IsUnsolicited": false,
+  "LegalFramework": {
+    "SourceUniqueId": "BRA-1",
+    "Title": "Federal",
+    "LocalResourceKey": "<%Timeline,BRA-LF-1,Title%>"
+  },
+  "Packages": [
+    {
+      "LocalResourceKey": null,
+      "ID": 1,
+      "Title": null,
+      "ContractualArrangements": [
+        {
+          "SourceUniqueId": "BRA-1",
+          "Title": "Concession: Law 8.987/95",
+          "LocalResourceKey": "<%Timeline,BRA-CA-1,Title%>"
+        }
+      ],
+      "TenderProcess": {
+        "SourceUniqueId": "BRA-1",
+        "Title": "Competition",
+        "LocalResourceKey": "<%Timeline,BRA-TP-1,Title%>"
+      },
+      "OtherContractualArrangement": null,
+      "OtherTenderProcess": null
+    }
+  ],
+  "TechnicalSupport": {
+    "SourceUniqueId": "BRA-5",
+    "Title": "Others (e.g. Banco do Brasil, PMI)",
+    "LocalResourceKey": "<%Timeline,BRA-TS-5,Title%>"
+  },
+  "Threshold": {
+    "SourceUniqueId": "BRA-1",
+    "Title": "Qualification by Project",
+    "LocalResourceKey": "<%Timeline,BRA-TH-1,Title%>"
+  },
+  "OwnerOrganisation": {
+    "Id": 206,
+    "Value": "SEPPI"
+  },
+  "CurrentProjectStatus": {
+    "Id": 2,
+    "Value": "Project Definition"
+  },
+  "CurrentProjectStatusCustom": {
+    "Id": 1,
+    "Value": "Definition"
+  },
+  "Completion": 0.02,
+  "Created": "2025-03-18T10:57:40Z",
+  "Modified": "2026-02-11T18:11:57Z",
+  "ProjectEstimatedDueDate": "2025-03-18T10:57:40Z",
+  "EstimatedCapitalCost": 146215.525554,
+  "OriginalCurrency": {
+    "Id": 27,
+    "Value": "BRL"
+  },
+  "OriginalCurrencyEstimatedCapitalCost": 831162.0,
+  "ProjectProperties": {
+    "Reference": null,
+    "IsTimelineDefined": true,
+    "LanguagesTimeline": [
+      {
+        "Code": "en",
+        "Title": "English"
+      },
+      {
+        "Code": "por",
+        "Title": "Português"
+      }
+    ],
+    "AdditionalFields": {}
+  },
+  "PMLeaderEmail": "adminppi.source@presidencia.gov.br",
+  "PMLeaderFirstName": "Adminppi",
+  "PMLeaderLastName": "Source",
+  "GPSCoordinates": [
+    {
+      "address": "Cananéia, São Paulo",
+      "location": {
+        "x": "-47.9316997",
+        "y": "-25.0240906"
+      },
+      "score": 100.0,
+      "attributes": {
+        "ResultID": 2,
+        "Place_addr": "Cananéia, São Paulo",
+        "City": "Cananéia",
+        "Subregion": "",
+        "Region": "São Paulo"
+      }
+    },
+    {
+      "address": "Sao Paulo",
+      "location": {
+        "x": "-46.6382522",
+        "y": "-23.5486657"
+      },
+      "score": 100.0,
+      "attributes": {
+        "ResultID": 1,
+        "Place_addr": "Sao Paulo",
+        "City": "Sao Paulo",
+        "Subregion": "",
+        "Region": "Sao Paulo"
+      }
+    }
+  ]
+}

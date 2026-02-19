@@ -1,0 +1,244 @@
+{
+  "ProjectOrganizations": [
+    {
+      "Id": 206,
+      "Value": "SEPPI"
+    }
+  ],
+  "ProjectActivityStatus": {
+    "Value": true,
+    "SourceUniqueId": "DEF-1",
+    "Title": "Active",
+    "LocalResourceKey": "<%Labels,DEF-AS-1,Title%>"
+  },
+  "Guid": "70cd0711-dd07-4560-9e0c-94e137aaf873",
+  "Name": "Iluminação Pública - Consórcio Cimpajeú (PE)",
+  "Description": "A PPP de Ilumina&#231;&#227;o P&#250;blica representa um passo importante na busca cont&#237;nua das administra&#231;&#245;es municipais por melhorias significativas na qualidade de vida dos mais de 168 mil habitantes que ser&#227;o diretamente impactados pelo projeto. Em um arranjo regional organizado pelo Cons&#243;rcio Cimpaje&#250; contemplando 7 munic&#237;pios no Estado que buscam estruturar uma solu&#231;&#227;o conjunta para a melhoria dos servi&#231;os p&#250;blicos de ilumina&#231;&#227;o p&#250;blica de cada um de seus associados, sob a gest&#227;o do Cons&#243;rcio P&#250;blico.&#10;O projeto est&#225; sendo estruturado com recursos do Fundo de Estrutura&#231;&#227;o de Projetos (FEP), conta com o assessoramento t&#233;cnico da CAIXA e as consultorias especializadas Accenture/Moys&#233;s &amp; Pires. A coordena&#231;&#227;o geral &#233; da Secretaria Especial do Programa de Parcerias e Investimentos (SEPPI), com o apoio do Minist&#233;rio das Cidades.",
+  "Sector": {
+    "Id": 6,
+    "Value": "Urban Services"
+  },
+  "SubSector": {
+    "Id": 32,
+    "Value": "Street Lighting"
+  },
+  "Territories": [
+    {
+      "Id": 36,
+      "Value": "Brazil"
+    }
+  ],
+  "Locations": [
+    "Pernambuco",
+    "Betânia",
+    "Brejinho",
+    "Ingazeira",
+    "Serra Talhada",
+    "Sertânia",
+    "Solidão",
+    "Triunfo"
+  ],
+  "TypeOfProject": [
+    "Refurbishment/Replacement"
+  ],
+  "IsPPP": true,
+  "IsUnsolicited": false,
+  "LegalFramework": {
+    "SourceUniqueId": "BRA-4",
+    "Title": "Regional Consortium",
+    "LocalResourceKey": "<%Timeline,BRA-LF-4,Title%>"
+  },
+  "Packages": [
+    {
+      "LocalResourceKey": null,
+      "ID": 1,
+      "Title": null,
+      "ContractualArrangements": [
+        {
+          "SourceUniqueId": "BRA-2",
+          "Title": "PPP: Law 11.079/04",
+          "LocalResourceKey": "<%Timeline,BRA-CA-2,Title%>"
+        }
+      ],
+      "TenderProcess": {
+        "SourceUniqueId": "BRA-1",
+        "Title": "Competition",
+        "LocalResourceKey": "<%Timeline,BRA-TP-1,Title%>"
+      },
+      "OtherContractualArrangement": null,
+      "OtherTenderProcess": null
+    }
+  ],
+  "TechnicalSupport": {
+    "SourceUniqueId": "BRA-1",
+    "Title": "FEP",
+    "LocalResourceKey": "<%Timeline,BRA-TS-1,Title%>"
+  },
+  "Threshold": {
+    "SourceUniqueId": "BRA-2",
+    "Title": "Qualification by Policy",
+    "LocalResourceKey": "<%Timeline,BRA-TH-2,Title%>"
+  },
+  "OwnerOrganisation": {
+    "Id": 206,
+    "Value": "SEPPI"
+  },
+  "CurrentProjectStatus": {
+    "Id": 2,
+    "Value": "Project Definition"
+  },
+  "CurrentProjectStatusCustom": {
+    "Id": 1,
+    "Value": "Definition"
+  },
+  "Completion": 0.01,
+  "Created": "2025-03-18T14:16:34Z",
+  "Modified": "2025-11-07T20:43:13Z",
+  "ProjectEstimatedDueDate": "2025-03-18T14:16:34Z",
+  "EstimatedCapitalCost": 38500634.0,
+  "OriginalCurrency": {
+    "Id": 27,
+    "Value": "BRL"
+  },
+  "OriginalCurrencyEstimatedCapitalCost": 218753600.0,
+  "ProjectProperties": {
+    "Reference": null,
+    "IsTimelineDefined": true,
+    "LanguagesTimeline": [
+      {
+        "Code": "en",
+        "Title": "English"
+      },
+      {
+        "Code": "por",
+        "Title": "Português"
+      }
+    ],
+    "AdditionalFields": {}
+  },
+  "PMLeaderEmail": "adminppi.source@presidencia.gov.br",
+  "PMLeaderFirstName": "Adminppi",
+  "PMLeaderLastName": "Source",
+  "GPSCoordinates": [
+    {
+      "address": "Betânia, Pernambuco",
+      "location": {
+        "x": "-38.0362305",
+        "y": "-8.272692"
+      },
+      "score": 100.0,
+      "attributes": {
+        "ResultID": 2,
+        "Place_addr": "Betânia, Pernambuco",
+        "City": "Betânia",
+        "Subregion": "",
+        "Region": "Pernambuco"
+      }
+    },
+    {
+      "address": "Brejinho, Rio Grande do Norte",
+      "location": {
+        "x": "-35.3613431",
+        "y": "-6.1946607"
+      },
+      "score": 100.0,
+      "attributes": {
+        "ResultID": 3,
+        "Place_addr": "Brejinho, Rio Grande do Norte",
+        "City": "Brejinho",
+        "Subregion": "",
+        "Region": "Rio Grande do Norte"
+      }
+    },
+    {
+      "address": "PE",
+      "location": {
+        "x": "-37.997678124001",
+        "y": "-8.325217431166"
+      },
+      "score": 100.0,
+      "attributes": {
+        "ResultID": 1,
+        "Place_addr": "Pernambuco",
+        "City": "",
+        "Subregion": "",
+        "Region": "Pernambuco"
+      }
+    },
+    {
+      "address": "Ingazeira, Pernambuco",
+      "location": {
+        "x": "-37.459377",
+        "y": "-7.67725"
+      },
+      "score": 100.0,
+      "attributes": {
+        "ResultID": 4,
+        "Place_addr": "Ingazeira, Pernambuco",
+        "City": "Ingazeira",
+        "Subregion": "",
+        "Region": "Pernambuco"
+      }
+    },
+    {
+      "address": "Sertânia, Pernambuco",
+      "location": {
+        "x": "-37.2673194",
+        "y": "-8.0707462"
+      },
+      "score": 100.0,
+      "attributes": {
+        "ResultID": 6,
+        "Place_addr": "Sertânia, Pernambuco",
+        "City": "Sertânia",
+        "Subregion": "",
+        "Region": "Pernambuco"
+      }
+    },
+    {
+      "address": "Solidão, Pernambuco",
+      "location": {
+        "x": "-37.6507177",
+        "y": "-7.600089"
+      },
+      "score": 100.0,
+      "attributes": {
+        "ResultID": 7,
+        "Place_addr": "Solidão, Pernambuco",
+        "City": "Solidão",
+        "Subregion": "",
+        "Region": "Pernambuco"
+      }
+    },
+    {
+      "address": "Triunfo, Rio Grande do Sul",
+      "location": {
+        "x": "-51.7184516",
+        "y": "-29.9427134"
+      },
+      "score": 100.0,
+      "attributes": {
+        "ResultID": 8,
+        "Place_addr": "Triunfo, Rio Grande do Sul",
+        "City": "Triunfo",
+        "Subregion": "",
+        "Region": "Rio Grande do Sul"
+      }
+    },
+    {
+      "address": "Serra Talhada, Pernambuco",
+      "location": {
+        "x": "-38.2936117",
+        "y": "-7.9838592"
+      },
+      "score": 100.0,
+      "attributes": {
+        "ResultID": 5,
+        "Place_addr": "Serra Talhada, Pernambuco",
+        "City": "Serra Talhada",
+        "Subregion": "",
+        "Region": "Pernambuco"
+      }
+    }
+  ]
+}

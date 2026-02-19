@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "A Floresta Nacional (Flona) de Mulata, criada pelo Decretos/nº, de 1º de agosto de 2001, é uma Unidade de Conservação de Uso Sustentável situada nos municípios de Alenquer (45,8% da área da UC) e Monte Alegre (54,2% da área da UC) no estado do Pará. Pertencente ao bioma Amazônia, a Flona de Mulata ocupa uma área total de 216.601,41 ha, dos quais 124.464,46 ha são destinados ao efetivo manejo.\nA Floresta Nacional, localizada entre as Florestas estaduais do Parú e do Trombetas e dos Projetos de Desenvolvimento Sustentável (PDS) Serra Azul e Paraíso, foi criada com os objetivos de promover o manejo de uso múltiplo dos recursos naturais, a manutenção e proteção dos recursos hídricos e da biodiversidade, a restauração de áreas degradadas, a educação ambiental, bem como, o apoio ao desenvolvimento sustentável dos recursos naturais das áreas limítrofes.\nO manejo no âmbito da concessão florestal não atribui nenhum direito sobre a titularidade da floresta concedida. Os contratos de concessão permitem aos concessionários a exploração dos recursos dentro de limites estabelecidos e de acordo com o plano de manejo da unidade e a legislação vigente, mas os patrimônios continuam sendo da União, com a gestão e fiscalização da concessão de responsabilidade do poder público, por meio do Serviço Florestal Brasileiro (SFB).\nConforme a legislação que trata da gestão de florestas públicas, as licitações para concessão florestal deverão ser realizadas na modalidade concorrência e outorgadas a título oneroso, com o edital definindo as datas da entrega e abertura dos envelopes com as propostas técnica, de preço e de documentação de habilitação."
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1290,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

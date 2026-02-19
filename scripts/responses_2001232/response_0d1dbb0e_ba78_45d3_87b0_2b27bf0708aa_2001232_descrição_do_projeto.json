@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "Dedicado à movimentação e armazenagem de granel líquido, em acordo com o Plano de Desenvolvimento e Zoneamento - PDZ do Porto Organizado do Rio de Janeiro/RJ. O terminal possui uma área de 13.700 m² e uma capacidade estática de 22.000 t.\n\nA área de arrendamento será utilizada para a exploração de empreendimento voltado ao apoio retro portuário às navegações de longo curso e cabotagem, com recebimento e entrega por via rodoviária e a armazenagem de granéis líquidos, especialmente óleos básicos.\n\nO projeto foi qualificado no PPI por meio da <a href=\"https://www.in.gov.br/en/web/dou/-/resolucao-n-193-de-25-de-agosto-de-2021-343820168\" target=\"_blank\" rel=\"noopener\">Resolução CPPI nº 193, de 25 de agosto de 2021</a>, que deu origem ao Decreto nº 10.858, de 19 de novembro de 2021."
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1329,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

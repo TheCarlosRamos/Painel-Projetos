@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "O Estado de São Paulo possui quinze cidades litorâneas ao longo dos seus 700km de costa, nas quais a atividade de pesca é realizada em diferentes intensidades. A produção total pesqueira no Estado de São Paulo, no período de 2006 a 2011, variou entre 64,5 mil t e 79,3 mil t.  No período observado, a produção de aquicultura aumentou (passando de 21 mil t para 44 mil t anuais), enquanto a pesca extrativa marinha-estuarina diminuiu (passando de 33 mil t para 22 mil t anuais). De acordo com o Programa de Monitoramento da Atividade Pesqueira (PMAP), o volume desembarcado atualmente é ainda menor, a produção de pesca extrativa marinha-estuarina em São Paulo foi de 13,5 mil, 17,2mil e 15,3 mil para os anos 2017, 2018 e 2019, respectivamente. Para o mesmo período, a pesca artesanal é responsável por aproximadamente 44% dos volumes capturados e mais de 95% do número de desembarques realizados.\nDe acordo com o PMAP, Cananeia é uma cidade relevante para a pesca no Estado de São Paulo, sendo a segunda localidade que mais recebe pescados da pesca extrativa (atrás apenas de Santos/Guarujá).  Entre 2017 e 2019 foram descarregados, aproximadamente, 2 mil toneladas anuais de pescados em Cananeia. A atividade pesqueira na cidade contempla tanto o setor industrial quando o artesanal, e é diversificada em termos de tipos de embarcação e de presença em diversos ambientes (fluvial, estuarino, marinho costeiro e marinho de alto-mar)."
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1290,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

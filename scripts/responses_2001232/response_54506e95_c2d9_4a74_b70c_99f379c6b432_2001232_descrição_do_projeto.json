@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "<strong>Concessão de serviços na região hidrográfica do Atlântico Sul que conecta Uruguai e Brasil (Lagoa Mirim e Canal São Gonçalo/RS)</strong>\n\nOs trechos qualificados do Canal de São Gonçalo e a Hidrovia da Lagoa Mirim, no Estado do Rio Grande do Sul, compõe a chamada Hidrovia Brasil-Uruguai. O empreendimento é estruturador para a integração logística compreendida na região sul do continente sul-americano.\n\nA Lagoa Mirim é um corpo hídrico localizado na fronteira entre o Estado do Rio Grande do Sul, no extremo sul do Brasil, e o Uruguai. Hoje a profundidade do canal de navegação não é suficiente para garantir o tráfego seguro de embarcações durante todo o ano. O projeto visa o aprofundamento e a manutenção do canal de navegação, garantindo o tráfego seguro de embarcações de modo permanente. O empreendimento irá melhorar a segurança, a confiabilidade e a eficiência do transporte hidroviário, com consequente mitigação dos passivos ambientais gerados por uma operação inadequada.\n\n<u>Hidrovia da Lagoa Mirim</u>: trecho entre o Canal do Sangradouro (Extremo Norte) até o Canal de Acesso ao Porto de Santa Vitória do Palmar (Extremo Sul).\n\n<u>Canal de São Gonçalo</u>: ligação entre a Lagoa Mirim e a Lagoa dos Patos.\n\n<u>Objetivos da concessão:</u> Aprofundamento e a manutenção do canal de navegação, garantindo o tráfego seguro de embarcações durante todo o ano. Os investimentos são relacionados a dragagem e a sinalização.\n\nO empreendimento foi qualificado no PPI por meio da <a href=\"https://www.in.gov.br/en/web/dou/-/resolucao-n-195-de-25-de-agosto-de-2021-343818651\" target=\"_blank\" rel=\"noopener\">Resolução nº 195, de 25 de Agosto de 2021</a>, do Conselho do Programa de Parcerias de Investimentos da Presidência da República, convertida no <a href=\"https://www.in.gov.br/en/web/dou/-/decreto-n-10.865-de-19-de-novembro-de-2021-360896970\" target=\"_blank\" rel=\"noopener\">Decreto nº 10.865 de 19 de novembro de 2021</a>."
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1288,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

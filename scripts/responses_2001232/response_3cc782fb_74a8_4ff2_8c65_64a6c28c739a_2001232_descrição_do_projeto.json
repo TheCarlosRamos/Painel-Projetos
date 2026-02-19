@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "Concessão da Hidrovia do Rio Madeira, considerando a navegação entre o município de Porto Velho/RO até a foz com o Rio Amazonas, em um trecho de aproximadamente 1.075km, atualmente sob a gestão do DNIT, por meio de contratos de parcerias com o setor privado.\n\nO projeto de Concessão da Hidrovia do Rio Madeira surge dentro do escopo do novo Plano Geral de Outorgas – PGO Hidroviário, que é o instrumento de planejamento de Estado, aderente às diretrizes do planejamento nacional de transportes, às políticas formuladas pelo Conselho do Programa de Parcerias de Investimentos da Presidência da República – CPPI, no que se refere a integração de políticas de transportes e pelo Ministério dos Portos e Aeroportos (MPOR), com a finalidade de orientar investidores e consolidar projetos de outorga de exploração das vias navegáveis ou potencialmente navegáveis, e de prestação de serviços de transportes aquaviário.\n\nA partir deste cenário institucional, o projeto de Concessão da Hidrovia do Rio Madeira foi elencado como prioritário em razão do relevante potencial para aumento da movimentação de cargas que deverá ocorrer com a melhoria das condições de navegabilidade.\n\nDiferentemente de outras hidrovias, o Rio Madeira possui navegação consolidada e não depende de obras públicas a serem realizadas previamente à concessão, a exemplo das Hidrovias da Lagoa Mirim e do Tocantins.\n\nPara além disso, considerando que esta poderá ser a primeira concessão hidroviária brasileira, buscou-se priorizar hidrovias que possuem o maior conjunto de informações disponíveis. Nesse aspecto, o Rio Madeira se destaca, não só pelos estudos de pré-viabilidade produzidos pelo Banco Mundial (2015), mas sobretudo pelas informações detidas pelo DNIT, em especial os projetos conduzidos junto ao USACE – o Corpo de Engenheiros do Exército dos Estados Unidos (United States Army Corps of Engineers).\n\nCom base no planejamento estabelecido, a ANTAQ e a empresa <strong>Infra S/A</strong> celebraram o Acordo de Cooperação Técnica nº 8/2023, que tem por objeto o apoio técnico para execução do planejamento de longo prazo, a execução de estudos e projetos, e a estruturação de projetos de infraestrutura de transporte aquaviário voltados a parcerias ou outorgas entre iniciativa privada e poder público, a ser executado conjuntamente entre os partícipes, conforme especificações estabelecidas em planos de trabalho.\n\nO projeto contempla, majoritariamente, o escoamento da produção do agronegócio da área de influência localizada no Centro-Oeste, prevendo um crescimento significativo das cargas movimentadas pela hidrovia. A projeção de demanda por transporte hidroviário possui taxa média ponderada de crescimento de 3,9% ao ano, para o período 2022 a 2044, atingindo cerca de 20 milhões de toneladas em 2034 e cerca de 27,5 milhões em 2044.\n\nOs estudos técnicos e jurídicos estão em fase final de elaboração, e devem ser disponibilizados em consulta e audiências ainda no ano de 2024."
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1288,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

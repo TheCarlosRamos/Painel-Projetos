@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "<p style=\"font-weight: 400\">A ferrovia FERROESTE - Estrada de Ferro Paraná Oeste S.A., empresa do Estado do Paraná, detém a concessão para construir e operar estrada de ferro, já existindo entre as cidades de Guarapuava e Cascavel, com a possibilidade de extensão até Dourados/MS. A outorga desta concessão foi efetivada pelo Decreto Presidencial n.º 96.913, de 03/10/1988.</p>\n<p style=\"font-weight: 400\">O Projeto do Corredor Oeste de Exportação – Nova Ferroeste, com extensão estimada de 1.567km, consiste em:</p>\n\n<ul>\n \t<li style=\"font-weight: 400\">construir uma nova ferrovia entre Maracaju – MS e Cascavel – PR;</li>\n \t<li style=\"font-weight: 400\">revitalizar o atual trecho ferroviário que vai de Cascavel - PR a Guarapuava – PR;</li>\n \t<li style=\"font-weight: 400\">construir uma nova ferrovia entre Guarapuava – PR e Paranaguá – PR; e,</li>\n \t<li>construir um ramal entre Cascavel - PR e Foz do iguaçu - PR</li>\n</ul>\n<p style=\"font-weight: 400\">Trata-se de auxiliar o Governo do Estado do Paraná com o objetivo de concretizar o projeto, como empreendimento atrativo para a iniciativa privada, por meio do apoio do Governo Federal ao processo de desestatização da empresa estadual Estrada de Ferro Paraná Oeste, solicitado pelo Governo do Estado do Paraná.</p>\n<p style=\"font-weight: 400\">O empreendimento foi qualificado na 13ª Reunião do Conselho do PPI, por meio da <a href=\"https://www.in.gov.br/web/dou/-/resolucao-n-133-de-10-de-junho-de-2020-263470832\">Resolução nº 133, de 10/06/2020</a>, que deu origem ao <a href=\"http://www.planalto.gov.br/ccivil_03/_ato2019-2022/2020/Decreto/D10487.htm#:~:text=Disp%C3%B5e%20sobre%20a%20qualifica%C3%A7%C3%A3o%20da,Comit%C3%AA%20de%20Governan%C3%A7a%20do%20Projeto.\">Decreto nº 10.487, de 15/09/2020</a>.</p>\nOs estudos que compõem o EVTEA-J foram desenvolvidos pelo consórcio TPF-Sener. O Governo do Paraná, com apoio do PPI, promoveu uma sondagem de mercado em dezembro de 2021 e consolidou as contribuições apresentadas pelos potenciais investidores e interessados.\n\nO modelo de contratação desenvolvido nos estudos é uma cessão onerosa dos contratos que hoje estão sob a gestão da Ferroeste.\n\nOs Estudos de Impacto Ambiental foram aprovados pelo IBAMA e foi aberta audiência pública para tais estudos durante a segunda quinzena de maio/22.\n<p style=\"font-weight: 400\">Os estudos ambientais foram disponibilizados no site do Ibama. Para acessá-lo <a href=\"http://licenciamento.ibama.gov.br/Ferrovias/FERROVIA%20%20CORREDOR%20OESTE%20DE%20EXPORTACAO%20%e2%80%93%20NOVA%20FERROESTE%20TRECHO%20MARACAJU%20_MS%20-%20PARANAGUA_PR_%20%e2%80%93%20RAMAL%20FOZ%20DO%20IGUACU%20_PR%20_%20CASCAVEL%20PR/\">clique aqui</a></p>\nAcesso a todos os estudos  e minuta de edital pelos links:\n<div><a href=\"https://www.novaferroeste.pr.gov.br/Pagina/Estudo-de-Impacto-Ambiental\" target=\"_blank\" rel=\"noopener\">https://www.novaferroeste.pr.gov.br/Pagina/Estudo-de-Impacto-Ambiental </a></div>\n<div></div>\n<div><a href=\"https://www.novaferroeste.pr.gov.br/Pagina/Estudo-de-Viabilidade-Tecnica\" target=\"_blank\" rel=\"noopener\">https://www.novaferroeste.pr.gov.br/Pagina/Estudo-de-Viabilidade-Tecnica </a></div>\n<div></div>\n<div><a href=\"https://www.novaferroeste.pr.gov.br/Pagina/Edital/Edital-Nova-Ferroeste\" target=\"_blank\" rel=\"noopener\">https://www.novaferroeste.pr.gov.br/Pagina/Edital/Edital-Nova-Ferroeste</a></div>"
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1345,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

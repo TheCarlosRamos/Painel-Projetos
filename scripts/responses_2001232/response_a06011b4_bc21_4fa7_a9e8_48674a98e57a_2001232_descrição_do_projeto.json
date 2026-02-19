@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "<span xml:lang=\"PT-BR\" data-contrast=\"none\"><span class=\"dark-mode-color-black\"><span data-ccp-parastyle=\"item_nivel3\">A área </span>de arrendamento denominada STS33, cuja superfície total é de </span></span>aproximadamente <span xml:lang=\"PT-BR\" data-contrast=\"none\"><span class=\"dark-mode-color-black\">51.460 m², será utilizada para armazenagem e movimentação portuária de </span></span><a target=\"_blank\" name=\"_Hlk70951154\"></a>carga geral, de projeto ou conteinerizada,<span xml:lang=\"PT-BR\" data-contrast=\"none\"> <span class=\"dark-mode-color-black\"><span data-ccp-parastyle=\"item_nivel3\">como uma retroárea do Porto de Santos. A operação atual conta com um pátio para estacionamento de caminhões próprios, reduzindo a área dedicada para armazenamento de contêineres.</span></span></span>\n\nEm relação à atividade de armazenagem, de acordo com dados do ocupante atual da área, cerca de 95% dos contêineres são de importação. No entanto, visando evitar associar a viabilidade do terminal a atividades acessórias, como o transporte rodoviário, o terminal será modelado de maneira a garantir a plena utilização da área para serviços retroportuários de contêineres.\n<p class=\"Item_Nivel2\">A área desse arrendamento já desenvolve a atividade em quase toda a sua extensão. De maneira prática, o aproveitamento pleno do terminal para armazenamento de contêineres depende apenas da reorganização do pátio. Dessa forma, será possível aproveitar as estruturas físicas e equipamentos existentes no local de modo que não haverá a necessidade de interrupção da operação para condução de obras.</p>\n<p class=\"Item_Nivel2\">No que se refere aos investimentos necessários para a concepção do terminal, considera-se que o futuro arrendatário deverá realizar investimentos em armazéns, estruturas prediais e equipamentos necessários para a operação, que incluem, no mínimo:</p>\n\n<ul>\n \t<li>\n<p class=\"Texto_Justificado\">pavimentação;</p>\n</li>\n \t<li>\n<p class=\"Texto_Justificado\">instalação de sistema de segurança;</p>\n</li>\n \t<li>\n<p class=\"Texto_Justificado\">empilhadeiras Reach Stacker;</p>\n</li>\n \t<li>\n<p class=\"Texto_Justificado\">scanner;</p>\n</li>\n \t<li>\n<p class=\"Texto_Justificado\">balança rodoviária;</p>\n</li>\n \t<li>\n<p class=\"Texto_Justificado\">empilhadeiras;</p>\n</li>\n \t<li>\n<p class=\"Texto_Justificado\">balanças; e</p>\n</li>\n \t<li>\n<p class=\"Texto_Justificado\">veículos.</p>\n</li>\n</ul>"
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1329,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

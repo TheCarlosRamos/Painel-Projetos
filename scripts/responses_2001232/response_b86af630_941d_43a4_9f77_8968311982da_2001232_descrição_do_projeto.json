@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "O Parque Nacional do Jaú é uma Unidade de Conservação Federal de 2.272.000 hectares de área, localizado entre os municípios de Novo Airão e Barcelos, no baixo Rio Negro, Amazonas. Tem por finalidade precípua a preservação dos ecossistemas naturais englobados contra quaisquer alterações que os desvirtuem, destinando-se a fins científicos, culturais, educativos e recreativos. O Parque é uma Unidade de Conservação de Proteção Integral e, de acordo com o Sistema Nacional de Unidades de Conservação da Natureza – SNUC.\nA estruturação do projeto ficou a cargo do BNDES que contratou o Consórcio Uirapuru para a realização dos estudos de viabilidade técnica, econômica e jurídica."
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1290,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

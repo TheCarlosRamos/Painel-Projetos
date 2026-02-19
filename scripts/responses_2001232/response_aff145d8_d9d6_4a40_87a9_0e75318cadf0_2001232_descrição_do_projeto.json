@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "É o segundo porto brasileiro com maior movimentação de contêineres e o primeiro entre os exportadores de congelados. As exportações respondem por, aproximadamente, 50% das operações. Em 2019 o porto movimentou 8,2 milhões de toneladas, sendo frango (1,3 mi t), madeiras e derivados (1,8 mi t), carnes (552 mil t), plásticos e borrachas (864 mil t), dentre outras.\n\nO empreendimento foi qualificado na 13ª reunião do Conselho do PPI, por meio da Resolução nº 121, de 10/06/2020, convertida no Decreto nº 10.484 de 10/09/2020.\n\nO projeto prevê a realização de R$ 2,8 bilhões de reais em investimentos, dos quais R$ 920 milhões devem ser realizados nos primeiros 3 anos do contrato. Os investimentos têm como objetivo o desenvolvimento do terminal, a compra de equipamentos, melhorias no sistema de acostagem e aquaviário. Ainda, o porto terá ampliação das áreas de pátio em 90%, além da previsão de um novo terminal de contêineres, com capacidade estática de 37.152 TEUs.\n\nEstima-se a geração de 1.833 empregos, entre diretos, indiretos e efeito-renda."
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1329,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "<p class=\"Texto_Justificado_Recuo_Primeira_Linha\">A área de arrendamento denominada RDJ11 está localizada dentro da Poligonal do Porto Organizado do Rio de Janeiro/RJ, possui aproximadamente 9.010 m² e será destinada à movimentação e armazenagem de carga geral não conteinerizada, especialmente produtos siderúrgicos.</p>\n<p class=\"Item_Nivel2\">A área pleiteada inclui um trecho de ramal ferroviário futuro previsto pela MRS, desde o AMV de derivação da linha principal até o final do ramal, próximo ao terminal arrendado da Tequimar (Ultracargo).</p>\n<p class=\"Item_Nivel2\">Trata-se de área <em>brownfield</em>, previamente ocupada por estruturas permanentes. Entretanto, as estruturas terrestres existentes não são úteis ao novo projeto, e acabam onerando o resultado do projeto</p>\n<p class=\"Item_Nivel2\">Os ativos existentes (instalações desativadas, em condições precárias) serão disponibilizados à nova arrendatária no estado em que se encontram, ficando sob responsabilidade da futura arrendatária a demolição e preparação do terreno para realização dos investimentos necessários para implantação das novas instalações, incluindo novo pátio de armazenagem. Também estão previstas novas instalações de recebimento rodoferroviário e expedição rodoviária, que poderão operar utilizando equipamentos alugados.</p>\n<p class=\"Item_Nivel2\">Importante destacar que as atividades a serem desenvolvidas no novo arrendamento estão alinhadas com os instrumentos de planejamento setorial. Contudo, no que se refere ao PDZ e o formato da área, poderá haver necessidade de adequação, a qual deverá ser avaliada pela Autoridade Portuária após a realização da análise pelo TCU, considerando a possibilidade de alterações após esta fase.</p>\n<p class=\"Item_Nivel2\">De acordo com as características das operações previstas, estima-se que a capacidade estática de armazenagem seja de 10.800 toneladas e a capacidade dinâmica de armazenagem seja de aproximadamente 185.000 t/ano.</p>\n<p class=\"Item_Nivel2\">Por fim, informa-se que os estudos foram doados por empresa privada e foram encaminhados para a INFRA SA para revisão do estudo. Tratando-se de processo simplificado, foi dispensado de consulta pública. A deliberação do TCU para o prosseguimento do processo ocorreu em 29/01/2025.</p>"
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1329,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "A Fortaleza de Santa Cruz (Forte Orange) está localizada na Ilha de Itamaracá, a cerca de 50 km do Recife, um território de extrema importância no processo de colonização portuguesa no nordeste do Brasil. Construído pelos holandeses em 1631, o Forte Orange foi abandonado em 1654 após a derrota para os portugueses, ficando em ruínas. O forte foi reconstruído a partir de 1696 pelos portugueses, que voltaram a administrar a Ilha.\nA fortaleza apresenta formato quadrangular com ângulos agudos em forma de vértices. Reformas e restauros foram realizados ao longo do tempo. Escavações arqueológicas identificaram estruturas de parte do primeiro forte holandês (século XVII) e outras do forte português, ainda do século XVIII.\nDada sua importância histórico-cultural, a fortaleza foi selecionada pelo Comitê Interministerial instituído pelo\nDecreto nº 10.349, de 13 de maio de 2020. O decreto qualificou, no Programa de Parceria de Investimentos (PPI), a política de atração de investimentos privados para o setor de turismo, para fins de elaboração de estudos e parcerias destinados à implementação de novos empreendimentos e ao aproveitamento turístico de ativos culturais e naturais do país.\nA Política de Atração de Investimentos Privados para o Setor de Turismo\nO Ministério do Turismo (MTur), com o objetivo de preservar e valorizar o patrimônio cultural, por meio de parcerias e concessões com o setor privado, instituiu o Revive Brasil, no âmbito do MTur, e propôs a qualificação da política de atração de investimentos no PPI.  Um protocolo de cooperação Brasil-Portugal, celebrado no início de 2020, e um programa de Portugal denominado Revive foi utilizado pelo MTur como referência."
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1335,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

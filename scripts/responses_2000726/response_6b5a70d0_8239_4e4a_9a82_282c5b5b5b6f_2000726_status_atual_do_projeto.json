@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "Leilão marcado para o dia 03/03/2026.\nVeja em https://www.gov.br/mpa/pt-br/assuntos/fomento/terminais-pesqueiros-publicos-tpps/editais-e-licitacoes/estudo/SEI_49840064_Comunicado_Relevante.pdf"
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1003,
+  "SourceId": "2000726",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Project current status",
+    "Type": "TextMulti"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "Estruturação de projeto de iluminação pública (IP) de Maranguape (CE). O objetivo da PPP é modernizar cerca de 14.000 pontos do parque de IP da cidade adequando-os às normas técnicas vigentes, tendo como fonte de recursos a Contribuição para Iluminação Pública - COSIP.\n\nBenefícios previstos:\n\n1. Melhoria da segurança pública e da qualidade de vida dos 128.978 habitantes;\n\n2. Modernização da iluminação de destaque dos monumentos municipais;\n\n3. Redução das emissões dos gases de efeito estufa; e\n\n4. Aumento dos investimentos e geração de emprego.\n\nA estruturação será realizada por consultoria a ser contratada pelo Fundo de Apoio à Estruturação e ao Desenvolvimento de Projetos de Concessão e Parcerias Público-Privadas – FEP CAIXA, nos termos da Lei Federal nº 13.529/2017.\n\nO serviço técnico especializado contratado é composto pelas seguintes atividades:\n\na. assessoramento técnico a ser prestado pela Caixa ao Ente.\n\nb. consultoria técnica especializada para realização dos estudos de viabilidade e desenvolvimento dos documentos necessários para a licitação do Contrato de Concessão.\n\nOs serviços para estruturação da Concessão abrangem os aspectos técnicos de engenharia, econômico-financeiro, jurídico e socioambiental na elaboração de projetos, laudos, pareceres, relatórios e informações nas seguintes etapas:\n\n• Estudos Preliminares;\n\n• Estudos de Viabilidade Técnica, Econômica e Ambiental (EVTEA);\n\n• Validação Externa (Consulta Pública e Órgãos de Controle);\n\n• Licitação e Contratação."
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1341,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

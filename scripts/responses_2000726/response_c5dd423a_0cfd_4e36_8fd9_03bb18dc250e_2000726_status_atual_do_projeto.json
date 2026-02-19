@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "Os estudos foram concluídos em 25/08/2021. O período para contribuições da Consulta Pública encerrou-se em 13/10/2021. Os documentos dos estudos podem ser consultados em https://www.gov.br/anac/pt-br/assuntos/concessoes/relicitacao-do-aeroporto-de-viracopos"
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1044,
+  "SourceId": "2000726",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Project current status",
+    "Type": "TextMulti"
+  }
+}

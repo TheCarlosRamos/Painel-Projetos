@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "Os Complexos Portuários de Salvador, Aratu-Candeias e Ilhéus encontram-se administrados por empresa pública federal, de capital fechado, dividido por ações, sob o controle da União, e vinculada ao Ministério de Portos e Aeroportos, denominada Companhia das Docas do Estado da Bahia - Codeba.\n\nA Codeba foi constituída através da Seção Pública realizada com a Assembleia Geral dos Acionistas, em 17 de fevereiro de 1977. Este Complexo Portuário localiza-se na Região Metropolitana de Salvador, no Estado da Bahia, de modo que as instalações portuárias estão distribuídas entre os municípios de Salvador, Candeias e Madre de Deus e protegidas do mar aberto pela Baía de Todos os Santos (BTS).\n\nSegundo dados estatísticos obtidos junto ao sítio eletrônico da Antaq, o complexo portuário de Salvador movimentou, no ano de 2024, 6.603.213 toneladas, com predominância para as cargas conteinerizadas (78,4%). Já o Porto de Aratu-Candeias, ainda segundo a Antaq, movimentou, no ano de 2024, 6.561.102 toneladas, com destaque para combustíveis e produtos químicos, que juntos correspondem a 77% do total. Quanto ao complexo portuário de Ilhéus, este movimentou, no ano de 2024, segundo a Agência, 232.285 toneladas, predominando os granéis sólidos, que corresponderam a 90,3% da movimentação.\n\nO empreendimento foi qualificado na 14ª Reunião do CPPI por meio da <a href=\"https://ppi.gov.br/legislacao-e-arquivos?di=&amp;df=12%2F03%2F2021&amp;tps=-1&amp;tp=-1&amp;re=10&amp;pn=resolu%C3%A7%C3%A3o+n%C2%BA+145&amp;np=\" target=\"_blank\" rel=\"noopener\">Resolução nº 145, de 2 de dezembro de 2020</a>, convertida no <a href=\"https://ppi.gov.br/legislacao-e-arquivos?di=&amp;df=12%2F03%2F2021&amp;tps=-1&amp;tp=-1&amp;re=10&amp;pn=Decreto+n%C2%BA+10.635&amp;np=\" target=\"_blank\" rel=\"noopener\">Decreto nº 10.635, de 22 de fevereiro de 2021</a>."
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1329,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "O projeto considera a concessão dos serviços de abastecimento de água e de esgotamento sanitário no Estado de Alagoas, na área definida como Bloco D. Este Bloco inclui 28 municípios, atendendo 660 mil pessoas, o que corresponde a 20% da população do estado.\nA CASAL, companhia estatal que presta todos os serviços atualmente em 17 destes municípios, permanecerá atuando nos mesmos como responsável pela captação, tratamento e fornecimento de água potável para o operador privado, que será responsável pela distribuição de água e a totalidade dos sistemas de esgotamento sanitário."
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1326,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

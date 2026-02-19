@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "Este projeto visa a construção de um terminal para movimentação e armazenagem de granéis sólidos vegetais e minerais, com investimento de R$ 544,8 milhões. O terminal terá capacidade para movimentar 4,3 milhões de toneladas por ano. Serão geradas aproximadamente 225 posições de emprego direto na fase de operação.\n\nO projeto contribuirá para o aumento da capacidade de movimentação de granéis sólidos e fortalecerá a posição do Porto de São Sebastião no cenário nacional.\n\nO Porto Organizado de São Sebastião movimentou, em 2023, um total de 1.004.877 toneladas, sendo 713.378 toneladas de granéis sólidos e 291.499 toneladas de carga geral, grande parte movimentada pelo terminal SSB01."
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1329,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

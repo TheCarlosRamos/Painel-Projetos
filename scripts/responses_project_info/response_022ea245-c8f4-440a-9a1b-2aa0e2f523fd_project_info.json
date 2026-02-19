@@ -1,0 +1,129 @@
+{
+  "ProjectOrganizations": [
+    {
+      "Id": 206,
+      "Value": "SEPPI"
+    }
+  ],
+  "ProjectActivityStatus": {
+    "Value": true,
+    "SourceUniqueId": "DEF-1",
+    "Title": "Active",
+    "LocalResourceKey": "<%Labels,DEF-AS-1,Title%>"
+  },
+  "Guid": "022ea245-c8f4-440a-9a1b-2aa0e2f523fd",
+  "Name": "Apoio &#224; Visita&#231;&#227;o e &#224; Conserva&#231;&#227;o de &#225;rea de Fernando de Noronha/PE",
+  "Description": "Parceria para presta&#231;&#227;o dos servi&#231;os p&#250;blicos de apoio &#224; visita&#231;&#227;o, com previs&#227;o do custeio de a&#231;&#245;es de apoio &#224; conserva&#231;&#227;o, &#224; prote&#231;&#227;o e &#224; gest&#227;o das unidades da &#193;rea de Prote&#231;&#227;o Ambiental e do Parque Nacional Marinho da ilha de Fernando de Noronha/PE",
+  "Sector": {
+    "Id": 7,
+    "Value": "Other"
+  },
+  "SubSector": {
+    "Id": 41,
+    "Value": "Other"
+  },
+  "OtherSubsector": {
+    "Id": "4b9e12a4-35b6-427a-b168-256ee82b662d",
+    "Value": "Apoio à Visitação e à Conservação"
+  },
+  "Territories": [
+    {
+      "Id": 36,
+      "Value": "Brazil"
+    }
+  ],
+  "Locations": [
+    "Fernando de Noronha (Distrito Estadual)"
+  ],
+  "TypeOfProject": [
+    "New"
+  ],
+  "IsPPP": true,
+  "IsUnsolicited": false,
+  "LegalFramework": {
+    "SourceUniqueId": "BRA-1",
+    "Title": "Federal",
+    "LocalResourceKey": "<%Timeline,BRA-LF-1,Title%>"
+  },
+  "Packages": [
+    {
+      "LocalResourceKey": null,
+      "ID": 1,
+      "Title": "",
+      "ContractualArrangements": [
+        {
+          "SourceUniqueId": "BRA-1",
+          "Title": "Concession: Law 8.987/95",
+          "LocalResourceKey": "<%Timeline,BRA-CA-1,Title%>"
+        }
+      ],
+      "TenderProcess": null,
+      "OtherContractualArrangement": null,
+      "OtherTenderProcess": null
+    }
+  ],
+  "Threshold": {
+    "SourceUniqueId": "BRA-1",
+    "Title": "Qualification by Project",
+    "LocalResourceKey": "<%Timeline,BRA-TH-1,Title%>"
+  },
+  "OwnerOrganisation": {
+    "Id": 206,
+    "Value": "SEPPI"
+  },
+  "CurrentProjectStatus": {
+    "Id": 2,
+    "Value": "Project Definition"
+  },
+  "CurrentProjectStatusCustom": {
+    "Id": 1,
+    "Value": "Definition"
+  },
+  "Completion": 0.0,
+  "Created": "2025-06-18T17:39:59Z",
+  "Modified": "2025-10-08T17:34:29Z",
+  "ProjectEstimatedDueDate": "2025-06-18T17:39:59Z",
+  "EstimatedCapitalCost": 0.181749,
+  "OriginalCurrency": {
+    "Id": 27,
+    "Value": "BRL"
+  },
+  "OriginalCurrencyEstimatedCapitalCost": 1.0,
+  "ProjectProperties": {
+    "Reference": null,
+    "IsTimelineDefined": true,
+    "LanguagesTimeline": [
+      {
+        "Code": "en",
+        "Title": "English"
+      },
+      {
+        "Code": "por",
+        "Title": "Português"
+      }
+    ],
+    "AdditionalFields": {}
+  },
+  "PMLeaderEmail": "adminppi.source@presidencia.gov.br",
+  "PMLeaderFirstName": "Adminppi",
+  "PMLeaderLastName": "Source",
+  "PMLeaderOrganisation": "SEPPI",
+  "PMLeaderTelephone": "(empty)",
+  "GPSCoordinates": [
+    {
+      "address": "Fernando de Noronha (Distrito Estadual), Fernando de Noronha, Pernambuco",
+      "location": {
+        "x": "-32.41083",
+        "y": "-3.84028"
+      },
+      "score": 100.0,
+      "attributes": {
+        "ResultID": 1,
+        "Place_addr": "Fernando de Noronha (Distrito Estadual), Fernando de Noronha, Pernambuco",
+        "City": "Fernando de Noronha (Distrito Estadual)",
+        "Subregion": "Fernando de Noronha",
+        "Region": "Pernambuco"
+      }
+    }
+  ]
+}

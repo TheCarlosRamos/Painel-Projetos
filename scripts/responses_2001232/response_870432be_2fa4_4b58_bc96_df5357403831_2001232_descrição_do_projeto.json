@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "Os empreendimentos visam, por meio do desenvolvimento da infraestrutura hídrica, como barragens, canais, bombas e adutoras, a ampliação dos serviços de irrigação e, no caso do projeto hidroagrícola, também o abastecimento de água e a geração de energia, levando desenvolvimento econômico e social às regiões mais necessitadas do semiárido brasileiro.\n\nAs parcerias com a iniciativa privada permitirão a retomada da implantação desses empreendimentos, interrompida em função da escassez de recursos orçamentários, além da incorporação de novas tecnologias e maior produtividade.\n\nOs 7 novos projetos qualificados são:\n<ul>\n \t<li>Vale do Jequitaí (MG)</li>\n \t<li>Vale do Iuiú (BA)</li>\n \t<li>Chapada do Apodi (RN)</li>\n \t<li>Baixo Acaraú (CE)</li>\n \t<li>Tabuleiros Litorâneos (PI)</li>\n \t<li>Platôs de Guadalupe (PI)</li>\n \t<li>Tabuleiros de São Bernardo (MA)</li>\n</ul>\nLocalizado nos Municípios de Malhada e Iuiú, no Estado da Bahia, o Projeto de Irrigação Vale do Iuiú tem acesso terrestre pela rodovia BR-030, que faz ligação da região com Vitória da Conquista/BA e Salvador/BA, e BR-122, conectando com Montes Claros/MG, além da Ferrovia de Integração Oeste-Leste, que margeia a área.\n\nCom cerca de 250.000 hectares de terras irrigáveis, representando 63% da área total, e excelentes condições de topografia, o projeto contempla dois grandes blocos – Iuiú Norte e Iuiú Sul.\n\nEstudos preliminares indicam a viabilidade de irrigação de uma área de 51.700 hectares."
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1325,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

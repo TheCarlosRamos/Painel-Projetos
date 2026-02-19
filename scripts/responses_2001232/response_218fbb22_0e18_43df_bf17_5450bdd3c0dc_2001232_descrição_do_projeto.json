@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "O Projeto Pontal está localizado no município de Petrolina, no Estado de Pernambuco. O projeto foi qualificado no âmbito do Programa de Parcerias de Investimentos PPI, juntamente com outros 3 projetos de irrigação, por meio da Resolução n° 306, de 25 de junho de 2024, referendada pelo Decreto nº 12.162, de 3 de setembro de 2024.\n\nA Área Sul do projeto compreende 3,5 mil hectares irrigáveis. Enquanto a Área Norte tem 4,1 mil hectares irrigáveis. A Área Norte é subdividida em Mancha 20 e Mancha 23. A Mancha 20, foco desta concessão, possui 3.115,36 hectares.\n\nAtualmente, o Pontal Área Sul está implantado e em operação, enquanto o Pontal Área Norte é estruturado em duas frentes de serviço independentes. A implantação da Mancha 23 tem 40% de execução, enquanto a Mancha 20 ainda não teve as obras iniciadas.\n\nOs objetivos principais do projeto estão relacionados à geração de emprego e renda nas áreas rurais, dinamização da economia local e melhoria dos índices de desenvolvimento socioeconômico."
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1325,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

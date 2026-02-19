@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "Criada em 20 de maio de 1992 pelo Decreto Federal nº 530, a Floresta Nacional de Ipanema é Unidade de Conservação Federal gerida pelo ICMBio, autarquia federal vinculada ao Ministério do Meio Ambiente – MMA.\nLocalizada a 120 km da cidade de São Paulo e abrangendo parte dos municípios de Iperó, Araçoiaba da Serra e Capela do Alto. A missão da FLONA de Ipanema é proteger, conservar e restaurar os remanescentes de vegetação nativa do domínio de Mata Atlântica, especialmente o Morro Araçoiaba e seus ambientes associados, seus atributos naturais, históricos e culturais, além de promover o manejo florestal, o uso público e ser referência em integração socioambiental, pesquisa e disseminação de conhecimentos.\nA Unidade de Conservação também guarda testemunhos da história, com sítios arqueológicos anteriores à chegada dos colonizadores, que estão protegidos pela mata densa do Morro Araçoiaba, um fenômeno geológico, de formação vulcânica, com grande diversidade mineral, sendo a magnetita o minério predominante e utilizado para a fabricação de ferro na Real Fábrica de Ferro São João de Ipanema, criada por D. João VI, em 1810, mas conhecida desde o século XVI, quando a expedição de Afonso Sardinha e seu filho resultou na construção de duas forjas, em 1589, reconhecidas pela Associação Mundial de Produtores de Aço como a primeira tentativa de fabricação de ferro em solo americano.\nA estruturação do projeto ficou a cargo do BNDES que contratou o Consórcio Uirapuru para a realização dos estudos de viabilidade técnica, econômica e jurídica."
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1290,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

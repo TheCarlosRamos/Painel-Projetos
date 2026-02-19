@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "Projeto de desestatização, mediante participação privada, na prestação dos serviços públicos de abastecimento de água e de esgotamento sanitário, bem como serviços de gestão operacional, em 93 municípios do Estado da Paraíba, atendendo cerca de 2,2 milhões de pessoas, o que corresponde a 55% da população do Estado."
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1326,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

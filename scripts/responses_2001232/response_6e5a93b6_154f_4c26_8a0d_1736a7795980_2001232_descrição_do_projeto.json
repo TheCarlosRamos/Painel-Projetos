@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "Estruturação de projeto de iluminação pública (IP) de Camaçari (BA). O objetivo da PPP é modernizar os mais de 49.000 pontos do  parque de IP da cidade adequando-os às normas técnicas vigentes. Benefícios previstos:\n\nMelhoria da segurança pública e da qualidade de vida para quase 300.000 pessoas;\nModernização da iluminação de destaque dos monumentos municipais;\nRedução das emissões dos gases de efeito estufa; e\nAumento dos investimentos e geração de emprego.\n\nO projeto é realizado por cooperação do FEP CAIXA com a Corporação Financeira Internacional - IFC, tendo sido contratado o consórcio formado pela consultoria Accenture e pelo escritório Madrona Advogados. O processo está sendo financiada pelo Município (10%) , pela Corporação Financeira Internacional -   IFC (45%) e pelo Fundo de Apoio à Estruturação e ao Desenvolvimento de Projetos de Concessão e Parcerias Público-Privadas – FEP CAIXA (45%), nos termos da Lei Federal nº 13.529/2017.\n\nO serviço técnico especializado contratado é composto pelas seguintes atividades:\n\nassessoramento técnico a ser prestado pela Caixa ao Ente.\nconsultoria técnica especializada para realização dos estudos de viabilidade e desenvolvimento dos documentos necessários para a licitação do Contrato de Concessão.\n\nOs serviços para Estruturação da Concessão abrangem os aspectos técnicos de engenharia, econômico-financeiro, jurídico e socioambiental na elaboração de projetos, laudos, pareceres, relatórios e informações nas seguintes etapas:\n\nEstudos Preliminares -CONCLUÍDO\n\nEstudos de Viabilidade Técnica, Econômica e Ambiental (EVTEA) -  CONCLUÍDO\n\nValidação Externa (Consulta Pública e Órgãos de Controle); Consulta pública iniciada em 19/05/21 e a"
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1341,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

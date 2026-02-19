@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "A Resolução CPPI nº 60/2019 propôs a qualificação da CBTU no Programa de Parcerias de Investimentos (PPI) e no Programa Nacional de Desestatização (PND). O Decreto nº 9.999, de 3 de setembro de 2019, efetivou a qualificação no PPI e inclusão no PND, assim como deliberou pelo início dos estudos necessários, tendo sido o BNDES autorizado a contratá-los. A Resolução CPPI nº 324, de 25 de março de 2025, aprovou as condições iniciais aplicáveis à transferência de ativos da Superintendência Regional da CBTU localizada em Recife, Estado de Pernambuco. \n\nO processo de desestatização prevê a transferência dos ativos da Superintendência Regional do Recife (STU-REC) da CBTU, associada à outorga da concessão do serviço público de gestão, operação e manutenção da rede metroferroviária da região metropolitana de Recife, no Estado de Pernambuco.\n\nO objetivo social do projeto é que cerca de 180 mil pessoas que utilizam do sistema de transporte diariamente tenham mais qualidade de vida e menos tempo gasto nos seus deslocamentos, com maior segurança e regularidade e manutenção da mesma estrutura tarifária vigente.\n\nO serviço de transporte metroferroviário operado pela CBTU em Pernambuco compreende 3 linhas em operação, 36 estações e 71,5 km de extensão, dos quais 37,8 km eletrificada e 33,7 km não-eletrificada.\n\nAs intervenções previstas na concessão estadual, com prazo de 30 anos, envolvem investimentos para melhorias e maior eficiência operacional, por meio de reforma de estações, compra de trens novos e diversas atualizações tecnológicas, resultando em melhoria da qualidade do serviço prestado à população, mais conforto, acessibilidade, segurança e maior regularidade nas viagens."
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1359,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

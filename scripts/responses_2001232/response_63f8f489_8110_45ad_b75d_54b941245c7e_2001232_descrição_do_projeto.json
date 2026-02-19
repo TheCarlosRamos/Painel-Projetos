@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "O projeto a ser estruturado contemplará estudos de viabilidade para a concessão dos serviços de abastecimento de água e coleta e tratamento de esgotos em 214 dos 217 municípios do Estado, atendidos ou não pela CAEMA, incluindo suas áreas urbanas e rurais, que ainda não contam com prestação de serviços de saneamento delegado para o setor privado, beneficiando aproximadamente 6,7 milhões de pessoas.\nPor ter uma população rural bastante expressiva, o Estado solicitou também a inclusão destas áreas dos municípios no escopo inicial do projeto. A viabilidade de se implantar a estruturação sob essa premissa será avaliada oportunamente, na fase de estudos.\nCabe destacar que embora o escopo da modelagem da concessão abarque 214 municípios, haverá ainda, por solicitação do Estado, a elaboração de diagnóstico contemplando os três municípios que hoje são concessões privadas."
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1326,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

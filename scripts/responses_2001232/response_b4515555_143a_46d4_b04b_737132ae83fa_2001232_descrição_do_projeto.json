@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "O Terminal possui conexão rodoviária com capacidade para incremento de fluxo. O empreendimento será executado sobre terreno com estruturas existentes, podendo essas serem demolidas ou renovadas. Existem atualmente bens disponíveis na área de arrendamento que poderão ser utilizados pelo futuro arrendatário, na situação de conservação em que se encontram, tais como pavimentação, entre outros não operacionais.\n\nO projeto foi qualificado no PPI por meio da <a href=\"https://www.in.gov.br/en/web/dou/-/resolucao-n-193-de-25-de-agosto-de-2021-343820168\" target=\"_blank\" rel=\"noopener\">Resolução CPPI nº 193, de 25 de agosto de 2021</a>, que deu origem ao Decreto nº 10.858, de 19 de novembro de 2021."
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1329,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "ProjectOrganizations": [
+    {
+      "Id": 206,
+      "Value": "SEPPI"
+    }
+  ],
+  "ProjectActivityStatus": {
+    "Value": true,
+    "SourceUniqueId": "DEF-1",
+    "Title": "Active",
+    "LocalResourceKey": "<%Labels,DEF-AS-1,Title%>"
+  },
+  "Guid": "de84ed77-2133-411e-8a18-7c647c0e999d",
+  "Name": "BR-060/153/040/DF/GO (relicitação)",
+  "Description": "O trecho das rodovias BR-153/060 faz a liga&#231;&#227;o entre Bras&#237;lia e Goi&#226;nia, duas importantes capitais do Centro-Oeste e a BR-040, cujo trecho at&#233; Cristalina/GO faz parte desse projeto, interliga a capital do pa&#237;s a Belo Horizonte e &#224; cidade do Rio de Janeiro, consistindo em importante eixo de liga&#231;&#227;o das regi&#245;es Centro-Oeste e Sudeste. Al&#233;m disso, os dois trechos rodovi&#225;rios s&#227;o importantes vias de liga&#231;&#227;o entre as cidades do entorno do Distrito Federal e a capital do pa&#237;s, sendo caracterizados pelo tr&#225;fego elevado de ve&#237;culos.",
+  "Sector": {
+    "Id": 4,
+    "Value": "Transport"
+  },
+  "SubSector": {
+    "Id": 9,
+    "Value": "Highway"
+  },
+  "Territories": [
+    {
+      "Id": 36,
+      "Value": "Brazil"
+    }
+  ],
+  "Locations": [
+    "Distrito Federal,Goiás"
+  ],
+  "TypeOfProject": [
+    "Refurbishment/Replacement"
+  ],
+  "IsPPP": true,
+  "IsUnsolicited": false,
+  "LegalFramework": {
+    "SourceUniqueId": "BRA-1",
+    "Title": "Federal",
+    "LocalResourceKey": "<%Timeline,BRA-LF-1,Title%>"
+  },
+  "Packages": [
+    {
+      "LocalResourceKey": null,
+      "ID": 1,
+      "Title": null,
+      "ContractualArrangements": [
+        {
+          "SourceUniqueId": "BRA-4",
+          "Title": "Rebidding: Law 13.448/17, Art. 4, III",
+          "LocalResourceKey": "<%Timeline,BRA-CA-4,Title%>"
+        }
+      ],
+      "TenderProcess": {
+        "SourceUniqueId": "BRA-1",
+        "Title": "Competition",
+        "LocalResourceKey": "<%Timeline,BRA-TP-1,Title%>"
+      },
+      "OtherContractualArrangement": null,
+      "OtherTenderProcess": null
+    }
+  ],
+  "TechnicalSupport": {
+    "SourceUniqueId": "BRA-5",
+    "Title": "Others (e.g. Banco do Brasil, PMI)",
+    "LocalResourceKey": "<%Timeline,BRA-TS-5,Title%>"
+  },
+  "Threshold": {
+    "SourceUniqueId": "BRA-1",
+    "Title": "Qualification by Project",
+    "LocalResourceKey": "<%Timeline,BRA-TH-1,Title%>"
+  },
+  "OwnerOrganisation": {
+    "Id": 206,
+    "Value": "SEPPI"
+  },
+  "CurrentProjectStatus": {
+    "Id": 2,
+    "Value": "Project Definition"
+  },
+  "CurrentProjectStatusCustom": {
+    "Id": 1,
+    "Value": "Definition"
+  },
+  "Completion": 0.02,
+  "Created": "2025-03-19T07:43:45Z",
+  "Modified": "2026-01-16T20:21:05Z",
+  "ProjectEstimatedDueDate": "2025-03-19T07:43:45Z",
+  "EstimatedCapitalCost": 0.0,
+  "OriginalCurrency": {
+    "Id": 27,
+    "Value": "BRL"
+  },
+  "OriginalCurrencyEstimatedCapitalCost": 1.0,
+  "ProjectProperties": {
+    "Reference": null,
+    "IsTimelineDefined": true,
+    "LanguagesTimeline": [
+      {
+        "Code": "en",
+        "Title": "English"
+      },
+      {
+        "Code": "por",
+        "Title": "Português"
+      }
+    ],
+    "AdditionalFields": {}
+  },
+  "PMLeaderEmail": "adminppi.source@presidencia.gov.br",
+  "PMLeaderFirstName": "Adminppi",
+  "PMLeaderLastName": "Source",
+  "GPSCoordinates": [
+    {
+      "address": "",
+      "location": null,
+      "score": 0.0,
+      "attributes": {
+        "ResultID": 1,
+        "Place_addr": "",
+        "City": "",
+        "Subregion": "",
+        "Region": ""
+      }
+    }
+  ]
+}

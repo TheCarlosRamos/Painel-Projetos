@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "Com a baixa capacidade de pagamento da população da região e do não acordo para cofaturamento com a COMPESA, estão sendo definidos como será a proxy e forma de cobrança. A região sofre com escassez de água, chegando a população urbana não ter abastecimento por longos períodos."
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1042,
+  "SourceId": "2000727",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Project key issues",
+    "Type": "TextMulti"
+  }
+}

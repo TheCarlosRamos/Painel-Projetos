@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "A Ferrovia Novoeste S.A. obteve a concessão da Malha Oeste, pertencente à Rede Ferroviária Federal S.A., em leilão realizado em 05 de março de 1996. A outorga dessa concessão foi efetivada por Decreto Presidencial publicado no Diário Oficial da União em 27 de junho de 1996. A empresa iniciou a operação dos serviços públicos de transporte ferroviário de cargas em 01 de julho daquele ano.\n\nA Deliberação nº 258 de 16 de julho de 2008 da Agência Nacional de Transportes Terrestres (ANTT) aprovou a alteração do Estatuto Social da empresa Novoeste S.A., que passou a ser ALL – América Latina Logística Malha Oeste S.A. A partir de 2015, após um processo de fusão com a Rumo Logística, a empresa passou a ser controlada pela Rumo, que também detém as concessões das Malhas Paulista, Norte, Central e Sul, passando a denominar-se Rumo Malha Oeste. Sua área de atuação compreende os estados de São Paulo e Mato Grosso do Sul, com 1.973 km de extensão de linhas em bitola de 1,00 m.\n\nEm 21 de julho de 2020, a Rumo Malha Oeste protocolou, junto à ANTT, pedido de adesão ao processo de relicitação (devolução da concessão) referente ao objeto do Contrato de Concessão celebrado entre a Malha Oeste e a União, nos termos da Lei nº 13.448 de 5 de junho de 2017 e regulamentada pelo Decreto nº 9.957 de 07 de agosto de 2019.\n\nA infraestrutura da Malha Oeste, incluindo sua via permanente, encontra-se depreciada. Durante anos, a atual concessionária realizou investimentos em patamares insuficientes para a sua manutenção. O subinvestimento acarretou perda da capacidade de transporte. Atualmente, os trens trafegam com velocidades abaixo de seu potencial e o volume de carga transportado é limitado.\nO Conse"
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1345,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

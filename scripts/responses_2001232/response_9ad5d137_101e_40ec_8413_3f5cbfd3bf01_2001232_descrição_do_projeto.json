@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "Os Leilões de Reserva de Capacidade têm o objetivo de garantir a continuidade do fornecimento de energia elétrica, com vistas ao atendimento à necessidade de potência e/ou energia requerida pelo SIN, permitindo que os consumidores sejam atendidos a qualquer momento, com confiabilidade e segurança, mesmo em períodos críticos.\n\nO Leilão de Reserva de Capacidade na forma de potência, de 2025, surge da necessidade constatada nos Planos Decenais de Expansão de Energia (PDEs) de contratação de capacidade de potência para atender aos critérios gerais de garantia de suprimento estabelecidos pelo Conselho Nacional de Política Energética (CNPE).\n\nO LRCAP de 2025 é inovador, pois permite a contratação de reserva de capacidade de potência, não apenas proveniente de usinas termelétricas, mas a partir de ampliação de usinas hidrelétricas.\n\nO Ministério de Minas e Energia (MME), por meio da <a href=\"https://antigo.mme.gov.br/pt/web/guest/servicos/consultas-publicas?p_p_id=consultapublicammeportlet_WAR_consultapublicammeportlet&amp;p_p_lifecycle=0&amp;p_p_state=normal&amp;p_p_mode=view&amp;p_p_col_id=column-1&amp;p_p_col_pos=1&amp;p_p_col_count=2&amp;_consultapublicammeportlet_WAR_consultapublicammeportlet_view=detalharConsulta&amp;resourcePrimKey=6037958&amp;detalharConsulta=true&amp;entryId=6037960\">Consulta Pública nº 160</a>, disponibilizou para debate com a sociedade, a minuta preliminar da Portaria de Diretrizes para a realização do Leilão. A consulta pública permaneceu aberta pelo período de 08/03/2024 à 28/04/2024.\n\nEm 31/12/2024, O MME publicou a <a href=\"https://www.in.gov.br/en/web/dou/-/portaria-normativa-gm/mme-n-96-de-31-de-dezembro-de-2024-605096389\">Portaria Normativa GM/MME nº 96</a>, com as diretrizes para a realização do Leilão para Contratação de Potência Elétrica, a partir de empreendimentos de geração, novos e existentes, que acrescentem potência elétrica ao Sistema Interligado Nacional - SIN.\n\nNo Leilão de Reserva de Capacidade na forma de Potência de 2025, poderão ser negociados Contratos de Potência de Reserva de Capacidade com prazos de suprimento variando de 7 a 15 anos, a depender do tipo de produto. O leilão incluirá produtos de potência termelétrica de empreendimentos existentes a gás natural, sem inflexibilidade operativa, e de novos empreendimentos a gás e a biocombustíveis.\n\nAlém disso, será contemplado o Produto Potência Hidrelétrica 2030, voltado para empreendimentos de ampliação de capacidade instalada de usinas hidrelétricas existentes.\n\nA ANEEL, em 25/02/2025, decidiu por instaurar consulta pública, na modalidade intercâmbio documental, com duração de 47 dias, entre 27/02/2025 e 14/04/2025, para obter subsídios referente a minuta de Edital e Anexos do Leilão de Reserva de Capacidade na forma de Potência de 2025 – LRCAP de 2025.\n\nMais informações em: <a href=\"https://www2.aneel.gov.br/aplicacoes/editais_geracao/documentos_editais.cfm?IdProgramaEdital=216\">https://www2.aneel.gov.br/aplicacoes/editais_geracao/documentos_editais.cfm?IdProgramaEdital=216</a>."
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1285,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

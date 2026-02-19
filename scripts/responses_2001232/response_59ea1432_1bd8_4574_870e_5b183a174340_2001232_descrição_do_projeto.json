@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "O projeto do Museu Histórico do Exército/Forte de Copacabana (MHEx/FC) tem como objetivo tornar o ativo um polo de Turismo, um centro de referência em pesquisa da História Militar, mostrar a Arquitetura Contemporânea de Fortes e conservar as tradições históricas do Exército Brasileiro, além de oferecer uma experiência turística diferenciada aos visitantes, único equipamento histórico e cultural da região, em um dos cartões postais do Rio de Janeiro.\nConstruído no início do século XX, no mesmo local escolhido pelos portugueses desde a época de D. João VI, o Forte de Copacabana ocupa uma área aproximada de 114.000 m2 no promontório da igrejinha de Nossa Senhora de Copacabana ou Sacopenapan, como chamavam os indígenas, uma região cujos rochedos avançam contra o mar na direção da entrada da Baía de Guanabara, que oferece excelente área para posicionar peças de artilharia.\nO Museu Histórico do Exército é um dos principais museus militares do país. Sua origem remonta ao século XIX. Passou por alguns endereços da cidade, sendo extinto e recriado até 1987, ano em que fixou residência em um sítio famoso e histórico, o Forte de Copacabana. Seu acervo abrange o período de 1500 a 1945 e retrata cenas desde a chegada dos portugueses ao Brasil, a queda da Monarquia e a República.\nMais informações, visite o endereço https://www.mhexfc.eb.mil.br/pt-br/"
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1335,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

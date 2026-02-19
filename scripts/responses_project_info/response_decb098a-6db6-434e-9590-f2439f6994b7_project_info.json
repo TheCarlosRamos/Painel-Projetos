@@ -1,0 +1,132 @@
+{
+  "ProjectOrganizations": [
+    {
+      "Id": 206,
+      "Value": "SEPPI"
+    }
+  ],
+  "ProjectActivityStatus": {
+    "Value": true,
+    "SourceUniqueId": "DEF-1",
+    "Title": "Active",
+    "LocalResourceKey": "<%Labels,DEF-AS-1,Title%>"
+  },
+  "Guid": "decb098a-6db6-434e-9590-f2439f6994b7",
+  "Name": "PISF - Projeto de Integração do Rio São Francisco",
+  "Description": "O Projeto de Integra&#231;&#227;o do Rio S&#227;o Francisco com Bacias Hidrogr&#225;ficas do Nordeste Setentrional - PISF &#233; um projeto de infraestrutura h&#237;drica que capta &#225;gua no Rio S&#227;o Francisco aduzindo-a para bacias hidrogr&#225;ficas do nordeste setentrional nos estados do Cear&#225;, Para&#237;ba, Pernambuco e Rio Grande do Norte.",
+  "Sector": {
+    "Id": 1,
+    "Value": "Water & Waste"
+  },
+  "SubSector": {
+    "Id": 30,
+    "Value": "Water Supply Infrastructure"
+  },
+  "Territories": [
+    {
+      "Id": 36,
+      "Value": "Brazil"
+    }
+  ],
+  "Locations": [
+    "Ceará,Paraíba,Pernambuco,Rio Grande do Norte"
+  ],
+  "TypeOfProject": [
+    "Refurbishment/Replacement"
+  ],
+  "IsPPP": true,
+  "IsUnsolicited": false,
+  "LegalFramework": {
+    "SourceUniqueId": "BRA-1",
+    "Title": "Federal",
+    "LocalResourceKey": "<%Timeline,BRA-LF-1,Title%>"
+  },
+  "Packages": [
+    {
+      "LocalResourceKey": null,
+      "ID": 1,
+      "Title": null,
+      "ContractualArrangements": [
+        {
+          "SourceUniqueId": "BRA-5",
+          "Title": "Others: lease, transfer of use, specific law, etc.",
+          "LocalResourceKey": "<%Timeline,BRA-CA-5,Title%>"
+        }
+      ],
+      "TenderProcess": {
+        "SourceUniqueId": "BRA-1",
+        "Title": "Competition",
+        "LocalResourceKey": "<%Timeline,BRA-TP-1,Title%>"
+      },
+      "OtherContractualArrangement": null,
+      "OtherTenderProcess": null
+    }
+  ],
+  "TechnicalSupport": {
+    "SourceUniqueId": "BRA-2",
+    "Title": "BNDES",
+    "LocalResourceKey": "<%Timeline,BRA-TS-2,Title%>"
+  },
+  "Threshold": {
+    "SourceUniqueId": "BRA-1",
+    "Title": "Qualification by Project",
+    "LocalResourceKey": "<%Timeline,BRA-TH-1,Title%>"
+  },
+  "OwnerOrganisation": {
+    "Id": 206,
+    "Value": "SEPPI"
+  },
+  "CurrentProjectStatus": {
+    "Id": 2,
+    "Value": "Project Definition"
+  },
+  "CurrentProjectStatusCustom": {
+    "Id": 1,
+    "Value": "Definition"
+  },
+  "Completion": 0.02,
+  "Created": "2025-03-18T13:41:39Z",
+  "Modified": "2026-02-09T20:26:39Z",
+  "ProjectEstimatedDueDate": "2025-03-18T13:41:39Z",
+  "EstimatedCapitalCost": 0.0,
+  "OriginalCurrency": {
+    "Id": 27,
+    "Value": "BRL"
+  },
+  "OriginalCurrencyEstimatedCapitalCost": 1.0,
+  "ProjectProperties": {
+    "Reference": null,
+    "IsTimelineDefined": true,
+    "LanguagesTimeline": [
+      {
+        "Code": "en",
+        "Title": "English"
+      },
+      {
+        "Code": "por",
+        "Title": "Português"
+      }
+    ],
+    "AdditionalFields": {}
+  },
+  "PMLeaderEmail": "adminppi.source@presidencia.gov.br",
+  "PMLeaderFirstName": "Adminppi",
+  "PMLeaderLastName": "Source",
+  "GPSCoordinates": [
+    {
+      "address": "Rio Grande, Sertânia, Pernambuco",
+      "location": {
+        "x": "-37.16667",
+        "y": "-8.01667"
+      },
+      "score": 78.4,
+      "attributes": {
+        "ResultID": 1,
+        "Place_addr": "Rio Grande, Sertânia, Pernambuco",
+        "City": "",
+        "Subregion": "Sertânia",
+        "Region": "Pernambuco"
+      }
+    }
+  ]
+}

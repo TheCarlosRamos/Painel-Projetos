@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "A Rodovia BR-116/BA/PE foi incorporada aos estudos para a concessão de trechos rodoviários no Brasil, que inicialmente envolviam 7.213 km de rodovias qualificadas para Parceria Público-Privada. Este projeto faz parte do Lote 2, abrangendo 1.600 km de rodovias no Brasil, que foram analisados pelo Banco Nacional de Desenvolvimento Econômico e Social (BNDES). As rodovias incluídas no lote são a BR-251, em Minas Gerais, e a BR-116, entre Feira de Santana/BA e Salgueiro/PE, além de outros projetos interligados.\n\nA qualificação do projeto foi formalizada na 9ª Reunião do Conselho do Programa de Parcerias e Investimentos, por meio da Resolução nº 52, de 8 de maio de 2022, e do Decreto nº 9.972, de 14 de agosto de 2019. A partir dessas deliberações, o projeto passou a ser submetido a análise de viabilidade, com o objetivo de estruturar o modelo de concessão para os trechos rodoviários selecionados.\n\nO Lote Rodoviário 2 engloba as rodovias BR-116 e BR-324, que atravessam 16 municípios nos estados da Bahia e Pernambuco. Na Bahia, os municípios contemplados são Abaré, Chorrochó, Macururé, Canudos, Euclides da Cunha, Quijingue, Tucano, Araci, Teofilândia, Serrinha, Feira de Santana, Santa Bárbara e Lamarão. Já em Pernambuco, os municípios de Cabrobó, Belém do São Francisco e Salgueiro estão inseridos no projeto.\n\nO trecho da BR-116/BA/PE tem uma extensão total de 502 km, começando no anel rodoviário de Feira de Santana, na Bahia, e indo até Salgueiro, em Pernambuco. O processo de participação e controle social foi iniciado com a Deliberação nº 477, de 21 de novembro de 2024, por meio da Audiência Pública nº 9/2024. Essa audiência visa promover a transparência e coletar contribuições"
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1320,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

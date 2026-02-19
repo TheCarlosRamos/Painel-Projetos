@@ -1,0 +1,356 @@
+{
+  "ProjectOrganizations": [
+    {
+      "Id": 206,
+      "Value": "SEPPI"
+    }
+  ],
+  "ProjectActivityStatus": {
+    "Value": true,
+    "SourceUniqueId": "DEF-1",
+    "Title": "Active",
+    "LocalResourceKey": "<%Labels,DEF-AS-1,Title%>"
+  },
+  "Guid": "9fd6f3dc-03f7-49df-b7f7-b5574d34b848",
+  "Name": "Iluminação Pública - Consórcio CISAMAVI (SC)",
+  "Description": "A PPP de Ilumina&#231;&#227;o P&#250;blica representa um passo importante na busca cont&#237;nua das administra&#231;&#245;es municipais por melhorias significativas na qualidade de vida dos mais de 142 mil habitantes que ser&#227;o diretamente impactados pelo projeto. &#201; um arranjo regional organizado pelo Cons&#243;rcio CISAMAVI, contando com 14 munic&#237;pios que busca estruturar uma solu&#231;&#227;o conjunta para a melhoria dos servi&#231;os p&#250;blicos de ilumina&#231;&#227;o p&#250;blica de cada um de seus associados, sob a gest&#227;o do Cons&#243;rcio P&#250;blico.&#10;O projeto est&#225; sendo estruturado com recursos do Fundo de Estrutura&#231;&#227;o de Projetos (FEP), conta com o assessoramento t&#233;cnico da CAIXA.&#160; A coordena&#231;&#227;o geral &#233; da Secretaria Especial do Programa de Parcerias e Investimentos (SEPPI), com o apoio do Minist&#233;rio das Cidades.",
+  "Sector": {
+    "Id": 6,
+    "Value": "Urban Services"
+  },
+  "SubSector": {
+    "Id": 32,
+    "Value": "Street Lighting"
+  },
+  "Territories": [
+    {
+      "Id": 36,
+      "Value": "Brazil"
+    }
+  ],
+  "Locations": [
+    "Santa Catarina",
+    "Agrolândia",
+    "Agronômica",
+    "Braço do Trombudo",
+    "Ibirama",
+    "Imbuia",
+    "José Boiteux",
+    "Laurentino",
+    "Mirim Doce",
+    "Petrolândia",
+    "Presidente Getúlio",
+    "Rio do Oeste",
+    "Salete",
+    "Taió",
+    "Trombudo"
+  ],
+  "TypeOfProject": [
+    "Refurbishment/Replacement"
+  ],
+  "IsPPP": true,
+  "IsUnsolicited": false,
+  "LegalFramework": {
+    "SourceUniqueId": "BRA-3",
+    "Title": "Municipal",
+    "LocalResourceKey": "<%Timeline,BRA-LF-3,Title%>"
+  },
+  "Packages": [
+    {
+      "LocalResourceKey": null,
+      "ID": 1,
+      "Title": null,
+      "ContractualArrangements": [
+        {
+          "SourceUniqueId": "BRA-2",
+          "Title": "PPP: Law 11.079/04",
+          "LocalResourceKey": "<%Timeline,BRA-CA-2,Title%>"
+        }
+      ],
+      "TenderProcess": {
+        "SourceUniqueId": "BRA-1",
+        "Title": "Competition",
+        "LocalResourceKey": "<%Timeline,BRA-TP-1,Title%>"
+      },
+      "OtherContractualArrangement": null,
+      "OtherTenderProcess": null
+    }
+  ],
+  "TechnicalSupport": {
+    "SourceUniqueId": "BRA-1",
+    "Title": "FEP",
+    "LocalResourceKey": "<%Timeline,BRA-TS-1,Title%>"
+  },
+  "Threshold": {
+    "SourceUniqueId": "BRA-2",
+    "Title": "Qualification by Policy",
+    "LocalResourceKey": "<%Timeline,BRA-TH-2,Title%>"
+  },
+  "OwnerOrganisation": {
+    "Id": 206,
+    "Value": "SEPPI"
+  },
+  "CurrentProjectStatus": {
+    "Id": 2,
+    "Value": "Project Definition"
+  },
+  "CurrentProjectStatusCustom": {
+    "Id": 1,
+    "Value": "Definition"
+  },
+  "Completion": 0.01,
+  "Created": "2025-03-18T21:33:07Z",
+  "Modified": "2025-11-10T13:59:46Z",
+  "ProjectEstimatedDueDate": "2025-03-18T21:33:07Z",
+  "EstimatedCapitalCost": 3753882.0,
+  "OriginalCurrency": {
+    "Id": 27,
+    "Value": "BRL"
+  },
+  "OriginalCurrencyEstimatedCapitalCost": 21328877.0,
+  "ProjectProperties": {
+    "Reference": null,
+    "IsTimelineDefined": true,
+    "LanguagesTimeline": [
+      {
+        "Code": "en",
+        "Title": "English"
+      },
+      {
+        "Code": "por",
+        "Title": "Português"
+      }
+    ],
+    "AdditionalFields": {}
+  },
+  "PMLeaderEmail": "adminppi.source@presidencia.gov.br",
+  "PMLeaderFirstName": "Adminppi",
+  "PMLeaderLastName": "Source",
+  "GPSCoordinates": [
+    {
+      "address": "Agronômica, Santa Catarina",
+      "location": {
+        "x": "-49.7113241",
+        "y": "-27.264654"
+      },
+      "score": 100.0,
+      "attributes": {
+        "ResultID": 3,
+        "Place_addr": "Agronômica, Santa Catarina",
+        "City": "Agronômica",
+        "Subregion": "",
+        "Region": "Santa Catarina"
+      }
+    },
+    {
+      "address": "SC",
+      "location": {
+        "x": "-50.482455751756",
+        "y": "-27.246192196751"
+      },
+      "score": 100.0,
+      "attributes": {
+        "ResultID": 1,
+        "Place_addr": "Santa Catarina",
+        "City": "",
+        "Subregion": "",
+        "Region": "Santa Catarina"
+      }
+    },
+    {
+      "address": "Ibirama, Santa Catarina",
+      "location": {
+        "x": "-49.5451375",
+        "y": "-27.0536287"
+      },
+      "score": 100.0,
+      "attributes": {
+        "ResultID": 5,
+        "Place_addr": "Ibirama, Santa Catarina",
+        "City": "Ibirama",
+        "Subregion": "",
+        "Region": "Santa Catarina"
+      }
+    },
+    {
+      "address": "Imbuia, Santa Catarina",
+      "location": {
+        "x": "-49.4137611",
+        "y": "-27.4974917"
+      },
+      "score": 100.0,
+      "attributes": {
+        "ResultID": 6,
+        "Place_addr": "Imbuia, Santa Catarina",
+        "City": "Imbuia",
+        "Subregion": "",
+        "Region": "Santa Catarina"
+      }
+    },
+    {
+      "address": "José Boiteux, Santa Catarina",
+      "location": {
+        "x": "-49.6269143",
+        "y": "-26.9607534"
+      },
+      "score": 100.0,
+      "attributes": {
+        "ResultID": 7,
+        "Place_addr": "José Boiteux, Santa Catarina",
+        "City": "José Boiteux",
+        "Subregion": "",
+        "Region": "Santa Catarina"
+      }
+    },
+    {
+      "address": "Laurentino, Santa Catarina",
+      "location": {
+        "x": "-49.7361321",
+        "y": "-27.222807799999998"
+      },
+      "score": 100.0,
+      "attributes": {
+        "ResultID": 8,
+        "Place_addr": "Laurentino, Santa Catarina",
+        "City": "Laurentino",
+        "Subregion": "",
+        "Region": "Santa Catarina"
+      }
+    },
+    {
+      "address": "Agrolândia, Santa Catarina",
+      "location": {
+        "x": "-49.8294026",
+        "y": "-27.410643"
+      },
+      "score": 100.0,
+      "attributes": {
+        "ResultID": 2,
+        "Place_addr": "Agrolândia, Santa Catarina",
+        "City": "Agrolândia",
+        "Subregion": "",
+        "Region": "Santa Catarina"
+      }
+    },
+    {
+      "address": "Braço do Trombudo, Santa Catarina",
+      "location": {
+        "x": "-49.8841717",
+        "y": "-27.3585957"
+      },
+      "score": 100.0,
+      "attributes": {
+        "ResultID": 4,
+        "Place_addr": "Braço do Trombudo, Santa Catarina",
+        "City": "Braço do Trombudo",
+        "Subregion": "",
+        "Region": "Santa Catarina"
+      }
+    },
+    {
+      "address": "Petrolândia, Pernambuco",
+      "location": {
+        "x": "-38.2210654",
+        "y": "-8.9722572"
+      },
+      "score": 100.0,
+      "attributes": {
+        "ResultID": 10,
+        "Place_addr": "Petrolândia, Pernambuco",
+        "City": "Petrolândia",
+        "Subregion": "",
+        "Region": "Pernambuco"
+      }
+    },
+    {
+      "address": "Salete, Santa Catarina",
+      "location": {
+        "x": "-50.0046379",
+        "y": "-26.9781833"
+      },
+      "score": 100.0,
+      "attributes": {
+        "ResultID": 13,
+        "Place_addr": "Salete, Santa Catarina",
+        "City": "Salete",
+        "Subregion": "",
+        "Region": "Santa Catarina"
+      }
+    },
+    {
+      "address": "Taió, Santa Catarina",
+      "location": {
+        "x": "-49.9941811",
+        "y": "-27.1157476"
+      },
+      "score": 100.0,
+      "attributes": {
+        "ResultID": 14,
+        "Place_addr": "Taió, Santa Catarina",
+        "City": "Taió",
+        "Subregion": "",
+        "Region": "Santa Catarina"
+      }
+    },
+    {
+      "address": "Presidente Getúlio, Santa Catarina",
+      "location": {
+        "x": "-49.6222935",
+        "y": "-27.0454033"
+      },
+      "score": 100.0,
+      "attributes": {
+        "ResultID": 11,
+        "Place_addr": "Presidente Getúlio, Santa Catarina",
+        "City": "Presidente Getúlio",
+        "Subregion": "",
+        "Region": "Santa Catarina"
+      }
+    },
+    {
+      "address": "Trombudo, Vale do Sol, Rio Grande do Sul",
+      "location": {
+        "x": "-52.66667",
+        "y": "-29.61667"
+      },
+      "score": 100.0,
+      "attributes": {
+        "ResultID": 15,
+        "Place_addr": "Trombudo, Vale do Sol, Rio Grande do Sul",
+        "City": "",
+        "Subregion": "Vale do Sol",
+        "Region": "Rio Grande do Sul"
+      }
+    },
+    {
+      "address": "Mirim Doce, Santa Catarina",
+      "location": {
+        "x": "-50.0677253",
+        "y": "-27.2011986"
+      },
+      "score": 100.0,
+      "attributes": {
+        "ResultID": 9,
+        "Place_addr": "Mirim Doce, Santa Catarina",
+        "City": "Mirim Doce",
+        "Subregion": "",
+        "Region": "Santa Catarina"
+      }
+    },
+    {
+      "address": "Rio do Oeste, Santa Catarina",
+      "location": {
+        "x": "-49.7934349",
+        "y": "-27.1946644"
+      },
+      "score": 100.0,
+      "attributes": {
+        "ResultID": 12,
+        "Place_addr": "Rio do Oeste, Santa Catarina",
+        "City": "Rio do Oeste",
+        "Subregion": "",
+        "Region": "Santa Catarina"
+      }
+    }
+  ]
+}
