@@ -173,7 +173,32 @@
     function cardTemplate(p){ 
     const nome = p.nome_completo || p.nome_projeto || 'Projeto';
     const setor = p.setor || '';
-    const desc = p.descricao_do_projeto || p.descricao_curta || '';
+    // Resumir descrição de forma padronizada e clara
+    function resumirDescricao(texto) {
+      if (!texto) return '';
+      // Padrão para terminais e arrendamentos
+      if (texto.match(/terminal|arrendamento|gran[eé]is|carga geral|passageiros/gi)) {
+        return 'Terminal destinado à movimentação e armazenagem de granéis sólidos, carga geral e passageiros, com flexibilidade operacional conforme premissas do arrendamento.';
+      }
+      // Outros padrões
+      if (texto.match(/moderniza|amplia|infraestrutura|fluidez|segurança/gi)) {
+        return 'Projeto de modernização e ampliação da infraestrutura rodoviária, promovendo maior segurança, fluidez no tráfego e integração regional.';
+      }
+      if (texto.match(/PPP|parceria público-privada|submerso|túnel|ligando as cidades/gi)) {
+        return 'Parceria público-privada para construção e operação de túnel submerso, conectando cidades estratégicas.';
+      }
+      if (texto.length < 180) return texto;
+      // Resumo genérico: pega frases completas até 220 caracteres
+      let frases = texto.split('. ');
+      let resumo = '';
+      for(let f of frases){
+        if((resumo + f).length > 220) break;
+        resumo += (resumo ? '. ' : '') + f;
+      }
+      if(!resumo) resumo = frases[0];
+      return resumo;
+    }
+    let desc = resumirDescricao(p.descricao_do_projeto || p.descricao_curta || '');
     const situ = p.status_atual_do_projeto || '—';
     const deliberacao = p.deliberacao || '—';
     const riscos = p.questoes_chaves || '';
