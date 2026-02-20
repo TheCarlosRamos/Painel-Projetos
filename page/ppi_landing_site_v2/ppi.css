@@ -37,12 +37,36 @@ body{font-family:Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, A
 .btn-ghost{background:var(--bg-card); color:var(--fg); border:2px solid var(--border)}
 .btn-ghost:hover{background:var(--bg); border-color:var(--brand)}
 .cards{display:grid; grid-template-columns:1fr; gap:20px; width:100%; max-width:100%}
-.card{background:var(--bg-card); border:1px solid var(--border); border-radius:16px; padding:24px; box-shadow:var(--shadow); transition:all 0.3s ease; width:100%; max-width:100%; box-sizing:border-box; overflow:hidden; min-height:600px}
+.card{background:var(--bg-card); border:1px solid var(--border); border-radius:16px; padding:24px; box-shadow:var(--shadow); transition:all 0.3s ease; width:100%; max-width:100%; box-sizing:border-box; overflow:hidden; display:flex; flex-direction:column}
+
+/* Evita quebra de card no PDF (cada card preferencialmente começa em nova área) */
+.card{page-break-inside:avoid; break-inside:avoid; -webkit-column-break-inside:avoid}
 .card:hover{transform:translateY(-2px); box-shadow:var(--shadow-lg)}
 .card-header{border-bottom:1px solid var(--border); padding-bottom:12px; margin-bottom:16px}
 .card-header h3{margin:0; font-size:18px; color:var(--fg); font-weight:600; line-height:1.3}
 .meta{font-size:13px; color:var(--muted); font-weight:500; text-transform:uppercase; letter-spacing:0.5px}
-.project-info-grid{display:grid; gap:16px; grid-template-columns:1fr; grid-template-areas:'descricao' 'situacao' 'mapa' 'deliberacao' 'riscos' 'progresso'}
+.project-info-grid{display:grid; gap:16px; grid-template-columns:2fr 1fr; grid-template-areas:'left right' 'timeline timeline'; align-items:start; flex:1; overflow-y:auto; padding-right:8px}
+.project-info-grid .left-col{grid-area:left; display:flex; flex-direction:column; gap:16px}
+.project-info-grid .right-col{grid-area:right}
+.project-info-grid .timeline-col{grid-area:timeline; margin-top:8px}
+
+.info-large{background:#F9FAFB; border:1px solid #E5E7EB; border-radius:12px; padding:18px; min-height:120px; overflow:auto}
+.info-large h4{margin:0 0 10px 0; font-size:16px; color:#111827; font-weight:700}
+.info-large p{margin:0; color:#4A4A4A}
+
+/* Descrição: limitar altura e mostrar barra de rolagem quando necessário */
+.info-large.description{max-height:220px; overflow-y:auto; padding-right:12px}
+
+.row-2cols{display:grid; grid-template-columns:1fr 1fr; gap:16px}
+.info-small{background:#F9FAFB; border:1px solid #E5E7EB; border-radius:12px; padding:14px; min-height:100px; overflow:auto}
+.info-small h5{margin:0 0 8px 0; font-size:14px; color:#111827; font-weight:700}
+.info-small p{margin:0; color:#4A4A4A}
+
+.right-col .h-64{height:100%}
+.right-col iframe{border-radius:12px; border:1px solid #E5E7EB}
+
+.timeline-col{background:var(--bg-card); border:1px solid var(--border); border-radius:12px; padding:16px; box-shadow:var(--shadow);}
+.timeline-col h4{margin:0 0 12px 0; font-size:16px; color:#111827; font-weight:700}
 .project-info-grid .grid-cols-1{display:grid; grid-template-columns:1fr; gap:16px}
 .project-info-grid .grid-cols-2{display:grid; grid-template-columns:1fr 1fr; gap:16px}
 .project-info-grid .md-col-span-2{grid-column:span 2}
@@ -80,6 +104,7 @@ body{font-family:Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, A
 .mb-2{margin-bottom:8px}
 .mb-4{margin-bottom:16px}
 .mt-2{margin-top:8px}
+.mt-6{margin-top:24px}
 .p-4{padding:16px}
 .p-6{padding:24px}
 .rounded-lg{border-radius:8px}
@@ -108,4 +133,10 @@ body{font-family:Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, A
 .justify-center{justify-content:center}
 .text-center{text-align:center}
 
-@media (max-width: 980px){ .kpis{grid-template-columns:1fr 1fr} .grid-2{grid-template-columns:1fr} .cards{grid-template-columns:1fr} .filters{grid-template-columns:1fr 1fr} .project-info-grid{grid-template-columns:1fr; grid-template-areas:'descricao' 'situacao' 'mapa' 'deliberacao' 'riscos' 'progresso'} }
+/* Estilos para scrollbar personalizada */
+::-webkit-scrollbar{width:6px; height:6px}
+::-webkit-scrollbar-track{background:#F1F1F1; border-radius:3px}
+::-webkit-scrollbar-thumb{background:#C1C1C1; border-radius:3px}
+::-webkit-scrollbar-thumb:hover{background:#A8A8A8}
+
+@media (max-width: 980px){ .kpis{grid-template-columns:1fr 1fr} .grid-2{grid-template-columns:1fr} .cards{grid-template-columns:1fr} .filters{grid-template-columns:1fr 1fr} .project-info-grid{grid-template-columns:1fr; grid-template-areas:'left' 'right' 'timeline'} .row-2cols{grid-template-columns:1fr} }

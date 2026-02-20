@@ -208,57 +208,51 @@
         '<li>Nenhum ponto de atenção identificado</li>';
     
     return `<article class="card">
-        <div class="card-header">
-            <div style="display: flex; justify-content: space-between; align-items: start;">
-                <div>
-                    <p style="color: #6b7280; font-size: 14px; margin: 0 0 8px 0;">${esc(setor)}</p>
-                    <h3 style="color: #1f2937; font-size: 20px; margin: 0; font-weight: 700;">${esc(nome)}</h3>
-                </div>
+      <div class="card-header">
+        <div style="display: flex; justify-content: space-between; align-items: start;">
+          <div>
+            <p style="color: #6b7280; font-size: 14px; margin: 0 0 8px 0;">${esc(setor)}</p>
+            <h3 style="color: #1f2937; font-size: 20px; margin: 0; font-weight: 700;">${esc(nome)}</h3>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-info-grid">
+        <div class="left-col">
+          <div class="info-large description">
+            <h4>Descrição</h4>
+            <p>${esc(desc)}</p>
+          </div>
+
+          <div class="row-2cols">
+            <div class="info-small">
+              <h5>Situação Atual</h5>
+              <p>${esc(situ)}</p>
             </div>
-        </div>
-        
-        <div class="project-info-grid">
-            <!-- Linha 1: Conteúdo Principal -->
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-                <!-- Coluna 1: Descrição -->
-                <div class="md:col-span-2 space-y-4">
-                    <div class="bg-gray-50 p-4 rounded-lg">
-                        <h3 class="text-lg font-semibold text-gray-900 mb-2">Descrição</h3>
-                        <p class="text-gray-700">${esc(desc)}</p>
-                    </div>
-                    
-                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-                        <div class="bg-gray-50 p-4 rounded-lg">
-                            <h3 class="text-lg font-semibold text-gray-900 mb-2">Situação Atual</h3>
-                            <p class="text-gray-700">${esc(situ)}</p>
-                        </div>
-                        
-                        <div class="bg-gray-50 p-4 rounded-lg">
-                            <h3 class="text-lg font-semibold text-gray-900 mb-2">Próximos Passos</h3>
-                            <p class="text-gray-700">${esc(deliberacao)}</p>
-                        </div>
-                    </div>
-                    
-                    <div class="bg-gray-50 p-4 rounded-lg">
-                        <h3 class="text-lg font-semibold text-gray-900 mb-2">Pontos de Atenção</h3>
-                        <ul class="list-disc list-inside space-y-1 text-gray-700">
-                            ${riscosList}
-                        </ul>
-                    </div>
-                </div>
-               
-                <!-- Coluna 2: Mapa -->
-                <div class="space-y-4">
-                    ${mapa}
-                </div>
+
+            <div class="info-small">
+              <h5>Próximos Passos</h5>
+              <p>${esc(deliberacao)}</p>
             </div>
+          </div>
+
+          <div class="info-large">
+            <h4>Pontos de Atenção</h4>
+            <ul class="list-disc list-inside space-y-1 text-gray-700">
+              ${riscosList}
+            </ul>
+          </div>
         </div>
-        
-        <!-- Linha 2: ETAPA -->
-        <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-200">
-            <h3 class="text-lg font-semibold text-gray-900 mb-4">ETAPA</h3>
-            ${timelineHTML(p)}
+
+        <div class="right-col">
+          ${mapa}
         </div>
+
+        <div class="timeline-col">
+          <h4>ETAPA</h4>
+          ${timelineHTML(p)}
+        </div>
+      </div>
     </article>`;
 }
 
@@ -269,5 +263,25 @@
     ['q','sector','etapa'].forEach(id=> $('#'+id).addEventListener('input', apply)); $('#clear').addEventListener('click', ()=>{ ['q','sector','etapa'].forEach(id=> $('#'+id).value=''); apply(); }); apply();
   }
 
-  document.addEventListener('DOMContentLoaded', ()=>{ initIndex(); initProjects(); });
+  document.addEventListener('DOMContentLoaded', ()=>{ initIndex(); initProjects();
+    const exportBtn = document.getElementById('export-pdf');
+    if(exportBtn){
+      exportBtn.addEventListener('click', ()=>{
+        const grid = document.getElementById('grid');
+        if(!grid) return alert('Nenhum card disponível para exportar.');
+        const opt = {
+          margin:       [10, 10, 10, 10],
+          filename:     'projetos.pdf',
+          image:        { type: 'jpeg', quality: 0.98 },
+          html2canvas:  { scale: 2, useCORS: true },
+          jsPDF:        { unit: 'pt', format: 'a4', orientation: 'portrait' },
+          pagebreak:    { mode: ['css', 'legacy'] }
+        };
+        // ensure each card doesn't get split in PDF
+        document.querySelectorAll('.card').forEach(c=> c.style.breakInside='avoid');
+        // run export
+        try{ html2pdf().set(opt).from(grid).save(); }catch(e){ console.error(e); alert('Erro ao gerar PDF — veja console.'); }
+      });
+    }
+  });
 })();
