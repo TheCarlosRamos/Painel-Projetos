@@ -291,21 +291,76 @@
   document.addEventListener('DOMContentLoaded', ()=>{ initIndex(); initProjects();
     const exportBtn = document.getElementById('export-pdf');
     if(exportBtn){
-      exportBtn.addEventListener('click', ()=>{
+      exportBtn.addEventListener('click', async ()=>{
         const grid = document.getElementById('grid');
         if(!grid) return alert('Nenhum card disponível para exportar.');
-        const opt = {
-          margin:       [10, 10, 10, 10],
-          filename:     'projetos.pdf',
-          image:        { type: 'jpeg', quality: 0.98 },
-          html2canvas:  { scale: 2, useCORS: true },
-          jsPDF:        { unit: 'pt', format: 'a4', orientation: 'portrait' },
-          pagebreak:    { mode: ['css', 'legacy'] }
-        };
-        // ensure each card doesn't get split in PDF
-        document.querySelectorAll('.card').forEach(c=> c.style.breakInside='avoid');
-        // run export
-        try{ html2pdf().set(opt).from(grid).save(); }catch(e){ console.error(e); alert('Erro ao gerar PDF — veja console.'); }
+
+        // Opções do PDF
+        const pdf = new window.jspdf.jsPDF({
+          orientation: 'landscape',
+          unit: 'pt',
+          format: 'a4'
+        });
+
+        // Adiciona a capa como imagem (se desejar, pode ser canvas também)
+        const capaImg = new window.Image();
+        capaImg.src = 'assets/CAPA.pptx.png';
+        await new Promise(resolve => { capaImg.onload = resolve; });
+        const pageWidth = pdf.internal.pageSize.getWidth();
+        const pageHeight = pdf.internal.pageSize.getHeight();
+        const capaRatio = capaImg.width / capaImg.height;
+        let capaW = pageWidth * 0.9;
+        let capaH = capaW / capaRatio;
+        if (capaH > pageHeight * 0.9) {
+          capaH = pageHeight * 0.9;
+          capaW = capaH * capaRatio;
+        }
+        pdf.addImage(capaImg, 'PNG', (pageWidth-capaW)/2, 40, capaW, capaH);
+        pdf.addPage();
+
+        // Cards
+        const cards = Array.from(grid.querySelectorAll('.card'));
+        for (let i = 0; i < cards.length; i++) {
+          const card = cards[i];
+          // Clona o card para não afetar o DOM
+          const cardClone = card.cloneNode(true);
+          cardClone.style.margin = '0';
+          cardClone.style.boxShadow = 'none';
+          cardClone.style.background = '#fff';
+          cardClone.style.border = 'none';
+          cardClone.style.width = card.offsetWidth + 'px';
+          cardClone.style.maxWidth = 'none';
+          cardClone.style.minHeight = '0';
+
+          // Cria um container temporário
+          const tempDiv = document.createElement('div');
+          tempDiv.style.padding = '40px';
+          tempDiv.style.background = '#fff';
+          tempDiv.appendChild(cardClone);
+          document.body.appendChild(tempDiv);
+
+          // Usa html2canvas para capturar o card como imagem
+          const canvas = await window.html2canvas(tempDiv, { scale: 2, useCORS: true });
+          const imgData = canvas.toDataURL('image/png');
+          // Calcula o tamanho máximo possível para caber na folha A4 paisagem (agora 99%)
+          let maxW = pageWidth * 0.99;
+          let maxH = pageHeight * 0.99;
+          let ratio = Math.min(maxW / canvas.width, maxH / canvas.height);
+          let imgWidth = canvas.width * ratio;
+          let imgHeight = canvas.height * ratio;
+          let posX = (pageWidth - imgWidth) / 2;
+          let posY = (pageHeight - imgHeight) / 2;
+
+          pdf.addImage(imgData, 'PNG', posX, posY, imgWidth, imgHeight);
+          if (i < cards.length - 1) pdf.addPage();
+
+          document.body.removeChild(tempDiv);
+        }
+
+        // Remove página extra se criada
+        if (pdf.getNumberOfPages() > cards.length + 1) pdf.deletePage(pdf.getNumberOfPages());
+
+        pdf.save('projetos.pdf');
       });
     }
   });

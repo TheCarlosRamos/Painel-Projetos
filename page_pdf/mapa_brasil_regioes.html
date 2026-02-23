@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapa do Brasil - Regiões</title>
+    
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .header {
+            background: rgba(255, 255, 255, 0.95);
+            padding: 1rem 2rem;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(10px);
+        }
+
+        .header__inner {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        .brand {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #2c3e50;
+        }
+
+        .controls {
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .control-group {
+            display: flex;
+            flex-direction: column;
+            gap: 0.25rem;
+        }
+
+        label {
+            font-size: 0.875rem;
+            font-weight: 600;
+            color: #555;
+        }
+
+        select, button {
+            padding: 0.5rem 1rem;
+            border: 2px solid #ddd;
+            border-radius: 6px;
+            font-size: 0.875rem;
+            transition: all 0.3s ease;
+        }
+
+        select {
+            background: white;
+            min-width: 150px;
+        }
+
+        select:focus {
+            outline: none;
+            border-color: #667eea;
+            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+        }
+
+        button {
+            background: #667eea;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-weight: 600;
+        }
+
+        button:hover {
+            background: #5a6fd8;
+            transform: translateY(-1px);
+            box-shadow: 0 4px 12px rgba(102, 126, 234, 0.3);
+        }
+
+        button:active {
+            transform: translateY(0);
+        }
+
+        .btn-secondary {
+            background: #6c757d;
+        }
+
+        .btn-secondary:hover {
+            background: #5a6268;
+        }
+
+        .main {
+            flex: 1;
+            padding: 2rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .map-container {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+            width: 100%;
+            max-width: 1200px;
+            height: 70vh;
+            min-height: 500px;
+            position: relative;
+        }
+
+        #map {
+            width: 100%;
+            height: 100%;
+        }
+
+        .loading {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            color: #666;
+            font-size: 1.1rem;
+        }
+
+        .spinner {
+            border: 3px solid #f3f3f3;
+            border-top: 3px solid #667eea;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 1rem;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .info-panel {
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+            background: rgba(255, 255, 255, 0.95);
+            padding: 1rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            max-width: 250px;
+            z-index: 1000;
+        }
+
+        .info-panel h3 {
+            margin: 0 0 0.5rem 0;
+            color: #2c3e50;
+            font-size: 1rem;
+        }
+
+        .info-panel p {
+            margin: 0;
+            color: #666;
+            font-size: 0.875rem;
+        }
+
+        .legend {
+            position: absolute;
+            bottom: 1rem;
+            left: 1rem;
+            background: rgba(255, 255, 255, 0.95);
+            padding: 1rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            z-index: 1000;
+        }
+
+        .legend h4 {
+            margin: 0 0 0.5rem 0;
+            font-size: 0.875rem;
+            color: #2c3e50;
+        }
+
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            margin: 0.25rem 0;
+            font-size: 0.75rem;
+        }
+
+        .legend-color {
+            width: 20px;
+            height: 12px;
+            border-radius: 2px;
+            border: 1px solid #ddd;
+        }
+
+        @media (max-width: 768px) {
+            .header__inner {
+                flex-direction: column;
+                align-items: stretch;
+            }
+
+            .controls {
+                justify-content: center;
+            }
+
+            .main {
+                padding: 1rem;
+            }
+
+            .map-container {
+                height: 60vh;
+                min-height: 400px;
+            }
+
+            .info-panel {
+                position: static;
+                margin: 1rem;
+                max-width: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="header__inner">
+            <div class="brand">
+                🗺️ <strong>Mapa do Brasil</strong>
+            </div>
+            <div class="controls">
+                <div class="control-group">
+                    <label for="regiao">Região</label>
+                    <select id="regiao">
+                        <option value="">Todas as Regiões</option>
+                        <option value="Norte">Norte</option>
+                        <option value="Nordeste">Nordeste</option>
+                        <option value="Sudeste">Sudeste</option>
+                        <option value="Sul">Sul</option>
+                        <option value="Centro Oeste">Centro-Oeste</option>
+                    </select>
+                </div>
+                <button id="btnReset" class="btn-secondary">🔄 Resetar</button>
+                <button id="btnDownload">📥 Baixar Imagem</button>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="map-container">
+            <div class="loading" id="loading">
+                <div class="spinner"></div>
+                Carregando mapa...
+            </div>
+            <div id="map"></div>
+            <div class="info-panel" id="infoPanel" style="display: none;">
+                <h3 id="regiaoNome"></h3>
+                <p id="regiaoInfo"></p>
+            </div>
+            <div class="legend">
+                <h4>Regiões do Brasil</h4>
+                <div class="legend-item">
+                    <div class="legend-color" style="background: #FF6B6B;"></div>
+                    <span>Norte</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color" style="background: #4ECDC4;"></div>
+                    <span>Nordeste</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color" style="background: #45B7D1;"></div>
+                    <span>Sudeste</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color" style="background: #96CEB4;"></div>
+                    <span>Sul</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color" style="background: #FFEAA7;"></div>
+                    <span>Centro-Oeste</span>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    
+    <script>
+        // Configuração inicial
+        let map;
+        let geojsonLayer;
+        let dadosGeoJSON;
+        let regioesLayer = {};
+
+        // Cores para cada região
+        const coresRegioes = {
+            'Norte': '#FF6B6B',
+            'Nordeste': '#4ECDC4',
+            'Sudeste': '#45B7D1',
+            'Sul': '#96CEB4',
+            'Centro Oeste': '#FFEAA7'
+        };
+
+        // Inicializar o mapa
+        function initMap() {
+            map = L.map('map').setView([-14.235, -51.925], 4);
+
+            // Adicionar camada de tiles do OpenStreetMap
+            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                attribution: '© OpenStreetMap contributors',
+                maxZoom: 18
+            }).addTo(map);
+
+            // Carregar dados GeoJSON
+            carregarGeoJSON();
+        }
+
+        // Carregar dados do arquivo GeoJSON
+        async function carregarGeoJSON() {
+            try {
+                const response = await fetch('br_regioes.geojson');
+                if (!response.ok) {
+                    throw new Error('Não foi possível carregar o arquivo GeoJSON');
+                }
+                
+                dadosGeoJSON = await response.json();
+                
+                // Esconder loading
+                document.getElementById('loading').style.display = 'none';
+                
+                // Adicionar camada GeoJSON ao mapa
+                adicionarGeoJSON(dadosGeoJSON);
+                
+                // Ajustar mapa para mostrar todo o Brasil
+                if (geojsonLayer) {
+                    map.fitBounds(geojsonLayer.getBounds());
+                }
+                
+            } catch (error) {
+                console.error('Erro ao carregar GeoJSON:', error);
+                document.getElementById('loading').innerHTML = `
+                    <div style="color: #e74c3c;">
+                        ❌ Erro ao carregar o mapa<br>
+                        <small>Verifique se o arquivo 'br_regioes.geojson' está no mesmo diretório</small>
+                    </div>
+                `;
+            }
+        }
+
+        // Adicionar camada GeoJSON ao mapa
+        function adicionarGeoJSON(geoData) {
+            // Remover camada anterior se existir
+            if (geojsonLayer) {
+                map.removeLayer(geojsonLayer);
+            }
+
+            geojsonLayer = L.geoJSON(geoData, {
+                style: function(feature) {
+                    const regiao = feature.properties.name_region;
+                    return {
+                        fillColor: coresRegioes[regiao] || '#cccccc',
+                        weight: 2,
+                        opacity: 1,
+                        color: 'white',
+                        dashArray: '3',
+                        fillOpacity: 0.7
+                    };
+                },
+                onEachFeature: function(feature, layer) {
+                    const regiao = feature.properties.name_region;
+                    const codigo = feature.properties.code_region;
+                    
+                    // Adicionar popup
+                    layer.bindPopup(`
+                        <strong>${regiao}</strong><br>
+                        Código: ${codigo}<br>
+                        <small>Clique para destacar esta região</small>
+                    `);
+                    
+                    // Evento de clique
+                    layer.on({
+                        click: function() {
+                            destacarRegiao(regiao);
+                            document.getElementById('regiao').value = regiao;
+                        },
+                        mouseover: function(e) {
+                            const layer = e.target;
+                            layer.setStyle({
+                                weight: 3,
+                                color: '#666',
+                                dashArray: '',
+                                fillOpacity: 0.9
+                            });
+                            layer.bringToFront();
+                            
+                            // Mostrar informações
+                            mostrarInfoRegiao(regiao, codigo);
+                        },
+                        mouseout: function(e) {
+                            geojsonLayer.resetStyle(e.target);
+                            esconderInfoRegiao();
+                        }
+                    });
+                    
+                    // Armazenar referência da camada por região
+                    regioesLayer[regiao] = layer;
+                }
+            }).addTo(map);
+        }
+
+        // Destacar região específica
+        function destacarRegiao(regiaoNome) {
+            if (!geojsonLayer) return;
+            
+            // Resetar todas as camadas
+            geojsonLayer.eachLayer(function(layer) {
+                const regiao = layer.feature.properties.name_region;
+                if (regiao === regiaoNome) {
+                    layer.setStyle({
+                        weight: 4,
+                        color: '#2c3e50',
+                        dashArray: '',
+                        fillOpacity: 0.9
+                    });
+                    layer.bringToFront();
+                } else {
+                    layer.setStyle({
+                        weight: 1,
+                        opacity: 0.5,
+                        fillOpacity: 0.3
+                    });
+                }
+            });
+            
+            // Dar zoom na região destacada
+            if (regioesLayer[regiaoNome]) {
+                map.fitBounds(regioesLayer[regiaoNome].getBounds(), { padding: [50, 50] });
+            }
+            
+            mostrarInfoRegiao(regiaoNome);
+        }
+
+        // Resetar visualização
+        function resetarVisualizacao() {
+            if (!geojsonLayer) return;
+            
+            // Resetar estilos
+            geojsonLayer.eachLayer(function(layer) {
+                geojsonLayer.resetStyle(layer);
+            });
+            
+            // Resetar zoom para mostrar todo o Brasil
+            map.fitBounds(geojsonLayer.getBounds());
+            
+            // Limpar seleção
+            document.getElementById('regiao').value = '';
+            esconderInfoRegiao();
+        }
+
+        // Mostrar informações da região
+        function mostrarInfoRegiao(regiaoNome, codigo) {
+            const infoPanel = document.getElementById('infoPanel');
+            const regiaoNomeEl = document.getElementById('regiaoNome');
+            const regiaoInfoEl = document.getElementById('regiaoInfo');
+            
+            regiaoNomeEl.textContent = regiaoNome;
+            
+            // Informações adicionais sobre as regiões
+            const infoRegioes = {
+                'Norte': '7 estados: Acre, Amapá, Amazonas, Pará, Rondônia, Roraima, Tocantins',
+                'Nordeste': '9 estados: Alagoas, Bahia, Ceará, Maranhão, Paraíba, Pernambuco, Piauí, Rio Grande do Norte, Sergipe',
+                'Sudeste': '4 estados: Espírito Santo, Minas Gerais, Rio de Janeiro, São Paulo',
+                'Sul': '3 estados: Paraná, Rio Grande do Sul, Santa Catarina',
+                'Centro Oeste': '3 estados + DF: Distrito Federal, Goiás, Mato Grosso, Mato Grosso do Sul'
+            };
+            
+            regiaoInfoEl.textContent = infoRegioes[regiaoNome] || `Código: ${codigo}`;
+            infoPanel.style.display = 'block';
+        }
+
+        // Esconder informações da região
+        function esconderInfoRegiao() {
+            document.getElementById('infoPanel').style.display = 'none';
+        }
+
+        // Baixar mapa como imagem
+        function baixarImagem() {
+            // Implementação simplificada - na prática você usaria uma biblioteca como html2canvas
+            alert('Funcionalidade de download requer biblioteca adicional. Use Print Screen ou ferramenta de captura de tela.');
+        }
+
+        // Event listeners
+        document.addEventListener('DOMContentLoaded', function() {
+            // Inicializar mapa
+            initMap();
+            
+            // Evento do select de regiões
+            document.getElementById('regiao').addEventListener('change', function() {
+                const regiaoSelecionada = this.value;
+                if (regiaoSelecionada) {
+                    destacarRegiao(regiaoSelecionada);
+                } else {
+                    resetarVisualizacao();
+                }
+            });
+            
+            // Botão resetar
+            document.getElementById('btnReset').addEventListener('click', resetarVisualizacao);
+            
+            // Botão download
+            document.getElementById('btnDownload').addEventListener('click', baixarImagem);
+        });
+    </script>
+</body>
+</html>
