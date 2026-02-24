@@ -204,29 +204,22 @@
     const riscos = p.questoes_chaves || '';
     const lat = parseFloat(p.latitude), lon = parseFloat(p.longitude);
     
-    const mapa = (!isNaN(lat) && !isNaN(lon)) ? 
-        `<div class="space-y-4">
-            <div class="h-64 w-full rounded-lg overflow-hidden border border-gray-200">
-                <iframe 
-                    width="100%" 
-                    height="100%" 
-                    frameborder="0" 
-                    scrolling="no" 
-                    marginheight="0" 
-                    marginwidth="0" 
-                    src="https://maps.google.com/maps?q=${lat},${lon}&z=15&output=embed">
-                </iframe>
-            </div>
-            <p class="text-sm text-gray-500 mt-2">Coordenadas: ${lat.toFixed(4)}, ${lon.toFixed(4)}</p>
-        </div>` : 
-        `<div class="space-y-4">
-            <div class="bg-gray-100 rounded-lg h-64 flex items-center justify-center text-gray-500">
-                <div class="text-center p-6">
-                    <i class="fas fa-map-marked-alt text-4xl mb-2 text-gray-300"></i>
-                    <p>Localização não disponível</p>
-                </div>
-            </div>
-        </div>`;
+    // bloco do mini-mapa
+    const hasCoords = !isNaN(lat) && !isNaN(lon);
+    const miniMapBlock = hasCoords
+      ? `
+      <div class="info-small">
+        <h5>Mapa (nível: <span class="loc-level">${(window.LOC_LEVEL||'state')}</span>)</h5>
+        <div class="mini-map"
+             data-lat="${lat}"
+             data-lon="${lon}">
+        </div>
+      </div>`
+      : `
+      <div class="info-small">
+        <h5>Mapa</h5>
+        <p>Localização não disponível</p>
+      </div>`;
     
     const riscosList = riscos ? 
         riscos.split(/\n|;|•/).filter(x => x.trim()).map(x => `<li>${esc(x.trim())}</li>`).join('') : 
@@ -270,7 +263,7 @@
         </div>
 
         <div class="right-col">
-          ${mapa}
+          ${miniMapBlock}
         </div>
 
         <div class="timeline-col">
@@ -283,9 +276,161 @@
 
     const etapaSel = $('#etapa'); const etapaLabels=['Nenhuma', ...phaseCols.map(p=>p[0])]; etapaLabels.forEach(l=>{ const o=document.createElement('option'); o.value=o.textContent=l; etapaSel.appendChild(o); });
 
-    function apply(){ const q=($('#q').value||'').toLowerCase().trim(); const sector=$('#sector').value||''; const etapa=$('#etapa').value||''; const filtered = DATA.filter(p=>{ const okQ=!q || ((p.nome_completo||'').toLowerCase().includes(q) || (p.descricao_do_projeto||'').toLowerCase().includes(q) || (p.localizacoes||'').toLowerCase().includes(q)); const okS=!sector||(p.setor===sector); let okE=true; if(etapa){ const idx=lastCompletedIdx(p); const lab=idx<0?'Nenhuma':phaseCols[idx][0]; okE=(lab===etapa);} return okQ&&okS&&okE; }); $('#grid').innerHTML = filtered.map(cardTemplate).join(''); $('#count').textContent = String(filtered.length); }
+    function apply(){ const q=($('#q').value||'').toLowerCase().trim(); const sector=$('#sector').value||''; const etapa=$('#etapa').value||''; const filtered = DATA.filter(p=>{ const okQ=!q || ((p.nome_completo||'').toLowerCase().includes(q) || (p.descricao_do_projeto||'').toLowerCase().includes(q) || (p.localizacoes||'').toLowerCase().includes(q)); const okS=!sector||(p.setor===sector); let okE=true; if(etapa){ const idx=lastCompletedIdx(p); const lab=idx<0?'Nenhuma':phaseCols[idx][0]; okE=(lab===etapa);} return okQ&&okS&&okE; }); $('#grid').innerHTML = filtered.map(cardTemplate).join(''); $('#count').textContent = String(filtered.length); renderMiniMaps(); }
 
-    ['q','sector','etapa'].forEach(id=> $('#'+id).addEventListener('input', apply)); $('#clear').addEventListener('click', ()=>{ ['q','sector','etapa'].forEach(id=> $('#'+id).value=''); apply(); }); apply();
+    ['q','sector','etapa'].forEach(id=> $('#'+id).addEventListener('input', apply)); $('#clear').addEventListener('click', ()=>{ ['q','sector','etapa'].forEach(id=> $('#'+id).value=''); apply(); });
+    
+    // Conectar o seletor de precisão
+    const precisionSel = document.getElementById('precision');
+    if(precisionSel){
+      precisionSel.addEventListener('change', () => {
+        window.LOC_LEVEL = precisionSel.value;
+        renderMiniMaps();
+      });
+      window.LOC_LEVEL = precisionSel.value;
+    }
+    
+    apply();
+  }
+
+  // Nível de localização padrão (atualizado pelo select #precision)
+  window.LOC_LEVEL = 'state'; // 'coords' | 'city' | 'state'
+
+  function getZoomByLevel(level){
+    if(level === 'city') return 10;   // cidade
+    if(level === 'state') return 6;   // estado
+    return 12;                        // coordenadas (mais perto)
+  }
+
+  function renderMiniMaps(){
+  if(typeof L === 'undefined') return;
+
+  const level = window.LOC_LEVEL || 'state';
+  const zoom = getZoomByLevel(level);
+
+  document.querySelectorAll('.mini-map').forEach(async (el) => {
+    const lat = parseFloat(el.getAttribute('data-lat'));
+    const lon = parseFloat(el.getAttribute('data-lon'));
+    if(isNaN(lat) || isNaN(lon)) return;
+
+    // Limpa render anterior
+    if(el._leaflet_map) { try { el._leaflet_map.remove(); } catch(e){} el._leaflet_map = null; }
+    el.innerHTML = '';
+
+    const map = L.map(el, {
+      zoomControl: false,
+      attributionControl: false
+    }).setView([lat, lon], zoom);
+
+    const tiles = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      maxZoom: 18,
+      crossOrigin: true
+    }).addTo(map);
+
+    // --- IMPORTANTE: forçar renderer canvas no marcador
+    const canvasRenderer = L.canvas({ padding: 0.5 });
+
+    const marker = L.circleMarker([lat, lon], {
+      renderer: canvasRenderer,
+      radius: 6,
+      color: '#1E40AF',
+      weight: 2,
+      fillColor: '#3B82F6',
+      fillOpacity: 0.9
+    }).addTo(map);
+
+    // Aguarda o mapa terminar de desenhar
+    await new Promise((resolve) => {
+      // 'idle' nem sempre dispara em todas as combinações;
+      // garantimos também um pequeno delay após 'load'
+      let done = false;
+      function finish(){ if(done) return; done = true; setTimeout(resolve, 60); }
+      map.once('load', finish);
+      tiles.once('load', finish);
+      // fallback timeout
+      setTimeout(finish, 500);
+    });
+
+    // Ajusta tamanhos e guarda instância
+    map.invalidateSize(false);
+    el._leaflet_map = map;
+
+    const labelSpan = el.closest('.info-small')?.querySelector('.loc-level');
+    if(labelSpan) labelSpan.textContent = level;
+  });
+}
+
+  // Congela todos os mapas dentro de um container de card (clone) em IMG estática
+  async function freezeMapsForPDF(cardRoot){
+    const maps = Array.from(cardRoot.querySelectorAll('.mini-map'));
+
+    const tasks = maps.map((el) => new Promise((resolve) => {
+      const map = el._leaflet_map;
+      if(!map || typeof window.leafletImage !== 'function'){
+        resolve();
+        return;
+      }
+
+      // Coordenadas do ponto central (as mesmas do dataset do elemento)
+      const lat = parseFloat(el.getAttribute('data-lat'));
+      const lon = parseFloat(el.getAttribute('data-lon'));
+      const hasPoint = !isNaN(lat) && !isNaN(lon);
+
+      // Aguarda um tiquinho caso ainda haja draw pendente
+      setTimeout(() => {
+        try {
+            window.leafletImage(map, function(err, canvas){
+              if(err || !canvas){
+                resolve();
+                return;
+              }
+
+              // ---- Fallback: desenha a bolinha manualmente no canvas
+              if(hasPoint){
+                const pt = map.latLngToContainerPoint([lat, lon]);
+                const ctx = canvas.getContext('2d');
+
+                // halo externo (borda)
+                ctx.beginPath();
+                ctx.arc(pt.x, pt.y, 7, 0, Math.PI * 2);
+                ctx.lineWidth = 3;
+                ctx.strokeStyle = '#1E40AF'; // azul escuro (borda)
+                ctx.stroke();
+
+                // preenchimento interno
+                ctx.beginPath();
+                ctx.arc(pt.x, pt.y, 5, 0, Math.PI * 2);
+                ctx.fillStyle = '#3B82F6'; // azul mais claro (preenchimento)
+                ctx.globalAlpha = 0.95;
+                ctx.fill();
+                ctx.globalAlpha = 1.0;
+              }
+
+              // Converte o canvas final para <img>
+              const img = document.createElement('img');
+              img.src = canvas.toDataURL('image/png');
+              img.alt = 'Mapa estático';
+              img.style.width = '100%';
+              img.style.height = '100%';
+              img.style.display = 'block';
+
+              // Substitui o conteúdo
+              el.innerHTML = '';
+              el.appendChild(img);
+
+              // Remove a instância do mapa
+              try { map.remove(); } catch(e){}
+              el._leaflet_map = null;
+
+              resolve();
+            });
+        } catch (e) {
+          resolve();
+        }
+      }, 40);
+    }));
+
+    await Promise.all(tasks);
   }
 
   document.addEventListener('DOMContentLoaded', ()=>{ initIndex(); initProjects();
@@ -322,6 +467,10 @@
         const cards = Array.from(grid.querySelectorAll('.card'));
         for (let i = 0; i < cards.length; i++) {
           const card = cards[i];
+          
+          // MUITO IMPORTANTE: Congela os mapas no DOM original antes de clonar
+          await freezeMapsForPDF(card);
+          
           // Clona o card para não afetar o DOM
           const cardClone = card.cloneNode(true);
           cardClone.style.margin = '0';

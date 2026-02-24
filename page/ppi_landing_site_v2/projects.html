@@ -33,6 +33,14 @@
         <label for="etapa">Última etapa concluída</label>
         <select id="etapa"><option value="">Todas</option></select>
       </div>
+      <div>
+        <label for="precision">Precisão do mapa</label>
+        <select id="precision">
+          <option value="state">Estado</option>
+          <option value="city">Cidade</option>
+          <option value="coords">Coordenadas</option>
+        </select>
+      </div>
       <div style="align-self:end"><button id="clear" class="btn-ghost" type="button">Limpar</button></div>
     </section>
 
@@ -43,6 +51,10 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.3/html2pdf.bundle.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+  <!-- Leaflet para mini-mapas -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="https://unpkg.com/leaflet-image@0.4.0/leaflet-image.js"></script>
   <script src="app.js"></script>
 </body>
 </html>
