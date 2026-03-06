@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "page/ppi_landing_site_v2/**/*",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/",
+      "dest": "/page/ppi_landing_site_v2/index.html"
+    },
+    {
+      "src": "/projects",
+      "dest": "/page/ppi_landing_site_v2/projects.html"
+    },
+    {
+      "src": "/page/ppi_landing_site_v2/(.*)",
+      "dest": "/page/ppi_landing_site_v2/$1"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/page/ppi_landing_site_v2/$1"
+    }
+  ]
+}
