@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PPI • Resumo por Subsetor</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="ppi.css" />
+  <link rel="stylesheet" href="chatbot.css" />
+  <style>
+    .subsetor-header {
+      background: linear-gradient(135deg, #1e40af 0%, #3730a3 100%);
+      color: white;
+      padding: 3rem 0;
+      margin-bottom: 2rem;
+    }
+    .subsetor-header .header__inner {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 1rem;
+    }
+    .subsetor-title {
+      font-size: 2.5rem;
+      font-weight: 800;
+      margin-bottom: 1rem;
+    }
+    .subsetor-subtitle {
+      font-size: 1.25rem;
+      opacity: 0.9;
+      margin-bottom: 2rem;
+    }
+    .stats-row {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1rem;
+      margin-bottom: 2rem;
+    }
+    .stat-card {
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      padding: 1.5rem;
+      border-radius: 1rem;
+      text-align: center;
+    }
+    .stat-value {
+      font-size: 2rem;
+      font-weight: 700;
+      margin-bottom: 0.5rem;
+    }
+    .stat-label {
+      font-size: 0.875rem;
+      opacity: 0.8;
+    }
+    .section-title {
+      font-size: 1.75rem;
+      font-weight: 700;
+      color: #1f2937;
+      margin: 3rem 0 1.5rem 0;
+      padding-bottom: 0.5rem;
+      border-bottom: 3px solid #e5e7eb;
+    }
+    .section-title:first-child {
+      margin-top: 0;
+    }
+    .favorites-section {
+      background: #f8fafc;
+      border-radius: 1rem;
+      padding: 2rem;
+      margin: 2rem 0;
+    }
+    .favorites-empty {
+      text-align: center;
+      padding: 3rem;
+      color: #6b7280;
+    }
+    .favorites-empty h3 {
+      font-size: 1.25rem;
+      margin-bottom: 1rem;
+      color: #374151;
+    }
+    .loading {
+      text-align: center;
+      padding: 3rem;
+      color: #6b7280;
+    }
+    .spinner {
+      width: 32px;
+      height: 32px;
+      border: 3px solid #e5e7eb;
+      border-top: 3px solid #1e40af;
+      border-radius: 50%;
+      animation: spin 1s linear infinite;
+      margin: 0 auto 1rem;
+    }
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+    .back-navigation {
+      background: white;
+      border-bottom: 1px solid #e5e7eb;
+      padding: 1rem 0;
+      margin-bottom: 2rem;
+    }
+    .back-navigation .header__inner {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 1rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .back-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.5rem 1rem;
+      background: #f3f4f6;
+      border: 1px solid #d1d5db;
+      border-radius: 0.5rem;
+      text-decoration: none;
+      color: #374151;
+      font-weight: 500;
+      transition: all 0.2s;
+    }
+    .back-btn:hover {
+      background: #e5e7eb;
+    }
+    .export-btn {
+      padding: 0.5rem 1rem;
+      background: #1e40af;
+      color: white;
+      border: none;
+      border-radius: 0.5rem;
+      font-weight: 500;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+    .export-btn:hover {
+      background: #1e3a8a;
+    }
+    .subsetor-selector {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 1rem;
+      margin-bottom: 2rem;
+      box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1);
+    }
+    .subsetor-selector select {
+      width: 100%;
+      padding: 0.75rem;
+      border: 1px solid #d1d5db;
+      border-radius: 0.5rem;
+      font-size: 1rem;
+      background: white;
+    }
+  </style>
+</head>
+<body>
+  <header class="back-navigation">
+    <div class="header__inner">
+      <nav>
+        <a href="lista_projetos.html" class="back-btn">
+          <span>←</span> Voltar para Lista
+        </a>
+      </nav>
+      <button class="export-btn" onclick="exportToPDF()">
+        <span>📄</span> Exportar Resumo
+      </button>
+    </div>
+  </header>
+
+  <div class="subsetor-selector">
+    <div class="header__inner">
+      <label for="subsetorSelect" style="display: block; margin-bottom: 0.5rem; font-weight: 600; color: #374151;">
+        Selecione o Subsetor:
+      </label>
+      <select id="subsetorSelect" onchange="changeSubsetor()">
+        <option value="">Carregando subsetores...</option>
+      </select>
+    </div>
+  </div>
+
+  <div id="content">
+    <div class="loading">
+      <div class="spinner"></div>
+      <p>Carregando dados dos subsetores...</p>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.3/html2pdf.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+  <!-- Leaflet para mini-mapas -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="https://unpkg.com/leaflet-image@0.4.0/leaflet-image.js"></script>
+  
+  <script>
+    // Funções utilitárias
+    const $ = (s,root=document)=>root.querySelector(s);
+    const $$ = (s,root=document)=>Array.from(root.querySelectorAll(s));
+    
+    function esc(text){
+      const div=document.createElement('div');
+      div.textContent=text||'';
+      return div.innerHTML;
+    }
+    
+    function resumirDescricao(texto, maxCaracteres = 300) {
+      if (!texto) return '';
+      if (texto.length <= maxCaracteres) return texto;
+      const cortado = texto.substring(0, maxCaracteres);
+      const ultimoEspaco = cortado.lastIndexOf(' ');
+      return (ultimoEspaco > maxCaracteres * 0.7) 
+        ? cortado.substring(0, ultimoEspaco) + '...'
+        : cortado + '...';
+    }
+
+    // Timeline de etapas (copiado do app.js)
+    const phaseCols = [
+      ['Estudos','status_dos_estudos'],['Consulta Pública','status_consulta_publica'],['TCU','status_do_tcu'],['Edital','status_do_edital'],['Leilão','status_do_leilao'],['Contrato','status_do_contrato']
+    ];
+    
+    function lastCompletedIdx(rec){ 
+      let last=-1; 
+      for(let i=0;i<phaseCols.length;i++){ 
+        const v=(rec[phaseCols[i][1]]||'').toString().toLowerCase(); 
+        if(v.includes('conclu')||v.includes('completed')||v.includes('assinado')||v.includes('assinatura')) last=i;
+      } 
+      return last; 
+    }
+    
+    function timelineHTML(rec){ 
+      const states = phaseCols.map(_=>false); 
+      const last = lastCompletedIdx(rec); 
+      if(last >= 0){ 
+        for(let i = 0; i <= last; i++) states[i] = true; 
+      } 
+      const completed = states.filter(Boolean).length; 
+      const width = (completed/phaseCols.length*100).toFixed(2) + '%'; 
+      
+      const items = phaseCols.map((p, i) => {
+        const isCompleted = states[i];
+        const isCurrent = i === last + 1 && last >= 0;
+        
+        let statusClass = '';
+        let statusIcon = '';
+        let statusText = '';
+        
+        if (isCompleted) {
+          statusClass = 'completed';
+          statusIcon = '✓';
+          statusText = 'Concluído';
+        } else if (isCurrent) {
+          statusClass = 'current';
+          statusIcon = '';
+          statusText = rec[phaseCols[i][1]] || 'Em andamento';
+        } else {
+          statusText = 'Pendente';
+        }
+        
+        return `<div class="phase-item group" data-phase="${p[0].toLowerCase().replace(/\s+/g, '-')}">
+          <div class="phase-dot ${statusClass}" title="${p[0]}: ${statusText}">
+            ${statusIcon}
+          </div>
+          <div class="phase-label ${statusClass}">
+            <span class="font-medium">${p[0]}</span>
+            <div class="text-xs opacity-80 mt-0.5">${statusText}</div>
+          </div>
+        </div>`;
+      }).join('');
+      
+      return `<div class="phase-timeline">
+        <div class="phase-line"></div>
+        <div class="phase-line-completed" style="width: ${width}"></div>
+        <div class="phase-items">${items}</div>
+      </div>`;
+    }
+
+    // Template simplificado para resumo
+    function cardTemplate(p){ 
+      const nome = p.nome_completo || p.nome_projeto || 'Projeto';
+      const setor = p.setor || '';
+      const subsetor = p.subsetor || '';
+      
+      return `<article class="card" style="padding: 1.5rem;">
+        <div style="display: flex; justify-content: space-between; align-items: start; margin-bottom: 1rem;">
+          <div>
+            <p style="color: #6b7280; font-size: 12px; margin: 0 0 4px 0;">${esc(setor)} • ${esc(subsetor)}</p>
+            <h3 style="color: #1f2937; font-size: 18px; margin: 0; font-weight: 700;">${esc(nome)}</h3>
+          </div>
+        </div>
+
+        <div class="info-large" style="margin-top: 1rem;">
+          <h4 style="font-size: 14px; margin-bottom: 0.75rem;">ETAPA</h4>
+          ${timelineHTML(p)}
+        </div>
+      </article>`;
+    }
+
+    // Variáveis globais
+    let allProjects = [];
+    let favorites = JSON.parse(localStorage.getItem('favorites') || '[]');
+    let currentSubsetor = '';
+    let subsetores = [];
+
+    // Inicialização
+    document.addEventListener('DOMContentLoaded', async function() {
+      await loadProjects();
+      setupSubsetorSelector();
+      if (subsetores.length > 0) {
+        changeSubsetor();
+      }
+    });
+
+    async function loadProjects() {
+      try {
+        const response = await fetch('data/projects_full.json');
+        allProjects = await response.json();
+        
+        // Extrair subsetores únicos
+        subsetores = [...new Set(allProjects.map(p => p.subsetor).filter(Boolean))].sort();
+        
+      } catch (error) {
+        console.error('Erro ao carregar projetos:', error);
+        showError('Não foi possível carregar os projetos.');
+      }
+    }
+
+    function setupSubsetorSelector() {
+      const selector = document.getElementById('subsetorSelect');
+      selector.innerHTML = '<option value="">Selecione um subsetor...</option>';
+      
+      subsetores.forEach(subsetor => {
+        const option = document.createElement('option');
+        option.value = subsetor;
+        option.textContent = subsetor;
+        selector.appendChild(option);
+      });
+    }
+
+    function changeSubsetor() {
+      const selector = document.getElementById('subsetorSelect');
+      currentSubsetor = selector.value;
+      
+      if (!currentSubsetor) {
+        showEmpty();
+        return;
+      }
+      
+      renderSubsetorContent();
+    }
+
+    function renderSubsetorContent() {
+      const content = document.getElementById('content');
+      
+      // Filtrar projetos do subsetor
+      const subsetorProjects = allProjects.filter(p => p.subsetor === currentSubsetor);
+      const favoriteProjects = subsetorProjects.filter(p => favorites.includes(p.guid));
+      
+      // Calcular estatísticas
+      const stats = calculateStats(subsetorProjects);
+      
+      content.innerHTML = `
+        <header class="subsetor-header">
+          <div class="header__inner">
+            <h1 class="subsetor-title">${esc(currentSubsetor)}</h1>
+            <p class="subsetor-subtitle">Resumo geral e projetos favoritados deste subsetor</p>
+            
+            <div class="stats-row">
+              <div class="stat-card">
+                <div class="stat-value">${stats.total}</div>
+                <div class="stat-label">Total de Projetos</div>
+              </div>
+              <div class="stat-card">
+                <div class="stat-value">${stats.favorites}</div>
+                <div class="stat-label">Favoritados</div>
+              </div>
+              <div class="stat-card">
+                <div class="stat-value">${stats.completed}</div>
+                <div class="stat-label">Concluídos</div>
+              </div>
+              <div class="stat-card">
+                <div class="stat-value">${stats.inProgress}</div>
+                <div class="stat-label">Em Andamento</div>
+              </div>
+            </div>
+          </div>
+        </header>
+
+        <main class="main">
+          <div class="header__inner">
+            <h2 class="section-title">Todos os Projetos - ${esc(currentSubsetor)}</h2>
+            <section id="grid" class="cards" aria-live="polite">
+              ${subsetorProjects.map(project => cardTemplate(project)).join('')}
+            </section>
+            
+            <div class="favorites-section">
+              <h2 class="section-title">Projetos Favoritados - ${esc(currentSubsetor)} (${favoriteProjects.length})</h2>
+              ${favoriteProjects.length > 0 
+                ? `<section class="cards" aria-live="polite">
+                    ${favoriteProjects.map(project => cardTemplate(project)).join('')}
+                  </section>`
+                : `<div class="favorites-empty">
+                    <h3>Nenhum projeto favoritado neste subsetor</h3>
+                    <p>Volte para a lista de projetos e marque seus favoritos para vê-los aqui.</p>
+                    <a href="lista_projetos.html" class="back-btn" style="margin-top: 1rem;">
+                      <span>⭐</span> Marcar Favoritos
+                    </a>
+                  </div>`
+              }
+            </div>
+          </div>
+        </main>
+      `;
+      
+      // Cards simplificados não precisam de inicialização de mapas
+    }
+
+    function calculateStats(projects) {
+      const completed = projects.filter(p => {
+        const lastIdx = lastCompletedIdx(p);
+        return lastIdx === phaseCols.length - 1;
+      }).length;
+      
+      const inProgress = projects.filter(p => {
+        const lastIdx = lastCompletedIdx(p);
+        return lastIdx >= 0 && lastIdx < phaseCols.length - 1;
+      }).length;
+      
+      return {
+        total: projects.length,
+        favorites: projects.filter(p => favorites.includes(p.guid)).length,
+        completed: completed,
+        inProgress: inProgress
+      };
+    }
+
+    function showEmpty() {
+      document.getElementById('content').innerHTML = `
+        <div class="loading">
+          <h3>Selecione um subsetor</h3>
+          <p>Escolha um subsetor no seletor acima para visualizar o resumo.</p>
+        </div>
+      `;
+    }
+
+    function showError(message) {
+      document.getElementById('content').innerHTML = `
+        <div class="loading">
+          <h3>Erro</h3>
+          <p>${message}</p>
+        </div>
+      `;
+    }
+
+    // Inicializar mini-mapas
+    function initMiniMaps() {
+      const maps = document.querySelectorAll('.mini-map');
+      maps.forEach(el => {
+        const lat = parseFloat(el.dataset.lat);
+        const lon = parseFloat(el.dataset.lon);
+        if (!isNaN(lat) && !isNaN(lon)) {
+          const map = L.map(el, {
+            center: [lat, lon],
+            zoom: 5,
+            zoomControl: false,
+            attributionControl: false
+          });
+          L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
+          L.marker([lat, lon]).addTo(map);
+          el._leaflet_map = map;
+        }
+      });
+    }
+
+    // Exportar para PDF
+    async function exportToPDF() {
+      if (!currentSubsetor) {
+        alert('Selecione um subsetor primeiro.');
+        return;
+      }
+
+      const pdf = new window.jspdf.jsPDF({
+        orientation: 'landscape',
+        unit: 'pt',
+        format: 'a4'
+      });
+
+      // Adicionar capa
+      const pageWidth = pdf.internal.pageSize.getWidth();
+      const pageHeight = pdf.internal.pageSize.getHeight();
+      
+      pdf.setFontSize(24);
+      pdf.setTextColor(30, 64, 175);
+      pdf.text(`Resumo - ${currentSubsetor}`, pageWidth/2, 60, { align: 'center' });
+      
+      pdf.setFontSize(14);
+      pdf.setTextColor(107, 114, 128);
+      pdf.text(`Gerado em ${new Date().toLocaleDateString('pt-BR')}`, pageWidth/2, 85, { align: 'center' });
+      
+      const subsetorProjects = allProjects.filter(p => p.subsetor === currentSubsetor);
+      const favoriteProjects = subsetorProjects.filter(p => favorites.includes(p.guid));
+      
+      pdf.setFontSize(12);
+      pdf.text(`Total: ${subsetorProjects.length} projetos | Favoritos: ${favoriteProjects.length}`, pageWidth/2, 105, { align: 'center' });
+      
+      pdf.addPage();
+
+      // Capturar conteúdo principal
+      const mainContent = document.querySelector('main');
+      if (mainContent) {
+        const canvas = await window.html2canvas(mainContent, { 
+          scale: 1.5, 
+          useCORS: true,
+          allowTaint: true 
+        });
+        const imgData = canvas.toDataURL('image/png');
+        
+        const maxW = pageWidth * 0.9;
+        const maxH = pageHeight * 0.9;
+        let ratio = Math.min(maxW / canvas.width, maxH / canvas.height);
+        let imgWidth = canvas.width * ratio;
+        let imgHeight = canvas.height * ratio;
+        
+        let x = (pageWidth - imgWidth) / 2;
+        let y = (pageHeight - imgHeight) / 2;
+        
+        pdf.addImage(imgData, 'PNG', x, y, imgWidth, imgHeight);
+      }
+
+      pdf.save(`resumo-${currentSubsetor.toLowerCase().replace(/\s+/g, '-')}-ppi.pdf`);
+    }
+  </script>
+</body>
+</html>
