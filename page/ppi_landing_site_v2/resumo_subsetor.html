@@ -370,6 +370,19 @@
     </div>
   </div>
 
+  <!-- Modal para detalhes do projeto -->
+  <div id="projectModal" class="modal">
+    <div class="modal-content" style="max-width: 1200px; max-height: 90vh; overflow-y: auto; width: 95vw;">
+      <div class="modal-header">
+        <h2 class="modal-title" id="projectModalTitle">Detalhes do Projeto</h2>
+        <button class="close-modal" onclick="closeProjectModal()">✕ Fechar</button>
+      </div>
+      <div id="projectModalContent">
+        <!-- Conteúdo do projeto será inserido aqui -->
+      </div>
+    </div>
+  </div>
+
   <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.3/html2pdf.bundle.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
@@ -459,12 +472,12 @@
       </div>`;
     }
 
-    // Template simplificado para resumo - apenas nome e timeline com favorito
+    // Template simplificado para resumo - apenas nome e timeline com favorito e clique para modal
     function cardTemplate(p){ 
       const nome = p.nome_completo || p.nome_projeto || 'Projeto';
       const isFavorite = favorites.includes(p.guid);
       
-      return `<article class="card" style="padding: 0.8rem; min-height: 120px; display: flex; flex-direction: column; position: relative;">
+      return `<article class="card" style="padding: 0.8rem; min-height: 120px; display: flex; flex-direction: column; position: relative; cursor: pointer; width: 100%;" onclick="openProjectModal('${p.guid}')">
         <div style="flex: 0 0 auto; margin-bottom: 0.5rem;">
           <h3 style="color: #1f2937; font-size: 16px; margin: 0; font-weight: 700; line-height: 1.3;">${esc(nome)}</h3>
         </div>
@@ -476,7 +489,7 @@
         </div>
         
         <!-- Botão de favorito na parte inferior -->
-        <button onclick="toggleFavorite('${p.guid}')" style="position: absolute; bottom: 0.5rem; right: 0.5rem; background: ${isFavorite ? '#fbbf24' : 'rgba(255,255,255,0.2)'}; border: none; border-radius: 50%; width: 28px; height: 28px; cursor: pointer; display: flex; align-items: center; justify-content: center; transition: all 0.2s;">
+        <button onclick="event.stopPropagation(); toggleFavorite('${p.guid}')" style="position: absolute; bottom: 0.5rem; right: 0.5rem; background: ${isFavorite ? '#fbbf24' : 'rgba(255,255,255,0.2)'}; border: none; border-radius: 50%; width: 28px; height: 28px; cursor: pointer; display: flex; align-items: center; justify-content: center; transition: all 0.2s;">
           <svg width="16" height="16" viewBox="0 0 24 24" fill="${isFavorite ? '#fff' : '#fff'}" stroke="currentColor" stroke-width="2">
             <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
           </svg>
@@ -749,11 +762,224 @@
       }
     }
 
+    // Função para abrir modal de detalhes do projeto
+    function openProjectModal(guid) {
+      const project = allProjects.find(p => p.guid === guid);
+      if (!project) return;
+      
+      const modal = document.getElementById('projectModal');
+      const title = document.getElementById('projectModalTitle');
+      const content = document.getElementById('projectModalContent');
+      
+      title.textContent = project.nome_completo || project.nome_projeto || 'Projeto';
+      
+      // Usar exatamente o mesmo template do projects.html
+      const nome = project.nome_completo || project.nome_projeto || 'Projeto';
+      const setor = project.setor || '';
+      
+      // Resumir descrição de forma padronizada e clara
+      function resumirDescricao(texto) {
+        if (!texto) return '';
+        // Padrão para terminais e arrendamentos
+        if (texto.match(/terminal|arrendamento|gran[eé]is|carga geral|passageiros/gi)) {
+          return 'Terminal destinado à movimentação e armazenagem de granéis sólidos, carga geral e passageiros, com flexibilidade operacional conforme premissas do arrendamento.';
+        }
+        // Outros padrões
+        if (texto.match(/moderniza|amplia|infraestrutura|fluidez|segurança/gi)) {
+          return 'Projeto de modernização e ampliação da infraestrutura rodoviária, promovendo maior segurança, fluidez no tráfego e integração regional.';
+        }
+        if (texto.match(/PPP|parceria público-privada|submerso|túnel|ligando as cidades/gi)) {
+          return 'Parceria público-privada para construção e operação de túnel submerso, conectando cidades estratégicas.';
+        }
+        if (texto.length < 180) return texto;
+        // Resumo genérico: pega frases completas até 220 caracteres
+        let frases = texto.split('. ');
+        let resumo = '';
+        for(let f of frases){
+          if((resumo + f).length > 220) break;
+          resumo += (resumo ? '. ' : '') + f;
+        }
+        if(!resumo) resumo = frases[0];
+        return resumo;
+      }
+      let desc = resumirDescricao(project.descricao_do_projeto || project.descricao_curta || '');
+      const situ = project.status_atual_do_projeto || '—';
+      const deliberacao = project.deliberacao || '—';
+      const riscos = project.questoes_chaves || '';
+      const lat = parseFloat(project.latitude), lon = parseFloat(project.longitude);
+      
+      // bloco do mini-mapa
+      const hasCoords = !isNaN(lat) && !isNaN(lon);
+      const miniMapBlock = hasCoords
+        ? `
+        <div class="info-small">
+          <h5>Mapa (nível: <span class="loc-level">${(window.LOC_LEVEL||'state')}</span>)</h5>
+          <div class="mini-map"
+               data-lat="${lat}"
+               data-lon="${lon}">
+          </div>
+        </div>`
+        : `
+        <div class="info-small">
+          <h5>Mapa</h5>
+          <p>Localização não disponível</p>
+        </div>`;
+      
+      const riscosList = riscos ? 
+        riscos.split(/\n|;|•/).filter(x => x.trim()).map(x => `<li>${esc(x.trim())}</li>`).join('') : 
+        '<li>Nenhum ponto de atenção identificado</li>';
+      
+      content.innerHTML = `
+        <article class="card">
+          <div class="card-header">
+            <div style="display: flex; justify-content: space-between; align-items: start;">
+              <div>
+                <p style="color: #6b7280; font-size: 14px; margin: 0 0 8px 0;">${esc(setor)}</p>
+                <h3 style="color: #1f2937; font-size: 20px; margin: 0; font-weight: 700;">${esc(nome)}</h3>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-info-grid">
+            <div class="left-col">
+              <div class="info-large description">
+                <h4>Descrição</h4>
+                <p>${esc(desc)}</p>
+              </div>
+
+              <div class="row-2cols">
+                <div class="info-small">
+                  <h5>Situação Atual</h5>
+                  <p>${esc(situ)}</p>
+                </div>
+
+                <div class="info-small">
+                  <h5>Próximos Passos</h5>
+                  <p>${esc(deliberacao)}</p>
+                </div>
+              </div>
+
+              <div class="info-large">
+                <h4>Pontos de Atenção</h4>
+                <ul class="list-disc list-inside space-y-1 text-gray-700">
+                  ${riscosList}
+                </ul>
+              </div>
+            </div>
+
+            <div class="right-col">
+              ${miniMapBlock}
+            </div>
+
+            <div class="timeline-col">
+              <h4>ETAPA</h4>
+              ${timelineHTML(project)}
+            </div>
+          </div>
+        </article>
+      `;
+      
+      modal.style.display = 'flex';
+      
+      // Inicializar mapa se houver coordenadas
+      if (hasCoords) {
+        setTimeout(() => {
+          const mapElements = content.querySelectorAll('.mini-map');
+          mapElements.forEach(el => {
+            const lat = parseFloat(el.dataset.lat);
+            const lon = parseFloat(el.dataset.lon);
+            if (!isNaN(lat) && !isNaN(lon)) {
+              const map = L.map(el, {
+                zoomControl: false,
+                attributionControl: false
+              }).setView([lat, lon], 13);
+              
+              L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                attribution: '© OpenStreetMap contributors'
+              }).addTo(map);
+              
+              L.marker([lat, lon]).addTo(map);
+              
+              // Converter para imagem estática após carregar
+              setTimeout(() => {
+                const canvas = document.createElement('canvas');
+                const size = 300;
+                canvas.width = size * 2;
+                canvas.height = size * 2;
+                canvas.style.width = size + 'px';
+                canvas.style.height = size + 'px';
+                const ctx = canvas.getContext('2d');
+                ctx.scale(2, 2);
+
+                html2canvas(el, {
+                  canvas: canvas,
+                  backgroundColor: '#ffffff',
+                  scale: 1
+                }).then(canvasMap => {
+                  const img = new Image();
+                  img.onload = () => {
+                    ctx.drawImage(img, 0, 0, size, size);
+                    
+                    // Adicionar círculo no centro (marcador)
+                    const centerX = size / 2;
+                    const centerY = size / 2;
+                    ctx.beginPath();
+                    ctx.arc(centerX, centerY, 5, 0, Math.PI * 2);
+                    ctx.fillStyle = '#3B82F6';
+                    ctx.globalAlpha = 0.95;
+                    ctx.fill();
+                    ctx.globalAlpha = 1.0;
+                    
+                    // Converter para imagem
+                    const finalImg = document.createElement('img');
+                    finalImg.src = canvas.toDataURL('image/png');
+                    finalImg.alt = 'Mapa estático';
+                    finalImg.style.width = '100%';
+                    finalImg.style.height = '100%';
+                    finalImg.style.display = 'block';
+                    
+                    el.innerHTML = '';
+                    el.appendChild(finalImg);
+                    
+                    try { map.remove(); } catch(e){}
+                    el._leaflet_map = null;
+                  };
+                  img.src = canvasMap.toDataURL('image/png');
+                }).catch(err => {
+                  console.error('Erro ao gerar mapa:', err);
+                });
+              }, 1000);
+            }
+          });
+        }, 100);
+      }
+    }
+
+    // Função para fechar modal de projeto
+    function closeProjectModal() {
+      const modal = document.getElementById('projectModal');
+      modal.style.display = 'none';
+    }
+
+    // Função para formatar moeda
+    function formatCurrency(value) {
+      if (!value) return 'N/A';
+      return new Intl.NumberFormat('pt-BR', {
+        style: 'currency',
+        currency: 'BRL'
+      }).format(value);
+    }
+
     // Fechar modal ao clicar fora
     window.onclick = function(event) {
-      const modal = document.getElementById('cardsModal');
-      if (event.target === modal) {
+      const cardsModal = document.getElementById('cardsModal');
+      const projectModal = document.getElementById('projectModal');
+      
+      if (event.target === cardsModal) {
         closeModal();
+      }
+      if (event.target === projectModal) {
+        closeProjectModal();
       }
     }
 
