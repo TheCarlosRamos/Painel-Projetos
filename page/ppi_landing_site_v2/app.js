@@ -206,8 +206,6 @@
   async function initProjects(){
     if(!$('#grid')) return; // not on projects
     const DATA = await (await fetch('data/projects_full.json')).json();
-    const sectorSel = $('#sector');
-    const sectors = [...new Set(DATA.map(p=>p.setor).filter(Boolean))].sort(); sectors.forEach(v=>{ const o=document.createElement('option'); o.value=o.textContent=translate(v); sectorSel.appendChild(o); });
     
     // Adicionar filtro de subsetor
     const subsetorSel = $('#subsetor');
@@ -218,11 +216,21 @@
       o.textContent=translate(v); 
       subsetorSel.appendChild(o); 
     });
+    
+    // Adicionar filtro de subsecretaria
+    const subsecretariaSel = $('#subsecretaria');
+    const subsecretarias = [...new Set(DATA.map(p=>p.subsecretaria).filter(Boolean))].sort(); 
+    subsecretarias.forEach(v=>{ 
+      const o=document.createElement('option'); 
+      o.value=v; 
+      o.textContent=v; 
+      subsecretariaSel.appendChild(o); 
+    });
 
     const params = new URLSearchParams(location.search); 
     $('#q').value=params.get('q')||''; 
-    $('#sector').value=params.get('sector')||''; 
     $('#subsetor').value=params.get('subsetor')||''; 
+    $('#subsecretaria').value=params.get('subsecretaria')||''; 
     $('#etapa').value=params.get('etapa')||'';
 
     function cardTemplate(p){ 
@@ -333,29 +341,29 @@
 
     function apply(){ 
       const q=($('#q').value||'').toLowerCase().trim(); 
-      const sector=$('#sector').value||''; 
       const subsetor=$('#subsetor').value||''; 
+      const subsecretaria=$('#subsecretaria').value||''; 
       const etapa=$('#etapa').value||''; 
       const filtered = DATA.filter(p=>{ 
         const okQ=!q || ((p.nome_completo||'').toLowerCase().includes(q) || (p.descricao_do_projeto||'').toLowerCase().includes(q) || (p.localizacoes||'').toLowerCase().includes(q)); 
-        const okS=!sector||(p.setor===sector); 
-        const okSub=!subsetor||(p.subsetor===subsetor); // Novo filtro de subsetor
+        const okSub=!subsetor||(p.subsetor===subsetor); 
+        const okSubsec=!subsecretaria||(p.subsecretaria===subsecretaria); 
         let okE=true; 
         if(etapa){ 
           const idx=lastCompletedIdx(p); 
           const lab=idx<0?'Nenhuma':phaseCols[idx][0]; 
           okE=(lab===etapa);
         } 
-        return okQ&&okS&&okSub&&okE; 
+        return okQ&&okSub&&okSubsec&&okE; 
       }); 
       $('#grid').innerHTML = filtered.map(cardTemplate).join(''); 
       $('#count').textContent = String(filtered.length); 
       renderMiniMaps(); 
     }
 
-    ['q','sector','subsetor','etapa'].forEach(id=> $('#'+id).addEventListener('input', apply)); 
+    ['q','subsetor','subsecretaria','etapa'].forEach(id=> $('#'+id).addEventListener('input', apply)); 
     $('#clear').addEventListener('click', ()=>{ 
-      ['q','sector','subsetor','etapa'].forEach(id=> $('#'+id).value=''); 
+      ['q','subsetor','subsecretaria','etapa'].forEach(id=> $('#'+id).value=''); 
       apply(); 
     });
     
@@ -590,14 +598,14 @@
 
         // Nome do arquivo com filtros aplicados
         const q = $('#q').value.trim();
-        const sector = $('#sector').value;
         const subsetor = $('#subsetor').value;
+        const subsecretaria = $('#subsecretaria').value;
         const etapa = $('#etapa').value;
         
         let filename = 'projetos';
         const filters = [];
-        if (sector) filters.push(translate(sector));
         if (subsetor) filters.push(translate(subsetor));
+        if (subsecretaria) filters.push(subsecretaria);
         if (etapa) filters.push(etapa);
         if (q) filters.push(`busca_${q.replace(/\s+/g, '_')}`);
         
