@@ -1568,9 +1568,9 @@
           });
           const imgData = canvas.toDataURL('image/png');
           
-          // Calcular dimensões para caber na página em paisagem
-          const maxW = pageWidth * 0.95;
-          const maxH = pageHeight * 0.95;
+          // Calcular dimensões para preencher quase toda a página em paisagem
+          const maxW = pageWidth * 0.98; // Aumentado de 0.95 para 0.98
+          const maxH = pageHeight * 0.98; // Aumentado de 0.95 para 0.98
           let ratio = Math.min(maxW / canvas.width, maxH / canvas.height);
           let imgWidth = canvas.width * ratio;
           let imgHeight = canvas.height * ratio;
