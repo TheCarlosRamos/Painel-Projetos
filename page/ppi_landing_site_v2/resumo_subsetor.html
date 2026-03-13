@@ -336,12 +336,24 @@
 
   <div class="subsetor-selector">
     <div class="header__inner">
-      <label for="subsetorSelect" style="display: block; margin-bottom: 0.5rem; font-weight: 600; color: #374151;">
-        Selecione o Subsetor:
-      </label>
-      <select id="subsetorSelect" onchange="changeSubsetor()">
-        <option value="">Carregando subsetores...</option>
-      </select>
+      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; align-items: end;">
+        <div>
+          <label for="subsetorSelect" style="display: block; margin-bottom: 0.5rem; font-weight: 600; color: #374151;">
+            Selecione o Subsetor:
+          </label>
+          <select id="subsetorSelect" onchange="changeSubsetor()" style="width: 100%; padding: 0.75rem; border: 1px solid #d1d5db; border-radius: 0.5rem; font-size: 1rem; background: white;">
+            <option value="">Carregando subsetores...</option>
+          </select>
+        </div>
+        <div>
+          <label for="subsecretariaSelect" style="display: block; margin-bottom: 0.5rem; font-weight: 600; color: #374151;">
+            Selecione a Subsecretaria:
+          </label>
+          <select id="subsecretariaSelect" onchange="changeSubsetor()" style="width: 100%; padding: 0.75rem; border: 1px solid #d1d5db; border-radius: 0.5rem; font-size: 1rem; background: white;">
+            <option value="">Todas as subsecretarias</option>
+          </select>
+        </div>
+      </div>
     </div>
   </div>
 
@@ -558,7 +570,9 @@
     let allProjects = [];
     let favorites = JSON.parse(localStorage.getItem('favorites') || '[]');
     let currentSubsetor = '';
+    let currentSubsecretaria = '';
     let subsetores = [];
+    let subsecretarias = [];
     let modalProjects = [];
     let currentModalPage = 0;
     let currentProjectsPage = 0;
@@ -604,6 +618,10 @@
         console.log('Subsetores encontrados:', subsetores);
         console.log('Subsetores traduzidos:', subsetores.map(s => translate(s)));
         
+        // Extrair subsecretarias únicas
+        subsecretarias = [...new Set(allProjects.map(p => p.subsecretaria).filter(Boolean))].sort();
+        console.log('Subsecretarias encontradas:', subsecretarias);
+        
       } catch (error) {
         console.error('Erro ao carregar projetos:', error);
         showError('Não foi possível carregar os projetos.');
@@ -611,22 +629,37 @@
     }
 
     function setupSubsetorSelector() {
-      const selector = document.getElementById('subsetorSelect');
-      selector.innerHTML = '<option value="">Selecione um subsetor...</option>';
+      const subsetorSelector = document.getElementById('subsetorSelect');
+      const subsecretariaSelector = document.getElementById('subsecretariaSelect');
       
+      // Configurar selector de subsetor
+      subsetorSelector.innerHTML = '<option value="">Selecione um subsetor...</option>';
       subsetores.forEach(subsetor => {
         const option = document.createElement('option');
         option.value = subsetor;
         option.textContent = translate(subsetor); // Aplicar tradução
-        selector.appendChild(option);
+        subsetorSelector.appendChild(option);
       });
       
-      selector.addEventListener('change', changeSubsetor);
+      // Configurar selector de subsecretaria
+      subsecretariaSelector.innerHTML = '<option value="">Todas as subsecretarias</option>';
+      subsecretarias.forEach(subsecretaria => {
+        const option = document.createElement('option');
+        option.value = subsecretaria;
+        option.textContent = subsecretaria;
+        subsecretariaSelector.appendChild(option);
+      });
+      
+      subsetorSelector.addEventListener('change', changeSubsetor);
+      subsecretariaSelector.addEventListener('change', changeSubsetor);
     }
 
     function changeSubsetor() {
-      const selector = document.getElementById('subsetorSelect');
-      currentSubsetor = selector.value;
+      const subsetorSelector = document.getElementById('subsetorSelect');
+      const subsecretariaSelector = document.getElementById('subsecretariaSelect');
+      
+      currentSubsetor = subsetorSelector.value;
+      currentSubsecretaria = subsecretariaSelector.value;
       
       if (!currentSubsetor) {
         showEmpty();
@@ -639,8 +672,13 @@
     function renderSubsetorContent() {
       const content = document.getElementById('content');
       
-      // Filtrar projetos do subsetor
-      const subsetorProjects = allProjects.filter(p => p.subsetor === currentSubsetor);
+      // Filtrar projetos do subsetor e subsecretaria
+      let subsetorProjects = allProjects.filter(p => p.subsetor === currentSubsetor);
+      
+      // Aplicar filtro adicional de subsecretaria se selecionada
+      if (currentSubsecretaria) {
+        subsetorProjects = subsetorProjects.filter(p => p.subsecretaria === currentSubsecretaria);
+      }
       
       // Calcular estatísticas do subsetor completo (mesmo para todas as folhas)
       const subsetorStats = calculateStats(subsetorProjects);
@@ -1479,49 +1517,81 @@
         format: 'a4'
       });
 
-      // Adicionar capa
       const pageWidth = pdf.internal.pageSize.getWidth();
       const pageHeight = pdf.internal.pageSize.getHeight();
       
+      // Adicionar capa
       pdf.setFontSize(24);
       pdf.setTextColor(30, 64, 175);
-      pdf.text(`Resumo - ${currentSubsetor}`, pageWidth/2, 60, { align: 'center' });
+      const title = `Resumo - ${translate(currentSubsetor)}`;
+      if (currentSubsecretaria) {
+        pdf.text(`${title} / ${currentSubsecretaria}`, pageWidth/2, 60, { align: 'center' });
+      } else {
+        pdf.text(title, pageWidth/2, 60, { align: 'center' });
+      }
       
       pdf.setFontSize(14);
       pdf.setTextColor(107, 114, 128);
       pdf.text(`Gerado em ${new Date().toLocaleDateString('pt-BR')}`, pageWidth/2, 85, { align: 'center' });
       
       const subsetorProjects = allProjects.filter(p => p.subsetor === currentSubsetor);
+      if (currentSubsecretaria) {
+        subsetorProjects = subsetorProjects.filter(p => p.subsecretaria === currentSubsecretaria);
+      }
       const favoriteProjects = subsetorProjects.filter(p => favorites.includes(p.guid));
       
       pdf.setFontSize(12);
       pdf.text(`Total: ${subsetorProjects.length} projetos | Favoritos: ${favoriteProjects.length}`, pageWidth/2, 105, { align: 'center' });
       
-      pdf.addPage();
-
-      // Capturar conteúdo principal
-      const mainContent = document.querySelector('main');
-      if (mainContent) {
-        const canvas = await window.html2canvas(mainContent, { 
-          scale: 1.5, 
-          useCORS: true,
-          allowTaint: true 
-        });
-        const imgData = canvas.toDataURL('image/png');
+      // Capturar cada folha individualmente
+      const folhas = document.querySelectorAll('.folha-section');
+      
+      for (let i = 0; i < folhas.length; i++) {
+        const folha = folhas[i];
         
-        const maxW = pageWidth * 0.9;
-        const maxH = pageHeight * 0.9;
-        let ratio = Math.min(maxW / canvas.width, maxH / canvas.height);
-        let imgWidth = canvas.width * ratio;
-        let imgHeight = canvas.height * ratio;
+        // Congelar mapas nesta folha antes de capturar
+        await freezeMapsForPDF(folha);
         
-        let x = (pageWidth - imgWidth) / 2;
-        let y = (pageHeight - imgHeight) / 2;
+        // Adicionar nova página (exceto para a primeira folha após a capa)
+        if (i > 0) {
+          pdf.addPage();
+        }
         
-        pdf.addImage(imgData, 'PNG', x, y, imgWidth, imgHeight);
+        // Capturar a folha
+        try {
+          const canvas = await window.html2canvas(folha, { 
+            scale: 1.5, 
+            useCORS: true,
+            allowTaint: true,
+            backgroundColor: null
+          });
+          const imgData = canvas.toDataURL('image/png');
+          
+          // Calcular dimensões para caber na página em paisagem
+          const maxW = pageWidth * 0.95;
+          const maxH = pageHeight * 0.95;
+          let ratio = Math.min(maxW / canvas.width, maxH / canvas.height);
+          let imgWidth = canvas.width * ratio;
+          let imgHeight = canvas.height * ratio;
+          
+          let x = (pageWidth - imgWidth) / 2;
+          let y = (pageHeight - imgHeight) / 2;
+          
+          pdf.addImage(imgData, 'PNG', x, y, imgWidth, imgHeight);
+        } catch (error) {
+          console.error('Erro ao capturar folha', i + 1, ':', error);
+          // Adicionar texto de fallback
+          pdf.setFontSize(12);
+          pdf.setTextColor(107, 114, 128);
+          pdf.text(`Erro ao capturar folha ${i + 1}`, pageWidth/2, pageHeight/2, { align: 'center' });
+        }
       }
 
-      pdf.save(`resumo-${currentSubsetor.toLowerCase().replace(/\s+/g, '-')}-ppi.pdf`);
+      // Salvar PDF com nome descritivo
+      const fileName = currentSubsecretaria 
+        ? `resumo-${currentSubsetor.toLowerCase().replace(/\s+/g, '-')}-${currentSubsecretaria.toLowerCase().replace(/\s+/g, '-')}-ppi.pdf`
+        : `resumo-${currentSubsetor.toLowerCase().replace(/\s+/g, '-')}-ppi.pdf`;
+      pdf.save(fileName);
     }
   </script>
 </body>
