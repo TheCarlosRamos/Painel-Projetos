@@ -66,8 +66,12 @@
       font-size: 0.85rem;
       opacity: 0.8;
     }
-    .folhas-container {
-      margin-top: 0;
+    .folha-section.pdf-export {
+      background: #1e40af !important;
+      position: relative;
+    }
+    .folha-section.pdf-export * {
+      color: white !important;
     }
     .folha-section {
       margin-bottom: 1rem;
@@ -338,19 +342,19 @@
     <div class="header__inner">
       <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; align-items: end;">
         <div>
+          <label for="subsecretariaSelect" style="display: block; margin-bottom: 0.5rem; font-weight: 600; color: #374151;">
+            Selecione a Subsecretaria:
+          </label>
+          <select id="subsecretariaSelect" onchange="changeSubsecretaria()" style="width: 100%; padding: 0.75rem; border: 1px solid #d1d5db; border-radius: 0.5rem; font-size: 1rem; background: white;">
+            <option value="">Carregando subsecretarias...</option>
+          </select>
+        </div>
+        <div>
           <label for="subsetorSelect" style="display: block; margin-bottom: 0.5rem; font-weight: 600; color: #374151;">
             Selecione o Subsetor:
           </label>
           <select id="subsetorSelect" onchange="changeSubsetor()" style="width: 100%; padding: 0.75rem; border: 1px solid #d1d5db; border-radius: 0.5rem; font-size: 1rem; background: white;">
-            <option value="">Carregando subsetores...</option>
-          </select>
-        </div>
-        <div>
-          <label for="subsecretariaSelect" style="display: block; margin-bottom: 0.5rem; font-weight: 600; color: #374151;">
-            Selecione a Subsecretaria:
-          </label>
-          <select id="subsecretariaSelect" onchange="changeSubsetor()" style="width: 100%; padding: 0.75rem; border: 1px solid #d1d5db; border-radius: 0.5rem; font-size: 1rem; background: white;">
-            <option value="">Todas as subsecretarias</option>
+            <option value="">Primeiro selecione uma subsecretaria</option>
           </select>
         </div>
       </div>
@@ -603,9 +607,7 @@
     document.addEventListener('DOMContentLoaded', async function() {
       await loadProjects();
       setupSubsetorSelector();
-      if (subsetores.length > 0) {
-        changeSubsetor();
-      }
+      // Não chamar changeSubsetor automaticamente - aguardar seleção do usuário
     });
 
     async function loadProjects() {
@@ -632,17 +634,8 @@
       const subsetorSelector = document.getElementById('subsetorSelect');
       const subsecretariaSelector = document.getElementById('subsecretariaSelect');
       
-      // Configurar selector de subsetor
-      subsetorSelector.innerHTML = '<option value="">Selecione um subsetor...</option>';
-      subsetores.forEach(subsetor => {
-        const option = document.createElement('option');
-        option.value = subsetor;
-        option.textContent = translate(subsetor); // Aplicar tradução
-        subsetorSelector.appendChild(option);
-      });
-      
-      // Configurar selector de subsecretaria
-      subsecretariaSelector.innerHTML = '<option value="">Todas as subsecretarias</option>';
+      // Configurar selector de subsecretaria primeiro
+      subsecretariaSelector.innerHTML = '<option value="">Selecione uma subsecretaria...</option>';
       subsecretarias.forEach(subsecretaria => {
         const option = document.createElement('option');
         option.value = subsecretaria;
@@ -650,16 +643,61 @@
         subsecretariaSelector.appendChild(option);
       });
       
+      // Inicialmente, o selector de subsetor fica vazio
+      subsetorSelector.innerHTML = '<option value="">Primeiro selecione uma subsecretaria</option>';
+      subsetorSelector.disabled = true;
+      
+      subsecretariaSelector.addEventListener('change', changeSubsecretaria);
       subsetorSelector.addEventListener('change', changeSubsetor);
-      subsecretariaSelector.addEventListener('change', changeSubsetor);
+    }
+
+    function changeSubsecretaria() {
+      const subsecretariaSelector = document.getElementById('subsecretariaSelect');
+      const subsetorSelector = document.getElementById('subsetorSelect');
+      
+      currentSubsecretaria = subsecretariaSelector.value;
+      currentSubsetor = ''; // Reset subsetor quando subsecretaria muda
+      
+      if (!currentSubsecretaria) {
+        // Se nenhuma subsecretaria selecionada, desabilitar subsetor
+        subsetorSelector.innerHTML = '<option value="">Primeiro selecione uma subsecretaria</option>';
+        subsetorSelector.disabled = true;
+        showEmpty();
+        return;
+      }
+      
+      // Filtrar subsetores que têm projetos nesta subsecretaria
+      const availableSubsetores = [...new Set(
+        allProjects
+          .filter(p => p.subsecretaria === currentSubsecretaria)
+          .map(p => p.subsetor)
+          .filter(Boolean)
+      )].sort();
+      
+      // Configurar selector de subsetor com os subsetores disponíveis
+      subsetorSelector.innerHTML = '<option value="">Selecione um subsetor...</option>';
+      availableSubsetores.forEach(subsetor => {
+        const option = document.createElement('option');
+        option.value = subsetor;
+        option.textContent = translate(subsetor);
+        subsetorSelector.appendChild(option);
+      });
+      
+      subsetorSelector.disabled = false;
+      
+      // Se há apenas um subsetor disponível, selecioná-lo automaticamente
+      if (availableSubsetores.length === 1) {
+        subsetorSelector.value = availableSubsetores[0];
+        changeSubsetor();
+      } else {
+        showEmpty();
+      }
     }
 
     function changeSubsetor() {
       const subsetorSelector = document.getElementById('subsetorSelect');
-      const subsecretariaSelector = document.getElementById('subsecretariaSelect');
       
       currentSubsetor = subsetorSelector.value;
-      currentSubsecretaria = subsecretariaSelector.value;
       
       if (!currentSubsetor) {
         showEmpty();
@@ -1550,6 +1588,9 @@
       for (let i = 0; i < folhas.length; i++) {
         const folha = folhas[i];
         
+        // Adicionar classe para PDF export
+        folha.classList.add('pdf-export');
+        
         // Congelar mapas nesta folha antes de capturar
         await freezeMapsForPDF(folha);
         
@@ -1561,16 +1602,23 @@
         // Capturar a folha
         try {
           const canvas = await window.html2canvas(folha, { 
-            scale: 1.5, 
+            scale: 2, 
             useCORS: true,
             allowTaint: true,
-            backgroundColor: null
+            backgroundColor: '#1e40af',
+            logging: false,
+            width: folha.offsetWidth,
+            height: folha.offsetHeight,
+            scrollX: 0,
+            scrollY: 0,
+            windowWidth: folha.offsetWidth,
+            windowHeight: folha.offsetHeight
           });
           const imgData = canvas.toDataURL('image/png');
           
           // Calcular dimensões para preencher quase toda a página em paisagem
-          const maxW = pageWidth * 0.98; // Aumentado de 0.95 para 0.98
-          const maxH = pageHeight * 0.98; // Aumentado de 0.95 para 0.98
+          const maxW = pageWidth * 0.98;
+          const maxH = pageHeight * 0.98;
           let ratio = Math.min(maxW / canvas.width, maxH / canvas.height);
           let imgWidth = canvas.width * ratio;
           let imgHeight = canvas.height * ratio;
@@ -1586,6 +1634,9 @@
           pdf.setTextColor(107, 114, 128);
           pdf.text(`Erro ao capturar folha ${i + 1}`, pageWidth/2, pageHeight/2, { align: 'center' });
         }
+        
+        // Remover classe após captura
+        folha.classList.remove('pdf-export');
       }
 
       // Salvar PDF com nome descritivo
