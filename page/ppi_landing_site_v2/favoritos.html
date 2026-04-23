@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PPI • Projetos Favoritos</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="ppi.css" />
+  <link rel="stylesheet" href="chatbot.css" />
+  <style>
+    .favorites-header {
+      background: white;
+      border-bottom: 1px solid #e5e7eb;
+      padding: 1.5rem 0;
+      margin-bottom: 2rem;
+    }
+    .favorites-header .header__inner {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 1rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+    .back-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.5rem 1rem;
+      background: #f3f4f6;
+      border: 1px solid #d1d5db;
+      border-radius: 0.5rem;
+      text-decoration: none;
+      color: #374151;
+      font-weight: 500;
+      transition: all 0.2s;
+    }
+    .back-btn:hover {
+      background: #e5e7eb;
+    }
+    .favorites-count {
+      background: #1e40af;
+      color: white;
+      padding: 0.25rem 0.75rem;
+      border-radius: 9999px;
+      font-size: 0.875rem;
+      font-weight: 600;
+    }
+    .no-favorites {
+      text-align: center;
+      padding: 4rem 2rem;
+      color: #6b7280;
+    }
+    .no-favorites h2 {
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+      color: #374151;
+    }
+    .no-favorites p {
+      margin-bottom: 1.5rem;
+    }
+    .no-favorites .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.75rem 1.5rem;
+      background: #1e40af;
+      color: white;
+      text-decoration: none;
+      border-radius: 0.5rem;
+      font-weight: 500;
+      transition: background 0.2s;
+    }
+    .no-favorites .btn:hover {
+      background: #1e3a8a;
+    }
+    .loading-favorites {
+      text-align: center;
+      padding: 3rem;
+      color: #6b7280;
+    }
+    .spinner {
+      width: 32px;
+      height: 32px;
+      border: 3px solid #e5e7eb;
+      border-top: 3px solid #1e40af;
+      border-radius: 50%;
+      animation: spin 1s linear infinite;
+      margin: 0 auto 1rem;
+    }
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+  </style>
+</head>
+<body>
+  <header class="favorites-header">
+    <div class="header__inner">
+      <div class="brand">
+        <img src="assets/logo_ppi.svg" alt="Logo PPI"/>
+        <strong>Projetos Favoritos</strong>
+        <span class="favorites-count" id="favoritesCount">0</span>
+      </div>
+      <nav>
+        <a href="lista_projetos.html" class="back-btn">
+          <span>←</span> Voltar para Lista
+        </a>
+      </nav>
+      <button id="export-pdf" class="btn" type="button" title="Exportar favoritos para PDF">
+        Exportar PDF
+      </button>
+    </div>
+  </header>
+
+  <main class="main">
+    <div id="favoritesContent">
+      <div class="loading-favorites">
+        <div class="spinner"></div>
+        <p>Carregando projetos favoritos...</p>
+      </div>
+    </div>
+  </main>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.3/html2pdf.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+  <!-- Leaflet para mini-mapas -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="https://unpkg.com/leaflet-image@0.4.0/leaflet-image.js"></script>
+  
+  <script>
+    // Funções utilitárias do app.js
+    const $ = (s,root=document)=>root.querySelector(s);
+    const $$ = (s,root=document)=>Array.from(root.querySelectorAll(s));
+    
+    function esc(text){
+      const div=document.createElement('div');
+      div.textContent=text||'';
+      return div.innerHTML;
+    }
+    
+    function resumirDescricao(texto, maxCaracteres = 300) {
+      if (!texto) return '';
+      if (texto.length <= maxCaracteres) return texto;
+      const cortado = texto.substring(0, maxCaracteres);
+      const ultimoEspaco = cortado.lastIndexOf(' ');
+      return (ultimoEspaco > maxCaracteres * 0.7) 
+        ? cortado.substring(0, ultimoEspaco) + '...'
+        : cortado + '...';
+    }
+
+    // Template do card (adaptado do app.js)
+    function cardTemplate(p){ 
+      const nome = p.nome_completo || p.nome_projeto || 'Projeto';
+      const setor = p.setor || '';
+      const desc = resumirDescricao(p.descricao_do_projeto || p.descricao_curta || '');
+      const situ = p.status_atual_do_projeto || '—';
+      const riscos = p.questoes_chaves || '';
+      const lat = parseFloat(p.latitude), lon = parseFloat(p.longitude);
+      
+      // bloco do mini-mapa
+      const hasCoords = !isNaN(lat) && !isNaN(lon);
+      const miniMapBlock = hasCoords
+        ? `
+        <div class="info-small">
+          <h5>Mapa</h5>
+          <div class="mini-map"
+               data-lat="${lat}"
+               data-lon="${lon}">
+          </div>
+        </div>`
+        : `
+        <div class="info-small">
+          <h5>Mapa</h5>
+          <p>Localização não disponível</p>
+        </div>`;
+      
+      const riscosList = riscos ? 
+          riscos.split(/\n|;|•/).filter(x => x.trim()).map(x => `<li>${esc(x.trim())}</li>`).join('') : 
+          '<li>Nenhum ponto de atenção identificado</li>';
+      
+      return `<article class="card">
+        <div class="card-header">
+          <div style="display: flex; justify-content: space-between; align-items: start;">
+            <div>
+              <p style="color: #6b7280; font-size: 14px; margin: 0 0 8px 0;">${esc(setor)}</p>
+              <h3 style="color: #1f2937; font-size: 20px; margin: 0; font-weight: 700;">${esc(nome)}</h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-info-grid">
+          <div class="left-col">
+            <div class="info-large description">
+              <h4>Descrição</h4>
+              <p>${esc(desc)}</p>
+            </div>
+
+            <div class="row-2cols">
+              <div class="info-small">
+                <h5>Situação Atual</h5>
+                <p>${esc(situ)}</p>
+              </div>
+              
+              <div class="info-small">
+                <h5>Localização</h5>
+                <p>${esc(p.localizacoes || 'Não informada')}</p>
+              </div>
+            </div>
+
+            ${miniMapBlock}
+          </div>
+
+          <div class="right-col">
+            <div class="info-large">
+              <h4>Pontos de Atenção</h4>
+              <ul>${riscosList}</ul>
+            </div>
+          </div>
+        </div>
+      </article>`;
+    }
+
+    // Variáveis globais
+    let allProjects = [];
+    let favoriteProjects = [];
+
+    // Inicialização
+    document.addEventListener('DOMContentLoaded', async function() {
+      await loadProjects();
+      loadFavorites();
+      renderFavorites();
+      initMiniMaps();
+      setupExportButton();
+    });
+
+    async function loadProjects() {
+      try {
+        const response = await fetch('data/projects_full.json');
+        allProjects = await response.json();
+      } catch (error) {
+        console.error('Erro ao carregar projetos:', error);
+        showError('Não foi possível carregar os projetos.');
+      }
+    }
+
+    function loadFavorites() {
+      const favorites = JSON.parse(localStorage.getItem('favorites') || '[]');
+      favoriteProjects = allProjects.filter(p => favorites.includes(p.guid));
+      updateFavoritesCount();
+    }
+
+    function renderFavorites() {
+      const container = document.getElementById('favoritesContent');
+      
+      if (favoriteProjects.length === 0) {
+        container.innerHTML = `
+          <div class="no-favorites">
+            <h2>Nenhum projeto favorito encontrado</h2>
+            <p>Você ainda não marcou nenhum projeto como favorito.</p>
+            <a href="lista_projetos.html" class="btn">
+              <span>📋</span> Ver Lista de Projetos
+            </a>
+          </div>
+        `;
+        return;
+      }
+
+      const cardsHtml = favoriteProjects.map(project => cardTemplate(project)).join('');
+      container.innerHTML = `<section id="grid" class="cards" aria-live="polite">${cardsHtml}</section>`;
+    }
+
+    function updateFavoritesCount() {
+      document.getElementById('favoritesCount').textContent = favoriteProjects.length;
+    }
+
+    function showError(message) {
+      document.getElementById('favoritesContent').innerHTML = `
+        <div class="no-favorites">
+          <h2>Erro</h2>
+          <p>${message}</p>
+          <a href="lista_projetos.html" class="btn">
+            <span>📋</span> Voltar para Lista
+          </a>
+        </div>
+      `;
+    }
+
+    // Inicializar mini-mapas (copiado do app.js)
+    function initMiniMaps() {
+      const maps = document.querySelectorAll('.mini-map');
+      maps.forEach(el => {
+        const lat = parseFloat(el.dataset.lat);
+        const lon = parseFloat(el.dataset.lon);
+        if (!isNaN(lat) && !isNaN(lon)) {
+          const map = L.map(el, {
+            center: [lat, lon],
+            zoom: 5,
+            zoomControl: false,
+            attributionControl: false
+          });
+          L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
+          L.marker([lat, lon]).addTo(map);
+          el._leaflet_map = map;
+        }
+      });
+    }
+
+    // Configurar exportação PDF
+    function setupExportButton() {
+      const exportBtn = document.getElementById('export-pdf');
+      if (exportBtn) {
+        exportBtn.addEventListener('click', async () => {
+          await exportFavoritesToPDF();
+        });
+      }
+    }
+
+    // Função de exportação PDF (adaptada do app.js)
+    async function exportFavoritesToPDF() {
+      if (favoriteProjects.length === 0) {
+        alert('Nenhum projeto favorito para exportar.');
+        return;
+      }
+
+      const grid = document.getElementById('grid');
+      if (!grid) return alert('Nenhum card disponível para exportar.');
+
+      const pdf = new window.jspdf.jsPDF({
+        orientation: 'landscape',
+        unit: 'pt',
+        format: 'a4'
+      });
+
+      // Adicionar capa
+      const capaImg = new window.Image();
+      capaImg.src = 'assets/CAPA.pptx.png';
+      await new Promise(resolve => { capaImg.onload = resolve; });
+      
+      const pageWidth = pdf.internal.pageSize.getWidth();
+      const pageHeight = pdf.internal.pageSize.getHeight();
+      const capaRatio = capaImg.width / capaImg.height;
+      let capaW = pageWidth * 0.9;
+      let capaH = capaW / capaRatio;
+      if (capaH > pageHeight * 0.9) {
+        capaH = pageHeight * 0.9;
+        capaW = capaH * capaRatio;
+      }
+      pdf.addImage(capaImg, 'PNG', (pageWidth-capaW)/2, 40, capaW, capaH);
+      
+      // Adicionar título dos favoritos
+      pdf.addPage();
+      pdf.setFontSize(24);
+      pdf.setTextColor(30, 64, 175);
+      pdf.text('Projetos Favoritos', pageWidth/2, 60, { align: 'center' });
+      pdf.setFontSize(14);
+      pdf.setTextColor(107, 114, 128);
+      pdf.text(`${favoriteProjects.length} projeto(s) selecionado(s)`, pageWidth/2, 85, { align: 'center' });
+      pdf.text(`Gerado em ${new Date().toLocaleDateString('pt-BR')}`, pageWidth/2, 105, { align: 'center' });
+      pdf.addPage();
+
+      // Exportar cards
+      const cards = Array.from(grid.querySelectorAll('.card'));
+      for (let i = 0; i < cards.length; i++) {
+        const card = cards[i];
+        
+        await freezeMapsForPDF(card);
+        
+        const cardClone = card.cloneNode(true);
+        cardClone.style.margin = '0';
+        cardClone.style.boxShadow = 'none';
+        cardClone.style.background = '#fff';
+        cardClone.style.border = 'none';
+        cardClone.style.width = card.offsetWidth + 'px';
+        cardClone.style.maxWidth = 'none';
+        cardClone.style.minHeight = '0';
+
+        const tempDiv = document.createElement('div');
+        tempDiv.style.padding = '40px';
+        tempDiv.style.background = '#fff';
+        tempDiv.appendChild(cardClone);
+        document.body.appendChild(tempDiv);
+
+        const canvas = await window.html2canvas(tempDiv, { scale: 2, useCORS: true });
+        const imgData = canvas.toDataURL('image/png');
+        
+        let maxW = pageWidth * 0.99;
+        let maxH = pageHeight * 0.99;
+        let ratio = Math.min(maxW / canvas.width, maxH / canvas.height);
+        let imgWidth = canvas.width * ratio;
+        let imgHeight = canvas.height * ratio;
+        
+        let x = (pageWidth - imgWidth) / 2;
+        let y = (pageHeight - imgHeight) / 2;
+        
+        pdf.addImage(imgData, 'PNG', x, y, imgWidth, imgHeight);
+        
+        document.body.removeChild(tempDiv);
+        
+        if (i < cards.length - 1) pdf.addPage();
+      }
+
+      pdf.save('projetos-favoritos-ppi.pdf');
+    }
+
+    // Congelar mapas para PDF (copiado do app.js)
+    async function freezeMapsForPDF(cardRoot) {
+      const maps = Array.from(cardRoot.querySelectorAll('.mini-map'));
+      const tasks = maps.map((el) => new Promise((resolve) => {
+        try {
+          const map = el._leaflet_map;
+          if (!map) return resolve();
+
+          setTimeout(() => {
+            try {
+              window.leafletImage(map, (err, canvas) => {
+                if (err || !canvas) return resolve();
+
+                const ctx = canvas.getContext('2d');
+                const pt = map.latLngToContainerPoint(map.getCenter());
+                ctx.beginPath();
+                ctx.arc(pt.x, pt.y, 5, 0, Math.PI * 2);
+                ctx.fillStyle = '#3B82F6';
+                ctx.globalAlpha = 0.95;
+                ctx.fill();
+                ctx.globalAlpha = 1.0;
+
+                const img = document.createElement('img');
+                img.src = canvas.toDataURL('image/png');
+                img.alt = 'Mapa estático';
+                img.style.width = '100%';
+                img.style.height = '100%';
+                img.style.display = 'block';
+
+                el.innerHTML = '';
+                el.appendChild(img);
+
+                try { map.remove(); } catch(e){}
+                el._leaflet_map = null;
+
+                resolve();
+              });
+            } catch (e) {
+              resolve();
+            }
+          }, 40);
+        } catch (e) {
+          resolve();
+        }
+      }));
+
+      await Promise.all(tasks);
+    }
+  </script>
+</body>
+</html>

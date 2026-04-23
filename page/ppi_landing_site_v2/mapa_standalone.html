@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mapa de Projetos PPI</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: #f8fafc;
+      color: #1f2937;
+    }
+    
+    .header {
+      background: white;
+      border-bottom: 1px solid #e5e7eb;
+      padding: 1rem 0;
+    }
+    
+    .header__inner {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 1rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+    
+    .brand img {
+      height: 32px;
+      width: auto;
+    }
+    
+    .brand strong {
+      font-size: 1.125rem;
+      font-weight: 700;
+      color: #1f2937;
+    }
+    
+    .main {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 2rem 1rem;
+    }
+    
+    .section {
+      background: white;
+      border-radius: 0.75rem;
+      padding: 1.5rem;
+      margin-bottom: 2rem;
+      box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1);
+    }
+    
+    .section h2 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      margin-bottom: 1rem;
+      color: #111827;
+    }
+    
+    .mapwrap {
+      position: relative;
+      height: 600px;
+      border-radius: 0.5rem;
+      overflow: hidden;
+      border: 1px solid #e5e7eb;
+    }
+    
+    #map {
+      width: 100%;
+      height: 100%;
+    }
+    
+    .loading {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 600px;
+      background: #f3f4f6;
+      color: #6b7280;
+      font-size: 1rem;
+    }
+    
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1rem;
+      margin-bottom: 2rem;
+    }
+    
+    .stat-card {
+      background: white;
+      padding: 1.25rem;
+      border-radius: 0.5rem;
+      border: 1px solid #e5e7eb;
+      text-align: center;
+    }
+    
+    .stat-value {
+      font-size: 2rem;
+      font-weight: 700;
+      color: #1f40af;
+      margin-bottom: 0.25rem;
+    }
+    
+    .stat-label {
+      font-size: 0.875rem;
+      color: #6b7280;
+    }
+  </style>
+  
+  <!-- Leaflet core + clustering -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css" />
+  <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+</head>
+<body>
+  <header class="header">
+    <div class="header__inner">
+      <div class="brand">
+        <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+          <rect width="32" height="32" rx="6" fill="#1E40AF"/>
+          <path d="M8 12h16v2H8v-2zm0 4h16v2H8v-2zm0 4h10v2H8v-2z" fill="white"/>
+        </svg>
+        <strong>Programa de Parcerias de Investimentos • Mapa de Projetos</strong>
+      </div>
+    </div>
+  </header>
+
+  <main class="main">
+    <div class="stats" id="stats">
+      <div class="stat-card">
+        <div class="stat-value" id="total-projects">–</div>
+        <div class="stat-label">Total de Projetos</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-value" id="coords-projects">–</div>
+        <div class="stat-label">Com Coordenadas</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-value" id="clusters-count">–</div>
+        <div class="stat-label">Clusters Formados</div>
+      </div>
+    </div>
+
+    <section class="section">
+      <h2>Mapa de projetos (com clustering)</h2>
+      <div class="mapwrap">
+        <div id="map" aria-label="Mapa com a distribuição dos projetos"></div>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    // Dados dos projetos incorporados diretamente no HTML
+    const PROJECTS_DATA = [
+      {
+        "nome_completo": "BR-116/324/BA - Rota 2 de julho",
+        "setor": "Transport",
+        "latitude": -12.9641527,
+        "longitude": -38.5058208,
+        "custo_estimado": 2605232000.0,
+        "moeda": "BRL"
+      },
+      {
+        "nome_completo": "Apoio à Visitação e à Conservação de área de Fernando de Noronha/PE",
+        "setor": "Other",
+        "latitude": -3.84028,
+        "longitude": -32.41083,
+        "custo_estimado": 0.181749,
+        "moeda": "BRL"
+      },
+      {
+        "nome_completo": "Canal de Acesso Aquaviário do Porto de Rio Grande/RS",
+        "setor": "Transport",
+        "latitude": -29.738963851058,
+        "longitude": -53.316114421111,
+        "custo_estimado": 0.0,
+        "moeda": "BRL"
+      },
+      {
+        "nome_completo": "Terminal de Cargas do Aeroporto de Confins/MG",
+        "setor": "Transport",
+        "latitude": -19.6247219,
+        "longitude": -43.9672256,
+        "custo_estimado": 0.0,
+        "moeda": "BRL"
+      },
+      {
+        "nome_completo": "Aeroporto de Vitória/ES",
+        "setor": "Transport",
+        "latitude": -20.2583189,
+        "longitude": -40.2849457,
+        "custo_estimado": 0.0,
+        "moeda": "BRL"
+      },
+      {
+        "nome_completo": "Aeroporto Internacional de São Gonçalo do Amarante/RN",
+        "setor": "Transport",
+        "latitude": -5.8198274,
+        "longitude": -35.2539235,
+        "custo_estimado": 0.0,
+        "moeda": "BRL"
+      },
+      {
+        "nome_completo": "BR-040/DF/GO/MG - Trecho DF/GO",
+        "setor": "Transport",
+        "latitude": -15.9390507,
+        "longitude": -50.1402368,
+        "custo_estimado": 0.0,
+        "moeda": "BRL"
+      },
+      {
+        "nome_completo": "BR-163/MT - Trecho Sinop/MT",
+        "setor": "Transport",
+        "latitude": -11.8649873,
+        "longitude": -55.5087889,
+        "custo_estimado": 0.0,
+        "moeda": "BRL"
+      },
+      {
+        "nome_completo": "BR-163/PA - Trecho Santarém/PA",
+        "setor": "Transport",
+        "latitude": -2.4466286,
+        "longitude": -54.7092045,
+        "custo_estimado": 0.0,
+        "moeda": "BRL"
+      },
+      {
+        "nome_completo": "BR-226/PI - Trecho Parnaíba/PI",
+        "setor": "Transport",
+        "latitude": -2.9043173,
+        "longitude": -41.7736554,
+        "custo_estimado": 0.0,
+        "moeda": "BRL"
+      },
+      {
+        "nome_completo": "BR-280/SC - Trecho Joinville/SC",
+        "setor": "Transport",
+        "latitude": -26.3043721,
+        "longitude": -48.8456269,
+        "custo_estimado": 0.0,
+        "moeda": "BRL"
+      },
+      {
+        "nome_completo": "BR-381/MG - Trecho Belo Horizonte/MG",
+        "setor": "Transport",
+        "latitude": -19.9181771,
+        "longitude": -43.9370534,
+        "custo_estimado": 0.0,
+        "moeda": "BRL"
+      },
+      {
+        "nome_completo": "BR-470/SC - Trecho Florianópolis/SC",
+        "setor": "Transport",
+        "latitude": -27.5953779,
+        "longitude": -48.5480499,
+        "custo_estimado": 0.0,
+        "moeda": "BRL"
+      },
+      {
+        "nome_completo": "BR-508/MA - Trecho São Luís/MA",
+        "setor": "Transport",
+        "latitude": -2.5297037,
+        "longitude": -44.3027823,
+        "custo_estimado": 0.0,
+        "moeda": "BRL"
+      },
+      {
+        "nome_completo": "BR-610/DF - Trecho Brasília/DF",
+        "setor": "Transport",
+        "latitude": -15.826691,
+        "longitude": -47.9218226,
+        "custo_estimado": 0.0,
+        "moeda": "BRL"
+      },
+      {
+        "nome_completo": "CET - Central de Tratamento de Resíduos Sólidos Urbanos",
+        "setor": "Urban Services",
+        "latitude": -23.5505207,
+        "longitude": -46.6333082,
+        "custo_estimado": 0.0,
+        "moeda": "BRL"
+      },
+      {
+        "nome_completo": "CODESP - Porto de São Sebastião/SP",
+        "setor": "Transport",
+        "latitude": -23.7623673,
+        "longitude": -45.4178374,
+        "custo_estimado": 0.0,
+        "moeda": "BRL"
+      },
+      {
+        "nome_completo": "Companhia de Saneamento do Estado de Alagoas - CASAL",
+        "setor": "Water & Waste",
+        "latitude": -9.665991,
+        "longitude": -35.7350526,
+        "custo_estimado": 0.0,
+        "moeda": "BRL"
+      },
+      {
+        "nome_completo": "Concessão de Rodovias Federais - Lote 1",
+        "setor": "Transport",
+        "latitude": -15.826691,
+        "longitude": -47.9218226,
+        "custo_estimado": 0.0,
+        "moeda": "BRL"
+      },
+      {
+        "nome_completo": "Concessão de Rodovias Federais - Lote 2",
+        "setor": "Transport",
+        "latitude": -15.826691,
+        "longitude": -47.9218226,
+        "custo_estimado": 0.0,
+        "moeda": "BRL"
+      },
+      {
+        "nome_completo": "Concessão de Rodovias Federais - Lote 3",
+        "setor": "Transport",
+        "latitude": -15.826691,
+        "longitude": -47.9218226,
+        "custo_estimado": 0.0,
+        "moeda": "BRL"
+      },
+      {
+        "nome_completo": "Concessão de Rodovias Federais - Lote 4",
+        "setor": "Transport",
+        "latitude": -15.826691,
+        "longitude": -47.9218226,
+        "custo_estimado": 0.0,
+        "moeda": "BRL"
+      },
+      {
+        "nome_completo": "Concessão de Rodovias Federais - Lote 5",
+        "setor": "Transport",
+        "latitude": -15.826691,
+        "longitude": -47.9218226,
+        "custo_estimado": 0.0,
+        "moeda": "BRL"
+      },
+      {
+        "nome_completo": "Concessão de Rodovias Federais - Lote 6",
+        "setor": "Transport",
+        "latitude": -15.826691,
+        "longitude": -47.9218226,
+        "custo_estimado": 0.0,
+        "moeda": "BRL"
+      },
+      {
+        "nome_completo": "Concessão de Rodovias Federais - Lote 7",
+        "setor": "Transport",
+        "latitude": -15.826691,
+        "longitude": -47.9218226,
+        "custo_estimado": 0.0,
+        "moeda": "BRL"
+      },
+      {
+        "nome_completo": "Concessão de Rodovias Federais - Lote 8",
+        "setor": "Transport",
+        "latitude": -15.826691,
+        "longitude": -47.9218226,
+        "custo_estimado": 0.0,
+        "moeda": "BRL"
+      },
+      {
+        "nome_completo": "Concessão de Rodovias Federais - Lote 9",
+        "setor": "Transport",
+        "latitude": -15.826691,
+        "longitude": -47.9218226,
+        "custo_estimado": 0.0,
+        "moeda": "BRL"
+      },
+      {
+        "nome_completo": "Concessão de Rodovias Federais - Lote 10",
+        "setor": "Transport",
+        "latitude": -15.826691,
+        "longitude": -47.9218226,
+        "custo_estimado": 0.0,
+        "moeda": "BRL"
+      },
+      {
+        "nome_completo": "Concessão de Rodovias Federais - Lote 11",
+        "setor": "Transport",
+        "latitude": -15.826691,
+        "longitude": -47.9218226,
+        "custo_estimado": 0.0,
+        "moeda": "BRL"
+      },
+      {
+        "nome_completo": "Concessão de Rodovias Federais - Lote 12",
+        "setor": "Transport",
+        "latitude": -15.826691,
+        "longitude": -47.9218226,
+        "custo_estimado": 0.0,
+        "moeda": "BRL"
+      },
+      {
+        "nome_completo": "Concessão de Rodovias Federais - Lote 13",
+        "setor": "Transport",
+        "latitude": -15.826691,
+        "longitude": -47.9218226,
+        "custo_estimado": 0.0,
+        "moeda": "BRL"
+      },
+      {
+        "nome_completo": "Concessão de Rodovias Federais - Lote 14",
+        "setor": "Transport",
+        "latitude": -15.826691,
+        "longitude": -47.9218226,
+        "custo_estimado": 0.0,
+        "moeda": "BRL"
+      },
+      {
+        "nome_completo": "Concessão de Rodovias Federais - Lote 15",
+        "setor": "Transport",
+        "latitude": -15.826691,
+        "longitude": -47.9218226,
+        "custo_estimado": 0.0,
+        "moeda": "BRL"
+      },
+      {
+        "nome_completo": "Concessão de Rodovias Federais - Lote 16",
+        "setor": "Transport",
+        "latitude": -15.826691,
+        "longitude": -47.9218226,
+        "custo_estimado": 0.0,
+        "moeda": "BRL"
+      },
+      {
+        "nome_completo": "Concessão de Rodovias Federais - Lote 17",
+        "setor": "Transport",
+        "latitude": -15.826691,
+        "longitude": -47.9218226,
+        "custo_estimado": 0.0,
+        "moeda": "BRL"
+      },
+      {
+        "nome_completo": "Concessão de Rodovias Federais - Lote 18",
+        "setor": "Transport",
+        "latitude": -15.826691,
+        "longitude": -47.9218226,
+        "custo_estimado": 0.0,
+        "moeda": "BRL"
+      },
+      {
+        "nome_completo": "Concessão de Rodovias Federais - Lote 19",
+        "setor": "Transport",
+        "latitude": -15.826691,
+        "longitude": -47.9218226,
+        "custo_estimado": 0.0,
+        "moeda": "BRL"
+      },
+      {
+        "nome_completo": "Concessão de Rodovias Federais - Lote 20",
+        "setor": "Transport",
+        "latitude": -15.826691,
+        "longitude": -47.9218226,
+        "custo_estimado": 0.0,
+        "moeda": "BRL"
+      },
+      {
+        "nome_completo": "Concessão de Rodovias Federais - Lote 21",
+        "setor": "Transport",
+        "latitude": -15.826691,
+        "longitude": -47.9218226,
+        "custo_estimado": 0.0,
+        "moeda": "BRL"
+      },
+      {
+        "nome_completo": "Concessão de Rodovias Federais - Lote 22",
+        "setor": "Transport",
+        "latitude": -15.826691,
+        "longitude": -47.9218226,
+        "custo_estimado": 0.0,
+        "moeda": "BRL"
+      },
+      {
+        "nome_completo": "Concessão de Rodovias Federais - Lote 23",
+        "setor": "Transport",
+        "latitude": -15.826691,
+        "longitude": -47.9218226,
+        "custo_estimado": 0.0,
+        "moeda": "BRL"
+      },
+      {
+        "nome_completo": "Concessão de Rodovias Federais - Lote 24",
+        "setor": "Transport",
+        "latitude": -15.826691,
+        "longitude": -47.9218226,
+        "custo_estimado": 0.0,
+        "moeda": "BRL"
+      },
+      {
+        "nome_completo": "Concessão de Rodovias Federais - Lote 25",
+        "setor": "Transport",
+        "latitude": -15.826691,
+        "longitude": -47.9218226,
+        "custo_estimado": 0.0,
+        "moeda": "BRL"
+      },
+      {
+        "nome_completo": "Concessão de Rodovias Federais - Lote 26",
+        "setor": "Transport",
+        "latitude": -15.826691,
+        "longitude": -47.9218226,
+        "custo_estimado": 0.0,
+        "moeda": "BRL"
+      },
+      {
+        "nome_completo": "Concessão de Rodovias Federais - Lote 27",
+        "setor": "Transport",
+        "latitude": -15.826691,
+        "longitude": -47.9218226,
+        "custo_estimado": 0.0,
+        "moeda": "BRL"
+      },
+      {
+        "nome_completo": "Concessão de Rodovias Federais - Lote 28",
+        "setor": "Transport",
+        "latitude": -15.826691,
+        "longitude": -47.9218226,
+        "custo_estimado": 0.0,
+        "moeda": "BRL"
+      },
+      {
+        "nome_completo": "Concessão de Rodovias Federais - Lote 29",
+        "setor": "Transport",
+        "latitude": -15.826691,
+        "longitude": -47.9218226,
+        "custo_estimado": 0.0,
+        "moeda": "BRL"
+      },
+      {
+        "nome_completo": "Concessão de Rodovias Federais - Lote 30",
+        "setor": "Transport",
+        "latitude": -15.826691,
+        "longitude": -47.9218226,
+        "custo_estimado": 0.0,
+        "moeda": "BRL"
+      }
+    ];
+
+    (function() {
+      const $ = (s, root = document) => root.querySelector(s);
+      const $$ = (s, root = document) => Array.from(root.querySelectorAll(s));
+      
+      let map = null;
+      let markerClusterGroup = null;
+      
+      // Função para escapar HTML
+      function esc(s) {
+        return (s || '').toString().replace(/[&<>]/g, m => ({
+          "&": "&amp;",
+          "<": "&lt;",
+          ">": "&gt;"
+        }[m]));
+      }
+      
+      // Inicializar o mapa
+      function initMap() {
+        if (typeof L === 'undefined') {
+          $('#map').innerHTML = '<div class="loading">Mapa requer conexão para carregar a biblioteca Leaflet</div>';
+          return;
+        }
+        
+        // Criar o mapa centrado no Brasil
+        map = L.map('map').setView([-14.2, -51.9], 4);
+        
+        // Adicionar camada de tiles do OpenStreetMap
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+          maxZoom: 18,
+          attribution: '© OpenStreetMap contributors'
+        }).addTo(map);
+        
+        // Criar grupo de clustering
+        if (window.L && L.markerClusterGroup) {
+          markerClusterGroup = L.markerClusterGroup({
+            chunkedLoading: true,
+            chunkProgress: function(processed, total) {
+              console.log(`Carregando marcadores: ${processed}/${total}`);
+            }
+          });
+          map.addLayer(markerClusterGroup);
+        } else {
+          // Fallback sem clustering
+          markerClusterGroup = L.layerGroup().addTo(map);
+        }
+      }
+      
+      // Carregar dados dos projetos (agora usa dados incorporados)
+      function loadProjects() {
+        try {
+          const allProjects = PROJECTS_DATA;
+          
+          // Atualizar estatísticas
+          $('#total-projects').textContent = allProjects.length.toLocaleString('pt-BR');
+          
+          const projectsWithCoords = allProjects.filter(p => {
+            const lat = parseFloat(p.latitude);
+            const lon = parseFloat(p.longitude);
+            return !isNaN(lat) && !isNaN(lon);
+          });
+          
+          $('#coords-projects').textContent = projectsWithCoords.length.toLocaleString('pt-BR');
+          
+          // Adicionar marcadores ao mapa
+          addMarkersToMap(projectsWithCoords);
+          
+          // Ajustar visualização para mostrar todos os marcadores
+          if (markerClusterGroup.getLayers && markerClusterGroup.getLayers().length > 0) {
+            try {
+              map.fitBounds(markerClusterGroup.getBounds(), { padding: [20, 20] });
+            } catch (e) {
+              console.warn('Não foi possível ajustar o zoom para mostrar todos os marcadores:', e);
+            }
+          }
+          
+          // Contar clusters (após algum tempo para garantir que foram processados)
+          setTimeout(() => {
+            try {
+              const clusters = markerClusterGroup._featureGroup ? 
+                markerClusterGroup._featureGroup.getLayers().length : 
+                markerClusterGroup.getLayers().length;
+              $('#clusters-count').textContent = clusters;
+            } catch (e) {
+              $('#clusters-count').textContent = 'N/A';
+            }
+          }, 2000);
+          
+        } catch (error) {
+          console.error('Erro ao carregar projetos:', error);
+          $('#map').innerHTML = '<div class="loading">Erro ao carregar dados dos projetos.</div>';
+        }
+      }
+      
+      // Adicionar marcadores ao mapa
+      function addMarkersToMap(projects) {
+        projects.forEach(project => {
+          const lat = parseFloat(project.latitude);
+          const lon = parseFloat(project.longitude);
+          
+          if (!isNaN(lat) && !isNaN(lon)) {
+            const title = project.nome_completo || 'Projeto';
+            const sector = project.setor || '';
+            
+            // Criar popup
+            const popupContent = `
+              <div style="min-width: 200px;">
+                <strong>${esc(title)}</strong><br/>
+                <small style="color: #6b7280;">${esc(sector)}</small>
+                ${project.custo_estimado ? `<br/><small style="color: #059669;">Custo: ${formatCurrency(project.custo_estimado, project.moeda || 'BRL')}</small>` : ''}
+              </div>
+            `;
+            
+            // Criar marcador
+            const marker = L.marker([lat, lon])
+              .bindPopup(popupContent);
+            
+            // Adicionar ao grupo de clustering
+            markerClusterGroup.addLayer(marker);
+          }
+        });
+      }
+      
+      // Formatar moeda
+      function formatCurrency(value, currency = 'BRL') {
+        try {
+          return new Intl.NumberFormat('pt-BR', {
+            style: 'currency',
+            currency: currency
+          }).format(value);
+        } catch (e) {
+          return `${currency} ${Number(value).toLocaleString('pt-BR')}`;
+        }
+      }
+      
+      // Inicializar quando o DOM estiver pronto
+      document.addEventListener('DOMContentLoaded', function() {
+        initMap();
+        loadProjects();
+      });
+      
+    })();
+  </script>
+</body>
+</html>

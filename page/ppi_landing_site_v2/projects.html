@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PPI • Projetos</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="ppi.css" />
+  <link rel="stylesheet" href="chatbot.css" />
+</head>
+<body>
+  <header class="header">
+      <div class="header__inner">
+      <div class="brand"><img src="assets/logo_ppi.svg" alt="Logo PPI"/><strong>Projetos</strong></div>
+      <nav><a class="btn-ghost" href="index.html">Início</a></nav>
+      <button id="export-pdf" class="btn" type="button" title="Exportar todos os cards para PDF">Exportar PDF</button>
+    </div>
+  </header>
+
+  <main class="main">
+    <section class="filters">
+      <div>
+        <label for="q">Buscar</label>
+        <input id="q" type="search" placeholder="Título, descrição, palavra‑chave…" />
+      </div>
+      <div>
+        <label for="subsetor">Subsetor</label>
+        <select id="subsetor"><option value="">Todos</option></select>
+      </div>
+      <div>
+        <label for="subsecretaria">Subsecretaria</label>
+        <select id="subsecretaria"><option value="">Todas</option></select>
+      </div>
+      <div>
+        <label for="etapa">Última etapa concluída</label>
+        <select id="etapa"><option value="">Todas</option></select>
+      </div>
+      <div>
+        <label for="precision">Precisão do mapa</label>
+        <select id="precision">
+          <option value="state">Estado</option>
+          <option value="city">Cidade</option>
+          <option value="coords">Coordenadas</option>
+        </select>
+      </div>
+      <div style="align-self:end"><button id="clear" class="btn-ghost" type="button">Limpar</button></div>
+    </section>
+
+    <p class="meta"><span id="count">–</span> projetos</p>
+    <section id="grid" class="cards" aria-live="polite"></section>
+  </main>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.3/html2pdf.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+  <!-- Leaflet para mini-mapas -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="https://unpkg.com/leaflet-image@0.4.0/leaflet-image.js"></script>
+  <script src="app.js"></script>
+  <script src="chatbot.js"></script>
+</body>
+</html>
