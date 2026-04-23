@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "O projeto de concessão da BR-158/155/MT/PA foi qualificado na 11ª Reunião do Conselho do PPI,  por meio da Resolução nº 104, de 19/11/2019.\n\nO trecho rodoviário em questão constitui importante rota de escoamento da produção de grãos do nordeste de Mato Grosso, integrando a região à ferrovia Carajás e permitindo a exportação da produção pelo Porto de Itaqui/MA.\n\nO projeto consiste na proposta de estudos para Concessão para a exploração da infraestrutura e da prestação de serviço público de recuperação, operação, manutenção, monitoração, conservação, implantação de melhorias e manutenção do nível de serviço do Trecho da Rodovia BR-158/MT entre Ribeirão Cascalheira/MT (entroncamento com a BR-080) até Redenção/PA (entroncamento com a BR-155) e da BR-155 entre Redenção (entroncamento com a BR-158) e Marabá/PA (entroncamento com a BR-222).\n\nA BR-158/MT já havia sido qualificada na 10ª reunião do conselho do PPI para apoio ao licenciamento ambiental do trecho, visando a implantação e pavimentação do trecho entre a divisa MT/PA e Ribeirão Cascalheira/MT (km 0 e km 417,9), incluindo contorno à TI Marãiwatsédé. Considerando o contorno à terra indígena, o trecho para concessão passa a ter cerca de 1.135 km."
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1320,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

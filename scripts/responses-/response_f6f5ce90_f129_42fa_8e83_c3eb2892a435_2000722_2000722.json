@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "RESOLUÇÃO CPPI Nº 191, DE 25 DE AGOSTO DE 2021\nRESOLUÇÃO CPPI Nº 287, DE 16 DE NOVEMBRO DE 2023"
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1082,
+  "SourceId": "2000722",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Number of CPPI Resolution",
+    "Type": "TextMulti"
+  }
+}

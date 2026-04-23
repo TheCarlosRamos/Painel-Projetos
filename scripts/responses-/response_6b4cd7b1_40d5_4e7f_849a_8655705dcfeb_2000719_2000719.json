@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "A qualificação dos trechos II e III da FIOL no Programa de Parcerias de Investimentos possibilitará que, por meio de uma nova subconcessão, o trecho II tenha as suas obras concluídas, conectando o Porto de Ilhéus à região produtora de grãos de Barreiras/BA, bem como, após a conclusão do trecho III, a FIOL esteja conectada com a Ferrovia Norte-Sul e com a FICO. A Ferrovia de Integração Centro-Oeste trará os seguintes benefícios: i) proporcionará alternativa no direcionamento de cargas para os portos do Norte e Nordeste, principalmente aquelas produzidas em Goiás, Mato Grosso e Rondônia, reduzindo o percurso e o custo do transporte marítimo de grãos e minérios exportados para os portos do Oceano Atlântico, Europa, Oriente Médio e Ásia; ii) aumentará a produção agroindustrial da região, motivada por melhores condições de acesso aos mercados nacional e internacional; e iii) possibilitará e estimulará a exploração de reservas minerais ainda pouco exploradas."
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1104,
+  "SourceId": "2000719",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Additional benefits of the project (if applicable):",
+    "Type": "TextMulti"
+  }
+}

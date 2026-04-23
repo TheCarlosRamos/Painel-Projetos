@@ -1,0 +1,37 @@
+{
+  "FieldValue": {
+    "Type": "ChoiceSingle",
+    "Value": {
+      "Key": 5,
+      "Value": "Other"
+    },
+    "Details": "BNB e BID"
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1038,
+  "SourceId": "2000713",
+  "DocumentRequired": false,
+  "Field": {
+    "Choices": {
+      "1": "BNDES",
+      "2": "CAIXA",
+      "3": "FDIRS",
+      "4": "INFRA",
+      "5": "Other"
+    },
+    "Title": "Who will structure the project?",
+    "Type": "ChoiceSingle"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "O CIBS será o maior centro de produção de imunobiológicos da América Latina, capaz de ampliar em até quatro vezes a capacidade nacional de produção de vacinas e biofármacos estratégicos para o SUS (Sistema Único de Saúde).​\nLocalizado em Santa Cruz (RJ), o projeto possui 580 mil m² de área total, com 343 mil m² de área construída, distribuídos em 28 instalações voltadas às etapas essenciais da produção, incluindo unidades de processamento final, áreas de embalagem e prédios de garantia e controle de qualidade.​\nO projeto fortalece a autonomia tecnológica do país e amplia a capacidade de resposta do SUS, assegurando infraestrutura moderna para produção contínua e segura de insumos estratégicos.​"
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1125,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

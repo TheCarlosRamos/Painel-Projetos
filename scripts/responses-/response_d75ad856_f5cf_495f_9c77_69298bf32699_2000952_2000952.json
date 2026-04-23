@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "UM I - não houve apresentação de proposta.\nUM II - 0,70% da Receita Operacional Bruta (ROB)"
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1026,
+  "SourceId": "2000952",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Variable annual fee",
+    "Type": "TextMulti"
+  }
+}

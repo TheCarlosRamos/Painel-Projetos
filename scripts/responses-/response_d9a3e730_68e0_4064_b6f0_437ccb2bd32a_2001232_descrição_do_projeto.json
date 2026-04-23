@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "Composta de pátio com 49.998 m² e as cargas gerais, constituídas basicamente pelos produtos siderúrgicos. Representam 20,5% do total das movimentações no Porto de São Francisco do Sul. A expectativa é que, até o ano de 2045, a demanda de produtos siderúrgicos no Porto de São Francisco do Sul alcance 4,4 milhões de toneladas, o que representaria um crescimento de médio de 1,6% ao ano.\n\nEstima se que, atualmente, cerca de 30% do total de carga geral em especial celulose, papel, madeira, carga de projeto e produtos siderúrgicos no porto tem origem/destino na área SFS201."
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1329,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

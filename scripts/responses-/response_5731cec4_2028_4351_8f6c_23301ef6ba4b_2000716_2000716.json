@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Numerical",
+    "Value": 0.0
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1034,
+  "SourceId": "2000716",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Potential foreign investment (USD):",
+    "Type": "Numerical"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "O corredor, quando completo, se conectará diretamente a duas ferrovias: ao norte com a Estrada de Ferro Vitória-Minas (EFVM), em bitola métrica, e ao sul com a MRS, em bitola larga. Através destas duas ferrovias, a partir da EF-118 será possível acessar os estados de São Paulo e Minas Gerais, além de estados de todas as demais regiões do país."
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1104,
+  "SourceId": "2000719",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Additional benefits of the project (if applicable):",
+    "Type": "TextMulti"
+  }
+}

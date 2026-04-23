@@ -1,0 +1,36 @@
+{
+  "FieldValue": {
+    "Type": "ChoiceSingle",
+    "Value": {
+      "Key": 4,
+      "Value": "Not applicable"
+    },
+    "Details": null
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1318,
+  "SourceId": "2001224",
+  "DocumentRequired": false,
+  "Field": {
+    "Choices": {
+      "1": "Not started\r",
+      "2": "In progress\r",
+      "3": "Completed\r",
+      "4": "Not applicable"
+    },
+    "Title": "Status of External Control",
+    "Type": "ChoiceSingle"
+  }
+}

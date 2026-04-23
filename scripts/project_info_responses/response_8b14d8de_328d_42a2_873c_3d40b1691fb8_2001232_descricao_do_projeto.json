@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "A rodovia BR-163/MS, sob gestão da Concessionária de Rodovias Sul-Matogrossense S.A. (MSVia), abrange 847,2 km no estado do Mato Grosso do Sul. Esse trecho é essencial para a logística e o escoamento da produção agroindustrial da região Centro-Oeste, conectando o estado ao Mato Grosso e ao Paraná. A concessão foi obtida pela MSVia por meio da licitação promovida pela Agência Nacional de Transportes Terrestres (ANTT) em 2013, com contrato firmado por 30 anos, incluindo a obrigação de manutenção e ampliação da infraestrutura viária.\n\nNos últimos anos, a MSVia enfrentou dificuldades para cumprir as metas de investimento previstas no contrato, principalmente devido a oscilações econômicas e aumento dos custos operacionais. Essas dificuldades levaram a concessão a ser classificada como um \"contrato estressado\", demandando uma readequação contratual para garantir a sustentabilidade da operação. Em resposta, o Governo Federal implementou uma política de otimização dos contratos rodoviários, por meio da Portaria nº 848/2023, possibilitando às concessionárias renegociar suas obrigações para assegurar a continuidade dos serviços.\n\nA MSVia formalizou seu pedido de remodelagem contratual junto ao Ministério dos Transportes, resultando na criação de um Grupo de Trabalho para análise da proposta, conforme aprovado pela Portaria nº 373/2023. Após parecer técnico da ANTT e aprovação da Diretoria Colegiada, o processo foi submetido ao Tribunal de Contas da União (TCU) sob a Tomada de Contas nº 033.777/2023-3. O tribunal, por meio do Acórdão nº 2434/2024, validou a otimização do contrato, condicionando a decisão à realização de uma consulta pública para garantir transparência e participaçã"
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1320,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

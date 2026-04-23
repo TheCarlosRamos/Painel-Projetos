@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "A parceria público-privada (PPP) se refere a estruturação dos serviços de coleta e tratamento de esgoto em 48 municípios no estado do Rio Grande do Norte que são atendidos pela CAERN. O projeto deve atender 1,8 milhões de pessoas e gerar investimentos da ordem de R$ 3,2 bilhões, ampliando o acesso ao serviço, com reflexos positivos na saúde e na qualidade de vida dos cidadãos, além do incremento da produtividade no trabalho e na escola, por redução de afastamentos por doenças, incentivos ao turismo e valorização imobiliária. Outro objetivo é ampliar a cobertura de esgoto da população para 90% até 2033.\n\nNo modelo em estudo, a Companhia de Água e Esgoto do Estado do Rio Grande do Norte (CAERN), empresa de economia mista responsável pela prestação de serviços no Estado, contratará o parceiro privado vencedor do leilão, que, por sua vez, se comprometerá com metas de atendimento e de performance que permitirão uma alteração do cenário local, caracterizado pela baixa coleta e tratamento de esgoto."
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1317,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

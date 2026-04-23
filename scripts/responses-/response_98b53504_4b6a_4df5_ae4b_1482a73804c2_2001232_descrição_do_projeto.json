@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "Em função das limitações orçamentárias do Grupo para realização de novos investimentos, frente aos diversos desafios e iniciativas já em andamento, a atual administração do grupo busca soluções para melhorar a gestão das unidades existentes bem como avalia a construção de novas unidades hospitalares para atender a demanda.\nOs estudos de alternativas de parcerias visando a modernização e adaptação para melhoria do atendimento ao público de nova unidade de atenção especializada hospitalar em área do Grupo Hospitalar Conceição - GHC em Porto Alegre/RS, envolvendo projeto, construção, instalação, manutenção e operação da prestação de serviço de apoio à saúde em nova localização. O Hospital Fêmina, referência no atendimento à mulher para a Região Metropolitana de Porto Alegre, opera desde 1956, possui 12,3 mil m2 de área construída."
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1318,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

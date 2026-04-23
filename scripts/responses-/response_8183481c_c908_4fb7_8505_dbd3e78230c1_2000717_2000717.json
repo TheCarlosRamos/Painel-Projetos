@@ -1,0 +1,37 @@
+{
+  "FieldValue": {
+    "Type": "ChoiceSingle",
+    "Value": {
+      "Key": 3,
+      "Value": "Stock sales"
+    },
+    "Details": null
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1083,
+  "SourceId": "2000717",
+  "DocumentRequired": false,
+  "Field": {
+    "Choices": {
+      "1": "Largest discount",
+      "2": "Largest grant",
+      "3": "Stock sales",
+      "4": "Hybrid",
+      "5": "Other"
+    },
+    "Title": "What will be the tender selection criteria?",
+    "Type": "ChoiceSingle"
+  }
+}

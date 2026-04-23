@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "viabilizar a proteção dos ecossistemas naturais, permitir e promover o usufruto do patrimônio natural e cultural do país através das atividades de visitação pela população."
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 996,
+  "SourceId": "2000719",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Additional benefits of the project (if applicable):",
+    "Type": "TextMulti"
+  }
+}

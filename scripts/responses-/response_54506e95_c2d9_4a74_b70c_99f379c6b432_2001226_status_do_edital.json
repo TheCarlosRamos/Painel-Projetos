@@ -1,0 +1,34 @@
+{
+  "FieldValue": {
+    "Type": "ChoiceSingle",
+    "Value": {
+      "Key": 1,
+      "Value": "Not started\r"
+    },
+    "Details": null
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1282,
+  "SourceId": "2001226",
+  "DocumentRequired": false,
+  "Field": {
+    "Choices": {
+      "1": "Not started\r",
+      "2": "Completed"
+    },
+    "Title": "Status of phase 'Tender Notice':",
+    "Type": "ChoiceSingle"
+  }
+}

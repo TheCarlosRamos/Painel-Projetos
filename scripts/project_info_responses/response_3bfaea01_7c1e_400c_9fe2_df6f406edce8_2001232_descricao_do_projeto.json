@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "Com pouco mais de 7.200 km de extensão de linhas em bitola métrica, a Ferrovia Centro-Atlântica é detentora da maior malha federal concessionada, a qual é dividida em corredores, quais sejam: a) Corredor Centro-Sudeste, compreendendo as linhas que cortam Goiás, Minas Gerais e São Paulo, com destino ao Porto de Santos; b) Corredor Minas-Rio, compreendendo os estados do Espírito Santo, Rio de Janeiro e Minas Gerais; c) Corredor Minas-Bahia, cujas linhas cortam o norte de Minas Gerais chegando à Bahia, no Porto de Aratú e a Petrolina, às margens do Rio São Francisco; d) Corredor Centro-Leste, ligando Minas Gerais ao Espírito Santo em conexão com a EFVM.\nAs principais mercadorias movimentadas em 2024, em milhares de toneladas úteis, foram:\nMinério de Ferro, 7.192\nAçúcar, 6.921\nSoja, 6.339\nCalcário Siderúrgico, 1.550\nBauxita, 1.347\nMilho, 1.151\nA prorrogação do contrato atual, que terminará em 31 de agosto de 2026, também vai antecipar investimentos, que seriam feitos apenas a partir de 2027.\nGrande parte da outorga deste projeto poderá ser direcionada para investimentos de interesse público, como novos investimentos na própria malha ou em outras intervenções da malha ferroviária nacional (investimentos cruzados). Essas melhorias serão uma obrigação da concessionária."
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1345,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

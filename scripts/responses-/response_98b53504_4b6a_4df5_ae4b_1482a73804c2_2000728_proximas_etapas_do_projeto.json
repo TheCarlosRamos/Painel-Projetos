@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "Celebração de ACT entre MS e GHC para delegação de competências ao GHC para a execução das desapropriações de terrenos"
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1033,
+  "SourceId": "2000728",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Project next steps",
+    "Type": "TextMulti"
+  }
+}

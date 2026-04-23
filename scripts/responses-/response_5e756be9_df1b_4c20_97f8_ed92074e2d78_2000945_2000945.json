@@ -1,0 +1,35 @@
+{
+  "FieldValue": {
+    "Type": "ChoiceSingle",
+    "Value": {
+      "Key": 3,
+      "Value": "Other"
+    },
+    "Details": "-- Apoiar na estruturação dos leilões e/ou no pós-leilão dos projetos no PPI; \n-- atuar na superação de eventuais gargalos, por meio da competência de SEPPI, que torna os projetos empreendimentos de interesse estratégico, que terão prioridade nacional perante todos os agentes públicos nas esferas administrativa e controladora da União, dos Estados, do Distrito Federal e dos Municípios; \n-- fomentar a integração das ações de planejamento dos órgãos setoriais de infraestrutura; \n-- divulgar os projetos do PPI, para permitir o acompanhamento público; \n-- acompanhar os empreendimentos qualificados no PPI, para garantir a previsibilidade dos cronogramas divulgados; \n-- promover e ampliar o diálogo com agentes de mercado e da sociedade civil organizada, para divulgação de oportunidades de investimentos e aprimoramento regulatório; \n-- promover a elaboração de estudos para resolução de entraves na implantação e no desenvolvimento de empreendimentos de infraestrutura."
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1072,
+  "SourceId": "2000945",
+  "DocumentRequired": false,
+  "Field": {
+    "Choices": {
+      "1": "Support for project structuring",
+      "2": "Support for environmental licensing",
+      "3": "Other"
+    },
+    "Title": "Type of support from PPI",
+    "Type": "ChoiceSingle"
+  }
+}

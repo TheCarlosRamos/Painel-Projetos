@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "A Floresta Nacional de Brasília, localizada no Distrito Federal e nos municípios de Padre Bernardo e Águas Lindas de Goiás, no Estado de Goiás, possui área aproximada de 9 mil hectares. Criada pelo Decreto s/nº de 10 de junho de 1999, alterado pela Lei nº 14.447, de 9 de setembro de 2022, tem como objetivo promover o manejo de uso múltiplo e de forma sustentável dos recursos naturais renováveis, a manutenção e proteção dos recursos hídricos e da biodiversidade do Cerrado, a recuperação de áreas degradadas, a educação florestal e ambiental, a manutenção de amostras do fragmento do ecossistema e o apoio ao desenvolvimento sustentável dos recursos naturais das áreas limítrofes.\nO Parque Nacional de Brasília, criado pelo Decreto nº 241, de 29 de novembro de 1961, possui área total aproximada de 42.300 hectares. As principais atrações do Parque são as piscinas Areal e Pedreira, abastecidas por águas correntes provenientes de nascentes, condição que permite manter a renovação constante da água e propicia ao usuário a oportunidade de recreação em contato direto com a natureza.\nNo Parque há a Trilha da Capivara com 1,3 Km de extensão e a Trilha Cristal com 15 km de extensão. É permitido o uso de bicicletas e possibilita ao visitante observar a fauna e a flora do Cerrado, bem como acessar a Ilha da Meditação, indicada para observação de aves.\nO Instituto Chico Mendes de Conservação da Biodiversidade abriu consulta pública sobre o edital de concessão de serviços de apoio à visitação entre 2 de abril de 2025 e 11 de julho de 2025 e realizou audiências públicas nos dias 28 e 29 de maio de 2025 e 12 de junho de 2025.\nA proposta de edital está sob análise do Tribunal de Contas da União"
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1290,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

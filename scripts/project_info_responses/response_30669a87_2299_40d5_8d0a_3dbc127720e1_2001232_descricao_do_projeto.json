@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "O Corredor Paraná-Santa Catarina concentra 78% de toda a carga transportada na Malha Sul. Nesse eixo, destacam-se as cargas voltadas ao comércio exterior, movimentadas principalmente pelos portos de Paranaguá/PR e São Francisco do Sul/SC, que representam cerca de 80% do total transportado no corredor. As exportações de grãos respondem por cerca de 50% da movimentação, seguidas pelo açúcar, com quase 20%. Também compõe o fluxo cargas como celulose, contêineres, fertilizantes, combustíveis e cimento. O corredor atende ainda à produção agrícola do oeste do Paraná e do Mato Grosso do Sul, por meio dos terminais intermodais de Cascavel/PR e Maringá/PR. Estudos de mercado e demanda indicam um crescimento significativo da movimentação de grãos, que poderá representar até 60% do total transportado neste eixo ferroviário, com destaque para soja, milho e farelo de soja."
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1345,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

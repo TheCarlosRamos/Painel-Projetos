@@ -170,7 +170,13 @@ def update_csv_with_project_info():
     output_file = os.path.join(os.path.dirname(__file__), '..', 'projetos_completos.csv')
     df.to_csv(output_file, index=False, encoding='utf-8-sig')
     
-    print(f"✅ CSV atualizado salvo em: {output_file}")
+    print(f"CSV atualizado salvo em: {output_file}")
+    
+    # Salvar também em Excel
+    excel_file = os.path.join(os.path.dirname(__file__), '..', 'projetos_completos.xlsx')
+    df.to_excel(excel_file, index=False, engine='openpyxl')
+    
+    print(f"Excel atualizado salvo em: {excel_file}")
     
     # Estatísticas
     print(f"\n📊 Estatísticas do arquivo atualizado:")

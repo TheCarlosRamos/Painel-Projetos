@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "A área denominada TMP Maceió, será destinada a embarque e desembarque de passageiros que transitam pelo Porto de Maceió propiciando mais conforto e segurança aos turistas. Além do terminal, a área do estacionamento adjacente ao terminal integra o arrendamento. O terminal foi construído na retroárea do Berço 4 do Porto de Maceió, numa área totalizando 2.370 m². Junto com o estacionamento, a área total do arrendamento é de 5.420 m².\n\nO Terminal de Passageiros do Porto de Maceió foi estabelecido no ano de 2021, sendo composto por pavimento térreo e mezanino, com uma área total construída de 1.668,13 m². A edificação conta com uma área central, onde se encontra a infraestrutura necessária para o embarque e desembarque de passageiros. Nas laterais da área central, o edifício conta com os ambientes de apoio como banheiros, serviço médico, copa etc.\n\nA área destinada ao arrendamento TMP é caracterizada como brownfield (previamente ocupada por estruturas permanentes). Por se tratar de área brownfield, existem bens disponíveis na área de arrendamento do TMP Maceió que podem ser utilizados pelo futuro arrendatário, o qual deverá investir em instalações e equipamentos necessários para operação."
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1228,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "Resolução CFEP 22, de 05 de dezembro de 2019      "
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1037,
+  "SourceId": "2000722",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Number of CPPI Resolution",
+    "Type": "TextMulti"
+  }
+}

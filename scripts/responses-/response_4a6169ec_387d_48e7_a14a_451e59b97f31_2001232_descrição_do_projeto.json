@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "A área objeto do arrendamento é atualmente um brownfield com estruturas existentes e está localizada dentro do Porto Organizado de Santana, possuindo uma superfície total de 30.546,00 m². O empreendimento dispõe de um pátio amplo onde os cavacos de madeira são empilhados e armazenados com capacidade estática total de 70.000 toneladas, segundo o Plano Mestre do Porto de Santana (2017).\n\nA área do MCP01 foi objeto de leilão realizado dia 28 de setembro de 2018, porém não houve apresentação de propostas e o projeto foi reavaliado.\n\nO projeto do Terminal de Cavaco no Porto de Santana/AP - (MCP01) foi qualificado na 2ª Reunião do Conselho do PPI por meio da Resolução nº 10, de 07/03/2017, convertida no Decreto nº 9.059, de 25/07/2017.\n\nMais informações podem ser obtidas clicando: https://www.gov.br/antaq/pt-br/acesso-a-informacao/participacao-social/audiencias-e-consultas-publicas/audiencias-publicas-em-andamento"
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1329,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

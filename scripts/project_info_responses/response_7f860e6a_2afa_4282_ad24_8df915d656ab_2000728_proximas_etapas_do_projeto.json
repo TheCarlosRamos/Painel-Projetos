@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "Realização da Audiência Pública no dia 15/04/2026"
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1043,
+  "SourceId": "2000728",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Project next steps",
+    "Type": "TextMulti"
+  }
+}

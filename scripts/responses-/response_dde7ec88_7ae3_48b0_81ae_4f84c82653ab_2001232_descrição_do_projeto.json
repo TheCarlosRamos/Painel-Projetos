@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "O Projeto Público de Irrigação Tabuleiros de São Bernardo, localizado nos municípios de Magalhães de Almeida e Araioses, a 350 km de Teresina, no Estado do Maranhão, foi qualificado no âmbito do Programa de Parcerias de Investimentos PPI, juntamente com outros 6 projetos hidroagrícolas e de irrigação, por meio da Resolução n° 216, de 16 de dezembro de 2021, referendada pelo Decreto nº 11.041, de 12 de abril de 2022.\n\nO projeto está situado na margem esquerda do Rio Parnaíba e tem potencial para irrigar 25 mil hectares. Atualmente, o perímetro possui uma área desapropriada de 11.205 hectares, sendo 542 hectares já implantados. Pretende-se ampliar a área irrigável em 5.610 hectares."
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1325,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

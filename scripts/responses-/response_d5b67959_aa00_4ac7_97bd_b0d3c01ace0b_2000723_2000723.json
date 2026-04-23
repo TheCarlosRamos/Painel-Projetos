@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "Decreto 8.916, de 25 de novembro de 2016; Decreto 9.972, de 14 de agosto de 2019; Decreto 8.094, de 04 de setembro de 2013    "
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1055,
+  "SourceId": "2000723",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Decrees",
+    "Type": "TextMulti"
+  }
+}

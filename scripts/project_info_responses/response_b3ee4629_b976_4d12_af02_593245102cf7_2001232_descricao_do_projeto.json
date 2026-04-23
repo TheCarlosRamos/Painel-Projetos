@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "A concessão do serviço de manejo de RSU, no âmbito do Consórcio de Municípios do Centro Oeste Mineiro – CIAS, representa um passo importante na busca dos 33 municípios integrantes do projeto por melhorias significativas no manejo dos resíduos sólidos urbanos produzidos pelos mais de 696 mil habitantes que serão diretamente impactados pelo projeto.\n\nO projeto está sendo estruturado com recursos do Fundo de Estruturação de Projetos (FEP/CAIXA). Além disso, a estruturação também conta com o assessoramento da CAIXA e coordenação da Secretaria Especial do Programa de Parcerias e Investimentos (SEPPI)."
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1328,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

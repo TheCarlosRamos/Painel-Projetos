@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "O imóvel da União denominado Aeroporto Pedro Otacílio Figueiredo, localizado em Vitória da Conquista, foi inaugurado no dia 11 de março de 1979. O serviço passou à supervisão do Departamento de Aviação da Bahia - DAB, ligado à Secretaria de Transportes do Estado. Em virtude da demanda de um aeroporto de maior capacidade, foi inaugurado, em 23 de julho de 2019, o novo aeroporto da cidade, o Aeroporto Glauber Rocha, tendo o Aeroporto Pedro Otacílio Figueiredo seu último voo realizado em 24 de julho de 2019. O imóvel tem então sua gestão transferida para a Superintendência do Patrimônio da União na Bahia em 20 de fevereiro de 2020. O referido imóvel, localizado na Avenida Paraná s/nº, Bairro Patagônia, Vitória da Conquista - BA, abrange uma área de 1.376.016,48 m².\nEm março de 2024, a Secretaria do Patrimônio da União e o Governo do Estado da Bahia assinaram o Acordo de Cooperação Técnica nº 25/2024, que tem por objeto a definição de requisitos, modelos e diretrizes para a elaboração de proposta de empreendimento de múltiplos usos para o imóvel da União denominado Antigo Aeroporto de Vitória da Conquista, com objetivo de maximizar o número de unidades habitacionais de baixa renda e otimizar a instalação dos equipamentos públicos, conforme os indicadores socioeconômicos da área."
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1290,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

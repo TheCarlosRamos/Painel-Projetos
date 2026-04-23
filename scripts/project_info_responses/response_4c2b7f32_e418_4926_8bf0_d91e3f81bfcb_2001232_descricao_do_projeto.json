@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "A Ferrovia Tereza Cristina é a concessionária da malha ferroviária sul catarinense. Com 164km de extensão, passa por 14 municípios (Imbituba, Laguna, Pescaria Brava, Capivari de Baixo, Tubarão, Sangão, Jaguaruna, Içara, Criciúma, Siderópolis, Morro da Fumaça, Cocal do Sul, Urussanga e Forquilhinha), conectando o Porto com a Usina Termelétrica e o Terminal Rodoviário. O leilão da malha ferroviária, antiga Superintendência Regional de Tubarão, da extinta RFFSA, foi realizado em 22/11/1996 e vencido pelo consórcio Gemon. O início da concessão ocorreu em 01/02/1997, por um prazo de 30 anos.\nA principal mercadoria transportada é o carvão mineral, com origem nas minas de Novo Horizonte, Rio Fiorita, Sangão e Urussanga e destino a Capivari, para abastecimento do Complexo Termelétrico Jorge Lacerda. Em 2023 foram transportadas 2,5 milhões de toneladas do produto. Além do carvão mineral, a ferrovia movimentou mais de 540 mil toneladas de produtos em contêineres, com destino ao Porto de Imbituba.\nPor outro lado, a prorrogação antecipada do contrato de concessão da Ferrovia Tereza Cristina permitirá à concessionária realizar a antecipação de investimentos que somente seriam realizados ao final da concessão atual, numa renovação contratual, ou por outra concessionária, no caso de nova licitação, trazendo mais segurança para a realização de tais investimentos. Permitirá também que a concessionária de adapte ao Programa de Transição Energética Justa, buscando novas cargas com potencial de exportação, aproveitando-se de sua conexão com o Porto de Imbituba."
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1345,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

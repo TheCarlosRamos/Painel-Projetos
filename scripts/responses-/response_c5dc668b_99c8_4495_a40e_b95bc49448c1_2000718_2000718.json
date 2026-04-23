@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "Municípios de: Santa Maria, Santiago, São João do Polêsine, São Martinho da Serra, São Pedro do Sul, São Sepé, Silveira Martins, Tupanciretã, Agudo, Dilermando de Aguiar, Faxinal do Soturno, Formigueiro, Itaara, Ivorá, Júlio de Castilhos, Nova Palma, Pinhal Grande, Restinga Sêca, Toropi, Vila Nova do Sul, Cacequi, Capão do Cipó, Dona Francisca, Jaguari, Jari, Mata, Nova Esperança do Sul, Paraíso do Sul, Quevedos, São Francisco de Assis, São Vicente do Sul, Unistalda"
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1033,
+  "SourceId": "2000718",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Beneficiary municipalities",
+    "Type": "TextMulti"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "Resolução CPPI 52, de 08 de maio de 2019;\nResolução CPPI 340, de 3 de junho de 2025;\nResolução CPPI  346, de 4 de setembro de 2025"
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1029,
+  "SourceId": "2000722",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Number of CPPI Resolution",
+    "Type": "TextMulti"
+  }
+}

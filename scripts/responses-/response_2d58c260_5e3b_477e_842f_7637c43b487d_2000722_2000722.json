@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "RESOLUÇÃO CPPI Nº 349, DE 30 DE OUTUBRO DE 2025;\nRESOLUÇÃO CPPI Nº 353, DE 28 DE JANEIRO DE 2026."
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1080,
+  "SourceId": "2000722",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Number of CPPI Resolution",
+    "Type": "TextMulti"
+  }
+}

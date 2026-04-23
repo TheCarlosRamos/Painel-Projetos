@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "A recomposição da cobertura com vegetação composta por espécies nativas da flora local contribui com a recuperação dos serviços ambientais ofertados por formações florestais. O projeto permitirá a adoção de práticas florestais sustentáveis e a geração de emprego e renda, bem como a formalização de atividade econômicas ao longo da cadeia produtiva dos produtos não madeireiros."
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1242,
+  "SourceId": "2000719",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Additional benefits of the project (if applicable):",
+    "Type": "TextMulti"
+  }
+}

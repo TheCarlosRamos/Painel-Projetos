@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "Municípios integrantes do Consórcio CIMPAJÚ do qual participam da PPP de IP os municípios de Betânia, Brejinho, Ingazeira, Serra Talhada, Sertânia, Solidão e Triunfo."
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1046,
+  "SourceId": "2000718",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Beneficiary municipalities",
+    "Type": "TextMulti"
+  }
+}

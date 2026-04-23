@@ -1,0 +1,139 @@
+{
+  "ProjectOrganizations": [
+    {
+      "Id": 206,
+      "Value": "SEPPI"
+    }
+  ],
+  "ProjectActivityStatus": {
+    "Value": true,
+    "SourceUniqueId": "DEF-1",
+    "Title": "Active",
+    "LocalResourceKey": "<%Labels,DEF-AS-1,Title%>"
+  },
+  "Guid": "91086620-30d2-4663-8dea-909b15079757",
+  "Name": "BR-381/MG/SP (Otimiza&#231;&#227;o Fern&#227;o Dias)",
+  "Description": "OTIMIZA&#199;&#195;O CONTRATUAL da concess&#227;o da BR-381/MG/SP, conhecida como Fern&#227;o Dias, est&#225; inserida nos estados de Minas Gerais e S&#227;o Paulo, conectando Belo Horizonte (MG) a S&#227;o Paulo (SP).&#10;O trecho atravessa 33 munic&#237;pios, sendo a principal liga&#231;&#227;o entre as duas capitais e uma rota estrat&#233;gica para o escoamento de produ&#231;&#227;o industrial, agr&#237;cola e mineral. Observa-se predomin&#226;ncia de cargas gerais, produtos manufaturados e min&#233;rios, devido &#224; intensa atividade econ&#244;mica da regi&#227;o.",
+  "Sector": {
+    "Id": 4,
+    "Value": "Transport"
+  },
+  "SubSector": {
+    "Id": 9,
+    "Value": "Highway"
+  },
+  "Territories": [
+    {
+      "Id": 36,
+      "Value": "Brazil"
+    }
+  ],
+  "Locations": [
+    "Estado de Minas Gerais",
+    "Estado de São Paulo"
+  ],
+  "TypeOfProject": [
+    "Refurbishment/Replacement"
+  ],
+  "IsPPP": true,
+  "IsUnsolicited": false,
+  "LegalFramework": {
+    "SourceUniqueId": "BRA-1",
+    "Title": "Federal",
+    "LocalResourceKey": "<%Timeline,BRA-LF-1,Title%>"
+  },
+  "Packages": [
+    {
+      "LocalResourceKey": null,
+      "ID": 1,
+      "Title": "",
+      "ContractualArrangements": [],
+      "TenderProcess": {
+        "SourceUniqueId": "BRA-1",
+        "Title": "Competition",
+        "LocalResourceKey": "<%Timeline,BRA-TP-1,Title%>"
+      },
+      "OtherContractualArrangement": null,
+      "OtherTenderProcess": null
+    }
+  ],
+  "Threshold": {
+    "SourceUniqueId": "BRA-1",
+    "Title": "Qualification by Project",
+    "LocalResourceKey": "<%Timeline,BRA-TH-1,Title%>"
+  },
+  "OwnerOrganisation": {
+    "Id": 206,
+    "Value": "SEPPI"
+  },
+  "CurrentProjectStatus": {
+    "Id": 2,
+    "Value": "Project Definition"
+  },
+  "CurrentProjectStatusCustom": {
+    "Id": 1,
+    "Value": "Definition"
+  },
+  "Completion": 0.04,
+  "Created": "2025-12-01T14:51:36Z",
+  "Modified": "2026-04-06T14:09:53Z",
+  "ProjectEstimatedDueDate": "2025-12-01T14:51:34Z",
+  "EstimatedCapitalCost": 1821033800.0,
+  "OriginalCurrency": {
+    "Id": 27,
+    "Value": "BRL"
+  },
+  "OriginalCurrencyEstimatedCapitalCost": 9400000000.0,
+  "ProjectProperties": {
+    "Reference": null,
+    "IsTimelineDefined": true,
+    "LanguagesTimeline": [
+      {
+        "Code": "en",
+        "Title": "English"
+      },
+      {
+        "Code": "por",
+        "Title": "Português"
+      }
+    ],
+    "AdditionalFields": {}
+  },
+  "PMLeaderEmail": "adminppi.source@presidencia.gov.br",
+  "PMLeaderFirstName": "Adminppi",
+  "PMLeaderLastName": "Source",
+  "PMLeaderOrganisation": "SEPPI",
+  "PMLeaderTelephone": "(empty)",
+  "GPSCoordinates": [
+    {
+      "address": "Estado de Minas Gerais",
+      "location": {
+        "x": "-44.0",
+        "y": "-18.0"
+      },
+      "score": 100.0,
+      "attributes": {
+        "ResultID": 1,
+        "Place_addr": "Minas Gerais",
+        "City": "",
+        "Subregion": "",
+        "Region": "Minas Gerais"
+      }
+    },
+    {
+      "address": "Estado de São Paulo",
+      "location": {
+        "x": "-49.0",
+        "y": "-22.0"
+      },
+      "score": 100.0,
+      "attributes": {
+        "ResultID": 2,
+        "Place_addr": "São Paulo",
+        "City": "",
+        "Subregion": "",
+        "Region": "São Paulo"
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "A rodovia BR-101/ES/BA sob concessão da ECO101 Concessionária de Rodovias S/A, abrangendo uma extensão total de 478,7 km. O trecho concedido inicia-se no entroncamento com a BA-698, no município de Mucuri (BA), estendendo-se até a divisa com o estado do Espírito Santo. No Espírito Santo, a rodovia segue da divisa com a Bahia até o entroncamento com a BR-101 (RJ), no município de Mimoso do Sul (ES). Essa concessão foi formalizada em 17 de abril de 2013, após processo licitatório realizado pela ANTT (Edital nº 01/2011), e tem como objetivo a gestão, manutenção e ampliação da rodovia, garantindo segurança e fluidez no tráfego para milhares de usuários. Além de ser um eixo estratégico para o transporte de mercadorias entre o Nordeste e o Sudeste, o trecho é fundamental para o turismo devido à sua proximidade com o litoral e cidades históricas.\n\nNos últimos anos, a ECO101 enfrentou dificuldades para cumprir integralmente o contrato de concessão, impactada por crises econômicas e pelo aumento dos custos operacionais. Esses desafios levaram à classificação da concessão como um \"contrato estressado\", indicando a necessidade de readequação para garantir a viabilidade e sustentabilidade do projeto. Em resposta, o Governo Federal, por meio do Ministério dos Transportes, criou uma política de remodelagem de concessões rodoviárias, estabelecida na Portaria nº 848/2023, permitindo que concessionárias renegociassem seus contratos para assegurar a continuidade dos investimentos. O Tribunal de Contas da União (TCU) aprovou a suspensão de relicitações, possibilitando negociações diretas entre o governo e concessionárias como a ECO101. Com isso, a empresa formalizou seu pedido de remodelage"
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1320,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "O Corredor Interestadual tem início em Iperó/SP, ponto de conexão com a Malha Oeste, que liga o planalto ao litoral paulista. Seguindo em direção ao Sul, a ferrovia alcança Ponta Grossa/PR e, a partir daí, compartilha o trajeto até Mafra/SC com o Corredor Paraná-Santa Catarina. De Mafra/SC o corredor atravessa o estado catarinense até chegar ao Rio Grande do Sul, alcançando Roca Sales/RS, onde se divide em dois ramais: um em direção a Passo Fundo/RS e outro até General Luz/RS. Em General Luz/RS a ferrovia se estende em duas direções: ao leste, até o Pátio Industrial/RS, na Região Metropolitana de Porto Alegre, e ao oeste, até Santa Maria/RS. De Santa Maria/RS a Cacequi/RS, o corredor compartilha o mesmo traçado com a Malha Gaúcha (Corredor Rio Grande), seguindo então até Uruguaiana/RS, na fronteira com a Argentina, onde se conecta à malha ferroviária do Mercosul. Cerca de R$ 3 bilhões do CAPEX serão destinados à reconstrução da infraestrutura ferroviária, destruída pelas chuvas que atingiram o estado."
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1152,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

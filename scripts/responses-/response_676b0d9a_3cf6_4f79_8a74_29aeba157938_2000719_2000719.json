@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "Projeto busca prover solução para a gestão de resíduos sólidos dos municípios do Estado. Com o projeto é esperado o encerramento das operações dos lixões no Estado. No total, será beneficiada uma população de 7,056 milhões de pessoas nos 246 municípios do Estado."
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1087,
+  "SourceId": "2000719",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Additional benefits of the project (if applicable):",
+    "Type": "TextMulti"
+  }
+}

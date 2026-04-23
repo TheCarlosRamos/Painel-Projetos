@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "A Resolução CPPI nº 60/2019 propôs a qualificação da CBTU no Programa de Parcerias de Investimentos (PPI) e no Programa Nacional de Desestatização (PND). O Decreto nº 9.999, de 3 de setembro de 2019, efetivou essa qualificação, autorizou a realização dos estudos necessários e designou o BNDES para sua contratação. Posteriormente, a Resolução CPPI nº 324, de 25 de março de 2025, aprovou as condições iniciais para a transferência dos ativos da Superintendência Regional da CBTU no Recife (STU-REC).\n\nO processo de desestatização prevê a transferência dos ativos da Superintendência Regional do Recife (STU-REC) da CBTU, associada à outorga da concessão do serviço público de gestão, operação e manutenção da rede metroferroviária da Região Metropolitana do Recife, no Estado de Pernambuco.\n\nO projeto busca melhorar a qualidade do serviço para cerca de 180 mil usuários diários, com redução do tempo de deslocamento, maior segurança, regularidade operacional e manutenção da atual estrutura tarifária.\n\nO sistema operado pela CBTU em Pernambuco possui 3 linhas em operação, 37 estações e 71,5 km de extensão, sendo 37,8 km eletrificados e 33,7 km não eletrificados.\n\nA concessão estadual, com prazo de 30 anos, prevê investimentos em modernização e eficiência operacional, incluindo reforma de estações, aquisição de novos trens e atualização tecnológica. Espera-se, com isso, maior conforto, acessibilidade e segurança, além de redução dos intervalos entre trens, maior confiabilidade do serviço e aumento da demanda em mais de 30%."
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1359,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

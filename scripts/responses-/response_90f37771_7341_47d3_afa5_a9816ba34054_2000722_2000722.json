@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "Resolução CPPI 233, de 02 de junho de 2022      "
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1040,
+  "SourceId": "2000722",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Number of CPPI Resolution",
+    "Type": "TextMulti"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "Decreto nº 10.624, de 9 de fevereiro de 2021"
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1108,
+  "SourceId": "2000723",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Decrees",
+    "Type": "TextMulti"
+  }
+}

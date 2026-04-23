@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "Kick off realizado em 01/06/2023.\n\nConsulta Pública aberta entre 20/05 e 20/07/2025.\n\nDocumentos técnicos disponíveis aqui: https://www.pppmorarmelhor.com.br/\n\nRoadshow dia 23/05/2025 - Auditório da B3, Rua XV de Novembro, 275, em São Paulo.\n\nAudiência Pública dia 28/05/2025 -  Plenário Olívia Enciso da Câmara Municipal de Campo Grande - https://www.youtube.com/live/hPXAquAZxOg?si=48xHm4Yc0cI0iOBY\n\nVídeo da PPP Morar Melhor - https://youtu.be/ujus2tIlAM8?si=0YEHuL_Kq80LcOMZ\n\nExecução geral do projeto: 74% (outubro/25)."
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1035,
+  "SourceId": "2000726",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Project current status",
+    "Type": "TextMulti"
+  }
+}

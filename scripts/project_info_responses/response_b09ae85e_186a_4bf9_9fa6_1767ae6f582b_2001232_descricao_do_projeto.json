@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "A área de arrendamento denominada RDJ07 está localizada dentro da poligonal do Porto Organizado do Rio de Janeiro e será destinada ao apoio logístico offshore.\n\nO terminal de Apoio Logístico Offshore possuirá 52.450 m², localizado na área do \"Terminal Multiuso 1\" do Porto do Rio de Janeiro, que, por posicionar-se mais próximo do centro de concentração das Unidades Marítimas de exploração e produção de petróleo e gás da Bacia de Santos, torna a região estratégica para a indústria de Óleo e Gás.\n\nA área é classificada como brownfield, uma vez que possui algumas estruturas instaladas no local. No projeto em elaboração, está prevista a demolição, recuperação e readequação de suas estruturas.\n\nUtilizando como referência os números de 2021, sobre as operações realizadas na área em arrendamento transitório com a Petrobrás, no Porto do Rio de Janeiro, para o apoio logístico às atividades de Exploração e Produção de Petróleo e Gás da Bacia de Santos, foi movimentado, aproximadamente, 423.600 toneladas de carga geral. Assim, conforme projeções contidas no Plano Estratégico da Petrobrás, existe a necessidade de continuidade na operação de serviços de apoio logístico offshore às plataformas de exploração e produção de petróleo, assim como existe uma projeção de crescimento desta demanda, o que justifica os presentes estudos em relação ao novo terminal.\n\nO empreendimento está em fase de elaboração de estudos, a fim de verificar a viabilidade do projeto. O valor dos investimentos previstos para atendimento de forma adequada à demanda na região é da ordem de R$ 26,3 milhões, para atendimento de carga geral e granéis líquidos no complexo."
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1329,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

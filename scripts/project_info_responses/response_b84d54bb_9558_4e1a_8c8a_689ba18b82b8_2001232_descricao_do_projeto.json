@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "A Resolução PPI nº 60/2019 propôs a qualificação da Empresa de Trens Urbanos de Porto Alegre S.A. (Trensurb) no Programa de Parcerias de Investimentos (PPI) e no Programa Nacional de Desestatização (PND). O Decreto nº 9.998, de 3 de setembro de 2019, realizou a qualificação no PPI e inclusão no PND, assim como deliberou pelo início dos estudos necessários, tendo sido o BNDES autorizado a contratá-los.\n\nO projeto do metrô da região metropolitana de Porto Alegre/RS tem por principal objetivo a concessão estadual à iniciativa privada da prestação dos serviços de trens de passageiros. \n\nO objetivo é que os usuários que utilizam do sistema de transporte tenham mais qualidade de vida e menos tempo gasto nos seus deslocamentos, com maior segurança e regularidade e manutenção da mesma estrutura tarifária vigente.\n\nA Linha 1 do metrô de Porto Alegre possui 22 estações e aproximadamente 43 quilômetros de via férrea, com a oferta de dois serviços, o que conecta a estação Mercado até a estação Novo Hamburgo e o que conecta a estação Mercado até a estação Sapucaia. A Linha 2, o aeromóvel, oferece um serviço shuttle que conecta o Aeroporto Internacional Salgado Filho (estação Salgado Filho) ao trem metropolitano (estação Aeroporto da Linha 1), com 814 metros de extensão.\n\nAs intervenções previstas na concessão, pelo prazo de 30 anos, envolvem investimentos para melhorias e maior eficiência operacional, por meio de reforma de estações, compra de trens novos e diversas atualizações tecnológicas, resultando em melhoria da qualidade do serviço prestado à população, mais conforto, acessibilidade, segurança e maior regularidade nas viagens."
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1359,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

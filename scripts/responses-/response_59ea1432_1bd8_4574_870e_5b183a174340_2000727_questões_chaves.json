@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "Discussão junto ao CMA para fechamento do masterplan\nÉ preciso alteração legislativa municipal para compatibilizar a APA com o masterplan proposto\nConversa com IPHAN-RJ e INEPAC sobre parecer prévio a respeito do masterplan"
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1049,
+  "SourceId": "2000727",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Project key issues",
+    "Type": "TextMulti"
+  }
+}

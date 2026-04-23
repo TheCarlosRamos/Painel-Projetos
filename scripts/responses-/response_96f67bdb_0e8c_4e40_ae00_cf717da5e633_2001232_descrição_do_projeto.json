@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "A Floresta Nacional (Flona) de Anauá, criada pelo Decreto s/nº, de 18 de fevereiro de 2005, é uma Unidade de Conservação de Uso Sustentável situada no município de Rorainópolis, à margem esquerda do Rio Branco, no estado de Roraima. Pertencente ao bioma Amazônia, a Flona do Anauá ocupa uma área total de 259.400,05 hectares, dos quais 45.588,29 ha são destinados ao efetivo manejo. A Floresta é composta por 68,3% de Campinarana e 31,7% de Campinarana-Floresta Ombrófila.\nA Flona de Anauá abriga parte do Pantanal Setentrional, sítio representativo de áreas úmidas e frágeis de importância internacional que compreende tipologias de campinarana, florestas alagáveis e suas áreas de transição com características únicas, além de fauna e flora muito diversas.\nA concessão florestal é um instrumento de política pública, regulamentado pela Lei nº 11.284/2006, voltado à gestão das florestas públicas por meio da prática do manejo florestal. Os contratos de concessão para manejo florestal permitem aos concessionários a exploração dos recursos dentro de limites estabelecidos e de acordo com o plano de manejo da unidade e a legislação vigente, mas os patrimônios continuam sendo da União, com a gestão e fiscalização da concessão de responsabilidade do poder público, por meio do Serviço Florestal Brasileiro (SFB).\nConforme a legislação que trata da gestão de florestas públicas, as licitações para concessão florestal deverão ser realizadas na modalidade concorrência e outorgadas a título oneroso, com o edital definindo as datas da entrega e abertura dos envelopes com as propostas técnica, de preço e de documentação de habilitação."
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1290,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

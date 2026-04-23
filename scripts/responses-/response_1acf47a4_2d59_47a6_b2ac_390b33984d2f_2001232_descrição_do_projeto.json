@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "O Parque Nacional da Serra da Bodoquena está localizado na faixa de 150 km ao longo da fronteira entre o Brasil e o Paraguai. O Parque é uma Unidade de Conservação Federal criada em 2000 que delimitou área total aproximada de 76.481 hectares, abrangendo os municípios de Bodoquena, Porto Murtinho, Bonito e Jardim, todos localizados no Mato Grosso do Sul (MS).\nPelo fato de estar inserido integralmente no Cerrado, mas sofrendo influências dos biomas Mata Atlântica e Pantanal, o parque possui características ímpares, com rica biodiversidade, variedade de ambientes e paisagens exuberantes. Essa importância fez com que o parque se tornasse área núcleo da Reserva da Biosfera do Pantanal e da Mata Atlântica, declaradas, respectivamente, em 2000 e 1991.\nO ICMBio fez Consulta Pública do projeto, o qual disponibilizou o edital e demais documentos correlacionados, conforme Aviso de Audiência Pública n º 9/2022 publicado no Diário Oficial da União de 21 de novembro de 2022. As contribuições puderam ser enviadas entre os dias 21 de novembro 2022 e 17 de fevereiro 2023, por meio do formulário eletrônico disponibilizado em http://web.bndes.gov.br/pesquisa/index.php/658419?lang=pt-BR.\nA Audiência Pública foi realizada em 09 de fevereiro de 2023, no município de Bonito/MS e transmitida por meio do canal do ICMBio."
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1290,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

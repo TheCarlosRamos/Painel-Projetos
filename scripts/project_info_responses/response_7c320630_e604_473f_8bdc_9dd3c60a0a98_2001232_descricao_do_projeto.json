@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "A área de arrendamento denominada REC04 está localizada dentro da Poligonal do Porto Organizado de Recife e será destinada à movimentação e armazenagem de granel sólido e carga geral (barrilha e fertilizantes).\n\nO REC04 compreende instalação portuária <em>brownfield</em> com área de 9.667 m², tendo como principais atividades a recepção aquaviária, a armazenagem e a expedição rodoviária. Trata-se de arrendamento simplificado, com investimentos previstos na ordem de R$ 3,65 milhões que visam a ampliação de capacidade do armazém 6 do Porto de Recife em um prazo de 10 anos.\n\nA arrendatária possui liberdade de engenharia, porém, para fins de modelagem, previu-se a realização dos seguintes investimentos: (i) Recuperação do Armazém 06; (ii) Aquisição de esteira transportadora em V; (iii) Aquisição de 1 empilhadeira de 2,5 t; e (iv) Aquisição de 2 pás-carregadeiras. O cálculo de capacidade dinâmica do REC04 prevê sistema de recepção aquaviária com capacidade anual total (por berço) de 611.995,50 toneladas por ano, capacidade de armazenagem anual de 353.400 toneladas por ano, e sistema de expedição rodoviária 367.200 toneladas por ano, com capacidade dinâmica total de 353.400 t/ano.\n\nO critério de participação no leilão é o maior valor de outorga e o valor do arrendamento mensal será de R$ 95.122,39 (data-base 07/2022), de forma 100% fixa."
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1329,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

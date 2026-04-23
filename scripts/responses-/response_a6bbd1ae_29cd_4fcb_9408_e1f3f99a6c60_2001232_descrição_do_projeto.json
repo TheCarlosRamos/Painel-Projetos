@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "A Fortaleza de Santa Catarina está localizada no Município de Cabedelo, no estado da Paraíba, a 19 km de João Pessoa. Sua construção teve início em 1585, preserva traços de diferentes épocas por ter sido restaurada várias vezes. A edificação é formada pelas seguintes partes: muralha; praça de armas; túnel de entrada; sala de exposições ao lado do túnel de entrada; prisão; capela; 2 salas junto à capela; Casa do Capitão-Mor; e 12 salas em seus 30,66 mil m2 de área construída.  A Fortaleza de Santa Catarina foi restaurada pelo IPHAN, entre 1974 e 1978, de acordo com a planta do século XVIII.\nDada sua importância histórico-cultural para a cidade de Diamantina, a estação foi selecionada pelo Comitê Interministerial instituído pelo Decreto nº 10.349, de 13 de maio de 2020. O decreto qualificou, no Programa de Parceria de Investimentos (PPI), a política de atração de investimentos privados para o setor de turismo, para fins de elaboração de estudos e parcerias destinados à implementação de novos empreendimentos e ao aproveitamento turístico de ativos culturais e naturais do país.\nA Política de Atração de Investimentos Privados para o Setor de Turismo\nO Ministério do Turismo (MTur), com o objetivo de preservar e valorizar o patrimônio cultural, por meio de parcerias e concessões com o setor privado, instituiu o Revive Brasil, no âmbito do MTur, e propôs a qualificação da política de atração de investimentos no PPI.  Um protocolo de cooperação Brasil-Portugal, celebrado no início de 2020, e um programa de Portugal denominado Revive foi utilizado pelo MTur como referência."
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1335,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

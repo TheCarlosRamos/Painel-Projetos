@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "O Parque Nacional (Parna) da Serra do Pardo situa-se nos municípios de Altamira e São Félix do Xingu, no estado brasileiro do Pará. O Parque Nacional, criado pelo Decreto s/nº de 17 de fevereiro de 2005, é administrado pelo Instituto Chico Mendes de Conservação da Biodiversidade (ICMBio). Com uma área total de 445.413,45 ha, dos quais 26.706,93 ha são destinados à restauração florestal. O conselho consultivo do parque foi criado em 26 de dezembro de 2012 e o plano de manejo foi aprovado em 23 de dezembro de 2015.\nO Parna está localizado no oeste paraense, na região da Terra do Meio, onde se encontram diversas unidades de conservação e terras indígenas, faz parte da bacia do rio Xingu e está situada entre os rios Xingu e Iriri. Por estar na região do interflúvio entre os rios Xingu e Tapajós, pode ter espécies endêmicas no parque.\nTendo em vista que a prática da recuperação florestal foi, recentemente, incorporada aos objetivos e finalidades do instrumento da concessão florestal, o projeto em questão foi qualificado no PPI em virtude do potencial de implementação de atividades econômicas que promovem o uso sustentável das florestas públicas na Amazônia.\nO projeto contribuirá ainda com a proteção da biodiversidade posto que o Parque possui 557 espécies identificadas pertencentes a mais de 90 famílias botânicas diferentes, apresenta um número considerável de espécies de aves (308), mamíferos não voadores (67), anfíbios e lagartos (114), e peixes (158)."
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1290,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

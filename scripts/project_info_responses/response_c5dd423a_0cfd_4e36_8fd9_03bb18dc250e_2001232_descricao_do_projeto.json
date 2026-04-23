@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "Leiloado em 2012, o Aeroporto Internacional de Viracopos (VCP) é o segundo mais importante do Brasil no setor de cargas, em relação ao volume. Em 2019, movimentou mais de 53,4 mil toneladas em voos domésticos e 200,5 mil toneladas, em internacionais.\n\nÉ essencial na dinâmica da economia do país, como indutor do desenvolvimento de Campinas e região, devido ao apoio logístico ligado às operações industriais que oferece como parte das estratégias de concorrência das grandes empresas instaladas no Brasil, especialmente aquelas que atuam no comércio internacional.\n\nEm 2019, o Aeroporto Internacional de Viracopos transportou mais de 9,7 milhões de passageiros em voos domésticos e 966 mil passageiros em voos internacionais.\n\nOs investimentos previstos são de R$ 4,25 bilhões e os custos operacionais estão estimados em R$ 10,8 bilhões ao longo dos 30 anos de concessão. Com um WACC de 7,84%, a outorga mínima foi estimada em R$ 4,35 bilhões.\n\nO empreendimento foi qualificado na 13ª reunião do Conselho do PPI, por meio da Resolução nº 123, de 10/06/2020, que deu origem ao Decreto nº 10.427, de 17/07/2020."
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1331,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

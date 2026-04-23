@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "A relicitação da concessão da BR-163/MS foi qualificada na 14ª Reunião do Conselho do PPI por meio da <a href=\"https://www.in.gov.br/en/web/dou/-/resolucao-cppi-n-148-de-2-de-dezembro-de-2020-299975227\" target=\"_blank\" rel=\"noopener\">Resolução nº 148, de 02/12/2020</a> e do <a href=\"https://www.in.gov.br/en/web/dou/-/decreto-n-10.647-de-11-de-marco-de-2021-307923719\" target=\"_blank\" rel=\"noopener\">Decreto nº 10.647, de 11 de março de 2021</a>.\n\nA atual concessionária MSVIA protocolou junto à ANTT pedido de rescisão amigável do contrato de concessão e consequente adesão ao processo de relicitação, nos termos da Lei no 13.448, de 2017.\n\nDurante a realização dos estudos de viabilidade pela Infra S.A., o governo federal decidiu pelo desmembramento do projeto em 2 trechos distintos:\n\nRota do Pantanal: BR-163/MS, de Campo Grande/MS à divisa com o estado do Mato Grosso (extensão: 379,6 km);\n\nRota do Tuiuiu: BR/163/MS, de Campo Grande/MS à divisa com o estado do Paraná e BR/267/MS do entroncamento com a BR-163 até a divisa com São Paulo (extensão: 714 km)."
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1320,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "A rodovia BR-116/251/MG foi incluída nos estudos para a concessão de trechos rodoviários, que originalmente englobavam 7.213 km qualificados para Parceria Público-Privada. O Lote 1, referente à BR-116/251/MG, faz parte de um estudo realizado pelo Banco Nacional de Desenvolvimento Econômico e Social (BNDES), abrangendo 734,90 km de rodovias em Minas Gerais. Esse estudo inclui a BR-251, entre Montes Claros e o entroncamento com a BR-116, e a BR-116, entre Governador Valadares e a divisa com a Bahia.\n\nO projeto foi qualificado durante a 9ª Reunião do Conselho do Programa de Parcerias e Investimentos, conforme a Resolução nº 52 de 08 de maio de 2022 e o Decreto nº 9.972, de 14 de agosto de 2019. Com isso, o projeto foi submetido à análise de viabilidade, o que possibilitou a análise dos impactos e benefícios da concessão da rodovia.\n\nO Lote Rodoviário 1 abrange as rodovias BR-251 e BR-116 em Minas Gerais, atravessando 13 municípios. Entre eles estão Governador Valadares, Montes Claros, Teófilo Otoni, e Salinas, além de diversos outros locais que formam a rede de conectividade rodoviária da região. O trecho que será concedido tem 734,90 km de extensão e liga pontos importantes, como a Divisa BA/MG e o Entrocamento com a BR-122.\n\nA Deliberação nº 546, de 19 de dezembro de 2024, iniciou o processo de participação social com a realização da Audiência Pública nº 13/2024. Essa etapa tem o objetivo de tornar públicos os estudos e documentos relacionados à concessão, coletando sugestões e contribuições da sociedade para a elaboração final do edital, contrato e o programa de exploração da rodovia."
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1320,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "O Projeto Público de Irrigação Tabuleiros Litorâneos, localizado nos municípios de Parnaíba e Buriti Lopes, a 350 km de Teresina, no Estado do Piauí, foi qualificado no âmbito do Programa de Parcerias de Investimentos PPI, juntamente com outros 6 projetos hidroagrícolas e de irrigação, por meio da Resolução n° 216, de 16 de dezembro de 2021, referendada pelo Decreto nº 11.041, de 12 de abril de 2022.\n\nO projeto está situado sobre os tabuleiros da margem direita do Rio Parnaíba, tendo a 1ª Etapa, com 2.443 hectares irrigáveis implantados, dos quais 800 estão em operação. O acesso ao perímetro, a partir de Teresina, se dá através da rodovia BR-343, que cruza a área do projeto no sentido sul-norte. O projeto também é servido pelo aeroporto de Parnaíba, no qual operam voos regionais e nacionais, e pela Ferrovia Transnordestina.\n\nA 2ª Etapa do projeto, objeto desse projeto de parceria, cuja infraestrutura está parcialmente implantada, tem uma área projetada de 6.017 hectares, resultando em uma área total de 9.847 hectares irrigáveis. As obras necessárias para concluir a infraestrutura dessa Etapa incluem a Estação de Bombeamento Principal II, adutoras principais I e II, canal secundário CS-2, canais terciários CT-2.2 e CT-2.4, tomadas d’água, estações de bombeamento secundárias, tubulações do sistema de distribuição, rede de drenagem, sistema viário, entre outras."
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1325,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "Resolução CPPI 10, de 07 de março de 2017 \nResolução CPPI 52, de 08 de maio de 2019     \nResolução CPPI 283, de 17 de agosto de 2023\nResolução CPPI 288, de 22 de novembro de 2023  \nResolução CPPI 323, de 04 de dezembro de 2024"
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1029,
+  "SourceId": "2000722",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Number of CPPI Resolution",
+    "Type": "TextMulti"
+  }
+}

@@ -1,0 +1,175 @@
+{
+  "ProjectOrganizations": [
+    {
+      "Id": 206,
+      "Value": "SEPPI"
+    }
+  ],
+  "Guid": "78bf6df6-ef43-4c8e-a9ea-aead39973eab",
+  "Name": "Anel Ferrovi&#225;rio Sudeste (EF-118)",
+  "Description": "A definir",
+  "Sector": {
+    "Id": 4,
+    "Value": "Transport"
+  },
+  "SubSector": {
+    "Id": 13,
+    "Value": "Intercity Rail"
+  },
+  "Territories": [
+    {
+      "Id": 36,
+      "Value": "Brazil"
+    }
+  ],
+  "Locations": [
+    "Estado do Rio de Janeiro",
+    "Estado de Espírito Santo",
+    "Nova Iguaçu",
+    "Santa Leopoldina"
+  ],
+  "TypeOfProject": [
+    "New"
+  ],
+  "IsPPP": true,
+  "IsUnsolicited": false,
+  "LegalFramework": {
+    "SourceUniqueId": "BRA-1",
+    "Title": "Federal",
+    "LocalResourceKey": "<%Timeline,BRA-LF-1,Title%>"
+  },
+  "Packages": [
+    {
+      "LocalResourceKey": null,
+      "ID": 1,
+      "Title": "",
+      "ContractualArrangements": [
+        {
+          "SourceUniqueId": "BRA-1",
+          "Title": "Concession: Law 8.987/95",
+          "LocalResourceKey": "<%Timeline,BRA-CA-1,Title%>"
+        }
+      ],
+      "TenderProcess": {
+        "SourceUniqueId": "BRA-1",
+        "Title": "Competition",
+        "LocalResourceKey": "<%Timeline,BRA-TP-1,Title%>"
+      },
+      "OtherContractualArrangement": null,
+      "OtherTenderProcess": null
+    }
+  ],
+  "TechnicalSupport": {
+    "SourceUniqueId": "BRA-3",
+    "Title": "INFRA S.A.",
+    "LocalResourceKey": "<%Timeline,BRA-TS-3,Title%>"
+  },
+  "Threshold": {
+    "SourceUniqueId": "BRA-1",
+    "Title": "Qualification by Project",
+    "LocalResourceKey": "<%Timeline,BRA-TH-1,Title%>"
+  },
+  "OwnerOrganisation": {
+    "Id": 206,
+    "Value": "SEPPI"
+  },
+  "CurrentProjectStatus": {
+    "Id": 2,
+    "Value": "Project Definition"
+  },
+  "CurrentProjectStatusCustom": {
+    "Id": 1,
+    "Value": "Definition"
+  },
+  "Completion": 0.02,
+  "Created": "2026-01-30T13:16:54Z",
+  "Modified": "2026-04-01T18:33:33Z",
+  "ProjectEstimatedDueDate": "2026-01-30T13:16:53Z",
+  "EstimatedCapitalCost": 813573600.0,
+  "OriginalCurrency": {
+    "Id": 27,
+    "Value": "BRL"
+  },
+  "OriginalCurrencyEstimatedCapitalCost": 4200000000.0,
+  "ProjectProperties": {
+    "Reference": null,
+    "IsTimelineDefined": true,
+    "LanguagesTimeline": [
+      {
+        "Code": "en",
+        "Title": "English"
+      },
+      {
+        "Code": "por",
+        "Title": "Português"
+      }
+    ]
+  },
+  "PMLeaderEmail": "adminppi.source@presidencia.gov.br",
+  "PMLeaderFirstName": "Adminppi",
+  "PMLeaderLastName": "Source",
+  "PMLeaderOrganisation": "SEPPI",
+  "PMLeaderTelephone": "(empty)",
+  "GPSCoordinates": [
+    {
+      "address": "Santa Leopoldina, Espírito Santo",
+      "location": {
+        "x": "-40.5296205",
+        "y": "-20.0982808"
+      },
+      "score": 100.0,
+      "attributes": {
+        "ResultID": 4,
+        "Place_addr": "Santa Leopoldina, Espírito Santo",
+        "City": "Santa Leopoldina",
+        "Subregion": "",
+        "Region": "Espírito Santo"
+      }
+    },
+    {
+      "address": "Nova Iguacu, Rio de Janeiro",
+      "location": {
+        "x": "-43.45151",
+        "y": "-22.7597835"
+      },
+      "score": 100.0,
+      "attributes": {
+        "ResultID": 3,
+        "Place_addr": "Nova Iguacu, Rio de Janeiro",
+        "City": "Nova Iguacu",
+        "Subregion": "",
+        "Region": "Rio de Janeiro"
+      }
+    },
+    {
+      "address": "Estado de Espírito Santo",
+      "location": {
+        "x": "-40.75",
+        "y": "-20.0"
+      },
+      "score": 100.0,
+      "attributes": {
+        "ResultID": 2,
+        "Place_addr": "Espírito Santo",
+        "City": "",
+        "Subregion": "",
+        "Region": "Espírito Santo"
+      }
+    },
+    {
+      "address": "Estado do Rio de Janeiro",
+      "location": {
+        "x": "-42.5",
+        "y": "-22.25"
+      },
+      "score": 100.0,
+      "attributes": {
+        "ResultID": 1,
+        "Place_addr": "Estado do Rio de Janeiro",
+        "City": "",
+        "Subregion": "",
+        "Region": "Estado do Rio de Janeiro"
+      }
+    }
+  ]
+}

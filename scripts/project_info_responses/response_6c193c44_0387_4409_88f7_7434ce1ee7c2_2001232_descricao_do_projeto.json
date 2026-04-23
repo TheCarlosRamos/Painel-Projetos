@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "O projeto está sendo financiado pelo BNDES e busca prover solução para a gestão de resíduos sólidos dos municípios do Estado. Com o projeto é esperado o encerramento das operações dos lixões no Estado. No total, será beneficiada uma população de até 734 mil pessoas, nos 16 municípios do Estado.\n\nMaiores informações no link: <a href=\"https://hubdeprojetos.bndes.gov.br/pt/projetos/Amapa-Residuos-Solidos/36afc698-a178-11ed-9551-0242ac11002b\">https://hubdeprojetos.bndes.gov.br/pt/projetos/Amapa-Residuos-Solidos/36afc698-a178-11ed-9551-0242ac11002b</a>"
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1328,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

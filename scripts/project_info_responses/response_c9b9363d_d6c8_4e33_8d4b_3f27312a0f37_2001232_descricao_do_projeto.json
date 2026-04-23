@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "O serviço de transporte metroferroviário operado pela CBTU em Natal atende aos municípios de Natal, Parnamirim, Extremoz e Ceará Mirim, compreendendo 2 linhas, 23 estações e 56,2 km de extensão, transportando cerca de 4,9 mil passageiros dia útil, que se deslocam em trens movidos a diesel, numa velocidade comercial de 30 Km/h.\n\nO serviço de transporte metroferroviário operado pela CBTU em Maceió atende aos municípios de Maceió, Satuba e Rio Largo, compreendendo 1 linha, 16 estações e 35,22 km de extensão, transportando cerca de 1,9 mil passageiros dia útil, que se deslocam em trens movidos a diesel, numa velocidade comercial de 30 Km/h.\n\nO serviço de transporte metroferroviário operado pela CBTU em João Pessoa atende aos municípios de João Pessoa, Cabedelo, Bayeux e Santa Rita, compreendendo 1 linha, 12 estações e 30 km de extensão, transportando cerca de 4,6 mil passageiros dia útil, que se deslocam em trens movidos a diesel, numa velocidade comercial de 30 Km/h."
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1359,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

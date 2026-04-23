@@ -1,0 +1,26 @@
+LAUDO FORENSE – DIAGNÓSTICO DE API
+============================================================
+
+Data UTC: 2026-04-10T12:56:08.869534
+
+STATUS DA API:
+- Root cause: Indeterminado
+
+CÓDIGOS HTTP:
+
+INFRAESTRUTURA:
+- Servidores detectados: {'Unknown': 12}
+- Multi-nó: False
+
+TEMPOS DE RESPOSTA:
+- min: 0.228s
+- max: 1.279s
+- avg: 0.317s
+
+CIRCUIT BREAKER:
+- Suspeito: NÃO
+
+FINGERPRINT DO BACKEND:
+- server: ['Unknown']
+- content_types: [None]
+- response_size: [0]

@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "O BNDES auxiliou o Estado de Alagoas na estruturação das concessões dos chamados “Blocos” A, B e C, que envolveram 74 municípios alagoanos. Em consequência desta estruturação, a CASAL passou a operar um modelo de “parcerias regionais” focado na produção e fornecimento de água às concessionárias dos Blocos A, B e C nas localidades onde anteriormente operava, além de continuar na operação direta em 17 municípios que não aderiram aos Blocos. Com o objetivo de assegurar a eficiência operacional, aprimorar a qualidade dos serviços prestados e garantir a sustentabilidade financeira da CASAL, o BNDES foi contratado para estruturar projeto de reestruturação e potencial alienação, de controle ou minoritária, das ações da Companhia de Saneamento de Alagoas - CASAL. As etapas de edital, leilão e contrato são condicionadas à deliberação do Estado de Alagoas sobre a potencial atração de acionistas privados após o processo de modelagem e os prazos informados são meramente indicativos."
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1133,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

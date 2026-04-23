@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "Valor da outorga ainda não definido."
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1081,
+  "SourceId": "2000952",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Variable annual fee",
+    "Type": "TextMulti"
+  }
+}

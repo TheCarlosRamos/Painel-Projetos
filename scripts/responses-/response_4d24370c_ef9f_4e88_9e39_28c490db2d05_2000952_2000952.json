@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "bônus de assinatura mínimo de R$ 500.000; prêmio de oportunidade 1, no valor de R$ 2,5 milhões; prêmio de oportunidade 2, no valor de R$ 7 milhões, a ser pago em até dez dias úteis contados da publicação da primeira concessão de lavra no Diário Oficial da União; e royalty de 1% sobre a receita bruta na fase de operação e produção."
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1026,
+  "SourceId": "2000952",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Variable annual fee",
+    "Type": "TextMulti"
+  }
+}

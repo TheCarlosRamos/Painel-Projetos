@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "O aeroporto Rio-Galeão está distante 20 km do centro da cidade  do Rio de Janeiro e possui o maior sítio aeroportuário em área total dentre todos os aeroportos nacionais. É o maior aeroporto do estado do Rio de Janeiro e está entre os 10 aeroportos mais movimentados no Brasil (2021). Ainda é o segundo maior aeroporto em movimento internacional."
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1331,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

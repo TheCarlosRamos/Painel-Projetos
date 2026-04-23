@@ -1,0 +1,8 @@
+ESTATÍSTICAS DE PROCESSAMENTO
+========================================
+Total de Projetos: 267
+Colunas: 60
+Arquivos por Setor: 6
+Projetos com Nome: 267
+Projetos com Custo Capital: 248
+Projetos com Descrição: 249

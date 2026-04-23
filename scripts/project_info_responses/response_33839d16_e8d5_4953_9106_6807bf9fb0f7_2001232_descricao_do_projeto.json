@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "A Antiga Estação Ferroviária de Diamantina ocupa um edifício de arquitetura eclética com 550 m2 de área construída, localizado no Largo Dom João, no município de Diamantina, em Minas Gerais. Foi construída e inaugurada no ano de 1913 sob a responsabilidade da Empresa Estrada de Ferro Vitória a Minas. Em 1994, houve o encerramento de atividades pela RFFSA, então administradora do ramal a que pertencia a estação. Posteriormente, passou a fazer parte do Patrimônio Cultural Ferroviário do IPHAN, tendo em vista a extinção da empresa em 2007 e seus desdobramentos. Atualmente, a estação é utilizada como sede do Corpo de Bombeiros.\nDada sua importância histórico-cultural para a cidade de Diamantina, a estação foi selecionada pelo Comitê Interministerial instituído pelo Decreto nº 10.349, de 13 de maio de 2020. O decreto qualificou, no Programa de Parceria de Investimentos (PPI), a política de atração de investimentos privados para o setor de turismo, para fins de elaboração de estudos e parcerias destinados à implementação de novos empreendimentos e ao aproveitamento turístico de ativos culturais e naturais do país.\nA Política de Atração de Investimentos Privados para o Setor de Turismo\nO Ministério do Turismo (MTur), com o objetivo de preservar e valorizar o patrimônio cultural, por meio de parcerias e concessões com o setor privado, instituiu o Revive Brasil, no âmbito do MTur, e propôs a qualificação da política de atração de investimentos no PPI.  Um protocolo de cooperação Brasil-Portugal, celebrado no início de 2020, e um programa de Portugal denominado Revive foi utilizado pelo MTur como referência."
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1335,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

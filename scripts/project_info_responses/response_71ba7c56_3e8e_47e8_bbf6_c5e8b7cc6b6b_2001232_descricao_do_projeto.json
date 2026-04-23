@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "A Floresta Nacional de Balata-Tufari, criada em 17 de fevereiro de 2005, é uma unidade de conservação federal gerida pelo ICMBio, com área aproximada de 1,079 milhão de ha. Localizada nos municípios de Tapauá e Canutama (90% da área), estado do Amazonas. Em seu entorno imediato estão os municípios de Humaitá e Lábrea. Balata-Tufari localiza-se no interflúvio dos rios Madeira e Purus, abrangendo importantes afluentes do médio Purus: rios Assuã, Umari, Mucuim, Ipixuna e Itaparanã; e igarapés Cujubim, Quapuru e Jacarezinho.\nO projeto apresentado em consulta pública prevê a concessão de seis Unidades de Manejo Florestal (UMFs) com área total de 564.295,16 ha: UMF I – 38.627,19 ha; UMF II – 58.437,40 ha; UMF III – 107.221,96 ha; UMF IV – 130.113,07 ha; UMF V – 151.152,76 ha; e UMF VI – 78.742,78 ha.\nO manejo florestal não atribui nenhum direito sobre a titularidade da floresta concedida. Os contratos de concessão permitem a exploração dos recursos de acordo com o plano de manejo da unidade e a legislação vigente. A gestão e fiscalização da concessão está sob responsabilidade do Serviço Florestal Brasileiro (SFB).\nConforme a legislação que trata da gestão de florestas públicas, as licitações para concessão florestal deverão ser realizadas na modalidade concorrência e outorgadas a título oneroso, com o edital definindo as datas da entrega e abertura dos envelopes com as propostas técnica, de preço e de documentação de habilitação.\nA consulta pública foi realizada entre os dias 18 de agosto e 30 de setembro de 2022, com audiências públicas  Canutama/AM e Lábrea/AM, respectivamente, nos dias 29 e 30 de agosto de 2022.\nEm 17 de setembro de 2025, o projeto foi submetido ao TCU."
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1290,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

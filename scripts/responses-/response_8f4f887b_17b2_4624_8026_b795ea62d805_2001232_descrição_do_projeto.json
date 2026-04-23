@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "Trata-se de projeto greenfield, localizado dentro da poligonal do Porto Organizado de Vila do Conde (PA), destinada à movimentação e armazenagem de granéis sólidos vegetais. A área de arrendamento denominada VDC29 possui 67.448 m², composta por área onshore de 56.850 m² e offshore de 10.598 m².\n\nO terminal será utilizado para armazenagem e movimentação portuária de granéis sólidos vegetais, especialmente soja e milho, por meio de recepção hidroviária (barcaças), recepção terrestre (rodoviário) e longo curso no sentido de embarque. A necessidade de novo terminal se justifica porque a movimentação desse tipo de carga ocorre, atualmente, no quadro de boias por meio do transbordo de carga em área de fundeio, uma vez que o porto organizado não possui capacidade estática de armazenamento para essa carga e nem píer com equipamento dedicado (shiploader), sendo o embarque, portanto, realizado de forma direta, das barcaças para o navio (barge-to-ship).\n\nAssim, a justificativa da pasta setorial acerca da necessidade de estruturação do projeto abrange as necessidades de:\n\n- Adequar a capacidade portuária à demanda de cargas existente e futura na região a fim de otimizar a operação portuária, os investimentos e a competitividade no setor;\n- Aumentar os investimentos privados no porto organizado;\n- Aumentar a taxa de ocupação da área do porto, com maior segurança jurídica;\n- Aumentar a sustentabilidade financeira da Administração Portuária (Companhia Docas do Pará).\n\nO prazo contratual previsto para a área é de 25 anos, com início da vigência previsto para o ano de 2025 e término em 2050, e o valor total estimado para o CAPEX é de R$ 908,57 milhões."
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1329,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "O Parque Nacional Marinho de Fernando de Noronha localiza-se no arquipélago de Fernando de Noronha, Pernambuco, a cerca de 540 km de Recife. Compreende áreas marinhas e terrestres, totalizando aproximadamente 11.270 hectares. Parte da ilha principal integra a APA de Fernando de Noronha, e ambas as UCs formam o Núcleo de Gestão Integrada (NGI) ICMBio Noronha.\nEm março de 2023, foi homologado no STF o acordo de gestão compartilhada entre União e Estado de Pernambuco para Fernando de Noronha. Assinado pelo presidente Lula e pela governadora Raquel Lyra, o acordo distribui responsabilidades, com o ICMBio gerindo o Parque Nacional e parte da APA, enquanto o estado cuida da zona urbana e outras áreas.\nO turismo em Fernando de Noronha é essencial para a economia local, representando a principal fonte de renda para aproximadamente 95% da população. O contrato de concessão para prestação dos serviços públicos de apoio à visitação vigente expira em novembro de 2025 e há necessidade de revisão e adaptação dos instrumentos de delegação de serviços em ambas as unidades de conservação."
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1290,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

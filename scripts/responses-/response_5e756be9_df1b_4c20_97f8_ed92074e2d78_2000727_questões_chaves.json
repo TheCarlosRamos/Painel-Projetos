@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "Detalhes da Oferta\nO petróleo ofertado virá de seis campos do pré-sal, com as entregas (carregamentos) programadas para ocorrer entre março de 2027 e fevereiro de 2028. A distribuição estimada dos volumes por campo é:\nMero: 64 milhões de barris.\nBúzios: 21,5 milhões de barris.\nBacalhau: 13 milhões de barris.\nItapu: 4 milhões de barris.\nSépia: 2 milhões de barris.\nAtapu: 2 milhões de barris."
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1057,
+  "SourceId": "2000727",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Project key issues",
+    "Type": "TextMulti"
+  }
+}

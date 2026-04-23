@@ -1,0 +1,132 @@
+{
+  "ProjectOrganizations": [
+    {
+      "Id": 206,
+      "Value": "SEPPI"
+    }
+  ],
+  "ProjectActivityStatus": {
+    "Value": true,
+    "SourceUniqueId": "DEF-1",
+    "Title": "Active",
+    "LocalResourceKey": "<%Labels,DEF-AS-1,Title%>"
+  },
+  "Guid": "55d8c9d7-c8ea-4140-8e03-0fb8486ca603",
+  "Name": "BR-040/495/RJ/MG - Rio de Janeiro a Juiz de Fora",
+  "Description": "Por meio da Portaria N&#186;531/2024, o Minist&#233;rio dos Transportes aprovou o Plano de Outorga da concess&#227;o para explora&#231;&#227;o da Rodovia BR-040/495/MG/RJ no trecho entre Juiz de Fora/MG e Rio de Janeiro/RJ.&#10;&#10;O projeto em an&#225;lise deriva da diretriz de pol&#237;tica p&#250;blica do Minist&#233;rio dos Transportes, que determinou a separa&#231;&#227;o dos estudos t&#233;cnicos para a concess&#227;o da BR-040/495/MG/RJ, no trecho entre Belo Horizonte e o Rio de Janeiro, em dois projetos distintos. Um abrange o trecho de Belo Horizonte (MG) a Juiz de Fora (MG), enquanto o outro engloba o trecho de Juiz de Fora (MG) ao Rio de Janeiro (RJ).&#10;&#10;O primeiro segmento foi leiloado em 11/04/2024&#160;e o outro, com o trecho entre Juiz de Fora (MG) e Rio de Janeiro (RJ), &#233; o objeto deste novo Plano de Outorga.&#10;&#10;*Fonte das informa&#231;&#245;es: Plano de Outorga MT/ANTT (05/06/2024).",
+  "Sector": {
+    "Id": 4,
+    "Value": "Transport"
+  },
+  "SubSector": {
+    "Id": 9,
+    "Value": "Highway"
+  },
+  "Territories": [
+    {
+      "Id": 36,
+      "Value": "Brazil"
+    }
+  ],
+  "Locations": [
+    "Minas Gerais,Rio de Janeiro"
+  ],
+  "TypeOfProject": [
+    "Refurbishment/Replacement"
+  ],
+  "IsPPP": true,
+  "IsUnsolicited": false,
+  "LegalFramework": {
+    "SourceUniqueId": "BRA-1",
+    "Title": "Federal",
+    "LocalResourceKey": "<%Timeline,BRA-LF-1,Title%>"
+  },
+  "Packages": [
+    {
+      "LocalResourceKey": null,
+      "ID": 1,
+      "Title": null,
+      "ContractualArrangements": [
+        {
+          "SourceUniqueId": "BRA-4",
+          "Title": "Rebidding: Law 13.448/17, Art. 4, III",
+          "LocalResourceKey": "<%Timeline,BRA-CA-4,Title%>"
+        }
+      ],
+      "TenderProcess": {
+        "SourceUniqueId": "BRA-1",
+        "Title": "Competition",
+        "LocalResourceKey": "<%Timeline,BRA-TP-1,Title%>"
+      },
+      "OtherContractualArrangement": null,
+      "OtherTenderProcess": null
+    }
+  ],
+  "TechnicalSupport": {
+    "SourceUniqueId": "BRA-3",
+    "Title": "INFRA S.A.",
+    "LocalResourceKey": "<%Timeline,BRA-TS-3,Title%>"
+  },
+  "Threshold": {
+    "SourceUniqueId": "BRA-1",
+    "Title": "Qualification by Project",
+    "LocalResourceKey": "<%Timeline,BRA-TH-1,Title%>"
+  },
+  "OwnerOrganisation": {
+    "Id": 206,
+    "Value": "SEPPI"
+  },
+  "CurrentProjectStatus": {
+    "Id": 2,
+    "Value": "Project Definition"
+  },
+  "CurrentProjectStatusCustom": {
+    "Id": 1,
+    "Value": "Definition"
+  },
+  "Completion": 0.02,
+  "Created": "2025-03-19T07:56:09Z",
+  "Modified": "2026-02-04T03:02:09Z",
+  "ProjectEstimatedDueDate": "2025-03-19T07:56:09Z",
+  "EstimatedCapitalCost": 897600000.0,
+  "OriginalCurrency": {
+    "Id": 27,
+    "Value": "BRL"
+  },
+  "OriginalCurrencyEstimatedCapitalCost": 5100000000.0,
+  "ProjectProperties": {
+    "Reference": null,
+    "IsTimelineDefined": true,
+    "LanguagesTimeline": [
+      {
+        "Code": "en",
+        "Title": "English"
+      },
+      {
+        "Code": "por",
+        "Title": "Português"
+      }
+    ],
+    "AdditionalFields": {}
+  },
+  "PMLeaderEmail": "adminppi.source@presidencia.gov.br",
+  "PMLeaderFirstName": "Adminppi",
+  "PMLeaderLastName": "Source",
+  "GPSCoordinates": [
+    {
+      "address": "Barra do Rio de Janeiro, Lassance, Minas Gerais",
+      "location": {
+        "x": "-45.11012",
+        "y": "-17.93818"
+      },
+      "score": 90.47,
+      "attributes": {
+        "ResultID": 1,
+        "Place_addr": "Barra do Rio de Janeiro, Lassance, Minas Gerais",
+        "City": "",
+        "Subregion": "Lassance",
+        "Region": "Minas Gerais"
+      }
+    }
+  ]
+}

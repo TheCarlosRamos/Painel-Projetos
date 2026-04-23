@@ -18,3 +18,53 @@ https://api.sif-source.org/projects/{{guid}}?SPHostUrl=https%3A%2F%2Fwww.sif-sou
 2001229 -> status do leilão
 2001230 -> status do contrato
 2001232 -> descrição do projeto
+
+2000725 → Data de qualificação em PPI
+2000711 → Setor do projeto (de acordo com a classificação da PPI):
+2000712 → Subsector do projeto (de acordo com a classificação da PPI):
+400014 → Qual é o custo de capital estimado para o projeto?
+400015 → Qual é o custo médio anual estimado de operação e manutenção?
+
+100231 → Quem será a Autoridade Contratante?
+1105352 → Qual dos seguintes objetivos melhor justificaria o gasto de fundos públicos para o projeto proposto?
+1400095 → Qual a duração prevista para o contrato principal (em anos)?
+2000713 → Quem irá estruturar o projeto?
+2000714 → O projeto é para PND?
+2000715 → Investimento estrangeiro mínimo (USD):
+2000716 → Potencial de investimento estrangeiro (USD):
+2000717 → Quais serão os critérios de seleção da licitação?
+2000718 → Municípios beneficiários
+2000719 → Benefícios adicionais do projeto (se aplicável):
+2000721 → Status do projeto PPI
+2000722 → Número de resoluções do CPPI
+2000723 → Decretos
+2000724 → Número de reuniões de qualificação CPPI/CFEP
+2000725 → Data de qualificação em PPI
+2000729 → Receita máxima
+2000730 → Receita efetiva
+2000731 → Tarifa máxima do usuário
+2000732 → Tarifa efetiva do usuário
+2000733 → Prêmio de licitação
+2000941 → Caso o projeto seja uma PPP de acordo com a legislação brasileira, informe o tipo:
+2000942 → População beneficiária (número de pessoas)
+2000943 → Empregos diretos (quantidade)
+2000944 → Empregos indiretos (quantidade)
+2000945 → Tipo de suporte da PPI
+2000946 → Publicar no site da PPI?
+2000947 → A sala de dados do projeto está aberta?
+2000948 → Taxa mínima inicial
+2000949 → Taxa inicial efetiva
+2000950 → Taxa anual fixa mínima
+2000951 → Taxa anual fixa efetiva
+2000952 → Taxa anual variável
+2001215 → Qual o valor total do contrato PPP (se aplicável):
+2001216 → Data de início - Estudos:
+2001217 → Data de término - Estudos:
+2001219 → Data de início - Consulta Pública:
+2001220 → Data de término - Consulta Pública:
+2001222 → Data de início - Controle externo
+2001223 → Data de término - Controle externo
+2001225 → Data de publicação - Aviso de Licitação:
+2001227 → Data de início - Licitação:
+2001228 → Data de término - Licitação:
+2001231 → Data de assinatura do contrato

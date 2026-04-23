@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "1,00% da Receita Operacional Bruta (ROB) como outorga variável e 2,00% da ROB como encargos acessórios para utilização em projetos nas Unidades de Conservação e junto à população local."
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1026,
+  "SourceId": "2000952",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Variable annual fee",
+    "Type": "TextMulti"
+  }
+}

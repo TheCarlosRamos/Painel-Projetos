@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "Censo 2022: A contagem oficial da população Brasileira indicou 203.080.756 pessoas. A distribuição da Receita\nPatrimonial (os lucros da comercialização do óleo e gás da União) proveniente dos leilões da PPSA beneficia todos os\n5.570 municípios brasileiros."
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1048,
+  "SourceId": "2000718",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Beneficiary municipalities",
+    "Type": "TextMulti"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "Estruturação de projeto de PPP no Município de Santo André/SP para realização de empreendimentos habitacionais voltados à locação social, abrangendo a realização e a prestação pelo concessionário privado dos investimentos (greenfield ou retrofit) e dos serviços de gestão, manutenção, desenvolvimento comunitário e operação dos empreendimentos. \nNo âmbito da Política Nacional de Habitação, o Governo está buscando viabilizar mecanismos de fomento para que estados e municípios adotem o aluguel social como alternativa financeiramente sustentável e eficaz de provisão de moradia digna à população de baixa renda.\nNesse sentido, a Secretaria Nacional de Habitação/MCID recebeu a proposta do Município de Santo André e apresentou à SEPPI e ao CFEP, que aprovou a inclusão do projeto no FEP em outubro de 2024.\nOs estudos deverão seguir, adicionalmente ao regramento aplicável à habitação de interesse social, as diretrizes de política pública para a estruturação de projetos de empreendimentos habitacionais destinados à locação social no âmbito do FEP, constantes da Nota Técnica nº 27/2024/CGPE-DPSM-MCID/DPSM-MCID/SNH-MCID-MCID (atualização da Nota Técnica nº 8/2021/CGGI SNH/SNH-MDR). \nO serviço técnico especializado é composto pelo assessoramento técnico prestado pelo Escritório das Nações Unidas de Serviços para Projetos – UNOPS ao Ente; e pela contratação de consultoria técnica especializada para realização dos estudos de viabilidade e desenvolvimento dos documentos necessários para a licitação do Contrato de Concessão."
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1129,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

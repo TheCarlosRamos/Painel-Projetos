@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "A Fazenda Pau D’Alho, situada no município de São José do Barreiro, estado de São Paulo, é um dos mais antigos estabelecimentos rurais destinados exclusivamente à monocultura do café. Importante marco da história e da economia que caracterizou a transição entre a Colônia e o Império, a fazenda é considerada um dos mais belos exemplares da arquitetura produzida no Brasil durante todo o século XIX.\nConjunto arquitetônico: casa grande, terreiro, senzala, cavalariça, tulha, oficinas, prédio da bateria de pilões e roda d’agua, dois moinhos e depósitos, e uma construção não finalizada de dez quartos em alvenaria.\nO Ministério do Turismo (MTur) instituiu o Revive Brasil, no âmbito do MTur, e propôs a qualificação da política de atração de investimentos no âmbito do PPI.  Um protocolo de cooperação Brasil-Portugal, celebrado em 2020, e um programa de Portugal (Revive) foi utilizado pelo MTur como referência.\nAtualmente quatro imóveis do patrimônio histórico e turístico brasileiro estão qualificados no âmbito do PPI para a realização de estudos especializados de estruturação de planos de delegação à iniciativa privada por meio de recursos não reembolsáveis do Fundo de Estruturação de Projetos do BNDES (BNDES FEP). O projeto da Fazenda Pau D’Alho foi inserido pelo Decreto nº 10.466, de 18 de agosto de 2020.\nEm 19 de novembro de 2015, o MTur publicou aviso de consulta pública, que busca receber contribuições da sociedade para aprimorar o processo de concessão do imóvel à iniciativa privada, com o objetivo de promover sua revitalização, ampliar as possibilidades de visitação e estimular o turismo cultural e sustentável na região, gerando emprego e renda para a comunidade local."
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1335,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

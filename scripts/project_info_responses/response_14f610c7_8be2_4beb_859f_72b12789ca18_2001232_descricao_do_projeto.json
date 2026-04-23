@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "O projeto do Consórcio Intermunicipal de Saúde do Vale do Ribeira e Litoral Sul - CONSAÚDE/SP decorre do Chamamento Público nº 01/2020 realizado pela CAIXA, por determinação do Conselho do FEP, que resultou na seleção de 23 consórcios habilitados para serem atendidos com recursos do FEP. O CONSAÚDE foi habilitado em oitavo lugar no processo seletivo.\n\nA estruturação contempla todas as atividades que integram o serviço de manejo de RSU, compreendendo Coleta, Transporte, Tratamento e Destinação Final e não inclui a execução dos serviços de limpeza pública como varrição, poda e capina de logradouros públicos, apesar de contemplar a destinação dos resíduos produzidos nestas atividades.\n\nEspera-se estruturar um serviço que extrapola a coleta e disposição dos rejeitos em aterros sanitários, a partir de rota tecnológica que maximize a valorização de resíduos recicláveis secos e orgânicos passíveis de serem desviados do aterro sanitário, aumentando assim a vida útil dos aterros e cumprindo a legislação.\n\nO serviço técnico especializado contratado é composto pelas seguintes atividades:\nAssessoramento técnico prestado pela Caixa ao Ente.\nConsultoria técnica especializada para realização dos estudos de viabilidade e desenvolvimento dos documentos necessários para a licitação do Contrato de Concessão.\n\nO Consórcio das empresas ELEMENTAL/AMBIENTAL ENGENHARIA /DUTRA E SANTOS foi contratado para prestar os serviços técnicos especializados de consultoria necessários à modelagem e estruturação de Concessão dos serviços de manejo de RSU para municípios do Consórcio."
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1328,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

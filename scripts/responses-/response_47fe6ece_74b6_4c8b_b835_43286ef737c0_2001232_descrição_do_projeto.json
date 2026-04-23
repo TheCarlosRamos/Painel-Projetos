@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "A malha ferroviária da FTL possui 4.238 km de extensão e está presente em quase todos os Estados da Região Nordeste do Brasil. Atravessa, mais especificamente, os Estados do Maranhão, Piauí, Ceará, Rio Grande do Norte, Paraíba, Pernambuco e Alagoas. Atualmente 1.237 km (29% da sua totalidade) possuem operações comerciais, ou seja, o transporte de cargas é efetuado somente entre os trechos da Linha Tronco São Luís (São Luís a Teresina) e da Linha Tronco Norte Fortaleza (Teresina a Fortaleza).\nHoje a ferrovia atende uma demanda de 3 milhões de toneladas por ano entre combustíveis, cimento, celulose, produtos siderúrgicos, coque de petróleo, clínquer, contêineres, entre outros. O estudo de mercado mapeou um total de aproximadamente 10 milhões de toneladas de cargas com características ferroviárias que poderão ser atendidas pela malha. A Ferrovia FTL hoje não possui capacidade operacional para atender toda essa demanda em sua área de influência e, nesse sentido, apresentou proposta ao Ministério setorial de investimentos que visam dotar a companhia de maiores capacidades e eficiência, a fim de atender a demanda projetada por serviços. A prorrogação antecipada do contrato de concessão da FTL poderá trazer segurança à empresa para a realização dos investimentos propostos também de forma antecipada, caso seja identificada a vantajosidade dos investimentos propostos para o Poder Público."
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1345,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

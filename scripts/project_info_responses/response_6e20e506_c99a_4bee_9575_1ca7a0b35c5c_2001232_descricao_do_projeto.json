@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "Atualmente o Estado de Rondônia presta os serviços relacionados a abastecimento de água e esgotamento sanitário através da Companhia de Águas e Esgotos de Rondônia – CAERD, que tem por finalidade operar, conservar, explorar, ampliar, manter e melhorar os serviços públicos de águas e esgotos sanitários nas comunidades cujos sistemas estejam sob sua responsabilidade.\nA CAERD é uma sociedade de economia mista controlada pelo Estado de Rondônia, que é seu principal acionista com 99,99% de suas ações\nO projeto tem como meta a universalização dos serviços no menor prazo possível e a maximização do quantitativo de municípios e pessoas atendidas."
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1326,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

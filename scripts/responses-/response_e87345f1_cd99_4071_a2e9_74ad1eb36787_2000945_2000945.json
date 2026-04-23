@@ -1,0 +1,35 @@
+{
+  "FieldValue": {
+    "Type": "ChoiceSingle",
+    "Value": {
+      "Key": 3,
+      "Value": "Other"
+    },
+    "Details": "O PPI atua no apoio aos projetos estruturados com recursos próprios da CAIXA por meio da coordenação federativa e da articulação interinstitucional, promovendo o alinhamento às diretrizes nacionais, a mitigação de riscos regulatórios e a consolidação de parâmetros replicáveis."
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1091,
+  "SourceId": "2000945",
+  "DocumentRequired": false,
+  "Field": {
+    "Choices": {
+      "1": "Support for project structuring",
+      "2": "Support for environmental licensing",
+      "3": "Other"
+    },
+    "Title": "Type of support from PPI",
+    "Type": "ChoiceSingle"
+  }
+}

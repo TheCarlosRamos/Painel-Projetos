@@ -1,0 +1,35 @@
+{
+  "FieldValue": {
+    "Type": "ChoiceSingle",
+    "Value": {
+      "Key": 1,
+      "Value": "Administrative concession (Government funded PPP)"
+    },
+    "Details": null
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1049,
+  "SourceId": "2000941",
+  "DocumentRequired": false,
+  "Field": {
+    "Choices": {
+      "1": "Administrative concession (Government funded PPP)",
+      "2": "Sponsored concession (Combined funded PPP)",
+      "3": "Not applicable"
+    },
+    "Title": "If the project is a PPP according to the Brazilian law, inform the type:",
+    "Type": "ChoiceSingle"
+  }
+}

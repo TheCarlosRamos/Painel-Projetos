@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "A concessão visa a prestação de serviços de apoio ao uso público para a operação da trilha do Macuco em modais terrestres e aquaviários na área do Parque Nacional do Iguaçu.\nO roteiro turístico denominado \"Trilha do Macuco\", consiste em passeio de barco por via fluvial, até o limite de navegabilidade próximo às Cataratas do Iguaçu, com a possibilidade ainda de caminhada em trilhas, rafting, cachoeirismo na cachoeira do Macuco, transporte terrestre de passageiros no trecho entre a BR 469, km 25 (recepção do Macuco) e o Porto do Macuco.\nA roteiro turístico complementa a concessão da prestação dos serviços públicos de apoio à visitação, à conservação, à proteção e à gestão do Parque Nacional do Iguaçu em vigor. Para maiores informações acesse a página do projeto no PPI: https://ppi.gov.br/projetos/parque-nacional-do-iguacu-pr/\nO ICMBio abriu consulta pública relativa ao edital de licitação para a concessão de serviços de apoio à visitação no atrativo da Trilha do Macuco no Parque Nacional do Iguaçu, conforme Aviso, publicado no Diário Oficial da União, de 9 de julho de 2025.\nAs contribuições eletrônicas puderam ser realizadas no prazo de 30 dias a contar da data de publicação do aviso, por meio do formulário eletrônico disponibilizado na página da consulta pública no site do ICMBio.\nA audiência pública foi realizada na Secretaria Municipal de Turismo de Foz do Iguaçu, entre 14h e 18h do dia 22 de julho de 2025.\nO ICMBio prorrogou o prazo da Consulta Pública por 10 dias, conforme Aviso de Prorrogação publicado no Diário Oficial da União, de 6 de agosto de 2025.\nEm 4 de novembro de 2025, o ICMBio enviou o projeto para análise do Tribunal do Contas da União (TCU)."
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1290,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

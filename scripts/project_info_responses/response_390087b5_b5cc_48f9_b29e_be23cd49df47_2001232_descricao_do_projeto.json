@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "A Floresta Nacional de Pau-Rosa, criada em 07 de agosto de 2001, é uma unidade de conservação federal gerida pelo ICMBio, com área aproximada de 988.186 ha. Localiza-se nos municípios de Maués e Nova Olinda do Norte no leste do estado do Amazonas e na fronteira com o estado do Pará e a oeste com o município de Borba. Maués é o município mais representativo em termos territoriais: cerca de 98,5% da Floresta Nacional de Pau Rosa situam-se em seus limites e 1,5% em Nova Olinda do Norte.\nO projeto apresentado em consulta pública prevê a concessão de três Unidades de Manejo Florestal (UMFs) com área total de 249.705,88 ha: UMF I – 39.806,69 ha; UMF II – 90.710,56 ha; e UMF III – 119.188,63 ha.\nA concessão florestal é um instrumento de política pública voltado à gestão das florestas públicas por meio da prática do manejo florestal, realizada por instituições de natureza privada, com foco na implementação de ações sustentáveis, capazes de elevar o nível da atividade econômica nos municípios e estados onde estão presentes, com geração de emprego e renda para a população local.\nConforme a legislação que trata da gestão de florestas públicas, as licitações para concessão florestal deverão ser realizadas na modalidade concorrência e outorgadas a título oneroso, com o edital definindo as datas da entrega e abertura dos envelopes com as propostas técnica, de preço e de documentação de habilitação.\nConsulta Pública concluída em 29 de julho de 2022. Informações sobre o projeto na página do SFB.\nO projeto foi submetido ao Tribunal de Contas da União (TCU). Em reunião ocorrida em 26 de julho de 2023, o Plenário da corte de contas aprovou a continuidade do processo de concessão florestal."
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1290,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

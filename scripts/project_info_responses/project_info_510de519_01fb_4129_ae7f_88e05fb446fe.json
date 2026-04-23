@@ -1,0 +1,138 @@
+{
+  "ProjectOrganizations": [
+    {
+      "Id": 206,
+      "Value": "SEPPI"
+    }
+  ],
+  "Guid": "510de519-01fb-4129-ae7f-88e05fb446fe",
+  "Name": "Santa Cruz do Apodi/RN",
+  "Description": "O per&#237;metro de irriga&#231;&#227;o Santa Cruz do Apodi, localizado nos munic&#237;pios de Apodi e Felipe Guerra, na regi&#227;o oeste do Rio Grande do Norte, a 76 km de Mossor&#243;, 354 km de Natal e 321 km de Fortaleza.&#10;O projeto &#233; abastecido pelas &#225;guas do rio Apodi, sendo a capta&#231;&#227;o a jusante da barragem de Santa Cruz. O per&#237;metro tem uma &#225;rea irrig&#225;vel de 9.236 hectares, sendo 5.200 hectares correspondentes &#224; 1&#170; Etapa e 4.036 &#224; 2&#170; Etapa.&#10;Trata-se de um per&#237;metros de irriga&#231;&#227;o do DNOCS.",
+  "Sector": {
+    "Id": 1,
+    "Value": "Water & Waste"
+  },
+  "SubSector": {
+    "Id": 29,
+    "Value": "Irrigation"
+  },
+  "Territories": [
+    {
+      "Id": 36,
+      "Value": "Brazil"
+    }
+  ],
+  "Locations": [
+    "Apodi",
+    "Felipe Guerra"
+  ],
+  "TypeOfProject": [
+    "New"
+  ],
+  "IsPPP": true,
+  "IsUnsolicited": false,
+  "LegalFramework": {
+    "SourceUniqueId": "BRA-1",
+    "Title": "Federal",
+    "LocalResourceKey": "<%Timeline,BRA-LF-1,Title%>"
+  },
+  "Packages": [
+    {
+      "LocalResourceKey": null,
+      "ID": 1,
+      "Title": "",
+      "ContractualArrangements": [
+        {
+          "SourceUniqueId": "BRA-1",
+          "Title": "Concession: Law 8.987/95",
+          "LocalResourceKey": "<%Timeline,BRA-CA-1,Title%>"
+        }
+      ],
+      "TenderProcess": {
+        "SourceUniqueId": "BRA-1",
+        "Title": "Competition",
+        "LocalResourceKey": "<%Timeline,BRA-TP-1,Title%>"
+      },
+      "OtherContractualArrangement": null,
+      "OtherTenderProcess": null
+    }
+  ],
+  "Threshold": {
+    "SourceUniqueId": "BRA-1",
+    "Title": "Qualification by Project",
+    "LocalResourceKey": "<%Timeline,BRA-TH-1,Title%>"
+  },
+  "OwnerOrganisation": {
+    "Id": 206,
+    "Value": "SEPPI"
+  },
+  "CurrentProjectStatus": {
+    "Id": 2,
+    "Value": "Project Definition"
+  },
+  "CurrentProjectStatusCustom": {
+    "Id": 1,
+    "Value": "Definition"
+  },
+  "Completion": 0.01,
+  "Created": "2025-06-17T13:09:43Z",
+  "Modified": "2025-12-18T19:53:33Z",
+  "ProjectEstimatedDueDate": "2025-06-17T13:09:43Z",
+  "EstimatedCapitalCost": 68215730.0,
+  "OriginalCurrency": {
+    "Id": 27,
+    "Value": "BRL"
+  },
+  "OriginalCurrencyEstimatedCapitalCost": 374000000.0,
+  "ProjectProperties": {
+    "Reference": null,
+    "IsTimelineDefined": true,
+    "LanguagesTimeline": [
+      {
+        "Code": "en",
+        "Title": "English"
+      },
+      {
+        "Code": "por",
+        "Title": "Português"
+      }
+    ]
+  },
+  "PMLeaderEmail": "adminppi.source@presidencia.gov.br",
+  "PMLeaderFirstName": "Adminppi",
+  "PMLeaderLastName": "Source",
+  "PMLeaderOrganisation": "SEPPI",
+  "PMLeaderTelephone": "(empty)",
+  "GPSCoordinates": [
+    {
+      "address": "Apodi, Rio Grande do Norte",
+      "location": {
+        "x": "-37.7996289",
+        "y": "-5.6659099"
+      },
+      "score": 100.0,
+      "attributes": {
+        "ResultID": 1,
+        "Place_addr": "Apodi, Rio Grande do Norte",
+        "City": "Apodi",
+        "Subregion": "",
+        "Region": "Rio Grande do Norte"
+      }
+    },
+    {
+      "address": "Felipe Guerra, Rio Grande do Norte",
+      "location": {
+        "x": "-37.693638",
+        "y": "-5.6005997"
+      },
+      "score": 100.0,
+      "attributes": {
+        "ResultID": 2,
+        "Place_addr": "Felipe Guerra, Rio Grande do Norte",
+        "City": "Felipe Guerra",
+        "Subregion": "",
+        "Region": "Rio Grande do Norte"
+      }
+    }
+  ]
+}

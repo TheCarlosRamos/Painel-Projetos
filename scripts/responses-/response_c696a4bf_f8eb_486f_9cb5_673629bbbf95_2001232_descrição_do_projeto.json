@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "O Projeto Jaíba abrange os municípios de Jaíba, Matias Cardoso e Verdelândia, na região norte do Estado de Minas Gerais, às margens do Médio São Francisco. O projeto foi qualificado no âmbito do Programa de Parcerias de Investimentos PPI, juntamente com outros 3 projetos de irrigação, por meio da Resolução n° 306, de 25 de junho de 2024, referendada pelo Decreto nº 12.162, de 3 de setembro de 2024.\n\nO projeto abrange uma área total de 107,6 mil hectares, sendo que 65,8 mil hectares irrigáveis. Este foi planejado para ser implementado em quatro etapas, atualmente, apenas as Etapas I e II estão implantadas e em produção. As Etapas III e IV, que totalizam 21.934 hectares, ainda não foram completamente implantadas.\n\nTal projeto tem como objetivos principais: geração de emprego e renda nas áreas rurais, dinamização da economia local e melhoria dos índices de desenvolvimento socioeconômico."
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1325,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

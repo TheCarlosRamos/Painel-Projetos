@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "O projeto consiste na elaboração de estudos para concessão dos serviços de água e esgoto em todos os municípios do Estado do Pará objetivando o alcance da universalização do saneamento, conforme estabelecido no marco legal de saneamento.\n\nO Estado do Pará é composto por 144 municípios e, segundo dados do SNIS, 52 desses são atendidos pela Companhia de Saneamento do Pará – COSANPA e os demais por autarquia municipal, pela administração pública direta municipal ou por empresas privadas.\n\nOs indicadores de atendimento de água e esgoto no Estado do Pará são baixos e inferiores à média da região Norte e do Brasil. Atualmente os índices de atendimento de água e esgoto no Pará são de 47,53% e 7,73%, respectivamente, enquanto esses indicadores para o Brasil são de 84,83% e 54,95%.\n\n&nbsp;"
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1326,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

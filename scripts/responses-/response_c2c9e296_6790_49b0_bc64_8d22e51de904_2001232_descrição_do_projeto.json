@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "A Floresta Nacional de Altamira (FNA), criada pelo Decreto nº 2.483, de 2 de fevereiro de 1998, está localizada nos municípios de Altamira, Itaituba e Trairão, no estado do Pará, sendo limítrofe com o município de Itaituba. Possui uma área total de 724.965,51 ha, dos quais 32.587,72 ha serão destinados à restauração florestal.\nA floresta faz limites com outras Unidades de Conservação, Terras Indígenas e Áreas de Consolidação e Expansão Rural ou Urbana. Ao Norte, a FNA faz limites com a Reserva Extrativista (Resex) Riozinho do Anfrísio. A Leste com as Terras Indígenas Xipaya e Kuruáya e Floresta Estadual (Flota) do Iriri. A Sul com a Flota do Iriri, Terra Indígena do Baú e Zona de Consolidação e Expansão, definida no Zoneamento Ecológico Econômico (ZEE) da BR-163. A Oeste faz limite com a Zona de Consolidação e Expansão do ZEE da BR-163 e Parque Nacional (PN) do Jamanxim. O acesso à Floresta Nacional de Altamira se dá por meio da BR-163, seguindo por estradas/ramais vicinais.\nA Floresta de Altamira está situada entre os rios Xingu e Tapajós, 63,99% de sua área está na Bacia do Xingu e 36,01% na Bacia do Tapajós. A área em que a Flona está localizada é integrante do Distrito Florestal Sustentável da BR-163, além de sua localização no \"arco do desmatamento\".\nNesse sentido, o projeto auxilia no cumprimento de um dos objetivos de criação das Florestas Nacionais e constitui uma alternativa à exploração madeireira predatória e ilegal.\nO projeto contribuirá ainda com a proteção da biodiversidade posto que a FNA possui uma alta diversidade florística com mais de 200 espécies botânicas. Na floresta foram registradas 347 espécies de aves e 42 espécies de mamíferos silvestres."
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1290,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

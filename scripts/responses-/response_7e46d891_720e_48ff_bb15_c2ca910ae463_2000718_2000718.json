@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "Município do Recife"
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1027,
+  "SourceId": "2000718",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Beneficiary municipalities",
+    "Type": "TextMulti"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "A BR-135/316/MA interliga as cidades de São Luís/MA e Teresina/PI, servindo de rota de transporte para a região do Matopiba, considerada a grande fronteira agrícola nacional da atualidade, que apresenta crescimento expressivo na produção agrícola principalmente de soja e milho, contribuindo para o desenvolvimento regional do Norte e Nordeste do país. A melhoria da logística do transporte terrestre oferecerá facilidades de escoamento da produção agrícola, bem como o uso de outros modais e a viabilização da exportação da produção por meio dos complexos portuários de Itaqui (São Luís/MA), e também do Arco Norte, de Vila do Conde (Belém/PA). Um dos grandes diferenciais dos portos citados é a sua localização próxima dos mercados da Europa, América do Norte e do Canal do Panamá, por onde é possível alcançar mais rapidamente os países da Ásia."
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1320,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "O projeto consiste na elaboração de estudos para estruturação de parceria nos serviços de água e esgoto nos municípios do Estado de Pernambuco objetivando o alcance da universalização do saneamento, conforme estabelecido no marco legal de saneamento.\n\nO Estado do Pernambuco é composto por 185 municípios e, segundo dados do SNIS, 172 desses e o Arquipélago de Fernando de Noronha são atendidos pela Companhia Pernambucana de Saneamento – COMPESA e os demais por autarquia municipal ou pela administração pública direta municipal.\n\nOs indicadores de atendimento de água e esgoto no Estado de Pernambuco são superiores à média da região Nordeste, mas ainda inferiores à média do Brasil. Atualmente os índices de atendimento de água e esgoto em Pernambuco são de 83,6% e 30,8%, respectivamente, enquanto esses indicadores para o Brasil são de 84,2% e 55,8%.\n\n&nbsp;"
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1326,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

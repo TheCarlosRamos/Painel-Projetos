@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "O projeto de concessão das Rodovias Integradas do Paraná foi qualificado na 9ª reunião do Conselho do Programa de Parceria de Investimentos por meio da Resolução nº 52, de 08 de maio de 2019, convertida no Decreto nº 9.972 de 14 de agosto de 2019.\n\nOs estudos de viabilidade técnica foram realizados pela Empresa de Planejamento e Logística – EPL, em conjunto com o International Finance Corporation (IFC) e aprovados pelo Ministério da Infraestrutura em 19 de janeiro de 2021.\n\nO Lote 5, com extensão de 440 km, inclui trechos das rodovias federais BR-158/163/369/467/PR, além de trecho da rodovia estadual PR-317. O Lote 5 conecta o distrito de Floriano, em Maringá, a Cascavel, passando pelas cidades de Peabiru, Campo Mourão e Ubiratã, em seguida, o trecho conecta Cascavel à divisa dos estados do Paraná e Mato Grosso do Sul, passando pela cidade de Toledo e pela ponte sobre o rio Paraná, em Guaíra.\n\nO projeto prevê investimentos da ordem de R$ 4,6 bilhões, durante todo o período de concessão, contemplando a duplicação de 239 km de rodovia, a implantação de 20 km de vias marginais, a correção de traçado de 2 km de via, além da implantação do contorno de Peabiru. É prevista, também, a implantação de 51 interseções em desnível, 1 viaduto, 17 retornos e rotatórias em nível, 5 passarelas, 6 obras de arte especiais, além de 12 km de ciclovias.\n\nAlém de contar com expressivos investimentos, o projeto prevê desconto de 5% para quem usa o serviço de cobrança automática por veículo conhecido como “tag”, além do Desconto de Usuário Frequente (DUF), que resulta em uma redução progressiva no valor pago de pedágio ao longo de 30 dias  para quem utiliza o mesmo trecho diariamente.\n\nO contrato"
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1320,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

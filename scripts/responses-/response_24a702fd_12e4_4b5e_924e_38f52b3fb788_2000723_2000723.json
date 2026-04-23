@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "Decreto 10.676, de 16 de abril de 2021      "
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1000,
+  "SourceId": "2000723",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Decrees",
+    "Type": "TextMulti"
+  }
+}

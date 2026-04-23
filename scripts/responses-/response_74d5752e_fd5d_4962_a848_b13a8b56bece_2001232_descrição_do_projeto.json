@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "Os fertilizantes constituem a segunda principal carga do Porto de Paranaguá, com participação equivalente a 19,9% do total movimentado, ou 7.760.386 toneladas (dados de 2016), o que equivale a 28,8% do total movimentado no país, sendo responsável pelo abastecimento dos estados do Paraná, Mato Grosso e Goiás.\n\nO arrendamento PAR03 será explorado por empreendimento voltado à movimentação de granéis sólidos minerais, realizando atividades de recepção, armazenagem e expedição no sentido de importação, sendo “fertilizantes” a principal carga movimentada. Sua expedição será feita por modal rodoviário e, principalmente, ferroviário.\n\nQualificado no PPI por meio da <a href=\"https://www.in.gov.br/en/web/dou/-/resolucao-cppi-n-208-de-16-de-dezembro-de-2021-370285842\" target=\"_blank\" rel=\"noopener\">Resolução nº 208, de 16 de Dezembro de 2021</a>, convertido no <a href=\"https://www.in.gov.br/en/web/dou/-/decreto-n-10.944-de-24-de-janeiro-de-2022-375765885\" target=\"_blank\" rel=\"noopener\">Decreto nº 10.944, de 24 de janeiro de 2022</a>."
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1329,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

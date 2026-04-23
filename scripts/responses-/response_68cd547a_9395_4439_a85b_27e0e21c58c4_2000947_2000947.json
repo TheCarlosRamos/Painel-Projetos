@@ -1,0 +1,35 @@
+{
+  "FieldValue": {
+    "Type": "ChoiceSingle",
+    "Value": {
+      "Key": 2,
+      "Value": "No"
+    },
+    "Details": null
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1090,
+  "SourceId": "2000947",
+  "DocumentRequired": false,
+  "Field": {
+    "Choices": {
+      "1": "Yes",
+      "2": "No",
+      "3": "Not applicable"
+    },
+    "Title": "Is the project dataroom open ?",
+    "Type": "ChoiceSingle"
+  }
+}

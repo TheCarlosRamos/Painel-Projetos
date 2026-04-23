@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "30% das economias residenciais serão beneficiárias de Tarifa Social com desconto de 50% na tarifa residencial para consumos de até 15 m3/mês; ✓Custeio parcial pelo PODER CONCEDENTE (através da CONTA OUTORGA) das TARIFAS devidas pelos USUÁRIOS elegíveis nos 3 primeiros anos da concessão e custeio de ligações intradomiciliares, conforme política de elegibilidade a ser divulgada pelo PODER CONCEDENTE – Aumenta adesão dos usuários mais vulneráveis ao sistema e diminui risco de inadimplência para concessionário."
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1032,
+  "SourceId": "2000719",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Additional benefits of the project (if applicable):",
+    "Type": "TextMulti"
+  }
+}

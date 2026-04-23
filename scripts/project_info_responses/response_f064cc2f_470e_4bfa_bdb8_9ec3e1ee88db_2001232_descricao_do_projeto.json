@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "O Projeto Santa Brígida abrange parte dos municípios de Santa Brígida e Paulo Afonso, no Estado da Bahia, e a captação de água para o projeto será no Canal de Xingó. O projeto foi qualificado no âmbito do Programa de Parcerias de Investimentos PPI, juntamente com outros 3 projetos de irrigação, por meio da Resolução n° 306, de 25 de junho de 2024, referendada pelo Decreto nº 12.162, de 3 de setembro de 2024.\n\nForam analisados 15.506,88 hectares, resultando em uma área de 11.274,83 hectares viável para irrigação. O Projeto de Irrigação Santa Brígida tem potencial para impulsionar a economia local e fortalecer as comunidades em meio aos desafios climáticos, contribuindo para a inclusão produtiva sustentável e a preservação ambiental na região."
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1325,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

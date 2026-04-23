@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "O Parque Nacional da Serra dos Órgãos foi criado em 30 de novembro de 1939, para proteger a excepcional paisagem e a biodiversidade deste trecho da Serra do Mar na Região Serrana do Rio de Janeiro. São 20.024 hectares protegidos nos municípios de Teresópolis, Petrópolis, Magé e Guapimirim.\nO Parque é uma Unidade de Conservação Federal gerida pelo ICMBio, autarquia federal vinculada ao Ministério do Meio Ambiente – MMA. Distingue-se como um dos principais locais do País para a prática de esportes de montanha, como escalada, caminhada, rapel e outros; além de possuir diversas cachoeiras. O Parque Nacional tem a maior rede de trilhas do Brasil com mais de 200 Km de trilhas em todos os níveis de dificuldade: trilha suspensa, acessível à cadeirantes, até a pesada Travessia Petrópolis-Teresópolis, com 30 Km de subidas e descidas pela parte alta das montanhas.\nO ICMBio, por meio do Aviso de Consulta e Audiência Pública nº 10/2022, convidou a sociedade para participar e contribuir com o projeto de concessão de serviços de apoio à visitação, ao turismo ecológico, à interpretação ambiental e à recreação em contato com a natureza no Parque. As contribuições puderam ser realizadas entre os dias 22 de dezembro de 2022 e 19 de março de 2023. O edital e demais documentos correlacionados foram disponibilizados para apreciação.\nPor meio do Aviso de Consulta e Audiência Pública nº 2/2023, retificado em 27/03/2023, o ICMBio ampliou o prazo para conclusão da consulta pública em 60 dias corridos. As contribuições puderam ser realizadas até às 23:59 h do dia 18 de maio de 2023 por meio de formulário eletrônico disponibilizado em http://web.bndes.gov.br/index.php/773382?land=pt-BR ."
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1290,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

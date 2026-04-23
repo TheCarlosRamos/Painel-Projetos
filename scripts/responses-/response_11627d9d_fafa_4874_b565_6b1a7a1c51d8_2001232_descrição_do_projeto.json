@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "O projeto Carvão de Candiota/RS é constituído por 11 (onze) processos minerários totalizando 21.353,60 hectares. O projeto corresponde a 4 blocos de áreas a serem licitados separadamente: Estância da Glória (4.000 hectares), Arroio Pitangueira (5.940,55 hectares), Seival II (5.413,05 hectares) e Arroio dos Vimes (6.000 hectares).\nOs depósitos têm excelente localização, encontrando-se próximos a outras minas de carvão em operação e a usinas termoelétricas. Infraestrutura básica encontra-se disponível na região.\nPor estar faixa de 150 km da fronteira, deve ser observada legislação específica com relação à participação de empresas com capital estrangeiro.\nBlocos – Depósito (m³) – Depósito (t) – REM (m³/t) – Cinzas (%) – Poder Calorífico (Kcal/kg) – Densidade (kg/m³) – Enxofre S(%)\nArroio dos Vimes – 184 008 798 – 324 146 599 – xx – xx – xx – xx – xx \nPrincipal – 170 157 387 – 298 333 722 – 4,84 – 52,55 – 3067 – 1,75 – 1,57\nSuperior – 13 851 411 – 25 812 877 – xx – xx – xx – 1,86 – xx\nArroio Pintangueira – 281 329 888 – 499 206 433 – xx – xx – xx – xx – xx\nPrincipal – 231 083 194 – 408 258 250 – 5,27 – 53,74 – 3073 – 1,77 – 1,33\nSuperior – 50 246 694 – 90 948 183 – xx – xx – xx – 1,82 – xx\nBloco Seival II – 197 875 415 – 352 460 646 – xx – xx – xx – xx – xx\nPrincipal – 87 533 046 – 155 702 148 – 4,70 – 52,72 – 3105 – 1,78 – 2,01\nSuperior – 110 342 369 – 196 758 498 – xx – xx – xx – 1,79 – xx\nEstância da Glória – 94 029 215 – 166 751 287\nPrincipal – 85 494 116 – 150 702 236 – 3,34 – 51,68 – 3262 – 1,76 – 1,35\nSuperior – 8 535 099 – 16 049 051 – xx – xx – xx – 1,88 – xx\nResolução Nº 03, de 13 de setembro de 2016"
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1290,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

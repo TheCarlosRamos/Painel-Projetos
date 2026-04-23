@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "O leilão foi publicado no dia 22/12/2025, com abertura das propostas no dia 18/03/2026, contudo apenas um dos blocos recebeu proposta. De acordo com a ata da comissão de licitação, o consórcio foi desabilitado por não apresentar, dentro do prazo e das exigências do edital, a garantia de proposta."
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1039,
+  "SourceId": "2000726",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Project current status",
+    "Type": "TextMulti"
+  }
+}

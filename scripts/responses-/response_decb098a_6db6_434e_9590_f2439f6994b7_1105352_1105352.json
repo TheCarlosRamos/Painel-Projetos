@@ -1,0 +1,42 @@
+{
+  "FieldValue": {
+    "Type": "ChoiceMulti",
+    "Value": {
+      "1": "Economy (reducing cost)",
+      "2": "Efficiency (improving productivity)",
+      "3": "Effectiveness (improving quality and long-term resilience to environmental, social and economic trends)",
+      "4": "Compliance (satisfying statutory or lender requirements)",
+      "6": "Advancement (mitigating environmental and social risks, realizing environmental and social benefits, including intergenerational equity and promoting achievement of the UN Sustainable Development Goals)"
+    },
+    "Details": null
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 1,
+    "Value": "Project Definition"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 6,
+  "SourceId": "1105352",
+  "DocumentRequired": false,
+  "Field": {
+    "Choices": {
+      "1": "Economy (reducing cost)",
+      "2": "Efficiency (improving productivity)",
+      "3": "Effectiveness (improving quality and long-term resilience to environmental, social and economic trends)",
+      "4": "Compliance (satisfying statutory or lender requirements)",
+      "5": "Replacement (replacing a service that is about to expire)",
+      "6": "Advancement (mitigating environmental and social risks, realizing environmental and social benefits, including intergenerational equity and promoting achievement of the UN Sustainable Development Goals)",
+      "7": "Other"
+    },
+    "Title": "Which of the following objectives would best justify the spending of public funds for the proposed project?",
+    "Type": "ChoiceMulti"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "O Projeto de Integração do Rio São Francisco com Bacias Hidrográficas do Nordeste Setentrional - PISF é um projeto de infraestrutura hídrica que capta água no Rio São Francisco aduzindo-a para bacias hidrográficas do nordeste setentrional nos estados do Ceará, Paraíba, Pernambuco e Rio Grande do Norte. Seu principal objetivo é garantir segurança hídrica, através da integração de bacias hidrográficas a uma região que sofre com a escassez e a irregularidade das chuvas: a região semiárida do Nordeste. O empreendimento está organizado em dois eixos principais de transferência de água: Eixo Norte (Trechos I e II) e Eixo Leste (Trecho V) e ramais associados. Cabe ao BNDES a condução da estruturação dos estudos para gestão do PISF, incluindo a contratação de serviços técnicos especializados necessários à modelagem do empreendimento."
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1326,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

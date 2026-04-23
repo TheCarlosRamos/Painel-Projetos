@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "Situado ao sul da Ilha do Mel, o Canal da Galheta é o principal acesso ao porto e terminais da Baía de Paranaguá desde a década de 1970, quando a demanda de navios de maior porte exigiu a dragagem do Banco da Galheta e consequente criação do canal.\n\nTrata-se do primeiro projeto de concessão da infraestrutura de acesso aquaviário de Portos Organizados do Brasil, com estudos em desenvolvimento pela Infra S/A. Os investimentos são estimados em R$ 1,22 bilhão.\n\nO escopo da concessão abrangerá as funções de administração portuária, no que tange à gestão das infraestruturas de acesso aquaviário, buscando-se a ampliação, manutenção e exploração do canal de acesso aos Portos de Paranaguá e Antonina por meio da concessão.\n\nNo Brasil, o serviço é atualmente prestado pelas Autoridades Portuárias e cobrado diretamente dos Armadores, por meio da Tarifa Inframar (ou Tabela I). Cabe destacar que não haverá alteração na forma da cobrança com a transferência para iniciativa privada."
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1329,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

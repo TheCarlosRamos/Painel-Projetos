@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "O 6º Leilão de Petróleo da União, organizado pela Pré-Sal Petróleo S.A. (PPSA), está com data marcada para o dia 29 de julho de 2026, na B3, em São Paulo.\n\nEste certame é considerado histórico por prever a comercialização de 106,5 milhões de barris de petróleo, o maior volume já ofertado pela estatal.\n\nO petróleo ofertado virá de seis campos do pré-sal, com as entregas (carregamentos) programadas para ocorrer entre março de 2027 e fevereiro de 2028. A distribuição estimada dos volumes por campo é:\nMero: 64 milhões de barris.\nBúzios: 21,5 milhões de barris.\nBacalhau: 13 milhões de barris.\nItapu: 4 milhões de barris.\nSépia: 2 milhões de barris.\nAtapu: 2 milhões de barris."
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1097,
+  "SourceId": "2001232",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Information about the project (text to be published on the project factsheet on the PPI's website):",
+    "Type": "TextMulti"
+  }
+}

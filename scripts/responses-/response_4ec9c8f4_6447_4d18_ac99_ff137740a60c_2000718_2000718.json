@@ -1,0 +1,26 @@
+{
+  "FieldValue": {
+    "Type": "Text",
+    "Value": "Municípios de: Mogi Guaçu, Aguaí, São José do Rio Pardo, Mococa, Vargem Grande do Sul, Espírito Santo do Pinhal"
+  },
+  "Status": {
+    "Status": "Approved",
+    "Comment": null
+  },
+  "Stage": {
+    "Id": 0,
+    "Value": "Assessment"
+  },
+  "Theme": {
+    "Id": 1,
+    "Value": "Governance"
+  },
+  "Subsector": null,
+  "Id": 1033,
+  "SourceId": "2000718",
+  "DocumentRequired": false,
+  "Field": {
+    "Title": "Beneficiary municipalities",
+    "Type": "TextMulti"
+  }
+}

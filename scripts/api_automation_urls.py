@@ -6,6 +6,9 @@ import time
 from urllib.parse import quote
 from requests.adapters import HTTPAdapter
 from requests.packages.urllib3.util.retry import Retry
+from concurrent.futures import ThreadPoolExecutor, as_completed
+from threading import Lock
+import threading
 
 def read_guids(file_path):
     """Lê os GUIDs do arquivo CSV."""
@@ -39,41 +42,39 @@ def read_url_titles(file_path):
     return url_titles
 
 def create_session():
-    """Cria uma sessão com configurações de retry e headers."""
+    """Cria uma sessão otimizada com configurações de retry e headers."""
     session = requests.Session()
     
-    # Configuração de retry mais tolerante
+    # Configuração de retry otimizada
     retry_strategy = Retry(
-        total=2,  # Reduzindo o número de tentativas para evitar espera longa
-        backoff_factor=0.5,
+        total=1,  # Reduzido para 1 tentativa para maior velocidade
+        backoff_factor=0.1,  # Reduzido backoff
         status_forcelist=[429, 500, 502, 503, 504],
         allowed_methods=["GET", "POST"],
-        respect_retry_after_header=True
+        respect_retry_after_header=False  # Ignorar retry-after para velocidade
     )
     
+    # Aumentado pool para processamento paralelo
     adapter = HTTPAdapter(
         max_retries=retry_strategy,
-        pool_connections=10,
-        pool_maxsize=10
+        pool_connections=20,  # Aumentado de 10 para 20
+        pool_maxsize=20       # Aumentado de 10 para 20
     )
     
     session.mount("https://", adapter)
     session.mount("http://", adapter)
     
-    # Headers atualizados
+    # Headers otimizados
     session.headers.update({
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
         'Accept': 'application/json, text/plain, */*',
         'Accept-Language': 'pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7',
-        'Accept-Encoding': 'gzip, deflate, br',
+        'Accept-Encoding': 'gzip, deflate',
         'Connection': 'keep-alive',
         'Cache-Control': 'no-cache',
         'Pragma': 'no-cache',
         'Referer': 'https://www.sif-source.org/',
         'Origin': 'https://www.sif-source.org',
-        'Sec-Fetch-Dest': 'empty',
-        'Sec-Fetch-Mode': 'cors',
-        'Sec-Fetch-Site': 'same-site',
     })
     
     return session
@@ -103,74 +104,43 @@ def make_api_call(guid, url_code, session=None):
     use_session = session if session else create_session()
     
     try:
-        print(f"\nFazendo requisição para: {url}")
-        print(f"Headers: {dict(use_session.headers)}")
-        
         start_time = time.time()
         response = use_session.get(
             url,
             auth=auth,
-            timeout=30,  # 30 segundos de timeout
+            timeout=10,  # Reduzido para 10 segundos para maior velocidade
             verify=True  # Verificar certificado SSL
         )
-        
-        # Log da resposta
-        duration = time.time() - start_time
-        print(f"Resposta em {duration:.2f}s - Status: {response.status_code}")
-        
-        # Debug: Mostrar headers da resposta
-        print(f"Headers da resposta: {dict(response.headers)}")
         
         # Se a resposta for bem-sucedida, retorna o JSON
         if response.status_code == 200:
             try:
                 json_data = response.json()
-                print(f"Resposta JSON recebida com sucesso (tamanho: {len(str(json_data))} caracteres)")
                 return json_data
-            except json.JSONDecodeError as e:
-                print(f"Erro ao decodificar JSON: {e}")
-                print(f"Conteúdo da resposta: {response.text[:500]}...")
+            except json.JSONDecodeError:
                 return None
             
-        # Se houver erro, salva a resposta para depuração
-        error_data = {
-            'status_code': response.status_code,
-            'reason': response.reason,
-            'url': response.url,
-            'request_headers': dict(use_session.headers),
-            'response_headers': dict(response.headers),
-            'text': response.text[:2000]  # Aumentado para 2000 caracteres
-        }
-        
-        print(f"\n=== ERRO NA REQUISIÇÃO ===")
-        print(f"URL: {response.url}")
-        print(f"Status: {response.status_code} - {response.reason}")
-        print(f"Headers da Resposta: {dict(response.headers)}")
-        print(f"Início da Resposta: {response.text[:500]}...")
-        
-        # Salva o erro em um arquivo para análise
+        # Se houver erro, salva apenas informações essenciais
         error_dir = "error_logs"
         if not os.path.exists(error_dir):
             os.makedirs(error_dir)
             
         error_file = os.path.join(error_dir, f"error_{guid}_{url_code}.json")
+        error_data = {
+            'status_code': response.status_code,
+            'reason': response.reason,
+            'url': response.url,
+            'timestamp': time.strftime('%Y-%m-%d %H:%M:%S')
+        }
+        
         with open(error_file, 'w', encoding='utf-8') as f:
             json.dump(error_data, f, ensure_ascii=False, indent=2)
             
         return None
         
-    except requests.exceptions.RequestException as e:
-        error_msg = f"Erro ao acessar a API para GUID {guid} e URL {url_code}: {str(e)}"
-        print(error_msg)
-        
-        # Log detalhado do erro
-        if hasattr(e, 'response') and e.response is not None:
-            print(f"Status code: {e.response.status_code}")
-            print(f"Resposta: {e.response.text[:500]}...")
-            
+    except requests.exceptions.RequestException:
         return None
-    except Exception as e:
-        print(f"Erro inesperado: {str(e)}")
+    except Exception:
         return None
 
 def save_response(guid, url_code, url_title, data, output_dir="responses"):
@@ -189,6 +159,36 @@ def save_response(guid, url_code, url_title, data, output_dir="responses"):
     
     return filename
 
+def process_request(guid, url_code, url_title, session, stats_lock, log_file):
+    """Processa uma única requisição em paralelo."""
+    try:
+        # Fazer a chamada à API
+        response_data = make_api_call(guid, url_code, session)
+        
+        # Registrar no log
+        log_entry = f"{time.strftime('%Y-%m-%d %H:%M:%S')} - GUID: {guid}, URL: {url_code} ({url_title})"
+        
+        success = False
+        if response_data is not None:
+            filename = save_response(guid, url_code, url_title, response_data)
+            print(f"✅ [{threading.current_thread().name}] {guid[:8]}... {url_code}: SUCESSO")
+            log_entry += " - SUCESSO\n"
+            success = True
+        else:
+            print(f"❌ [{threading.current_thread().name}] {guid[:8]}... {url_code}: FALHA")
+            log_entry += " - FALHA\n"
+        
+        # Escrever no log com thread safety
+        with stats_lock:
+            with open(log_file, 'a', encoding='utf-8') as log:
+                log.write(log_entry)
+        
+        return success
+        
+    except Exception as e:
+        print(f"❌ [{threading.current_thread().name}] Erro em {guid[:8]}... {url_code}: {str(e)}")
+        return False
+
 def main():
     # Caminhos dos arquivos
     projects_file = "projects.csv"
@@ -199,13 +199,6 @@ def main():
     error_dir = "error_logs"
     if not os.path.exists(error_dir):
         os.makedirs(error_dir)
-    
-    # Criar sessão HTTP compartilhada
-    session = create_session()
-    
-    # Contadores para estatísticas
-    success_count = 0
-    error_count = 0
     
     # Ler os GUIDs dos projetos
     try:
@@ -234,9 +227,16 @@ def main():
         print(f"Erro ao ler o arquivo {url_titles_file}: {e}")
         url_titles = {}
 
-    # Fazer as chamadas à API para cada combinação de GUID e URL
-    total_requests = len(guids) * len(urls)
+    # Preparar todas as combinações de requisições
+    all_requests = []
+    for guid in guids:
+        for url_code in urls:
+            url_title = url_titles.get(url_code, url_code)
+            all_requests.append((guid, url_code, url_title))
+    
+    total_requests = len(all_requests)
     print(f"Total de chamadas a serem feitas: {total_requests}")
+    print("Processamento paralelo otimizado iniciado...")
     print("Pressione Ctrl+C para interromper a qualquer momento\n")
     
     # Criar arquivo de log
@@ -245,58 +245,64 @@ def main():
     
     with open(log_file, 'a', encoding='utf-8') as log:
         log.write(f"\n{'='*50}\n")
-        log.write(f"Início da execução: {start_time}\n")
+        log.write(f"Início da execução OTIMIZADA: {start_time}\n")
         log.write(f"Total de requisições: {total_requests}\n")
+        log.write(f"Threads simultâneas: 15\n")
+    
+    # Configuração do processamento paralelo
+    max_workers = 15  # Número ótimo de threads
+    stats_lock = Lock()
+    success_count = 0
+    error_count = 0
     
     try:
-        for i, guid in enumerate(guids, 1):
-            for j, url_code in enumerate(urls, 1):
-                print(f"\n[{'='*50}]")
-                print(f"Processando GUID {i}/{len(guids)}, URL {j}/{len(urls)}")
-                print(f"GUID: {guid}")
-                print(f"URL: {url_code}")
-                
-                # Obter o título da URL se disponível
-                url_title = url_titles.get(url_code, url_code)
-                print(f"Título: {url_title}")
-                
-                # Fazer a chamada à API
-                response_data = make_api_call(guid, url_code, session)
-                
-                # Registrar no log
-                log_entry = f"{time.strftime('%Y-%m-%d %H:%M:%S')} - GUID: {guid}, URL: {url_code} ({url_title})"
-                
-                if response_data is not None:
-                    filename = save_response(guid, url_code, url_title, response_data)
-                    print(f"✅ Resposta salva com sucesso: {filename}")
-                    log_entry += " - SUCESSO\n"
+        # Criar múltiplas sessões para melhor performance
+        sessions = [create_session() for _ in range(max_workers)]
+        
+        with ThreadPoolExecutor(max_workers=max_workers) as executor:
+            # Submeter todas as tarefas
+            futures = []
+            for i, (guid, url_code, url_title) in enumerate(all_requests):
+                session = sessions[i % max_workers]  # Round-robin de sessões
+                future = executor.submit(
+                    process_request, 
+                    guid, url_code, url_title, session, stats_lock, log_file
+                )
+                futures.append(future)
+            
+            # Processar resultados conforme são completados
+            completed = 0
+            for future in as_completed(futures):
+                completed += 1
+                if future.result():
                     success_count += 1
                 else:
-                    print(f"❌ Falha ao obter resposta")
-                    log_entry += " - FALHA\n"
                     error_count += 1
                 
-                # Escrever no log
-                with open(log_file, 'a', encoding='utf-8') as log:
-                    log.write(log_entry)
+                # Progresso a cada 100 requisições
+                if completed % 100 == 0:
+                    progress = (completed / total_requests) * 100
+                    print(f"\n📊 Progresso: {completed}/{total_requests} ({progress:.1f}%) - ✅{success_count} ❌{error_count}")
                 
-                # Pequena pausa para evitar sobrecarga
-                time.sleep(0.5)
-                
+                # Pausa mínima entre batches
+                if completed % 50 == 0:
+                    time.sleep(0.1)
+        
+        # Fechar todas as sessões
+        for session in sessions:
+            session.close()
+            
     except KeyboardInterrupt:
         print("\n\nExecução interrompida pelo usuário.")
     except Exception as e:
         print(f"\nErro inesperado: {str(e)}")
     finally:
-        # Fechar a sessão
-        session.close()
-        
         # Estatísticas finais
         end_time = time.strftime("%Y-%m-%d %H:%M:%S")
         total_processed = success_count + error_count
         
         print("\n" + "="*50)
-        print("RESUMO DA EXECUÇÃO")
+        print("RESUMO DA EXECUÇÃO OTIMIZADA")
         print("="*50)
         print(f"Início: {start_time}")
         print(f"Término: {end_time}")
@@ -304,6 +310,10 @@ def main():
         print(f"Requisições processadas: {total_processed}")
         print(f"Sucessos: {success_count}")
         print(f"Falhas: {error_count}")
+        
+        if total_processed > 0:
+            success_rate = (success_count / total_processed) * 100
+            print(f"Taxa de sucesso: {success_rate:.1f}%")
         
         # Atualizar o log com as estatísticas finais
         with open(log_file, 'a', encoding='utf-8') as log:
