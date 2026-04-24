@@ -111,7 +111,7 @@
     new Chart(ctx, {
       type: 'pie',
       data: {
-        labels: entries.map(([k]) => k),
+        labels: entries.map(([k]) => translate(k)),
         datasets: [{
           data: entries.map(([,v]) => v),
           backgroundColor: colors.slice(0, entries.length),
@@ -151,7 +151,7 @@
     const METRICS = await (await fetch('data/metrics.json')).json();// KPIs
 
     // barras por setor (contagem)
-    makeBars($('#bars-setor'), METRICS.por_setor||{});
+    makeBars($('#bars-setor'), METRICS.por_setor||{}, k=>translate(k));
     
     // gráfico de pizza por setor
     createPieChart('pie-setor', METRICS.por_setor||{}, 'Projetos por Setor');
@@ -163,7 +163,7 @@
     createPieChart('pie-etapa', METRICS.por_ultima_etapa_concluida||{}, 'Projetos por Etapa');
 
     // barras de custo por setor (BRL se existir)
-    const byCur = METRICS.custos_por_setor_por_moeda||{}; const brlObj = byCur['BRL']||{}; const formatted = {}; Object.keys(brlObj).forEach(k=> formatted[k]=brlObj[k]); makeBars($('#bars-custo-setor-brl'), formatted, k=>k);
+    const byCur = METRICS.custos_por_setor_por_moeda||{}; const brlObj = byCur['BRL']||{}; const formatted = {}; Object.keys(brlObj).forEach(k=> formatted[k]=brlObj[k]); makeBars($('#bars-custo-setor-brl'), formatted, k=>translate(k));
 
     // por UF (top 10)
     const porUF = METRICS.por_uf||{}; const topUF = Object.fromEntries(Object.entries(porUF).slice(0,10)); makeBars($('#bars-uf'), topUF);
