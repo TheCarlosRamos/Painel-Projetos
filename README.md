@@ -129,33 +129,6 @@ O projeto está configurado para deploy na Vercel através do `vercel.json`.
 }
 ```
 
-## 🔧 Scripts Detalhados
-
-### update_all_complete.py
-Script unificado que combina:
-- Coleta de informações básicas dos projetos
-- Coleta de dados específicos por questão
-- Consolidação dos dados
-- Atualização do arquivo final
-
-### api_automation_urls.py
-Script de referência com:
-- Autenticação funcional
-- Processamento em paralelo
-- Tratamento de erros
-
-### project_info_api.py
-Script para coletar informações básicas:
-- Dados gerais dos projetos
-- Coordenadas GPS
-- Informações organizacionais
-
-### consolidate_project_data.py
-Script para consolidar múltiplas fontes:
-- Merge de dados da API
-- Formatação para aplicação
-- Validação de estrutura
-
 ## 🚨 Considerações Importantes
 
 ### Segurança
@@ -168,10 +141,6 @@ Script para consolidar múltiplas fontes:
 - Timeout configurado para chamadas API
 - Tratamento de erros 500 da API
 
-### Manutenção
-- Scripts individuais foram removidos para simplificação
-- Apenas o script unificado `update_all_complete.py` é mantido
-- Dados consolidados em `projects_full.json`
 
 ## 📈 Estatísticas Atuais
 
@@ -180,23 +149,4 @@ Script para consolidar múltiplas fontes:
 - **Organizações**: SEPPI, SIEC, SIPE
 - **Status**: Multiple (Completed, Not Started, Scheduled, etc.)
 
-## 🤝 Contribuição
 
-1. Fork o projeto
-2. Crie uma branch (`git checkout -b feature/nova-funcionalidade`)
-3. Commit suas mudanças (`git commit -m 'Adiciona nova funcionalidade'`)
-4. Push para a branch (`git push origin feature/nova-funcionalidade`)
-5. Abra um Pull Request
-
-## 📝 Licença
-
-Este projeto é propriedade do Governo Federal do Brasil.
-
-## 📞 Contato
-
-- **Repositório**: https://github.com/TheCarlosRamos/Painel-Projetos
-- **Email**: adminppi.source@presidencia.gov.br
-
----
-
-**Última atualização**: Abril 2026
