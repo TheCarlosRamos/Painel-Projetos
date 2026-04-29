@@ -69,12 +69,6 @@ python --version
 pip install requests pandas
 ```
 
-### Configuração da API
-As credenciais da API estão configuradas nos scripts:
-```python
-AUTH = ('adminppi.source@presidencia.gov.br', 'PPI#source147')
-```
-
 ## 🔄 Como Usar
 
 ### 1. Atualizar Dados dos Projetos
