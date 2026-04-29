@@ -72,6 +72,16 @@
     }
     .folha-section.pdf-export * {
       color: white !important;
+      font-family: Arial, sans-serif !important;
+    }
+    .folha-section.pdf-export .card {
+      background: rgba(255, 255, 255, 0.95) !important;
+      color: #1f2937 !important;
+      font-family: Arial, sans-serif !important;
+    }
+    .folha-section.pdf-export .card * {
+      color: #1f2937 !important;
+      font-family: Arial, sans-serif !important;
     }
     .folha-section {
       margin-bottom: 1rem;
@@ -1359,7 +1369,7 @@
           } catch (e) {
             resolve();
           }
-        }, 40);
+        }, 200);
       }));
 
       await Promise.all(tasks);
@@ -1549,101 +1559,143 @@
         return;
       }
 
-      const pdf = new window.jspdf.jsPDF({
-        orientation: 'landscape',
-        unit: 'pt',
-        format: 'a4'
-      });
+      // Mostrar loading
+      const loadingDiv = document.createElement('div');
+      loadingDiv.style.cssText = `
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0,0,0,0.8);
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 18px;
+        z-index: 9999;
+      `;
+      loadingDiv.innerHTML = 'Gerando PDF... Aguarde';
+      document.body.appendChild(loadingDiv);
 
-      const pageWidth = pdf.internal.pageSize.getWidth();
-      const pageHeight = pdf.internal.pageSize.getHeight();
-      
-      // Adicionar capa
-      pdf.setFontSize(24);
-      pdf.setTextColor(30, 64, 175);
-      const title = `Resumo - ${translate(currentSubsetor)}`;
-      if (currentSubsecretaria) {
-        pdf.text(`${title} / ${currentSubsecretaria}`, pageWidth/2, 60, { align: 'center' });
-      } else {
-        pdf.text(title, pageWidth/2, 60, { align: 'center' });
-      }
-      
-      pdf.setFontSize(14);
-      pdf.setTextColor(107, 114, 128);
-      pdf.text(`Gerado em ${new Date().toLocaleDateString('pt-BR')}`, pageWidth/2, 85, { align: 'center' });
-      
-      const subsetorProjects = allProjects.filter(p => p.subsetor === currentSubsetor);
-      let filteredProjects = subsetorProjects;
-      if (currentSubsecretaria) {
-        filteredProjects = filteredProjects.filter(p => p.subsecretaria === currentSubsecretaria);
-      }
-      const favoriteProjects = filteredProjects.filter(p => favorites.includes(p.guid));
-      
-      pdf.setFontSize(12);
-      pdf.text(`Total: ${filteredProjects.length} projetos | Favoritos: ${favoriteProjects.length}`, pageWidth/2, 105, { align: 'center' });
-      
-      // Capturar cada folha individualmente
-      const folhas = document.querySelectorAll('.folha-section');
-      
-      for (let i = 0; i < folhas.length; i++) {
-        const folha = folhas[i];
-        
-        // Adicionar classe para PDF export
-        folha.classList.add('pdf-export');
-        
-        // Congelar mapas nesta folha antes de capturar
-        await freezeMapsForPDF(folha);
-        
-        // Adicionar nova página (exceto para a primeira folha após a capa)
-        if (i > 0) {
-          pdf.addPage();
-        }
-        
-        // Capturar a folha
-        try {
-          const canvas = await window.html2canvas(folha, { 
-            scale: 2, 
-            useCORS: true,
-            allowTaint: true,
-            backgroundColor: '#1e40af',
-            logging: false,
-            width: folha.offsetWidth,
-            height: folha.offsetHeight,
-            scrollX: 0,
-            scrollY: 0,
-            windowWidth: folha.offsetWidth,
-            windowHeight: folha.offsetHeight
-          });
-          const imgData = canvas.toDataURL('image/png');
-          
-          // Calcular dimensões para preencher quase toda a página em paisagem
-          const maxW = pageWidth * 0.98;
-          const maxH = pageHeight * 0.98;
-          let ratio = Math.min(maxW / canvas.width, maxH / canvas.height);
-          let imgWidth = canvas.width * ratio;
-          let imgHeight = canvas.height * ratio;
-          
-          let x = (pageWidth - imgWidth) / 2;
-          let y = (pageHeight - imgHeight) / 2;
-          
-          pdf.addImage(imgData, 'PNG', x, y, imgWidth, imgHeight);
-        } catch (error) {
-          console.error('Erro ao capturar folha', i + 1, ':', error);
-          // Adicionar texto de fallback
-          pdf.setFontSize(12);
-          pdf.setTextColor(107, 114, 128);
-          pdf.text(`Erro ao capturar folha ${i + 1}`, pageWidth/2, pageHeight/2, { align: 'center' });
-        }
-        
-        // Remover classe após captura
-        folha.classList.remove('pdf-export');
-      }
+      try {
+        const pdf = new window.jspdf.jsPDF({
+          orientation: 'landscape',
+          unit: 'pt',
+          format: 'a4'
+        });
 
-      // Salvar PDF com nome descritivo
-      const fileName = currentSubsecretaria 
-        ? `resumo-${currentSubsetor.toLowerCase().replace(/\s+/g, '-')}-${currentSubsecretaria.toLowerCase().replace(/\s+/g, '-')}-ppi.pdf`
-        : `resumo-${currentSubsetor.toLowerCase().replace(/\s+/g, '-')}-ppi.pdf`;
-      pdf.save(fileName);
+        const pageWidth = pdf.internal.pageSize.getWidth();
+        const pageHeight = pdf.internal.pageSize.getHeight();
+        
+        // Capa removida - começar diretamente com as folhas de conteúdo
+        
+        // Capturar cada folha individualmente
+        const folhas = document.querySelectorAll('.folha-section');
+        
+        for (let i = 0; i < folhas.length; i++) {
+          const folha = folhas[i];
+          
+          // Adicionar classe para PDF export
+          folha.classList.add('pdf-export');
+          
+          // Congelar mapas nesta folha antes de capturar
+          await freezeMapsForPDF(folha);
+          
+          // Esperar renderização completa antes de capturar
+          await new Promise(resolve => setTimeout(resolve, 500));
+          
+          // Forçar reflow
+          folha.offsetHeight;
+          
+          // Adicionar nova página (exceto para a primeira folha)
+          if (i > 0) {
+            pdf.addPage();
+          }
+          
+          // Capturar a folha
+          try {
+            const canvas = await window.html2canvas(folha, { 
+              scale: 1.5, 
+              useCORS: false,
+              allowTaint: false,
+              backgroundColor: '#1e40af',
+              logging: false,
+              width: folha.offsetWidth,
+              height: folha.offsetHeight,
+              scrollX: 0,
+              scrollY: 0,
+              windowWidth: folha.offsetWidth,
+              windowHeight: folha.offsetHeight,
+              timeout: 10000,
+              foreignObjectRendering: false,
+              imageTimeout: 5000,
+              removeContainer: true,
+              onclone: (clonedDoc) => {
+                // Forçar Arial em todo o documento
+                const style = clonedDoc.createElement('style');
+                style.textContent = `
+                  * { 
+                    font-family: Arial, sans-serif !important; 
+                    -webkit-font-smoothing: antialiased !important;
+                    -moz-osx-font-smoothing: grayscale !important;
+                    text-rendering: optimizeLegibility !important;
+                  }
+                  .card { 
+                    background: rgba(255, 255, 255, 0.95) !important; 
+                    color: #1f2937 !important;
+                  }
+                  .card * { 
+                    color: #1f2937 !important;
+                  }
+                `;
+                clonedDoc.head.appendChild(style);
+                
+                // Remover fontes externas
+                const fontLinks = clonedDoc.querySelectorAll('link[href*="fonts.googleapis.com"]');
+                fontLinks.forEach(link => link.remove());
+                
+                // Forçar renderização de texto
+                setTimeout(() => {
+                  clonedDoc.body.style.visibility = 'visible';
+                  clonedDoc.body.style.opacity = '1';
+                }, 100);
+              }
+            });
+            const imgData = canvas.toDataURL('image/png');
+            
+            // Calcular dimensões para preencher quase toda a página em paisagem
+            const maxW = pageWidth * 0.98;
+            const maxH = pageHeight * 0.98;
+            let ratio = Math.min(maxW / canvas.width, maxH / canvas.height);
+            let imgWidth = canvas.width * ratio;
+            let imgHeight = canvas.height * ratio;
+            
+            let x = (pageWidth - imgWidth) / 2;
+            let y = (pageHeight - imgHeight) / 2;
+            
+            pdf.addImage(imgData, 'PNG', x, y, imgWidth, imgHeight);
+          } catch (error) {
+            console.error('Erro ao capturar folha', i + 1, ':', error);
+            // Adicionar texto de fallback
+            pdf.setFontSize(12);
+            pdf.setTextColor(107, 114, 128);
+            pdf.text(`Erro ao capturar folha ${i + 1}`, pageWidth/2, pageHeight/2, { align: 'center' });
+          }
+          
+          // Remover classe após captura
+          folha.classList.remove('pdf-export');
+        }
+
+        // Salvar PDF com nome descritivo
+        const fileName = currentSubsecretaria 
+          ? `resumo-${currentSubsetor.toLowerCase().replace(/\s+/g, '-')}-${currentSubsecretaria.toLowerCase().replace(/\s+/g, '-')}-ppi.pdf`
+          : `resumo-${currentSubsetor.toLowerCase().replace(/\s+/g, '-')}-ppi.pdf`;
+        pdf.save(fileName);
+      } finally {
+        // Remover loading
+        document.body.removeChild(loadingDiv);
+      }
     }
   </script>
 </body>
